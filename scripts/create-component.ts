@@ -1,7 +1,9 @@
 import { promisify } from 'util';
 import fs from 'fs';
 import path from 'path';
+/* eslint-disable import/no-extraneous-dependencies */
 import camelcase from 'camelcase';
+/* eslint-disable import/no-extraneous-dependencies */
 import Svgo from 'svgo';
 
 import { iconTemplate } from './Icon.template';
@@ -34,7 +36,6 @@ const transformSvg = (svg: string): string =>
 export async function createComponent(filePath: string, packageDir: string) {
     const fileContent = await readFile(filePath, ENCODING);
 
-    // @ts-ignore
     let { data } = await svgo.optimize(fileContent);
 
     data = transformSvg(data);
@@ -49,14 +50,14 @@ export async function createComponent(filePath: string, packageDir: string) {
         pascalCase: true,
     });
 
-    componentName = componentName + ICON_POSTFIX;
+    componentName += ICON_POSTFIX;
 
     const componentContent = iconTemplate
         .replace('{{ComponentName}}', `${componentName}`)
         .replace('{{body}}', data)
         .replace(
             '<svg',
-            '<svg className={className} focusable="false" fill="currentColor"'
+            '<svg className={className} focusable="false" fill="currentColor"',
         );
 
     const fullFileName = path.join(packageDir, `${componentName}.tsx`);

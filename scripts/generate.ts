@@ -7,7 +7,7 @@ export const ENCODING = 'utf-8';
 
 const rootIconsDir = path.resolve(
     __dirname,
-    '../node_modules/alfa-ui-primitives/icons'
+    '../node_modules/alfa-ui-primitives/icons',
 );
 
 const srcDir = path.resolve(__dirname, '../packages');
@@ -26,10 +26,10 @@ interface Icons {
 
 export const SVG_EXT = 'svg';
 
-let icons: Icons = {};
+const icons: Icons = {};
 
 function generateIcon(iconName: string, dir: string) {
-    const re = new RegExp(`\.${SVG_EXT}$`);
+    const re = new RegExp(`.${SVG_EXT}$`);
 
     const [packageName, name] = iconName.replace(re, '').split('_');
 
@@ -37,7 +37,7 @@ function generateIcon(iconName: string, dir: string) {
         icons[packageName] = [];
     }
 
-    let index = icons[packageName].findIndex(icon => icon.name === name);
+    const index = icons[packageName].findIndex(icon => icon.name === name);
 
     if (index === -1) {
         icons[packageName].push({
@@ -63,7 +63,7 @@ async function generateIconsTree(categories: string[]) {
     await Promise.all(categories.map(processDir));
 }
 
-async function createPackage(packageName: string): Promise<any> {
+async function createPackage(packageName: string) {
     const packageDir = path.join(srcDir, packageName);
 
     try {
@@ -74,11 +74,11 @@ async function createPackage(packageName: string): Promise<any> {
 
     const iconVariants = icons[packageName].reduce(
         (acc, icon) => [...acc, ...icon.variants],
-        []
+        [],
     );
 
     await Promise.all(
-        iconVariants.map(path => createComponent(path, packageDir))
+        iconVariants.map(filePath => createComponent(filePath, packageDir)),
     );
 }
 
@@ -87,13 +87,9 @@ async function generateComponents() {
 }
 
 async function main() {
-    console.info('reading directories');
-
     let categories = await readDir(rootIconsDir, ENCODING);
 
     categories = categories.map(dir => path.join(rootIconsDir, dir));
-
-    console.info('generate icons tree');
 
     await generateIconsTree(categories);
 
@@ -102,8 +98,6 @@ async function main() {
     } catch (err) {
         await mkDir(srcDir);
     }
-
-    console.info('generate react components from svg files');
 
     await generateComponents();
 }
