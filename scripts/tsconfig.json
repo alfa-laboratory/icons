@@ -1,0 +1,8 @@
+{
+  "compilerOptions": {
+    "module": "commonJS",
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "downlevelIteration": true
+  }
+}

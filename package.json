@@ -1,0 +1,75 @@
+{
+  "name": "@alfalab/icons",
+  "version": "1.0.0",
+  "description": "Alfa-Bank UI Icons",
+  "main": "index.js",
+  "repository": "git@github.com:alfa-laboratory/icons.git",
+  "author": "Dmitry Savkin <dsavkin@alfabank.ru>",
+  "license": "ISC",
+  "private": false,
+  "scripts": {
+    "lint": "eslint ./scripts/ --ext .ts,.tsx",
+    "format": "prettier --write \"./{config,src}/**/*.{ts,tsx,js,jsx,css}\"",
+    "generate": "rimraf packages/ && yarn compile && yarn format-icons",
+    "compile": "TS_NODE_PROJECT=scripts/tsconfig.json node -r ts-node/register scripts/generate.ts --target=icon",
+    "format-icons": "prettier --write \"./packages/**/*.{ts,tsx}\" --loglevel warn"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@types/camelcase": "^5.2.0",
+    "@types/node": "^13.9.1",
+    "@types/react": "^16.9.23",
+    "@types/svgo": "^1.3.1",
+    "@typescript-eslint/eslint-plugin": "^2.24.0",
+    "@typescript-eslint/parser": "^2.24.0",
+    "alfa-ui-primitives": "^2.5.0",
+    "arui-presets-lint": "^3.0.1",
+    "camelcase": "^5.3.1",
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb": "^18.1.0",
+    "eslint-config-prettier": "^6.10.0",
+    "eslint-import-resolver-typescript": "^2.0.0",
+    "eslint-plugin-chai-friendly": "^0.5.0",
+    "eslint-plugin-import": "^2.20.1",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-react": "^7.19.0",
+    "eslint-plugin-react-hooks": "^2.5.0",
+    "eslint-plugin-sort-class-members": "^1.6.0",
+    "lerna": "^3.20.2",
+    "path": "^0.12.7",
+    "prettier": "^1.19.1",
+    "rimraf": "^3.0.2",
+    "stylelint": "^13.2.1",
+    "svgo": "^1.3.2",
+    "ts-node": "^8.6.2",
+    "typescript": "^3.8.3",
+    "util": "^0.12.2"
+  },
+  "lint-staged": {
+    "concurrent": true,
+    "linters": {
+      "src/**/*.{js,jsx,ts,tsx}": [
+        "prettier --write",
+        "git add",
+        "eslint"
+      ]
+    }
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "yarn lint-staged"
+    }
+  },
+  "eslintConfig": {
+    "extends": "./node_modules/arui-presets-lint/eslint/index.js"
+  },
+  "commitlint": {
+    "extends": [
+      "./node_modules/arui-presets-lint/commitlint"
+    ]
+  },
+  "peerDependencies": {
+    "react": "^16.13.0",
+    "react-dom": "^16.13.0"
+  }
+}
