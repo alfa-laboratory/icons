@@ -7,7 +7,8 @@ export const ENCODING = 'utf-8';
 
 const rootIconsDir = path.resolve(
     __dirname,
-    '../node_modules/alfa-ui-primitives/icons',
+    // '../node_modules/alfa-ui-primitives/icons',
+    '../assets-temp'
 );
 
 const srcDir = path.resolve(__dirname, '../packages');
