@@ -18,7 +18,7 @@ const svgo = new Svgo({
     plugins: [
         { convertPathData: { noSpaceAfterFlags: false } },
         { mergePaths: { noSpaceAfterFlags: false } },
-        { removeAttrs: { attrs: '(stroke|fill|xmlns)' } },
+        { removeAttrs: { attrs: '(stroke|fill|xmlns|class)' } },
         { removeXMLNS: true },
         { prefixIds: true },
         { removeViewBox: false },
