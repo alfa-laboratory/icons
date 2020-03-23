@@ -32,10 +32,19 @@ export const SVG_EXT = 'svg';
 
 const icons: Icons = {};
 
+const PACKAGE_ALIAS = {
+    icon: 'classic',
+};
+
+const getPackageName = (iconPrefix: string) =>
+    PACKAGE_ALIAS[iconPrefix] || iconPrefix;
+
 function generateIcon(iconName: string, dir: string) {
     const re = new RegExp(`.${SVG_EXT}$`);
 
-    const [packageName, name] = iconName.replace(re, '').split('_');
+    const [iconPrefix, name] = iconName.replace(re, '').split('_');
+
+    const packageName = getPackageName(iconPrefix);
 
     if (!icons[packageName]) {
         icons[packageName] = [];
