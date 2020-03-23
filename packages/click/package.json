@@ -1,6 +1,6 @@
 {
     "name": "@alfalab/icons-click",
-    "version": "1.0.0",
+    "version": "0.0.1",
     "dependencies": {},
     "peerDependencies": {
         "react": "^16.13.0",
