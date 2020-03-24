@@ -10,7 +10,7 @@ export default {
     output: [
         {
             dir: 'dist',
-            format: 'esm',
+            format: 'cjs',
             plugins: [terser()],
         },
     ],
