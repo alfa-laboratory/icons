@@ -17,6 +17,7 @@ const readDir = promisify(fs.readdir);
 const mkDir = promisify(fs.mkdir);
 
 const EXCLUDED_CATEGORIES = ['purgatory'];
+const EXCLUDED_PACKAGES = ['art'];
 
 interface Icon {
     name: string;
@@ -92,7 +93,11 @@ async function createPackage(packageName: string) {
 }
 
 async function generateComponents() {
-    await Promise.all(Object.keys(icons).map(createPackage));
+    await Promise.all(
+        Object.keys(icons)
+            .filter(packageName => !EXCLUDED_PACKAGES.includes(packageName))
+            .map(createPackage)
+    );
 }
 
 async function main() {

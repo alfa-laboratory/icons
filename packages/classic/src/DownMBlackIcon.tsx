@@ -1,0 +1,24 @@
+/**
+ * This is auto-generated file by scripts/generate.ts
+ * Do not edit it manually
+ */
+import React from 'react';
+
+type Props = {
+    className?: string;
+};
+
+export const DownMBlackIcon: React.FC<Props> = ({ className }) => (
+    <svg
+        className={className}
+        focusable="false"
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+    >
+        <path
+            fill="#0B1F35"
+            d="M12 16.366L1.854 6.22l-.708.707L12.002 17.78 22.854 6.927l-.707-.707z"
+        />
+    </svg>
+);

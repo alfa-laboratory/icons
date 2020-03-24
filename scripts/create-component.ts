@@ -18,7 +18,7 @@ const svgo = new Svgo({
     plugins: [
         { convertPathData: { noSpaceAfterFlags: false } },
         { mergePaths: { noSpaceAfterFlags: false } },
-        { removeAttrs: { attrs: '(stroke|fill|xmlns|class)' } },
+        { removeAttrs: { attrs: '(xmlns|class)' } },
         { removeXMLNS: true },
         { prefixIds: true },
         { removeViewBox: false },
@@ -57,7 +57,7 @@ export async function createComponent(filePath: string, packageDir: string) {
         .replace('{{body}}', data)
         .replace(
             '<svg',
-            '<svg className={className} focusable="false" fill="currentColor"',
+            '<svg className={className} focusable="false"',
         );
 
     const fullFileName = path.join(packageDir, `${componentName}.tsx`);

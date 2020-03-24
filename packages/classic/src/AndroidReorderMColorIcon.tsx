@@ -1,0 +1,23 @@
+/**
+ * This is auto-generated file by scripts/generate.ts
+ * Do not edit it manually
+ */
+import React from 'react';
+
+type Props = {
+    className?: string;
+};
+
+export const AndroidReorderMColorIcon: React.FC<Props> = ({ className }) => (
+    <svg
+        className={className}
+        focusable="false"
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+        fill="none"
+    >
+        <path d="M0 0h24v24H0z" />
+        <path fill="#CED2D7" d="M3 8h18v2H3zM3 14h18v2H3z" />
+    </svg>
+);
