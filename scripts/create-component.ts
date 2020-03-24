@@ -6,7 +6,7 @@ import camelcase from 'camelcase';
 /* eslint-disable import/no-extraneous-dependencies */
 import Svgo from 'svgo';
 
-import { iconTemplate } from './Icon.template';
+import { iconTemplate } from '../templates/Icon.template';
 import { SVG_EXT, ENCODING } from './generate';
 
 const readFile = promisify(fs.readFile);
@@ -18,7 +18,7 @@ const svgo = new Svgo({
     plugins: [
         { convertPathData: { noSpaceAfterFlags: false } },
         { mergePaths: { noSpaceAfterFlags: false } },
-        { removeAttrs: { attrs: '(stroke|fill|xmlns)' } },
+        { removeAttrs: { attrs: '(stroke|fill|xmlns|class)' } },
         { removeXMLNS: true },
         { prefixIds: true },
         { removeViewBox: false },
