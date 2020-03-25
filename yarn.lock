@@ -1427,7 +1427,7 @@ ajv@^6.10.0, ajv@^6.10.2, ajv@^6.5.5:
     json-schema-traverse "^0.4.1"
     uri-js "^4.2.2"
 
-alfa-ui-primitives@2.7.0:
+alfa-ui-primitives@^2.7.0:
   version "2.7.0"
   resolved "https://registry.yarnpkg.com/alfa-ui-primitives/-/alfa-ui-primitives-2.7.0.tgz#2d2e89fe8af4a9faba737f7e3c9599b0d2a6b06d"
   integrity sha512-H0gGtO3KDbnpeUc4TLyE/po24kT19AGcaXiyN5l+jvBZ47KR3ZQce1Ds5dyS5tY0epFqNWJaJbJvm26VQwezkQ==
