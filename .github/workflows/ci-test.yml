@@ -14,8 +14,11 @@ jobs:
       with:
         node-version: '12.x'
 
+    - name: install dependencies
     - run: yarn install
     - run: yarn add --dev alfa-ui-primitives@latest
+
+    - name: generate react components
     - run: yarn generate
     
     - name: commit changes
@@ -28,25 +31,30 @@ jobs:
         files: .
         name: dmitrsavk
         email: dmitrsavk@yandex.ru
-    
-    #- name: git commit new components
-    #  run: git add . && git commit -m "add new icons"
-    
-    #- name: lerna up versions
-    #  run: lerna version minor --no-push --yes
-    
-    #- name: yarn build
-    #  run: yarn build
 
-    #- name: lerna publish
-     # run: lerna publish from-git --contents dist
-
-    #- name: yarn publish root package
-    #  run: yarn publish dist --no-git-tag-version
-
-   # - name: copy package.json
-   #   run: cp dist/package.json package.json
-
-   # - name: commit and push changes
-    #  run: git add package.json && git commit -m 'update version' && git push && git push --tags
+    - name: lerna up version
+      uses: "MrBoolean/action-lerna@master"
+      with:
+        args: version patch --no-push --yes
     
+    - run: yarn build
+    
+    - name: lerna publish subpackages
+      uses: "MrBoolean/action-lerna@master"
+      with:
+        args: publish from-git --contents dist
+    
+    - run: yarn publish dist --no-git-tag-version
+    
+    - run: cp dist/package.json package.json
+    
+    - name: commit changes
+      uses: github-actions-x/commit@v2.5
+      with:
+        github-token: ${{ secrets.GITHUB_TOKEN }}
+        push-branch: 'ci-test'
+        commit-message: 'chore(*): update version'
+        force-add: 'false'
+        files: package.json
+        name: dmitrsavk
+        email: dmitrsavk@yandex.ru
