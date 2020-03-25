@@ -8,11 +8,10 @@
   "license": "ISC",
   "private": false,
   "scripts": {
-    "build": "yarn generate && ./scripts/build.sh",
+    "build": "./scripts/build.sh",
     "generate": "yarn compile && yarn format-icons",
     "compile": "TS_NODE_PROJECT=scripts/tsconfig.json node -r ts-node/register scripts/generate.ts --target=icon",
     "format-icons": "prettier --write \"./packages/**/*.{ts,tsx}\" --loglevel warn",
-    "format": "prettier --write \"./{config,src}/**/*.{ts,tsx,js,jsx,css}\"",
     "lint": "eslint ./scripts/ --ext .ts,.tsx"
   },
   "dependencies": {},
@@ -55,7 +54,7 @@
   "lint-staged": {
     "concurrent": true,
     "linters": {
-      "src/**/*.{js,jsx,ts,tsx}": [
+      "scripts/**/*.{js,jsx,ts,tsx}": [
         "prettier --write",
         "git add",
         "eslint"
