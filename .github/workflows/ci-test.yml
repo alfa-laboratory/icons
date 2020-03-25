@@ -13,9 +13,21 @@ jobs:
     - uses: actions/setup-node@v1
       with:
         node-version: '12.x'
+
     - run: yarn install
     - run: yarn add --dev alfa-ui-primitives@latest
     - run: yarn generate
+    
+    - name: commit changes
+      uses: actions/commit@v2.5
+      with:
+        github-token: ${{ secrets.GITHUB_TOKEN }}
+        push-branch: 'ci-test'
+        commit-message: 'feat(*): add new icons'
+        force-add: 'false'
+        files: .
+        name: dmitrsavk
+        email: dmitrsavk@yandex.ru
     
     #- name: git commit new components
     #  run: git add . && git commit -m "add new icons"
