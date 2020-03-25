@@ -14,11 +14,8 @@ jobs:
       with:
         node-version: '12.x'
 
-    - name: install dependencies
     - run: yarn install
     - run: yarn add --dev alfa-ui-primitives@latest
-
-    - name: generate react components
     - run: yarn generate
     
     - name: commit changes
@@ -37,15 +34,13 @@ jobs:
       with:
         args: version patch --no-push --yes
     
-    - name: build packages dist
     - run: yarn build
     
     - name: lerna publish subpackages
       uses: "MrBoolean/action-lerna@master"
       with:
         args: publish from-git --contents dist
-    
-    - name: publish root package
+
     - run: yarn publish dist --no-git-tag-version
     
     - run: cp dist/package.json package.json
