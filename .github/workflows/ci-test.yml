@@ -1,0 +1,49 @@
+name: TEST_CI
+
+on:
+  push:
+    branches: [ ci-test ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+
+    - uses: actions/checkout@v2
+
+    - name: Install dependencies
+      uses: CultureHQ/actions-yarn@v1.0.1
+      with:
+        args: install
+    
+    - name: Update alfa-ui-primitives dependency
+      uses: CultureHQ/actions-yarn@v1.0.1
+      with:
+        args: add alfa-ui-primitives@latest
+    
+    - name: Generate react components from alfa-ui-primitives
+      uses: CultureHQ/actions-yarn@v1.0.1
+      with:
+        args: generate
+    
+    #- name: git commit new components
+    #  run: git add . && git commit -m "add new icons"
+    
+    #- name: lerna up versions
+    #  run: lerna version minor --no-push --yes
+    
+    #- name: yarn build
+    #  run: yarn build
+
+    #- name: lerna publish
+     # run: lerna publish from-git --contents dist
+
+    #- name: yarn publish root package
+    #  run: yarn publish dist --no-git-tag-version
+
+   # - name: copy package.json
+   #   run: cp dist/package.json package.json
+
+   # - name: commit and push changes
+    #  run: git add package.json && git commit -m 'update version' && git push && git push --tags
+    
