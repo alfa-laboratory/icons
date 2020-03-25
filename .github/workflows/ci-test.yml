@@ -10,21 +10,12 @@ jobs:
     steps:
 
     - uses: actions/checkout@v2
-
-    - name: Install dependencies
-      uses: CultureHQ/actions-yarn@v1.0.1
+    - uses: actions/setup-node@v1
       with:
-        args: install
-    
-    - name: Update alfa-ui-primitives dependency
-      uses: CultureHQ/actions-yarn@v1.0.1
-      with:
-        args: add alfa-ui-primitives@latest
-    
-    - name: Generate react components from alfa-ui-primitives
-      uses: CultureHQ/actions-yarn@v1.0.1
-      with:
-        args: generate
+        node-version: '12.x'
+    - run: yarn install
+    - run: yarn add --dev alfa-ui-primitives@latest
+    - run: yarn generate
     
     #- name: git commit new components
     #  run: git add . && git commit -m "add new icons"
