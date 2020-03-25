@@ -39,10 +39,7 @@ jobs:
     - name: lerna publish subpackages
       uses: "MrBoolean/action-lerna@master"
       with:
-        args: publish from-git --contents dist --yes --registry https://registry.npmjs.org/:_authToken=${secrets.NPM_TOKEN}
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+        args: publish from-git --contents dist --yes --registry https://registry.npmjs.org/:_authToken=${{secrets.NPM_TOKEN}}
 
     - run: yarn version --patch --no-commit-hooks
     - run: version=echo yarn version
