@@ -46,12 +46,9 @@ jobs:
     #  with:
     #    args: publish from-git --contents dist --yes --no-verify-access
 
-    - run: yarn version --patch --no-commit-hooks --no-git-tag-version
-      # env:
-        # GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-    - run: version=$(grep '"version"' package.json | cut -d '"' -f 4)
-    - run: echo $version
+    - run: bash scripts/update-version.sh
+
     - run: yarn publish dist --new-version $version
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
