@@ -16,7 +16,7 @@ jobs:
 
     - run: yarn install
     - run: yarn add --dev alfa-ui-primitives@latest
-    - run: yarn generate
+    # - run: yarn generate
     
     - name: commit changes
       uses: github-actions-x/commit@v2.5
@@ -34,12 +34,12 @@ jobs:
       with:
        args: version patch --no-push --yes
 
-    - run: yarn build
+    # - run: yarn build
     
     - name: lerna publish subpackages
       uses: "MrBoolean/action-lerna@master"
       with:
-        args: publish from-git --contents dist --yes
+        args: publish from-git --contents dist --yes --registry https://registry.npmjs.org/:_authToken=${{secrets.NPM_TOKEN}}
       env:
         NPM_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
 
