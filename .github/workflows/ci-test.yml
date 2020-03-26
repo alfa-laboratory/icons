@@ -47,10 +47,6 @@ jobs:
     #    args: publish from-git --contents dist --yes --no-verify-access
 
     - run: bash scripts/update-version.sh
-
-    - run: yarn publish dist --new-version $version
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
     
     - name: commit changes
       uses: github-actions-x/commit@v2.5
