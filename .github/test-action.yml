@@ -20,7 +20,7 @@ jobs:
       uses: github-actions-x/commit@v2.5
       with:
         github-token: ${{ secrets.GITHUB_TOKEN }}
-        push-branch: 'add-ci-yml'
+        push-branch: 'master'
         commit-message: 'feat(*): add new icons'
         force-add: 'false'
         files: .
@@ -52,7 +52,7 @@ jobs:
       uses: github-actions-x/commit@v2.5
       with:
         github-token: ${{ secrets.GITHUB_TOKEN }}
-        push-branch: 'add-ci-yml'
+        push-branch: 'master'
         commit-message: 'chore(*): update version'
         force-add: 'false'
         files: package.json
