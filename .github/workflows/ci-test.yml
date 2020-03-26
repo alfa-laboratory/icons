@@ -29,22 +29,20 @@ jobs:
         name: dmitrsavk
         email: dmitrsavk@yandex.ru
 
-    - name: lerna up version
-      uses: "MrBoolean/action-lerna@master"
-      with:
-        args: version patch --no-push --yes
+    - run: lerna version patch --no-push --yes
     
     - run: yarn build
     
-    - name: lerna publish subpackages
-      uses: "MrBoolean/action-lerna@master"
-      with:
-        args: publish from-git --contents dist --yes --registry https://registry.yarnpkg.com/:_authToken=${{secrets.NPM_TOKEN}}
+    - run: lerna publish from-git --contents dist --yes
+      env:
+        NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
 
     - run: yarn version --patch --no-commit-hooks
     - run: version=echo yarn version
 
-    - run: yarn publish dist --new-version $version --registry https://registry.yarnpkg.com/:_authToken=${{secrets.NPM_TOKEN}}
+    - run: yarn publish dist --new-version $version
+      env:
+        NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
 
     - run: cp dist/package.json package.json
     
