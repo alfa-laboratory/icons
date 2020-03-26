@@ -50,13 +50,11 @@ jobs:
       # env:
         # GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-    - run: version=echo yarn version
+    - run: version=$(grep '"version"' package.json | cut -d '"' -f 4)
 
     - run: yarn publish dist --new-version $version
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
-    - run: cp dist/package.json package.json
     
     - name: commit changes
       uses: github-actions-x/commit@v2.5
