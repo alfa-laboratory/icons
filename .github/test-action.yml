@@ -1,8 +1,6 @@
 name: TEST_ACTION
 
-on:
-  push:
-    branches: [ add-ci-yml ]
+on: repository_dispatch
 
 jobs:
   build:
