@@ -1,0 +1,60 @@
+name: TEST_ACTION
+
+on: repository_dispatch
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+
+    - uses: actions/checkout@v2
+    - uses: actions/setup-node@v1
+      with:
+        node-version: '12.x'
+
+    - run: yarn install
+    - run: yarn add --dev alfa-ui-primitives@latest
+    - run: yarn generate
+
+    - name: commit changes
+      uses: github-actions-x/commit@v2.5
+      with:
+        github-token: ${{ secrets.GITHUB_TOKEN }}
+        push-branch: 'master'
+        commit-message: 'feat(*): add new icons'
+        force-add: 'false'
+        files: .
+        name: dmitrsavk
+        email: dmitrsavk@yandex.ru
+
+    - name: lerna up version
+      uses: "MrBoolean/action-lerna@master"
+      with:
+       args: version patch --no-push --yes
+
+    - run: yarn build
+
+    - name: Set NPM Token Action
+      uses: filipstefansson/set-npm-token-action@v1
+      with:
+        token: ${{ secrets.NPM_TOKEN }}
+
+    - name: lerna publish subpackages
+      uses: "MrBoolean/action-lerna@master"
+      with:
+        args: publish from-git --contents dist --yes
+
+    - run: npm version patch --git-tag-version false
+    - run: cp package.json dist/package.json
+    - run: npm publish dist
+
+    - name: commit changes
+      uses: github-actions-x/commit@v2.5
+      with:
+        github-token: ${{ secrets.GITHUB_TOKEN }}
+        push-branch: 'master'
+        commit-message: 'chore(*): update version'
+        force-add: 'false'
+        files: package.json
+        name: dmitrsavk
+        email: dmitrsavk@yandex.ru

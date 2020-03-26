@@ -6,7 +6,7 @@ import camelcase from 'camelcase';
 /* eslint-disable import/no-extraneous-dependencies */
 import Svgo from 'svgo';
 
-import { iconTemplate } from '../templates/Icon.template';
+import { iconTemplate } from '../templates/icon.template';
 import { SVG_EXT, ENCODING } from './generate';
 
 const readFile = promisify(fs.readFile);
