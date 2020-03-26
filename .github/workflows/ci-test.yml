@@ -39,7 +39,7 @@ jobs:
     - name: lerna publish subpackages
       uses: "MrBoolean/action-lerna@master"
       with:
-        args: publish from-git --contents dist --yes --registry https://registry.npmjs.org/:_authToken=${{secrets.NPM_TOKEN}}
+        args: publish from-git --contents dist --yes --no-verify-access --registry https://registry.npmjs.org/:_authToken=${{secrets.NPM_TOKEN}}
       env:
         NPM_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
 
