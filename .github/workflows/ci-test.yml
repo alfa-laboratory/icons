@@ -41,10 +41,10 @@ jobs:
       with:
         token: ${{ secrets.NPM_TOKEN }}
     
-    - name: lerna publish subpackages
-      uses: "MrBoolean/action-lerna@master"
-      with:
-        args: publish from-git --contents dist --yes --no-verify-access
+    #- name: lerna publish subpackages
+    #  uses: "MrBoolean/action-lerna@master"
+    #  with:
+    #    args: publish from-git --contents dist --yes --no-verify-access
 
     - run: yarn version --patch --no-commit-hooks --no-git-tag-version
       # env:
