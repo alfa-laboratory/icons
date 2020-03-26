@@ -28,6 +28,8 @@ jobs:
         files: .
         name: dmitrsavk
         email: dmitrsavk@yandex.ru
+    
+    - run: npm i -g lerna
 
     - run: lerna version patch --no-push --yes
     
