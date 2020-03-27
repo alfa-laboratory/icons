@@ -19,4 +19,4 @@
 
 ### Как импортить иконки в проект
 Пример
-`import { AddIcon } from '@alfalab/icons-classic/AddIcon;'` 
+`import { AddIcon } from '@alfalab/icons-classic/AddIcon';` 
