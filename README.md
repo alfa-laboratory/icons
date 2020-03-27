@@ -15,8 +15,8 @@
 | ------ | ------ | ------
 | @alfalab/icons | [@alfalab/icons](https://www.npmjs.com/package/@alfalab/icons) | Общий пакет со всеми иконками
 | @alfalab/icons-classic | [@alfalab/icons-classic](https://www.npmjs.com/package/@alfalab/icons-classic) |  
-| @alfalab/icons-glyph | [@alfalab/icons-classic](https://www.npmjs.com/package/@alfalab/icons-glyph) |  Иконки Клика
+| @alfalab/icons-glyph | [@alfalab/icons-glyph](https://www.npmjs.com/package/@alfalab/icons-glyph) |  Иконки Клика
 
 ### Как импортить иконки в проект
 Пример
-`import { AddIcon } from @alfalab/icons-classic/AddIcon;` 
+`import { AddIcon } from '@alfalab/icons-classic/AddIcon;'` 
