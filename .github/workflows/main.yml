@@ -1,4 +1,4 @@
-name: TEST_ACTION
+name: BUILD
 
 on: repository_dispatch
 
