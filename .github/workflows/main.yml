@@ -30,7 +30,7 @@ jobs:
     - name: lerna up version
       uses: "MrBoolean/action-lerna@master"
       with:
-       args: version patch --no-push --yes
+       args: version minor --no-push --yes
 
     - run: yarn build
 
@@ -44,7 +44,7 @@ jobs:
       with:
         args: publish from-git --contents dist --yes
 
-    - run: npm version patch --git-tag-version false
+    - run: npm version minor --git-tag-version false
     - run: cp package.json dist/package.json
     - run: npm publish dist
 
