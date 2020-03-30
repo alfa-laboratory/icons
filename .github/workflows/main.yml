@@ -11,6 +11,9 @@ jobs:
     - uses: actions/setup-node@v1
       with:
         node-version: '12.x'
+    
+    - run: git fetch --prune --unshallow
+    - run: git fetch --tags
 
     - run: yarn install
     - run: yarn add --dev alfa-ui-primitives@latest
@@ -26,9 +29,6 @@ jobs:
         files: .
         name: dmitrsavk
         email: dmitrsavk@yandex.ru
-    
-    - run: git fetch --prune --unshallow
-    - run: git fetch --tags
 
     - name: lerna up version
       uses: "MrBoolean/action-lerna@master"
