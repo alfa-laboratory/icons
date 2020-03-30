@@ -1,3 +1,5 @@
+![BUILD](https://github.com/alfa-laboratory/icons/workflows/BUILD/badge.svg?branch=master&event=repository_dispatch)
+
 # Alfa Bank Icons
 
 Репозиторий React-компонета Icon.
