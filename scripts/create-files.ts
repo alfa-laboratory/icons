@@ -40,7 +40,7 @@ export async function checkOrCreateFiles(
     try {
         await readDir(packageDir, ENCODING);
 
-        await checkOrCreatePackageJson(packageDir, packageName);        
+        await checkOrCreatePackageJson(packageDir, packageName);
 
         try {
             await readDir(srcPackageDir, ENCODING);
@@ -54,4 +54,17 @@ export async function checkOrCreateFiles(
         await mkDir(srcPackageDir);
         await checkOrCreatePackageJson(packageDir, packageName);
     }
+}
+
+export async function createIndexImportFile(
+    componentNames: string[],
+    srcPackageDir: string
+) {
+    const fileContent = componentNames.reduce((acc, componentName) => {
+        acc += `export * from './${componentName}';\n`;
+
+        return acc;
+    }, '');
+
+    await writeFile(path.join(srcPackageDir, 'index.tsx'), fileContent);
 }

@@ -63,4 +63,6 @@ export async function createComponent(filePath: string, packageDir: string) {
     const fullFileName = path.join(packageDir, `${componentName}.tsx`);
 
     await writeFile(fullFileName, componentContent, ENCODING);
+
+    return componentName;
 }

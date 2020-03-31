@@ -2,7 +2,7 @@ import fs from 'fs';
 import path from 'path';
 import { promisify } from 'util';
 import { createComponent } from './create-component';
-import { checkOrCreateFiles } from './create-files';
+import { checkOrCreateFiles, createIndexImportFile } from './create-files';
 
 export const ENCODING = 'utf-8';
 
@@ -87,9 +87,11 @@ async function createPackage(packageName: string) {
         []
     );
 
-    await Promise.all(
+    const componentNames = await Promise.all(
         iconVariants.map(filePath => createComponent(filePath, srcPackageDir))
     );
+
+    await createIndexImportFile(componentNames, srcPackageDir)
 }
 
 async function generateComponents() {
