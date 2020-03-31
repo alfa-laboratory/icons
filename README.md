@@ -27,3 +27,7 @@
 Если у вас по какой-то причине не работает tree-shaking, то импортируйте напрямую из файла:
 
 `import { AddIcon } from '@alfalab/icons-classic/AddIcon';`
+
+или
+
+`import AddIcon from '@alfalab/icons-classic/AddIcon';`
