@@ -30,3 +30,5 @@ export const DraftSBlackIcon: React.FC<Props> = ({ className }) => (
         </g>
     </svg>
 );
+
+export default DraftSBlackIcon;

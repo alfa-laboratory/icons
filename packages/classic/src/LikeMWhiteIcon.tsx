@@ -23,3 +23,5 @@ export const LikeMWhiteIcon: React.FC<Props> = ({ className }) => (
         />
     </svg>
 );
+
+export default LikeMWhiteIcon;

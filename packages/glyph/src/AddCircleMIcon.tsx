@@ -26,3 +26,5 @@ export const AddCircleMIcon: React.FC<Props> = ({ className }) => (
         />
     </svg>
 );
+
+export default AddCircleMIcon;

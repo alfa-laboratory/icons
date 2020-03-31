@@ -23,3 +23,5 @@ export const CurrencyRubSBlackIcon: React.FC<Props> = ({ className }) => (
         />
     </svg>
 );
+
+export default CurrencyRubSBlackIcon;

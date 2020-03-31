@@ -22,3 +22,5 @@ export const LogoutSBlackIcon: React.FC<Props> = ({ className }) => (
         </g>
     </svg>
 );
+
+export default LogoutSBlackIcon;

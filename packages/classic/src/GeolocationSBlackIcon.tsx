@@ -23,3 +23,5 @@ export const GeolocationSBlackIcon: React.FC<Props> = ({ className }) => (
         />
     </svg>
 );
+
+export default GeolocationSBlackIcon;

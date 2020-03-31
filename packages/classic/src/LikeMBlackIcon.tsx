@@ -23,3 +23,5 @@ export const LikeMBlackIcon: React.FC<Props> = ({ className }) => (
         />
     </svg>
 );
+
+export default LikeMBlackIcon;

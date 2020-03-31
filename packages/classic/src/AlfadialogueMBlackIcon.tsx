@@ -30,3 +30,5 @@ export const AlfadialogueMBlackIcon: React.FC<Props> = ({ className }) => (
         </g>
     </svg>
 );
+
+export default AlfadialogueMBlackIcon;

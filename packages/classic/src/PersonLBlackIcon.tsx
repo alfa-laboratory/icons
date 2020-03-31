@@ -24,3 +24,5 @@ export const PersonLBlackIcon: React.FC<Props> = ({ className }) => (
         <path fill="#0B1F35" d="M9.596 10.628h.001v-.001z" />
     </svg>
 );
+
+export default PersonLBlackIcon;

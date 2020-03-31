@@ -23,3 +23,5 @@ export const SearchMWhiteIcon: React.FC<Props> = ({ className }) => (
         </g>
     </svg>
 );
+
+export default SearchMWhiteIcon;

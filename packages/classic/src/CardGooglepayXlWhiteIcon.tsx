@@ -27,3 +27,5 @@ export const CardGooglepayXlWhiteIcon: React.FC<Props> = ({ className }) => (
         </g>
     </svg>
 );
+
+export default CardGooglepayXlWhiteIcon;

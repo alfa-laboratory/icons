@@ -22,3 +22,5 @@ export const TodoXlWhiteIcon: React.FC<Props> = ({ className }) => (
         </g>
     </svg>
 );
+
+export default TodoXlWhiteIcon;

@@ -32,3 +32,5 @@ export const RegistryMBlackIcon: React.FC<Props> = ({ className }) => (
         </g>
     </svg>
 );
+
+export default RegistryMBlackIcon;

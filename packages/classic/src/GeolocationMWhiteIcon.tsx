@@ -22,3 +22,5 @@ export const GeolocationMWhiteIcon: React.FC<Props> = ({ className }) => (
         />
     </svg>
 );
+
+export default GeolocationMWhiteIcon;

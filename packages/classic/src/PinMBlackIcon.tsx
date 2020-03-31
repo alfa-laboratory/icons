@@ -37,3 +37,5 @@ export const PinMBlackIcon: React.FC<Props> = ({ className }) => (
         </g>
     </svg>
 );
+
+export default PinMBlackIcon;

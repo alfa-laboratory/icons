@@ -25,3 +25,5 @@ export const OutcomeXxlWhiteIcon: React.FC<Props> = ({ className }) => (
         </g>
     </svg>
 );
+
+export default OutcomeXxlWhiteIcon;

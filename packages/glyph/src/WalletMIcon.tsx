@@ -30,3 +30,5 @@ export const WalletMIcon: React.FC<Props> = ({ className }) => (
         />
     </svg>
 );
+
+export default WalletMIcon;

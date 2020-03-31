@@ -25,3 +25,5 @@ export const SubmitLWhiteIcon: React.FC<Props> = ({ className }) => (
         </g>
     </svg>
 );
+
+export default SubmitLWhiteIcon;

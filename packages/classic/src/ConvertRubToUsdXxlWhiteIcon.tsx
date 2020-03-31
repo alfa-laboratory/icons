@@ -30,3 +30,5 @@ export const ConvertRubToUsdXxlWhiteIcon: React.FC<Props> = ({ className }) => (
         </g>
     </svg>
 );
+
+export default ConvertRubToUsdXxlWhiteIcon;

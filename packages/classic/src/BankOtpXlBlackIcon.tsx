@@ -27,3 +27,5 @@ export const BankOtpXlBlackIcon: React.FC<Props> = ({ className }) => (
         />
     </svg>
 );
+
+export default BankOtpXlBlackIcon;

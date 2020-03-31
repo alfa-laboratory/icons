@@ -34,3 +34,5 @@ export const InboxXxlWhiteIcon: React.FC<Props> = ({ className }) => (
         </g>
     </svg>
 );
+
+export default InboxXxlWhiteIcon;

@@ -34,3 +34,5 @@ export const CardAddLBlackIcon: React.FC<Props> = ({ className }) => (
         </g>
     </svg>
 );
+
+export default CardAddLBlackIcon;

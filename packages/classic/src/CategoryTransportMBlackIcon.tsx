@@ -28,3 +28,5 @@ export const CategoryTransportMBlackIcon: React.FC<Props> = ({ className }) => (
         </g>
     </svg>
 );
+
+export default CategoryTransportMBlackIcon;

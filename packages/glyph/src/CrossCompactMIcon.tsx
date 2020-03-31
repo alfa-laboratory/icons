@@ -24,3 +24,5 @@ export const CrossCompactMIcon: React.FC<Props> = ({ className }) => (
         />
     </svg>
 );
+
+export default CrossCompactMIcon;

@@ -36,3 +36,5 @@ export const FingerprintMBlackIcon: React.FC<Props> = ({ className }) => (
         </g>
     </svg>
 );
+
+export default FingerprintMBlackIcon;

@@ -25,3 +25,5 @@ export const AccountSharedXsBlackIcon: React.FC<Props> = ({ className }) => (
         </g>
     </svg>
 );
+
+export default AccountSharedXsBlackIcon;

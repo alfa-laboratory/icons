@@ -33,3 +33,5 @@ export const BankGazprombankSColorIcon: React.FC<Props> = ({ className }) => (
         </g>
     </svg>
 );
+
+export default BankGazprombankSColorIcon;

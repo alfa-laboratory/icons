@@ -31,3 +31,5 @@ export const PasswordChangeMBlackIcon: React.FC<Props> = ({ className }) => (
         </g>
     </svg>
 );
+
+export default PasswordChangeMBlackIcon;

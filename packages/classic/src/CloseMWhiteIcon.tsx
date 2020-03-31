@@ -26,3 +26,5 @@ export const CloseMWhiteIcon: React.FC<Props> = ({ className }) => (
         </g>
     </svg>
 );
+
+export default CloseMWhiteIcon;

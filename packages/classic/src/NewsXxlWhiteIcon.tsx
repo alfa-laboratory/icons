@@ -34,3 +34,5 @@ export const NewsXxlWhiteIcon: React.FC<Props> = ({ className }) => (
         </g>
     </svg>
 );
+
+export default NewsXxlWhiteIcon;

@@ -29,3 +29,5 @@ export const KeyboardHideMBlackIcon: React.FC<Props> = ({ className }) => (
         </g>
     </svg>
 );
+
+export default KeyboardHideMBlackIcon;

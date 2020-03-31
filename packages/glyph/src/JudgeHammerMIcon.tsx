@@ -24,3 +24,5 @@ export const JudgeHammerMIcon: React.FC<Props> = ({ className }) => (
         />
     </svg>
 );
+
+export default JudgeHammerMIcon;

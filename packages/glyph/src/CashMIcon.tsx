@@ -30,3 +30,5 @@ export const CashMIcon: React.FC<Props> = ({ className }) => (
         />
     </svg>
 );
+
+export default CashMIcon;

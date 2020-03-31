@@ -26,3 +26,5 @@ export const CategoryVipManagerSBlackIcon: React.FC<Props> = ({
         />
     </svg>
 );
+
+export default CategoryVipManagerSBlackIcon;

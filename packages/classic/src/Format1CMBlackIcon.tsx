@@ -31,3 +31,5 @@ export const Format1CMBlackIcon: React.FC<Props> = ({ className }) => (
         />
     </svg>
 );
+
+export default Format1CMBlackIcon;

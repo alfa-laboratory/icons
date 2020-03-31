@@ -25,3 +25,5 @@ export const CalendarXlWhiteIcon: React.FC<Props> = ({ className }) => (
         </g>
     </svg>
 );
+
+export default CalendarXlWhiteIcon;

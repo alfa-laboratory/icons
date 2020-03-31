@@ -21,3 +21,5 @@ export const AndroidFlashOnMWhiteIcon: React.FC<Props> = ({ className }) => (
         <path d="M7 2v11h3v9l7-12h-4l4-8z" fill="#fff" />
     </svg>
 );
+
+export default AndroidFlashOnMWhiteIcon;

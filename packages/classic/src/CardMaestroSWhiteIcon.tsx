@@ -22,3 +22,5 @@ export const CardMaestroSWhiteIcon: React.FC<Props> = ({ className }) => (
         </g>
     </svg>
 );
+
+export default CardMaestroSWhiteIcon;

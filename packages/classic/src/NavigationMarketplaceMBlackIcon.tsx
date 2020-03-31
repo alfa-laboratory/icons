@@ -26,3 +26,5 @@ export const NavigationMarketplaceMBlackIcon: React.FC<Props> = ({
         />
     </svg>
 );
+
+export default NavigationMarketplaceMBlackIcon;

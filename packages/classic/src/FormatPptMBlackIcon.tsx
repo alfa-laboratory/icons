@@ -23,3 +23,5 @@ export const FormatPptMBlackIcon: React.FC<Props> = ({ className }) => (
         />
     </svg>
 );
+
+export default FormatPptMBlackIcon;

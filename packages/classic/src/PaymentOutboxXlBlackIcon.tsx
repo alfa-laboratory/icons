@@ -31,3 +31,5 @@ export const PaymentOutboxXlBlackIcon: React.FC<Props> = ({ className }) => (
         </g>
     </svg>
 );
+
+export default PaymentOutboxXlBlackIcon;

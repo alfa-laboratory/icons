@@ -24,3 +24,5 @@ export const AttentionBoldSWhiteIcon: React.FC<Props> = ({ className }) => (
         />
     </svg>
 );
+
+export default AttentionBoldSWhiteIcon;

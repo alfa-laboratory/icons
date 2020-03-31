@@ -24,3 +24,5 @@ export const BankVozrozhdenieMBlackIcon: React.FC<Props> = ({ className }) => (
         <circle cx="21" cy="10" r="1.875" fill="#0B1F35" />
     </svg>
 );
+
+export default BankVozrozhdenieMBlackIcon;

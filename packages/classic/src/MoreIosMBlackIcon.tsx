@@ -27,3 +27,5 @@ export const MoreIosMBlackIcon: React.FC<Props> = ({ className }) => (
         <circle cx="7" cy="12" r="1.5" fill="#0B1F35" />
     </svg>
 );
+
+export default MoreIosMBlackIcon;

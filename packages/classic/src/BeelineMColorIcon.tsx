@@ -30,3 +30,5 @@ export const BeelineMColorIcon: React.FC<Props> = ({ className }) => (
         />
     </svg>
 );
+
+export default BeelineMColorIcon;

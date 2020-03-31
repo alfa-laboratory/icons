@@ -25,3 +25,5 @@ export const NavigationPaymentMBlackIcon: React.FC<Props> = ({ className }) => (
         />
     </svg>
 );
+
+export default NavigationPaymentMBlackIcon;

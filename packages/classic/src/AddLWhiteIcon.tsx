@@ -26,3 +26,5 @@ export const AddLWhiteIcon: React.FC<Props> = ({ className }) => (
         </g>
     </svg>
 );
+
+export default AddLWhiteIcon;

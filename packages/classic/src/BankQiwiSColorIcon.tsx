@@ -24,3 +24,5 @@ export const BankQiwiSColorIcon: React.FC<Props> = ({ className }) => (
         </g>
     </svg>
 );
+
+export default BankQiwiSColorIcon;

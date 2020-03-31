@@ -24,3 +24,5 @@ export const BankSberLWhiteIcon: React.FC<Props> = ({ className }) => (
         </g>
     </svg>
 );
+
+export default BankSberLWhiteIcon;

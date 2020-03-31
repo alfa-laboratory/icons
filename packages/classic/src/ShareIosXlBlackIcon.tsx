@@ -29,3 +29,5 @@ export const ShareIosXlBlackIcon: React.FC<Props> = ({ className }) => (
         </g>
     </svg>
 );
+
+export default ShareIosXlBlackIcon;

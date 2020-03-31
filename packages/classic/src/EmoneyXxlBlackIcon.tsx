@@ -23,3 +23,5 @@ export const EmoneyXxlBlackIcon: React.FC<Props> = ({ className }) => (
         />
     </svg>
 );
+
+export default EmoneyXxlBlackIcon;

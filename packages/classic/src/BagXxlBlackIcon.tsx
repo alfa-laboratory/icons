@@ -30,3 +30,5 @@ export const BagXxlBlackIcon: React.FC<Props> = ({ className }) => (
         </g>
     </svg>
 );
+
+export default BagXxlBlackIcon;

@@ -33,3 +33,5 @@ export const OkFilledXxlBlackIcon: React.FC<Props> = ({ className }) => (
         </g>
     </svg>
 );
+
+export default OkFilledXxlBlackIcon;

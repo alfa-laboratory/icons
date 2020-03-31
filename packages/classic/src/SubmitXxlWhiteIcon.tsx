@@ -25,3 +25,5 @@ export const SubmitXxlWhiteIcon: React.FC<Props> = ({ className }) => (
         </g>
     </svg>
 );
+
+export default SubmitXxlWhiteIcon;

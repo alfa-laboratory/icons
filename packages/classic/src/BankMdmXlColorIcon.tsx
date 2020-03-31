@@ -23,3 +23,5 @@ export const BankMdmXlColorIcon: React.FC<Props> = ({ className }) => (
         />
     </svg>
 );
+
+export default BankMdmXlColorIcon;

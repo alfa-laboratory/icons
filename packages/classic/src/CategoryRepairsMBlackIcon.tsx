@@ -30,3 +30,5 @@ export const CategoryRepairsMBlackIcon: React.FC<Props> = ({ className }) => (
         </g>
     </svg>
 );
+
+export default CategoryRepairsMBlackIcon;

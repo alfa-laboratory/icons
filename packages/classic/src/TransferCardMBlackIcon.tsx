@@ -30,3 +30,5 @@ export const TransferCardMBlackIcon: React.FC<Props> = ({ className }) => (
         </g>
     </svg>
 );
+
+export default TransferCardMBlackIcon;

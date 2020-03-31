@@ -26,3 +26,5 @@ export const DeleteMBlackIcon: React.FC<Props> = ({ className }) => (
         </g>
     </svg>
 );
+
+export default DeleteMBlackIcon;

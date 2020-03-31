@@ -57,3 +57,5 @@ export const CardMaestroSColorIcon: React.FC<Props> = ({ className }) => (
         />
     </svg>
 );
+
+export default CardMaestroSColorIcon;

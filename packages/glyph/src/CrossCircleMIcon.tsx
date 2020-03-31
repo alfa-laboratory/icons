@@ -26,3 +26,5 @@ export const CrossCircleMIcon: React.FC<Props> = ({ className }) => (
         />
     </svg>
 );
+
+export default CrossCircleMIcon;

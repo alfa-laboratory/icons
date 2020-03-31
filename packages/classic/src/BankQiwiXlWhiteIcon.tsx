@@ -22,3 +22,5 @@ export const BankQiwiXlWhiteIcon: React.FC<Props> = ({ className }) => (
         </g>
     </svg>
 );
+
+export default BankQiwiXlWhiteIcon;

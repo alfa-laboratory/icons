@@ -30,3 +30,5 @@ export const HistoryXlBlackIcon: React.FC<Props> = ({ className }) => (
         </g>
     </svg>
 );
+
+export default HistoryXlBlackIcon;

@@ -24,3 +24,5 @@ export const PrinterMWhiteIcon: React.FC<Props> = ({ className }) => (
         <path fill="#FFF" d="M9 16h6v1H9zm0 2h5v1H9z" />
     </svg>
 );
+
+export default PrinterMWhiteIcon;

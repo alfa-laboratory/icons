@@ -21,3 +21,5 @@ export const AndroidReorderMColorIcon: React.FC<Props> = ({ className }) => (
         <path fill="#CED2D7" d="M3 8h18v2H3zM3 14h18v2H3z" />
     </svg>
 );
+
+export default AndroidReorderMColorIcon;

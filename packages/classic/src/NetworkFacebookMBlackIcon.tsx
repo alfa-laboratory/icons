@@ -23,3 +23,5 @@ export const NetworkFacebookMBlackIcon: React.FC<Props> = ({ className }) => (
         />
     </svg>
 );
+
+export default NetworkFacebookMBlackIcon;

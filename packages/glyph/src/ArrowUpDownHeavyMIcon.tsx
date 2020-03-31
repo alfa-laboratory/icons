@@ -26,3 +26,5 @@ export const ArrowUpDownHeavyMIcon: React.FC<Props> = ({ className }) => (
         />
     </svg>
 );
+
+export default ArrowUpDownHeavyMIcon;

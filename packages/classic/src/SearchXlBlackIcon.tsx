@@ -23,3 +23,5 @@ export const SearchXlBlackIcon: React.FC<Props> = ({ className }) => (
         />
     </svg>
 );
+
+export default SearchXlBlackIcon;

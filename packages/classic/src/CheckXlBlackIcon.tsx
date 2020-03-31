@@ -22,3 +22,5 @@ export const CheckXlBlackIcon: React.FC<Props> = ({ className }) => (
         />
     </svg>
 );
+
+export default CheckXlBlackIcon;

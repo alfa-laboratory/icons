@@ -31,3 +31,5 @@ export const FormatJpgMWhiteIcon: React.FC<Props> = ({ className }) => (
         />
     </svg>
 );
+
+export default FormatJpgMWhiteIcon;

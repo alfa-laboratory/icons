@@ -22,3 +22,5 @@ export const FormatDefaultSBlackIcon: React.FC<Props> = ({ className }) => (
         </g>
     </svg>
 );
+
+export default FormatDefaultSBlackIcon;

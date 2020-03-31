@@ -31,3 +31,5 @@ export const CategoryRentMBlackIcon: React.FC<Props> = ({ className }) => (
         </g>
     </svg>
 );
+
+export default CategoryRentMBlackIcon;

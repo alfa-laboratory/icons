@@ -31,3 +31,5 @@ export const AttentionMarkSColorIcon: React.FC<Props> = ({ className }) => (
         </g>
     </svg>
 );
+
+export default AttentionMarkSColorIcon;

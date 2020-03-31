@@ -33,3 +33,5 @@ export const CategoryInvestmentsXlWhiteIcon: React.FC<Props> = ({
         </g>
     </svg>
 );
+
+export default CategoryInvestmentsXlWhiteIcon;

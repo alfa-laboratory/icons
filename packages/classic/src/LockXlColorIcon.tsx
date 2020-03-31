@@ -29,3 +29,5 @@ export const LockXlColorIcon: React.FC<Props> = ({ className }) => (
         />
     </svg>
 );
+
+export default LockXlColorIcon;

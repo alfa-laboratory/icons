@@ -26,3 +26,5 @@ export const AttentionXlColorIcon: React.FC<Props> = ({ className }) => (
         <path d="M16.2 8h3.6L19 20.5h-2L16.2 8z" fill="#fff" />
     </svg>
 );
+
+export default AttentionXlColorIcon;

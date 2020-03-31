@@ -28,3 +28,5 @@ export const FingerprintXlWhiteIcon: React.FC<Props> = ({ className }) => (
         </g>
     </svg>
 );
+
+export default FingerprintXlWhiteIcon;

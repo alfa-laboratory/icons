@@ -27,3 +27,5 @@ export const CardToCardMBlackIcon: React.FC<Props> = ({ className }) => (
         </g>
     </svg>
 );
+
+export default CardToCardMBlackIcon;

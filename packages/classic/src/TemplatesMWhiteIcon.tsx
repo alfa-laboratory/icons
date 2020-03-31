@@ -26,3 +26,5 @@ export const TemplatesMWhiteIcon: React.FC<Props> = ({ className }) => (
         </g>
     </svg>
 );
+
+export default TemplatesMWhiteIcon;

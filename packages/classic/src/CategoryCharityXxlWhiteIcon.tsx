@@ -33,3 +33,5 @@ export const CategoryCharityXxlWhiteIcon: React.FC<Props> = ({ className }) => (
         </g>
     </svg>
 );
+
+export default CategoryCharityXxlWhiteIcon;

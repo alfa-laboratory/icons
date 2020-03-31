@@ -23,3 +23,5 @@ export const HistoryMWhiteIcon: React.FC<Props> = ({ className }) => (
         </g>
     </svg>
 );
+
+export default HistoryMWhiteIcon;

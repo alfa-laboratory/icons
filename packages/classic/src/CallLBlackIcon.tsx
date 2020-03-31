@@ -22,3 +22,5 @@ export const CallLBlackIcon: React.FC<Props> = ({ className }) => (
         />
     </svg>
 );
+
+export default CallLBlackIcon;

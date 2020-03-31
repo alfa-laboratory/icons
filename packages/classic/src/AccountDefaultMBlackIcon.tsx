@@ -32,3 +32,5 @@ export const AccountDefaultMBlackIcon: React.FC<Props> = ({ className }) => (
         </g>
     </svg>
 );
+
+export default AccountDefaultMBlackIcon;

@@ -35,3 +35,5 @@ export const BankPsbLColorIcon: React.FC<Props> = ({ className }) => (
         </g>
     </svg>
 );
+
+export default BankPsbLColorIcon;

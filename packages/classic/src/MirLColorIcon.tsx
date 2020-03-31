@@ -36,3 +36,5 @@ export const MirLColorIcon: React.FC<Props> = ({ className }) => (
         </g>
     </svg>
 );
+
+export default MirLColorIcon;

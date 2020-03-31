@@ -25,3 +25,5 @@ export const FeatureMBlackIcon: React.FC<Props> = ({ className }) => (
         </g>
     </svg>
 );
+
+export default FeatureMBlackIcon;

@@ -29,3 +29,5 @@ export const InvestmentsXlWhiteIcon: React.FC<Props> = ({ className }) => (
         </g>
     </svg>
 );
+
+export default InvestmentsXlWhiteIcon;

@@ -26,3 +26,5 @@ export const CallXxlWhiteIcon: React.FC<Props> = ({ className }) => (
         </g>
     </svg>
 );
+
+export default CallXxlWhiteIcon;

@@ -22,3 +22,5 @@ export const ErrorSColorIcon: React.FC<Props> = ({ className }) => (
         />
     </svg>
 );
+
+export default ErrorSColorIcon;

@@ -28,3 +28,5 @@ export const FormatZipSBlackIcon: React.FC<Props> = ({ className }) => (
         </g>
     </svg>
 );
+
+export default FormatZipSBlackIcon;

@@ -36,3 +36,5 @@ export const TransferInternalMBlackIcon: React.FC<Props> = ({ className }) => (
         </g>
     </svg>
 );
+
+export default TransferInternalMBlackIcon;

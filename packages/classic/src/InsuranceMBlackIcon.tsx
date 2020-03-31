@@ -39,3 +39,5 @@ export const InsuranceMBlackIcon: React.FC<Props> = ({ className }) => (
         </g>
     </svg>
 );
+
+export default InsuranceMBlackIcon;

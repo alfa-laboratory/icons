@@ -30,3 +30,5 @@ export const QrXlWhiteIcon: React.FC<Props> = ({ className }) => (
         </g>
     </svg>
 );
+
+export default QrXlWhiteIcon;

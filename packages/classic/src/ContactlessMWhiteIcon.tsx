@@ -26,3 +26,5 @@ export const ContactlessMWhiteIcon: React.FC<Props> = ({ className }) => (
         </g>
     </svg>
 );
+
+export default ContactlessMWhiteIcon;

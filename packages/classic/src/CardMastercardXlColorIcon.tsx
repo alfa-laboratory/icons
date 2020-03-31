@@ -28,3 +28,5 @@ export const CardMastercardXlColorIcon: React.FC<Props> = ({ className }) => (
         />
     </svg>
 );
+
+export default CardMastercardXlColorIcon;

@@ -26,3 +26,5 @@ export const SubmitLBlackIcon: React.FC<Props> = ({ className }) => (
         </g>
     </svg>
 );
+
+export default SubmitLBlackIcon;

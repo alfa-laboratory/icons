@@ -27,3 +27,5 @@ export const FormatPngXlBlackIcon: React.FC<Props> = ({ className }) => (
         />
     </svg>
 );
+
+export default FormatPngXlBlackIcon;

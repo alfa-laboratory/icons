@@ -23,3 +23,5 @@ export const CurrencyJpyXlWhiteIcon: React.FC<Props> = ({ className }) => (
         />
     </svg>
 );
+
+export default CurrencyJpyXlWhiteIcon;

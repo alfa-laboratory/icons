@@ -23,3 +23,5 @@ export const CurrencyJpyLBlackIcon: React.FC<Props> = ({ className }) => (
         />
     </svg>
 );
+
+export default CurrencyJpyLBlackIcon;

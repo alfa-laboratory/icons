@@ -28,3 +28,5 @@ export const QrXlBlackIcon: React.FC<Props> = ({ className }) => (
         </g>
     </svg>
 );
+
+export default QrXlBlackIcon;

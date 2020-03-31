@@ -24,3 +24,5 @@ export const AddCompactMIcon: React.FC<Props> = ({ className }) => (
         />
     </svg>
 );
+
+export default AddCompactMIcon;

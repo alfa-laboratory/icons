@@ -23,3 +23,5 @@ export const BankOtkritieSColorIcon: React.FC<Props> = ({ className }) => (
         />
     </svg>
 );
+
+export default BankOtkritieSColorIcon;

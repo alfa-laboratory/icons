@@ -22,3 +22,5 @@ export const DownXlBlackIcon: React.FC<Props> = ({ className }) => (
         />
     </svg>
 );
+
+export default DownXlBlackIcon;

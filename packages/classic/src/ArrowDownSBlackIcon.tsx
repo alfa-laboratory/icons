@@ -26,3 +26,5 @@ export const ArrowDownSBlackIcon: React.FC<Props> = ({ className }) => (
         </g>
     </svg>
 );
+
+export default ArrowDownSBlackIcon;

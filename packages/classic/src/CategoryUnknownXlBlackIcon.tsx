@@ -30,3 +30,5 @@ export const CategoryUnknownXlBlackIcon: React.FC<Props> = ({ className }) => (
         </g>
     </svg>
 );
+
+export default CategoryUnknownXlBlackIcon;

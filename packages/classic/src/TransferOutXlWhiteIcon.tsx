@@ -25,3 +25,5 @@ export const TransferOutXlWhiteIcon: React.FC<Props> = ({ className }) => (
         </g>
     </svg>
 );
+
+export default TransferOutXlWhiteIcon;

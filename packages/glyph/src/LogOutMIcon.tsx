@@ -30,3 +30,5 @@ export const LogOutMIcon: React.FC<Props> = ({ className }) => (
         />
     </svg>
 );
+
+export default LogOutMIcon;

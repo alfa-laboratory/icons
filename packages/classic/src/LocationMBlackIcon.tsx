@@ -26,3 +26,5 @@ export const LocationMBlackIcon: React.FC<Props> = ({ className }) => (
         </g>
     </svg>
 );
+
+export default LocationMBlackIcon;

@@ -37,3 +37,5 @@ export const CategoryRestaurantsXlWhiteIcon: React.FC<Props> = ({
         </g>
     </svg>
 );
+
+export default CategoryRestaurantsXlWhiteIcon;

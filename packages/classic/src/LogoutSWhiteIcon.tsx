@@ -22,3 +22,5 @@ export const LogoutSWhiteIcon: React.FC<Props> = ({ className }) => (
         </g>
     </svg>
 );
+
+export default LogoutSWhiteIcon;

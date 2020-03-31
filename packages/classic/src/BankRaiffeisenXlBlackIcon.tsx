@@ -24,3 +24,5 @@ export const BankRaiffeisenXlBlackIcon: React.FC<Props> = ({ className }) => (
         <path fill="#0B1F35" d="M2 34h32V2H2v32zM3 3h30v30H3V3z" />
     </svg>
 );
+
+export default BankRaiffeisenXlBlackIcon;

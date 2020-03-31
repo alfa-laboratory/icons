@@ -23,3 +23,5 @@ export const FormatTxtSWhiteIcon: React.FC<Props> = ({ className }) => (
         />
     </svg>
 );
+
+export default FormatTxtSWhiteIcon;

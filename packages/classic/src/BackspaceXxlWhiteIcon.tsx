@@ -29,3 +29,5 @@ export const BackspaceXxlWhiteIcon: React.FC<Props> = ({ className }) => (
         </g>
     </svg>
 );
+
+export default BackspaceXxlWhiteIcon;

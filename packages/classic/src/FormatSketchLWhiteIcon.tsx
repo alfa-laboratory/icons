@@ -25,3 +25,5 @@ export const FormatSketchLWhiteIcon: React.FC<Props> = ({ className }) => (
         </g>
     </svg>
 );
+
+export default FormatSketchLWhiteIcon;

@@ -29,3 +29,5 @@ export const OkMWhiteIcon: React.FC<Props> = ({ className }) => (
         </g>
     </svg>
 );
+
+export default OkMWhiteIcon;

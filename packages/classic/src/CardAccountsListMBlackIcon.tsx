@@ -32,3 +32,5 @@ export const CardAccountsListMBlackIcon: React.FC<Props> = ({ className }) => (
         </g>
     </svg>
 );
+
+export default CardAccountsListMBlackIcon;

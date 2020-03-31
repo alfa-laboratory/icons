@@ -30,3 +30,5 @@ export const CategoryGibddFinesMWhiteIcon: React.FC<Props> = ({
         </g>
     </svg>
 );
+
+export default CategoryGibddFinesMWhiteIcon;

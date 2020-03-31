@@ -33,3 +33,5 @@ export const PaymentErrorXlBlackIcon: React.FC<Props> = ({ className }) => (
         </g>
     </svg>
 );
+
+export default PaymentErrorXlBlackIcon;

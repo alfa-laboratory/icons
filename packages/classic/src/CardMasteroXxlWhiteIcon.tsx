@@ -26,3 +26,5 @@ export const CardMasteroXxlWhiteIcon: React.FC<Props> = ({ className }) => (
         </g>
     </svg>
 );
+
+export default CardMasteroXxlWhiteIcon;

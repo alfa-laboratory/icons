@@ -33,3 +33,5 @@ export const CategoryPersonXlBlackIcon: React.FC<Props> = ({ className }) => (
         </g>
     </svg>
 );
+
+export default CategoryPersonXlBlackIcon;

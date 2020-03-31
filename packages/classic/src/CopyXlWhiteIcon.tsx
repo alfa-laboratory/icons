@@ -32,3 +32,5 @@ export const CopyXlWhiteIcon: React.FC<Props> = ({ className }) => (
         </g>
     </svg>
 );
+
+export default CopyXlWhiteIcon;

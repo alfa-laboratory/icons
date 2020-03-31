@@ -30,3 +30,5 @@ export const CategoryGibddXxlBlackIcon: React.FC<Props> = ({ className }) => (
         />
     </svg>
 );
+
+export default CategoryGibddXxlBlackIcon;

@@ -30,3 +30,5 @@ export const AccountRubXxlWhiteIcon: React.FC<Props> = ({ className }) => (
         </g>
     </svg>
 );
+
+export default AccountRubXxlWhiteIcon;

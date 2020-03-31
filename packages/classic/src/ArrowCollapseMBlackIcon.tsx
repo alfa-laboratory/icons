@@ -24,3 +24,5 @@ export const ArrowCollapseMBlackIcon: React.FC<Props> = ({ className }) => (
         />
     </svg>
 );
+
+export default ArrowCollapseMBlackIcon;

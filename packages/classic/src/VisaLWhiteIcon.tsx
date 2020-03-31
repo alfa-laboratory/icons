@@ -23,3 +23,5 @@ export const VisaLWhiteIcon: React.FC<Props> = ({ className }) => (
         />
     </svg>
 );
+
+export default VisaLWhiteIcon;

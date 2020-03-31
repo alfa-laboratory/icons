@@ -27,3 +27,5 @@ export const SubtractMBlackIcon: React.FC<Props> = ({ className }) => (
         />
     </svg>
 );
+
+export default SubtractMBlackIcon;

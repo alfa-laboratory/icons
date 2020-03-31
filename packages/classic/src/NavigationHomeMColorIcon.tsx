@@ -24,3 +24,5 @@ export const NavigationHomeMColorIcon: React.FC<Props> = ({ className }) => (
         />
     </svg>
 );
+
+export default NavigationHomeMColorIcon;

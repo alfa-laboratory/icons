@@ -25,3 +25,5 @@ export const TransferInLBlackIcon: React.FC<Props> = ({ className }) => (
         </g>
     </svg>
 );
+
+export default TransferInLBlackIcon;

@@ -35,3 +35,5 @@ export const BankBinbankXlColorIcon: React.FC<Props> = ({ className }) => (
         </g>
     </svg>
 );
+
+export default BankBinbankXlColorIcon;

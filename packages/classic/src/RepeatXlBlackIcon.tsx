@@ -25,3 +25,5 @@ export const RepeatXlBlackIcon: React.FC<Props> = ({ className }) => (
         </g>
     </svg>
 );
+
+export default RepeatXlBlackIcon;

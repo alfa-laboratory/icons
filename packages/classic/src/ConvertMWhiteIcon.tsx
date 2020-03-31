@@ -49,3 +49,5 @@ export const ConvertMWhiteIcon: React.FC<Props> = ({ className }) => (
         </g>
     </svg>
 );
+
+export default ConvertMWhiteIcon;

@@ -23,3 +23,5 @@ export const RightSBlackIcon: React.FC<Props> = ({ className }) => (
         />
     </svg>
 );
+
+export default RightSBlackIcon;

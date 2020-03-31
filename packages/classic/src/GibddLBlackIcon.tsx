@@ -30,3 +30,5 @@ export const GibddLBlackIcon: React.FC<Props> = ({ className }) => (
         />
     </svg>
 );
+
+export default GibddLBlackIcon;

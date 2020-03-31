@@ -34,3 +34,5 @@ export const ManagerMBlackIcon: React.FC<Props> = ({ className }) => (
         </g>
     </svg>
 );
+
+export default ManagerMBlackIcon;

@@ -26,3 +26,5 @@ export const OkMColorIcon: React.FC<Props> = ({ className }) => (
         </g>
     </svg>
 );
+
+export default OkMColorIcon;

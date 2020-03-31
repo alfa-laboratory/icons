@@ -33,3 +33,5 @@ export const MastercardSColorIcon: React.FC<Props> = ({ className }) => (
         </g>
     </svg>
 );
+
+export default MastercardSColorIcon;

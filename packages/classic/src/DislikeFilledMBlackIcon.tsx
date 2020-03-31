@@ -26,3 +26,5 @@ export const DislikeFilledMBlackIcon: React.FC<Props> = ({ className }) => (
         </g>
     </svg>
 );
+
+export default DislikeFilledMBlackIcon;

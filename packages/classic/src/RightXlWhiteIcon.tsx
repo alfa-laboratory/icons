@@ -23,3 +23,5 @@ export const RightXlWhiteIcon: React.FC<Props> = ({ className }) => (
         />
     </svg>
 );
+
+export default RightXlWhiteIcon;

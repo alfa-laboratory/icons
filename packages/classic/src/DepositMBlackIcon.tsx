@@ -46,3 +46,5 @@ export const DepositMBlackIcon: React.FC<Props> = ({ className }) => (
         </g>
     </svg>
 );
+
+export default DepositMBlackIcon;

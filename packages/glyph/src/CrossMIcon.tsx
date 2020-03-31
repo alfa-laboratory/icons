@@ -24,3 +24,5 @@ export const CrossMIcon: React.FC<Props> = ({ className }) => (
         />
     </svg>
 );
+
+export default CrossMIcon;

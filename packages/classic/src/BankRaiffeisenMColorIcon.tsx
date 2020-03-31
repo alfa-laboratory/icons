@@ -28,3 +28,5 @@ export const BankRaiffeisenMColorIcon: React.FC<Props> = ({ className }) => (
         />
     </svg>
 );
+
+export default BankRaiffeisenMColorIcon;

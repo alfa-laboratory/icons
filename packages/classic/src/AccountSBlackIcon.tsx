@@ -34,3 +34,5 @@ export const AccountSBlackIcon: React.FC<Props> = ({ className }) => (
         />
     </svg>
 );
+
+export default AccountSBlackIcon;

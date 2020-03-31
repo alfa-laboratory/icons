@@ -25,3 +25,5 @@ export const TransferAnyBankXlBlackIcon: React.FC<Props> = ({ className }) => (
         </g>
     </svg>
 );
+
+export default TransferAnyBankXlBlackIcon;

@@ -26,3 +26,5 @@ export const ChevronForwardMIcon: React.FC<Props> = ({ className }) => (
         />
     </svg>
 );
+
+export default ChevronForwardMIcon;

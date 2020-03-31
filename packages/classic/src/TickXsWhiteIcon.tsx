@@ -23,3 +23,5 @@ export const TickXsWhiteIcon: React.FC<Props> = ({ className }) => (
         />
     </svg>
 );
+
+export default TickXsWhiteIcon;

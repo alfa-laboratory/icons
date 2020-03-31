@@ -28,3 +28,5 @@ export const FormatWordXlWhiteIcon: React.FC<Props> = ({ className }) => (
         />
     </svg>
 );
+
+export default FormatWordXlWhiteIcon;

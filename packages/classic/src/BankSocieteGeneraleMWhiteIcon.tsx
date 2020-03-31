@@ -24,3 +24,5 @@ export const BankSocieteGeneraleMWhiteIcon: React.FC<Props> = ({
         </g>
     </svg>
 );
+
+export default BankSocieteGeneraleMWhiteIcon;

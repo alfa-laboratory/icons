@@ -30,3 +30,5 @@ export const CategoryFinanceXlBlackIcon: React.FC<Props> = ({ className }) => (
         <path fill="#0B1F35" d="M17 0h1v11.26h-1zM0 35h36v1H0z" />
     </svg>
 );
+
+export default CategoryFinanceXlBlackIcon;

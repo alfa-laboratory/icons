@@ -28,3 +28,5 @@ export const CategoryMortgageMWhiteIcon: React.FC<Props> = ({ className }) => (
         />
     </svg>
 );
+
+export default CategoryMortgageMWhiteIcon;

@@ -24,3 +24,5 @@ export const NavigationChatMBlackIcon: React.FC<Props> = ({ className }) => (
         />
     </svg>
 );
+
+export default NavigationChatMBlackIcon;

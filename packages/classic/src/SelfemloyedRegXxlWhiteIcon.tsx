@@ -32,3 +32,5 @@ export const SelfemloyedRegXxlWhiteIcon: React.FC<Props> = ({ className }) => (
         </g>
     </svg>
 );
+
+export default SelfemloyedRegXxlWhiteIcon;

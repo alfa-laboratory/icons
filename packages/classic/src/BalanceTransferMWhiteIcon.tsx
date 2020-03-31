@@ -29,3 +29,5 @@ export const BalanceTransferMWhiteIcon: React.FC<Props> = ({ className }) => (
         </g>
     </svg>
 );
+
+export default BalanceTransferMWhiteIcon;

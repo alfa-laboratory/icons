@@ -23,3 +23,5 @@ export const UpMBlackIcon: React.FC<Props> = ({ className }) => (
         />
     </svg>
 );
+
+export default UpMBlackIcon;

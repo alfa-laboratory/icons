@@ -23,3 +23,5 @@ export const FormatXlsSWhiteIcon: React.FC<Props> = ({ className }) => (
         />
     </svg>
 );
+
+export default FormatXlsSWhiteIcon;

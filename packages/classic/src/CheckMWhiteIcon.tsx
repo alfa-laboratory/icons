@@ -25,3 +25,5 @@ export const CheckMWhiteIcon: React.FC<Props> = ({ className }) => (
         </g>
     </svg>
 );
+
+export default CheckMWhiteIcon;

@@ -30,3 +30,5 @@ export const FormatRarMBlackIcon: React.FC<Props> = ({ className }) => (
         />
     </svg>
 );
+
+export default FormatRarMBlackIcon;

@@ -31,3 +31,5 @@ export const HomeXxlBlackIcon: React.FC<Props> = ({ className }) => (
         />
     </svg>
 );
+
+export default HomeXxlBlackIcon;

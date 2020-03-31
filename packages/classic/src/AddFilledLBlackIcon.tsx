@@ -27,3 +27,5 @@ export const AddFilledLBlackIcon: React.FC<Props> = ({ className }) => (
         </g>
     </svg>
 );
+
+export default AddFilledLBlackIcon;

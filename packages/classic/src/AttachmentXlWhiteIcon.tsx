@@ -22,3 +22,5 @@ export const AttachmentXlWhiteIcon: React.FC<Props> = ({ className }) => (
         />
     </svg>
 );
+
+export default AttachmentXlWhiteIcon;

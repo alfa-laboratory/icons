@@ -33,3 +33,5 @@ export const MaestroSColorIcon: React.FC<Props> = ({ className }) => (
         </g>
     </svg>
 );
+
+export default MaestroSColorIcon;

@@ -23,3 +23,5 @@ export const CurrencyGbpSWhiteIcon: React.FC<Props> = ({ className }) => (
         />
     </svg>
 );
+
+export default CurrencyGbpSWhiteIcon;

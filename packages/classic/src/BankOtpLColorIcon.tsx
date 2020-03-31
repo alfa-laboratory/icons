@@ -31,3 +31,5 @@ export const BankOtpLColorIcon: React.FC<Props> = ({ className }) => (
         />
     </svg>
 );
+
+export default BankOtpLColorIcon;

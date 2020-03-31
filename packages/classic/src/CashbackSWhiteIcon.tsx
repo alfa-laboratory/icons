@@ -42,3 +42,5 @@ export const CashbackSWhiteIcon: React.FC<Props> = ({ className }) => (
         />
     </svg>
 );
+
+export default CashbackSWhiteIcon;

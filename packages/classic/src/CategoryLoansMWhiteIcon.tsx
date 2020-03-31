@@ -35,3 +35,5 @@ export const CategoryLoansMWhiteIcon: React.FC<Props> = ({ className }) => (
         </g>
     </svg>
 );
+
+export default CategoryLoansMWhiteIcon;

@@ -30,3 +30,5 @@ export const FormatUnknownLColorIcon: React.FC<Props> = ({ className }) => (
         />
     </svg>
 );
+
+export default FormatUnknownLColorIcon;

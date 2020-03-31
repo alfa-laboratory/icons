@@ -31,3 +31,5 @@ export const PaymentToCompanyXlBlackIcon: React.FC<Props> = ({ className }) => (
         </g>
     </svg>
 );
+
+export default PaymentToCompanyXlBlackIcon;

@@ -33,3 +33,5 @@ export const SignXxlWhiteIcon: React.FC<Props> = ({ className }) => (
         />
     </svg>
 );
+
+export default SignXxlWhiteIcon;

@@ -27,3 +27,5 @@ export const SubtractXlBlackIcon: React.FC<Props> = ({ className }) => (
         />
     </svg>
 );
+
+export default SubtractXlBlackIcon;

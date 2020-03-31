@@ -31,3 +31,5 @@ export const CreditMWhiteIcon: React.FC<Props> = ({ className }) => (
         </g>
     </svg>
 );
+
+export default CreditMWhiteIcon;

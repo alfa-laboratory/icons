@@ -30,3 +30,5 @@ export const PrintMIcon: React.FC<Props> = ({ className }) => (
         />
     </svg>
 );
+
+export default PrintMIcon;

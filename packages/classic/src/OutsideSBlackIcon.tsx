@@ -25,3 +25,5 @@ export const OutsideSBlackIcon: React.FC<Props> = ({ className }) => (
         />
     </svg>
 );
+
+export default OutsideSBlackIcon;

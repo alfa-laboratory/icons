@@ -26,3 +26,5 @@ export const CategoryConsultingSWhiteIcon: React.FC<Props> = ({
         />
     </svg>
 );
+
+export default CategoryConsultingSWhiteIcon;

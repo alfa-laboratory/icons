@@ -31,3 +31,5 @@ export const CategoryBudgetMWhiteIcon: React.FC<Props> = ({ className }) => (
         />
     </svg>
 );
+
+export default CategoryBudgetMWhiteIcon;

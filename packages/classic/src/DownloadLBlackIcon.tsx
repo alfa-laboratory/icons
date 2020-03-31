@@ -22,3 +22,5 @@ export const DownloadLBlackIcon: React.FC<Props> = ({ className }) => (
         </g>
     </svg>
 );
+
+export default DownloadLBlackIcon;

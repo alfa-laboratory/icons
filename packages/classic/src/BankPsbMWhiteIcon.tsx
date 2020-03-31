@@ -29,3 +29,5 @@ export const BankPsbMWhiteIcon: React.FC<Props> = ({ className }) => (
         </g>
     </svg>
 );
+
+export default BankPsbMWhiteIcon;

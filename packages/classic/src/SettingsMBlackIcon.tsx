@@ -37,3 +37,5 @@ export const SettingsMBlackIcon: React.FC<Props> = ({ className }) => (
         </g>
     </svg>
 );
+
+export default SettingsMBlackIcon;

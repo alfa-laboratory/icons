@@ -32,3 +32,5 @@ export const EnvelopOpenTextMIcon: React.FC<Props> = ({ className }) => (
         />
     </svg>
 );
+
+export default EnvelopOpenTextMIcon;

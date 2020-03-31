@@ -27,3 +27,5 @@ export const NetworkVkSWhiteIcon: React.FC<Props> = ({ className }) => (
         />
     </svg>
 );
+
+export default NetworkVkSWhiteIcon;

@@ -40,3 +40,5 @@ export const QrCodeMIcon: React.FC<Props> = ({ className }) => (
         />
     </svg>
 );
+
+export default QrCodeMIcon;

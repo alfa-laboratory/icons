@@ -24,3 +24,5 @@ export const EllipsisHorizontalMIcon: React.FC<Props> = ({ className }) => (
         />
     </svg>
 );
+
+export default EllipsisHorizontalMIcon;

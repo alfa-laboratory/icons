@@ -30,3 +30,5 @@ export const ConvertXlBlackIcon: React.FC<Props> = ({ className }) => (
         </g>
     </svg>
 );
+
+export default ConvertXlBlackIcon;

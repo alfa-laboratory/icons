@@ -26,3 +26,5 @@ export const DiscountXxlBlackIcon: React.FC<Props> = ({ className }) => (
         </g>
     </svg>
 );
+
+export default DiscountXxlBlackIcon;

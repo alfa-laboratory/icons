@@ -21,3 +21,5 @@ export const ForexMBlackIcon: React.FC<Props> = ({ className }) => (
         </g>
     </svg>
 );
+
+export default ForexMBlackIcon;

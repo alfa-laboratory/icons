@@ -30,3 +30,5 @@ export const BriefcaseMIcon: React.FC<Props> = ({ className }) => (
         />
     </svg>
 );
+
+export default BriefcaseMIcon;

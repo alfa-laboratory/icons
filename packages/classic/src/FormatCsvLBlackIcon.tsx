@@ -27,3 +27,5 @@ export const FormatCsvLBlackIcon: React.FC<Props> = ({ className }) => (
         />
     </svg>
 );
+
+export default FormatCsvLBlackIcon;

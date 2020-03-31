@@ -30,3 +30,5 @@ export const AtmXxlBlackIcon: React.FC<Props> = ({ className }) => (
         </g>
     </svg>
 );
+
+export default AtmXxlBlackIcon;

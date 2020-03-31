@@ -15,3 +15,5 @@ export const CheckIndeterminateMWhiteIcon: React.FC<Props> = ({
         <path fill="#fff" d="M5 11h14v2H5z" />
     </svg>
 );
+
+export default CheckIndeterminateMWhiteIcon;

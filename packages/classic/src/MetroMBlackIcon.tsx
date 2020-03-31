@@ -27,3 +27,5 @@ export const MetroMBlackIcon: React.FC<Props> = ({ className }) => (
         </g>
     </svg>
 );
+
+export default MetroMBlackIcon;

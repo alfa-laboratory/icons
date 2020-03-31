@@ -36,3 +36,5 @@ export const CardAddSWhiteIcon: React.FC<Props> = ({ className }) => (
         </g>
     </svg>
 );
+
+export default CardAddSWhiteIcon;

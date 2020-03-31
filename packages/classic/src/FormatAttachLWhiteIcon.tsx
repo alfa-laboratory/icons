@@ -26,3 +26,5 @@ export const FormatAttachLWhiteIcon: React.FC<Props> = ({ className }) => (
         />
     </svg>
 );
+
+export default FormatAttachLWhiteIcon;

@@ -26,3 +26,5 @@ export const SettingsMIcon: React.FC<Props> = ({ className }) => (
         />
     </svg>
 );
+
+export default SettingsMIcon;

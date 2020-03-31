@@ -30,3 +30,5 @@ export const CategoryHobbyMBlackIcon: React.FC<Props> = ({ className }) => (
         </g>
     </svg>
 );
+
+export default CategoryHobbyMBlackIcon;

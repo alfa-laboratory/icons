@@ -33,3 +33,5 @@ export const FormatSketchLBlackIcon: React.FC<Props> = ({ className }) => (
         />
     </svg>
 );
+
+export default FormatSketchLBlackIcon;

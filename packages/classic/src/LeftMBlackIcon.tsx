@@ -26,3 +26,5 @@ export const LeftMBlackIcon: React.FC<Props> = ({ className }) => (
         </g>
     </svg>
 );
+
+export default LeftMBlackIcon;

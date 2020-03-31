@@ -32,3 +32,5 @@ export const PhotoMBlackIcon: React.FC<Props> = ({ className }) => (
         </g>
     </svg>
 );
+
+export default PhotoMBlackIcon;

@@ -23,3 +23,5 @@ export const BankSocieteGeneraleLBlackIcon: React.FC<Props> = ({
         <path fill="#0B1F35" d="M2 15v13h26V15h-3v1H5v-1z" />
     </svg>
 );
+
+export default BankSocieteGeneraleLBlackIcon;

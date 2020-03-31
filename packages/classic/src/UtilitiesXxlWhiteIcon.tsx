@@ -28,3 +28,5 @@ export const UtilitiesXxlWhiteIcon: React.FC<Props> = ({ className }) => (
         </g>
     </svg>
 );
+
+export default UtilitiesXxlWhiteIcon;

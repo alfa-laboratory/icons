@@ -30,3 +30,5 @@ export const CardMastercardXlWhiteIcon: React.FC<Props> = ({ className }) => (
         </g>
     </svg>
 );
+
+export default CardMastercardXlWhiteIcon;

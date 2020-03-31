@@ -30,3 +30,5 @@ export const MessageMBlackIcon: React.FC<Props> = ({ className }) => (
         </g>
     </svg>
 );
+
+export default MessageMBlackIcon;

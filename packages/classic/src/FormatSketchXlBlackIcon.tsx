@@ -37,3 +37,5 @@ export const FormatSketchXlBlackIcon: React.FC<Props> = ({ className }) => (
         />
     </svg>
 );
+
+export default FormatSketchXlBlackIcon;

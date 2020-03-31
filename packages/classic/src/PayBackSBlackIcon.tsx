@@ -26,3 +26,5 @@ export const PayBackSBlackIcon: React.FC<Props> = ({ className }) => (
         </g>
     </svg>
 );
+
+export default PayBackSBlackIcon;

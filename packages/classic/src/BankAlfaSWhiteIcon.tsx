@@ -24,3 +24,5 @@ export const BankAlfaSWhiteIcon: React.FC<Props> = ({ className }) => (
         </g>
     </svg>
 );
+
+export default BankAlfaSWhiteIcon;

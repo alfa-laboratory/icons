@@ -22,3 +22,5 @@ export const LogoAlfabankSColorIcon: React.FC<Props> = ({ className }) => (
         </g>
     </svg>
 );
+
+export default LogoAlfabankSColorIcon;

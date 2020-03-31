@@ -24,3 +24,5 @@ export const PrinterXlBlackIcon: React.FC<Props> = ({ className }) => (
         <path fill="#0B1F35" d="M13 25h10v1H13zm0 3h8v1h-8zm0-6h6v1h-6z" />
     </svg>
 );
+
+export default PrinterXlBlackIcon;

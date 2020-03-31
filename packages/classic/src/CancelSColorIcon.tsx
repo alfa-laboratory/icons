@@ -26,3 +26,5 @@ export const CancelSColorIcon: React.FC<Props> = ({ className }) => (
         </g>
     </svg>
 );
+
+export default CancelSColorIcon;

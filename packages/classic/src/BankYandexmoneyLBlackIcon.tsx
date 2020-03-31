@@ -41,3 +41,5 @@ export const BankYandexmoneyLBlackIcon: React.FC<Props> = ({ className }) => (
         </g>
     </svg>
 );
+
+export default BankYandexmoneyLBlackIcon;

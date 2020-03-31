@@ -30,3 +30,5 @@ export const ConvertRubToUsdMBlackIcon: React.FC<Props> = ({ className }) => (
         </g>
     </svg>
 );
+
+export default ConvertRubToUsdMBlackIcon;

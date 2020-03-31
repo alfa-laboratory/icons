@@ -30,3 +30,5 @@ export const CategorySalaryXlWhiteIcon: React.FC<Props> = ({ className }) => (
         </g>
     </svg>
 );
+
+export default CategorySalaryXlWhiteIcon;

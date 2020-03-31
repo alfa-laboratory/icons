@@ -34,3 +34,5 @@ export const CategoryExperimentsXxlWhiteIcon: React.FC<Props> = ({
         </g>
     </svg>
 );
+
+export default CategoryExperimentsXxlWhiteIcon;

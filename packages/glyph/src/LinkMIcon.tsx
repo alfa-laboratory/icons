@@ -26,3 +26,5 @@ export const LinkMIcon: React.FC<Props> = ({ className }) => (
         />
     </svg>
 );
+
+export default LinkMIcon;

@@ -28,3 +28,5 @@ export const CloseCircleXxlColorIcon: React.FC<Props> = ({ className }) => (
         />
     </svg>
 );
+
+export default CloseCircleXxlColorIcon;

@@ -30,3 +30,5 @@ export const DraftMWhiteIcon: React.FC<Props> = ({ className }) => (
         </g>
     </svg>
 );
+
+export default DraftMWhiteIcon;

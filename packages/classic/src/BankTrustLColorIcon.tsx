@@ -23,3 +23,5 @@ export const BankTrustLColorIcon: React.FC<Props> = ({ className }) => (
         />
     </svg>
 );
+
+export default BankTrustLColorIcon;

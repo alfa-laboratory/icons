@@ -24,3 +24,5 @@ export const WalletLWhiteIcon: React.FC<Props> = ({ className }) => (
         </g>
     </svg>
 );
+
+export default WalletLWhiteIcon;

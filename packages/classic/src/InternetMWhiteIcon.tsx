@@ -26,3 +26,5 @@ export const InternetMWhiteIcon: React.FC<Props> = ({ className }) => (
         </g>
     </svg>
 );
+
+export default InternetMWhiteIcon;

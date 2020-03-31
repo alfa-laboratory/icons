@@ -29,3 +29,5 @@ export const RequestMoneyMWhiteIcon: React.FC<Props> = ({ className }) => (
         </g>
     </svg>
 );
+
+export default RequestMoneyMWhiteIcon;

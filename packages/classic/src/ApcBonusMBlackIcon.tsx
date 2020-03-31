@@ -25,3 +25,5 @@ export const ApcBonusMBlackIcon: React.FC<Props> = ({ className }) => (
         </g>
     </svg>
 );
+
+export default ApcBonusMBlackIcon;

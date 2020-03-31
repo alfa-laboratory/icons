@@ -22,3 +22,5 @@ export const BankMoscowMWhiteIcon: React.FC<Props> = ({ className }) => (
         />
     </svg>
 );
+
+export default BankMoscowMWhiteIcon;

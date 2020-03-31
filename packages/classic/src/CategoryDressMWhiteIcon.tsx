@@ -26,3 +26,5 @@ export const CategoryDressMWhiteIcon: React.FC<Props> = ({ className }) => (
         </g>
     </svg>
 );
+
+export default CategoryDressMWhiteIcon;

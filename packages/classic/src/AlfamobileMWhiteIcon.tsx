@@ -30,3 +30,5 @@ export const AlfamobileMWhiteIcon: React.FC<Props> = ({ className }) => (
         </g>
     </svg>
 );
+
+export default AlfamobileMWhiteIcon;

@@ -25,3 +25,5 @@ export const HomeMBlackIcon: React.FC<Props> = ({ className }) => (
         <path d="M9 16a3 3 0 1 1 6 0v7H9v-7z" fill="#0B1F35" fillOpacity=".3" />
     </svg>
 );
+
+export default HomeMBlackIcon;

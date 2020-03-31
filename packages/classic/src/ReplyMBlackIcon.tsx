@@ -22,3 +22,5 @@ export const ReplyMBlackIcon: React.FC<Props> = ({ className }) => (
         />
     </svg>
 );
+
+export default ReplyMBlackIcon;

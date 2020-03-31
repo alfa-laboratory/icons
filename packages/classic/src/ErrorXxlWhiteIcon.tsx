@@ -20,3 +20,5 @@ export const ErrorXxlWhiteIcon: React.FC<Props> = ({ className }) => (
         </g>
     </svg>
 );
+
+export default ErrorXxlWhiteIcon;

@@ -28,3 +28,5 @@ export const CardMirXlBlackIcon: React.FC<Props> = ({ className }) => (
         </g>
     </svg>
 );
+
+export default CardMirXlBlackIcon;

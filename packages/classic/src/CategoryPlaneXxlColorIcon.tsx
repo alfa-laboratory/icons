@@ -32,3 +32,5 @@ export const CategoryPlaneXxlColorIcon: React.FC<Props> = ({ className }) => (
         />
     </svg>
 );
+
+export default CategoryPlaneXxlColorIcon;

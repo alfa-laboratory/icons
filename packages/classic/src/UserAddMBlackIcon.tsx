@@ -25,3 +25,5 @@ export const UserAddMBlackIcon: React.FC<Props> = ({ className }) => (
         </g>
     </svg>
 );
+
+export default UserAddMBlackIcon;

@@ -26,3 +26,5 @@ export const ContactListXxlWhiteIcon: React.FC<Props> = ({ className }) => (
         </g>
     </svg>
 );
+
+export default ContactListXxlWhiteIcon;

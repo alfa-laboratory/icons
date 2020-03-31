@@ -33,3 +33,5 @@ export const LockSBlackIcon: React.FC<Props> = ({ className }) => (
         </g>
     </svg>
 );
+
+export default LockSBlackIcon;

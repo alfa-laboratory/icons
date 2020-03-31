@@ -24,3 +24,5 @@ export const AndroidPhotoMBlackIcon: React.FC<Props> = ({ className }) => (
         />
     </svg>
 );
+
+export default AndroidPhotoMBlackIcon;

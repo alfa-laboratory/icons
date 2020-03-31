@@ -26,3 +26,5 @@ export const TarifsXxlBlackIcon: React.FC<Props> = ({ className }) => (
         />
     </svg>
 );
+
+export default TarifsXxlBlackIcon;

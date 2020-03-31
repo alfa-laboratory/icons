@@ -26,3 +26,5 @@ export const SecurityMWhiteIcon: React.FC<Props> = ({ className }) => (
         </g>
     </svg>
 );
+
+export default SecurityMWhiteIcon;

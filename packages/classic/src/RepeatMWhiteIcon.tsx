@@ -25,3 +25,5 @@ export const RepeatMWhiteIcon: React.FC<Props> = ({ className }) => (
         </g>
     </svg>
 );
+
+export default RepeatMWhiteIcon;

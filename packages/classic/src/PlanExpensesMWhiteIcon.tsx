@@ -39,3 +39,5 @@ export const PlanExpensesMWhiteIcon: React.FC<Props> = ({ className }) => (
         </g>
     </svg>
 );
+
+export default PlanExpensesMWhiteIcon;

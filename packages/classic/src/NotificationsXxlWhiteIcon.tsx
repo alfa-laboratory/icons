@@ -30,3 +30,5 @@ export const NotificationsXxlWhiteIcon: React.FC<Props> = ({ className }) => (
         </g>
     </svg>
 );
+
+export default NotificationsXxlWhiteIcon;

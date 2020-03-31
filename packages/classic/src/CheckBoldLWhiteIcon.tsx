@@ -22,3 +22,5 @@ export const CheckBoldLWhiteIcon: React.FC<Props> = ({ className }) => (
         />
     </svg>
 );
+
+export default CheckBoldLWhiteIcon;

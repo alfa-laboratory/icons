@@ -35,3 +35,5 @@ export const CopyMBlackIcon: React.FC<Props> = ({ className }) => (
         </g>
     </svg>
 );
+
+export default CopyMBlackIcon;

@@ -26,3 +26,5 @@ export const MoreMBlackIcon: React.FC<Props> = ({ className }) => (
         </g>
     </svg>
 );
+
+export default MoreMBlackIcon;

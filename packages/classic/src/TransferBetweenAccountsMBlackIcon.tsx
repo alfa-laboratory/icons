@@ -28,3 +28,5 @@ export const TransferBetweenAccountsMBlackIcon: React.FC<Props> = ({
         </g>
     </svg>
 );
+
+export default TransferBetweenAccountsMBlackIcon;

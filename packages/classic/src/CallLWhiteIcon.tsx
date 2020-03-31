@@ -22,3 +22,5 @@ export const CallLWhiteIcon: React.FC<Props> = ({ className }) => (
         />
     </svg>
 );
+
+export default CallLWhiteIcon;

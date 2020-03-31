@@ -23,3 +23,5 @@ export const CurrencyChfLBlackIcon: React.FC<Props> = ({ className }) => (
         />
     </svg>
 );
+
+export default CurrencyChfLBlackIcon;

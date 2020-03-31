@@ -30,3 +30,5 @@ export const AtmMWhiteIcon: React.FC<Props> = ({ className }) => (
         </g>
     </svg>
 );
+
+export default AtmMWhiteIcon;

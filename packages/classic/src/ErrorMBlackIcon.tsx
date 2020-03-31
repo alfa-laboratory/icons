@@ -22,3 +22,5 @@ export const ErrorMBlackIcon: React.FC<Props> = ({ className }) => (
         />
     </svg>
 );
+
+export default ErrorMBlackIcon;

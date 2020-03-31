@@ -34,3 +34,5 @@ export const ReadyToSendMWhiteIcon: React.FC<Props> = ({ className }) => (
         </g>
     </svg>
 );
+
+export default ReadyToSendMWhiteIcon;

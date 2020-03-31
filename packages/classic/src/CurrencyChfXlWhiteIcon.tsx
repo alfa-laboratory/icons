@@ -23,3 +23,5 @@ export const CurrencyChfXlWhiteIcon: React.FC<Props> = ({ className }) => (
         />
     </svg>
 );
+
+export default CurrencyChfXlWhiteIcon;

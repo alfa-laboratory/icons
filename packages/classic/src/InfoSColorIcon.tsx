@@ -25,3 +25,5 @@ export const InfoSColorIcon: React.FC<Props> = ({ className }) => (
         </g>
     </svg>
 );
+
+export default InfoSColorIcon;

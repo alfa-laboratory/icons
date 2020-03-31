@@ -26,3 +26,5 @@ export const HoldXsWhiteIcon: React.FC<Props> = ({ className }) => (
         </g>
     </svg>
 );
+
+export default HoldXsWhiteIcon;

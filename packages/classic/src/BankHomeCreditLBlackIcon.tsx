@@ -22,3 +22,5 @@ export const BankHomeCreditLBlackIcon: React.FC<Props> = ({ className }) => (
         <path fill="#0B1F35" d="M2 17h13v2H2zm0-4h10v2H2z" />
     </svg>
 );
+
+export default BankHomeCreditLBlackIcon;

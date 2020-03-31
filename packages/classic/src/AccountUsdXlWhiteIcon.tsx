@@ -30,3 +30,5 @@ export const AccountUsdXlWhiteIcon: React.FC<Props> = ({ className }) => (
         </g>
     </svg>
 );
+
+export default AccountUsdXlWhiteIcon;

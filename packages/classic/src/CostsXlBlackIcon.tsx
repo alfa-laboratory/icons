@@ -38,3 +38,5 @@ export const CostsXlBlackIcon: React.FC<Props> = ({ className }) => (
         </g>
     </svg>
 );
+
+export default CostsXlBlackIcon;

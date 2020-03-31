@@ -28,3 +28,5 @@ export const UnlockMWhiteIcon: React.FC<Props> = ({ className }) => (
         </g>
     </svg>
 );
+
+export default UnlockMWhiteIcon;

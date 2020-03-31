@@ -24,3 +24,5 @@ export const FormatWordSBlackIcon: React.FC<Props> = ({ className }) => (
         />
     </svg>
 );
+
+export default FormatWordSBlackIcon;

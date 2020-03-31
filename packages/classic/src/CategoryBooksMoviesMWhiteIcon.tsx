@@ -30,3 +30,5 @@ export const CategoryBooksMoviesMWhiteIcon: React.FC<Props> = ({
         <circle cx="7" cy="11" r="2" fill="#fff" opacity=".3" />
     </svg>
 );
+
+export default CategoryBooksMoviesMWhiteIcon;

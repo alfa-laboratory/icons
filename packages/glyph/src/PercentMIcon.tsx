@@ -36,3 +36,5 @@ export const PercentMIcon: React.FC<Props> = ({ className }) => (
         />
     </svg>
 );
+
+export default PercentMIcon;

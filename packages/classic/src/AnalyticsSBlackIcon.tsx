@@ -26,3 +26,5 @@ export const AnalyticsSBlackIcon: React.FC<Props> = ({ className }) => (
         </g>
     </svg>
 );
+
+export default AnalyticsSBlackIcon;

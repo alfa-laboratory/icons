@@ -22,3 +22,5 @@ export const CardMaestroSBlackIcon: React.FC<Props> = ({ className }) => (
         </g>
     </svg>
 );
+
+export default CardMaestroSBlackIcon;

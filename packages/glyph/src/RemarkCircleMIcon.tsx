@@ -26,3 +26,5 @@ export const RemarkCircleMIcon: React.FC<Props> = ({ className }) => (
         />
     </svg>
 );
+
+export default RemarkCircleMIcon;

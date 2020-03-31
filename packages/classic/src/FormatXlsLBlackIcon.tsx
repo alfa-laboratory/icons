@@ -27,3 +27,5 @@ export const FormatXlsLBlackIcon: React.FC<Props> = ({ className }) => (
         />
     </svg>
 );
+
+export default FormatXlsLBlackIcon;

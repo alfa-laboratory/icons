@@ -34,3 +34,5 @@ export const ReadyToSendXxlBlackIcon: React.FC<Props> = ({ className }) => (
         </g>
     </svg>
 );
+
+export default ReadyToSendXxlBlackIcon;

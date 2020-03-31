@@ -30,3 +30,5 @@ export const ContactListXxlBlackIcon: React.FC<Props> = ({ className }) => (
         </g>
     </svg>
 );
+
+export default ContactListXxlBlackIcon;

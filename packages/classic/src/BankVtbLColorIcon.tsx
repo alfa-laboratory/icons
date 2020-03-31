@@ -23,3 +23,5 @@ export const BankVtbLColorIcon: React.FC<Props> = ({ className }) => (
         />
     </svg>
 );
+
+export default BankVtbLColorIcon;

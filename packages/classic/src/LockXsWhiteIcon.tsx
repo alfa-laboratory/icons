@@ -28,3 +28,5 @@ export const LockXsWhiteIcon: React.FC<Props> = ({ className }) => (
         </g>
     </svg>
 );
+
+export default LockXsWhiteIcon;

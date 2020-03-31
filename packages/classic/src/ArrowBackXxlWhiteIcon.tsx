@@ -23,3 +23,5 @@ export const ArrowBackXxlWhiteIcon: React.FC<Props> = ({ className }) => (
         />
     </svg>
 );
+
+export default ArrowBackXxlWhiteIcon;

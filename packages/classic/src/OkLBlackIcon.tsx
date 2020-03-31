@@ -29,3 +29,5 @@ export const OkLBlackIcon: React.FC<Props> = ({ className }) => (
         </g>
     </svg>
 );
+
+export default OkLBlackIcon;

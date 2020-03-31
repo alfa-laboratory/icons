@@ -23,3 +23,5 @@ export const CardBelkartSBlackIcon: React.FC<Props> = ({ className }) => (
         />
     </svg>
 );
+
+export default CardBelkartSBlackIcon;

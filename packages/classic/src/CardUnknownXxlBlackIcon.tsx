@@ -28,3 +28,5 @@ export const CardUnknownXxlBlackIcon: React.FC<Props> = ({ className }) => (
         </g>
     </svg>
 );
+
+export default CardUnknownXxlBlackIcon;

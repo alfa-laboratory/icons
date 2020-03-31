@@ -28,3 +28,5 @@ export const MailMIcon: React.FC<Props> = ({ className }) => (
         />
     </svg>
 );
+
+export default MailMIcon;

@@ -27,3 +27,5 @@ export const TransferToCardXlBlackIcon: React.FC<Props> = ({ className }) => (
         </g>
     </svg>
 );
+
+export default TransferToCardXlBlackIcon;

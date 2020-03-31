@@ -25,3 +25,5 @@ export const DotsLBlackIcon: React.FC<Props> = ({ className }) => (
         </g>
     </svg>
 );
+
+export default DotsLBlackIcon;

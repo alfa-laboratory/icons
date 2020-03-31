@@ -25,3 +25,5 @@ export const PaymentRoundedPlusXxlBlackIcon: React.FC<Props> = ({
         </g>
     </svg>
 );
+
+export default PaymentRoundedPlusXxlBlackIcon;

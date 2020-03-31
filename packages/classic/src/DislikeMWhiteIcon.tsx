@@ -23,3 +23,5 @@ export const DislikeMWhiteIcon: React.FC<Props> = ({ className }) => (
         />
     </svg>
 );
+
+export default DislikeMWhiteIcon;

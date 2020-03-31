@@ -26,3 +26,5 @@ export const GalleryInCameraMWhiteIcon: React.FC<Props> = ({ className }) => (
         </g>
     </svg>
 );
+
+export default GalleryInCameraMWhiteIcon;

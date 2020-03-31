@@ -26,3 +26,5 @@ export const OfferMWhiteIcon: React.FC<Props> = ({ className }) => (
         </g>
     </svg>
 );
+
+export default OfferMWhiteIcon;

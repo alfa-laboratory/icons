@@ -22,3 +22,5 @@ export const NetworkVkMWhiteIcon: React.FC<Props> = ({ className }) => (
         </g>
     </svg>
 );
+
+export default NetworkVkMWhiteIcon;

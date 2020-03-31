@@ -29,3 +29,5 @@ export const FilterXlBlackIcon: React.FC<Props> = ({ className }) => (
         />
     </svg>
 );
+
+export default FilterXlBlackIcon;

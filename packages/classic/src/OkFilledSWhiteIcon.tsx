@@ -23,3 +23,5 @@ export const OkFilledSWhiteIcon: React.FC<Props> = ({ className }) => (
         />
     </svg>
 );
+
+export default OkFilledSWhiteIcon;

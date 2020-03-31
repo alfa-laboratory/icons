@@ -27,3 +27,5 @@ export const EyeMIcon: React.FC<Props> = ({ className }) => (
         />
     </svg>
 );
+
+export default EyeMIcon;

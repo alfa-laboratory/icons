@@ -27,3 +27,5 @@ export const HelpXlWhiteIcon: React.FC<Props> = ({ className }) => (
         />
     </svg>
 );
+
+export default HelpXlWhiteIcon;

@@ -34,3 +34,5 @@ export const CategoryExperimentsMBlackIcon: React.FC<Props> = ({
         </g>
     </svg>
 );
+
+export default CategoryExperimentsMBlackIcon;

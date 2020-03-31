@@ -23,3 +23,5 @@ export const UpLWhiteIcon: React.FC<Props> = ({ className }) => (
         />
     </svg>
 );
+
+export default UpLWhiteIcon;

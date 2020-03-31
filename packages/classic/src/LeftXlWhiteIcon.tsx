@@ -26,3 +26,5 @@ export const LeftXlWhiteIcon: React.FC<Props> = ({ className }) => (
         </g>
     </svg>
 );
+
+export default LeftXlWhiteIcon;

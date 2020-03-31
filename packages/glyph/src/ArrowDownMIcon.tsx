@@ -24,3 +24,5 @@ export const ArrowDownMIcon: React.FC<Props> = ({ className }) => (
         />
     </svg>
 );
+
+export default ArrowDownMIcon;

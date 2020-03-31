@@ -26,3 +26,5 @@ export const WaitingXsBlackIcon: React.FC<Props> = ({ className }) => (
         </g>
     </svg>
 );
+
+export default WaitingXsBlackIcon;

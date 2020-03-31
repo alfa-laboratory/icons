@@ -28,3 +28,5 @@ export const CategoryShieldXxlColorIcon: React.FC<Props> = ({ className }) => (
         />
     </svg>
 );
+
+export default CategoryShieldXxlColorIcon;

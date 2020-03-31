@@ -24,3 +24,5 @@ export const RepeatMIcon: React.FC<Props> = ({ className }) => (
         />
     </svg>
 );
+
+export default RepeatMIcon;

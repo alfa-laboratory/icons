@@ -24,3 +24,5 @@ export const ArrowExpandMBlackIcon: React.FC<Props> = ({ className }) => (
         />
     </svg>
 );
+
+export default ArrowExpandMBlackIcon;

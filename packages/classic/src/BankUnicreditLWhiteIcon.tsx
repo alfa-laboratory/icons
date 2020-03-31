@@ -22,3 +22,5 @@ export const BankUnicreditLWhiteIcon: React.FC<Props> = ({ className }) => (
         />
     </svg>
 );
+
+export default BankUnicreditLWhiteIcon;

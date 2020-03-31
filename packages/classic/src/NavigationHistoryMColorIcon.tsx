@@ -24,3 +24,5 @@ export const NavigationHistoryMColorIcon: React.FC<Props> = ({ className }) => (
         />
     </svg>
 );
+
+export default NavigationHistoryMColorIcon;

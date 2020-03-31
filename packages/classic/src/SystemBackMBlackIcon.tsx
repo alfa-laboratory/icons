@@ -25,3 +25,5 @@ export const SystemBackMBlackIcon: React.FC<Props> = ({ className }) => (
         </g>
     </svg>
 );
+
+export default SystemBackMBlackIcon;

@@ -33,3 +33,5 @@ export const GoalsMBlackIcon: React.FC<Props> = ({ className }) => (
         </g>
     </svg>
 );
+
+export default GoalsMBlackIcon;

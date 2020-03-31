@@ -34,3 +34,5 @@ export const AccountInfoSWhiteIcon: React.FC<Props> = ({ className }) => (
         <path opacity=".3" d="M9.75 9h-1.5v4.5h1.5V9z" fill="#fff" />
     </svg>
 );
+
+export default AccountInfoSWhiteIcon;

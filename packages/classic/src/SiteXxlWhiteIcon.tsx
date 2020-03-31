@@ -32,3 +32,5 @@ export const SiteXxlWhiteIcon: React.FC<Props> = ({ className }) => (
         </g>
     </svg>
 );
+
+export default SiteXxlWhiteIcon;

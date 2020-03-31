@@ -29,3 +29,5 @@ export const DirectionsMBlackIcon: React.FC<Props> = ({ className }) => (
         </g>
     </svg>
 );
+
+export default DirectionsMBlackIcon;

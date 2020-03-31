@@ -15,3 +15,5 @@ export const CheckIndeterminateSBlackIcon: React.FC<Props> = ({
         <path fill="#0a1e32" d="M4 8h10v2H4z" />
     </svg>
 );
+
+export default CheckIndeterminateSBlackIcon;

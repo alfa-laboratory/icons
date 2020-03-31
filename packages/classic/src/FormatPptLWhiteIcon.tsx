@@ -22,3 +22,5 @@ export const FormatPptLWhiteIcon: React.FC<Props> = ({ className }) => (
         </g>
     </svg>
 );
+
+export default FormatPptLWhiteIcon;

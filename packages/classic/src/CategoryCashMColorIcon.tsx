@@ -44,3 +44,5 @@ export const CategoryCashMColorIcon: React.FC<Props> = ({ className }) => (
         />
     </svg>
 );
+
+export default CategoryCashMColorIcon;

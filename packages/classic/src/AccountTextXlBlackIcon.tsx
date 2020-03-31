@@ -30,3 +30,5 @@ export const AccountTextXlBlackIcon: React.FC<Props> = ({ className }) => (
         </g>
     </svg>
 );
+
+export default AccountTextXlBlackIcon;

@@ -29,3 +29,5 @@ export const InvestmentsMBlackIcon: React.FC<Props> = ({ className }) => (
         </g>
     </svg>
 );
+
+export default InvestmentsMBlackIcon;

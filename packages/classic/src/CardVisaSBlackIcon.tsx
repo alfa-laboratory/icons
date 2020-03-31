@@ -26,3 +26,5 @@ export const CardVisaSBlackIcon: React.FC<Props> = ({ className }) => (
         </g>
     </svg>
 );
+
+export default CardVisaSBlackIcon;

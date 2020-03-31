@@ -24,3 +24,5 @@ export const PencilHeavyMIcon: React.FC<Props> = ({ className }) => (
         />
     </svg>
 );
+
+export default PencilHeavyMIcon;

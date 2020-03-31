@@ -32,3 +32,5 @@ export const ContactlessOnXlBlackIcon: React.FC<Props> = ({ className }) => (
         </g>
     </svg>
 );
+
+export default ContactlessOnXlBlackIcon;

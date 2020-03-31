@@ -32,3 +32,5 @@ export const CategoryMortgageXxlWhiteIcon: React.FC<Props> = ({
         </g>
     </svg>
 );
+
+export default CategoryMortgageXxlWhiteIcon;

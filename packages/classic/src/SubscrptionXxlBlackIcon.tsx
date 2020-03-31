@@ -30,3 +30,5 @@ export const SubscrptionXxlBlackIcon: React.FC<Props> = ({ className }) => (
         </g>
     </svg>
 );
+
+export default SubscrptionXxlBlackIcon;

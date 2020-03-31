@@ -31,3 +31,5 @@ export const FormatRarSWhiteIcon: React.FC<Props> = ({ className }) => (
         />
     </svg>
 );
+
+export default FormatRarSWhiteIcon;

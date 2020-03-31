@@ -23,3 +23,5 @@ export const FormatPdfSBlackIcon: React.FC<Props> = ({ className }) => (
         />
     </svg>
 );
+
+export default FormatPdfSBlackIcon;

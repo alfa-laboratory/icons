@@ -27,3 +27,5 @@ export const CategoryTelecomMWhiteIcon: React.FC<Props> = ({ className }) => (
         </g>
     </svg>
 );
+
+export default CategoryTelecomMWhiteIcon;

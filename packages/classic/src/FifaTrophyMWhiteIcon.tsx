@@ -42,3 +42,5 @@ export const FifaTrophyMWhiteIcon: React.FC<Props> = ({ className }) => (
         </g>
     </svg>
 );
+
+export default FifaTrophyMWhiteIcon;

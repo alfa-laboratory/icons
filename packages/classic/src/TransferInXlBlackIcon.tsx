@@ -25,3 +25,5 @@ export const TransferInXlBlackIcon: React.FC<Props> = ({ className }) => (
         </g>
     </svg>
 );
+
+export default TransferInXlBlackIcon;

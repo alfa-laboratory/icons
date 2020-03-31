@@ -51,3 +51,5 @@ export const PaymentErrorMWhiteIcon: React.FC<Props> = ({ className }) => (
         </g>
     </svg>
 );
+
+export default PaymentErrorMWhiteIcon;

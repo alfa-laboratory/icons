@@ -26,3 +26,5 @@ export const CheckmarkCircleMIcon: React.FC<Props> = ({ className }) => (
         />
     </svg>
 );
+
+export default CheckmarkCircleMIcon;

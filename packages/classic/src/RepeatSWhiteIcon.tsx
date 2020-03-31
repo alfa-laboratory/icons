@@ -23,3 +23,5 @@ export const RepeatSWhiteIcon: React.FC<Props> = ({ className }) => (
         />
     </svg>
 );
+
+export default RepeatSWhiteIcon;

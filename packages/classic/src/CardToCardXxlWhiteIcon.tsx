@@ -25,3 +25,5 @@ export const CardToCardXxlWhiteIcon: React.FC<Props> = ({ className }) => (
         </g>
     </svg>
 );
+
+export default CardToCardXxlWhiteIcon;

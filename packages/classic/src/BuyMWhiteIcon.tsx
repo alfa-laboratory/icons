@@ -23,3 +23,5 @@ export const BuyMWhiteIcon: React.FC<Props> = ({ className }) => (
         </g>
     </svg>
 );
+
+export default BuyMWhiteIcon;

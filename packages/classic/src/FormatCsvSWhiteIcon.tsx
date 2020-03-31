@@ -23,3 +23,5 @@ export const FormatCsvSWhiteIcon: React.FC<Props> = ({ className }) => (
         />
     </svg>
 );
+
+export default FormatCsvSWhiteIcon;

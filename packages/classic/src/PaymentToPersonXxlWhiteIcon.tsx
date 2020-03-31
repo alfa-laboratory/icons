@@ -33,3 +33,5 @@ export const PaymentToPersonXxlWhiteIcon: React.FC<Props> = ({ className }) => (
         </g>
     </svg>
 );
+
+export default PaymentToPersonXxlWhiteIcon;

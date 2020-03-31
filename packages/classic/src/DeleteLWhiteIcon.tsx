@@ -25,3 +25,5 @@ export const DeleteLWhiteIcon: React.FC<Props> = ({ className }) => (
         </g>
     </svg>
 );
+
+export default DeleteLWhiteIcon;

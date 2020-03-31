@@ -23,3 +23,5 @@ export const BankUnicreditSBlackIcon: React.FC<Props> = ({ className }) => (
         />
     </svg>
 );
+
+export default BankUnicreditSBlackIcon;

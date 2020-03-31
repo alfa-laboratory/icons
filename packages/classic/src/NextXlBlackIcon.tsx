@@ -26,3 +26,5 @@ export const NextXlBlackIcon: React.FC<Props> = ({ className }) => (
         </g>
     </svg>
 );
+
+export default NextXlBlackIcon;

@@ -35,3 +35,5 @@ export const ActionPhotoOrFileXlWhiteIcon: React.FC<Props> = ({
         </g>
     </svg>
 );
+
+export default ActionPhotoOrFileXlWhiteIcon;

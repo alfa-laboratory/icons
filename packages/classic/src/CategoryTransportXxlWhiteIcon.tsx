@@ -30,3 +30,5 @@ export const CategoryTransportXxlWhiteIcon: React.FC<Props> = ({
         </g>
     </svg>
 );
+
+export default CategoryTransportXxlWhiteIcon;

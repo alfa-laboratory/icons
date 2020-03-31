@@ -27,3 +27,5 @@ export const NotificationBadgeXxlWhiteIcon: React.FC<Props> = ({
         </g>
     </svg>
 );
+
+export default NotificationBadgeXxlWhiteIcon;

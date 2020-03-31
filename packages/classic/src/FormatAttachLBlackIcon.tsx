@@ -26,3 +26,5 @@ export const FormatAttachLBlackIcon: React.FC<Props> = ({ className }) => (
         />
     </svg>
 );
+
+export default FormatAttachLBlackIcon;

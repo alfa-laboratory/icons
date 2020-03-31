@@ -38,3 +38,5 @@ export const TransferInternalXlWhiteIcon: React.FC<Props> = ({ className }) => (
         </g>
     </svg>
 );
+
+export default TransferInternalXlWhiteIcon;

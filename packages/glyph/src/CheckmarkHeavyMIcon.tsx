@@ -26,3 +26,5 @@ export const CheckmarkHeavyMIcon: React.FC<Props> = ({ className }) => (
         />
     </svg>
 );
+
+export default CheckmarkHeavyMIcon;

@@ -33,3 +33,5 @@ export const CategoryInvestmentsMWhiteIcon: React.FC<Props> = ({
         </g>
     </svg>
 );
+
+export default CategoryInvestmentsMWhiteIcon;

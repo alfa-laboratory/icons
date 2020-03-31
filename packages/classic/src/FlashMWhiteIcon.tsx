@@ -28,3 +28,5 @@ export const FlashMWhiteIcon: React.FC<Props> = ({ className }) => (
         </g>
     </svg>
 );
+
+export default FlashMWhiteIcon;

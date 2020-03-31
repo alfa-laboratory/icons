@@ -30,3 +30,5 @@ export const SafeBoxMIcon: React.FC<Props> = ({ className }) => (
         />
     </svg>
 );
+
+export default SafeBoxMIcon;

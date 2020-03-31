@@ -25,3 +25,5 @@ export const SixtyXxlWhiteIcon: React.FC<Props> = ({ className }) => (
         </g>
     </svg>
 );
+
+export default SixtyXxlWhiteIcon;

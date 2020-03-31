@@ -30,3 +30,5 @@ export const CardPinChangeMBlackIcon: React.FC<Props> = ({ className }) => (
         </g>
     </svg>
 );
+
+export default CardPinChangeMBlackIcon;

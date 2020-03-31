@@ -28,3 +28,5 @@ export const SixtyXlBlackIcon: React.FC<Props> = ({ className }) => (
         </g>
     </svg>
 );
+
+export default SixtyXlBlackIcon;

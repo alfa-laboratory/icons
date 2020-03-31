@@ -27,3 +27,5 @@ export const NetworkTwitterMBlackIcon: React.FC<Props> = ({ className }) => (
         />
     </svg>
 );
+
+export default NetworkTwitterMBlackIcon;

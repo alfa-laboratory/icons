@@ -28,3 +28,5 @@ export const UtilitiesXlBlackIcon: React.FC<Props> = ({ className }) => (
         </g>
     </svg>
 );
+
+export default UtilitiesXlBlackIcon;

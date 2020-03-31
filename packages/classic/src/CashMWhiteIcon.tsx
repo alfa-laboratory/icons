@@ -30,3 +30,5 @@ export const CashMWhiteIcon: React.FC<Props> = ({ className }) => (
         </g>
     </svg>
 );
+
+export default CashMWhiteIcon;

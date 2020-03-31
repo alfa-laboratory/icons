@@ -22,3 +22,5 @@ export const FormatPdfLWhiteIcon: React.FC<Props> = ({ className }) => (
         </g>
     </svg>
 );
+
+export default FormatPdfLWhiteIcon;

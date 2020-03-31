@@ -26,3 +26,5 @@ export const CheckmarkCompactMIcon: React.FC<Props> = ({ className }) => (
         />
     </svg>
 );
+
+export default CheckmarkCompactMIcon;

@@ -26,3 +26,5 @@ export const StatsChartMIcon: React.FC<Props> = ({ className }) => (
         />
     </svg>
 );
+
+export default StatsChartMIcon;

@@ -26,3 +26,5 @@ export const TransferCardMWhiteIcon: React.FC<Props> = ({ className }) => (
         </g>
     </svg>
 );
+
+export default TransferCardMWhiteIcon;

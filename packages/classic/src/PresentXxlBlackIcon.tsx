@@ -25,3 +25,5 @@ export const PresentXxlBlackIcon: React.FC<Props> = ({ className }) => (
         </g>
     </svg>
 );
+
+export default PresentXxlBlackIcon;

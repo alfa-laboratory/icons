@@ -30,3 +30,5 @@ export const CategoryHealthMWhiteIcon: React.FC<Props> = ({ className }) => (
         </g>
     </svg>
 );
+
+export default CategoryHealthMWhiteIcon;

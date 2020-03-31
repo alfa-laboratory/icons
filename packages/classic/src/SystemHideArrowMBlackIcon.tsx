@@ -28,3 +28,5 @@ export const SystemHideArrowMBlackIcon: React.FC<Props> = ({ className }) => (
         />
     </svg>
 );
+
+export default SystemHideArrowMBlackIcon;

@@ -29,3 +29,5 @@ export const BankPsbSBlackIcon: React.FC<Props> = ({ className }) => (
         </g>
     </svg>
 );
+
+export default BankPsbSBlackIcon;

@@ -23,3 +23,5 @@ export const HelpFilledSWhiteIcon: React.FC<Props> = ({ className }) => (
         />
     </svg>
 );
+
+export default HelpFilledSWhiteIcon;

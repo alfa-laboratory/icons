@@ -30,3 +30,5 @@ export const CurrencyRubUsdMWhiteIcon: React.FC<Props> = ({ className }) => (
         </g>
     </svg>
 );
+
+export default CurrencyRubUsdMWhiteIcon;

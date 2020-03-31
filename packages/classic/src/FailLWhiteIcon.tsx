@@ -29,3 +29,5 @@ export const FailLWhiteIcon: React.FC<Props> = ({ className }) => (
         </g>
     </svg>
 );
+
+export default FailLWhiteIcon;

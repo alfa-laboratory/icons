@@ -25,3 +25,5 @@ export const PowerXxlWhiteIcon: React.FC<Props> = ({ className }) => (
         </g>
     </svg>
 );
+
+export default PowerXxlWhiteIcon;

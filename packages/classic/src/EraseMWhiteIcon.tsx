@@ -31,3 +31,5 @@ export const EraseMWhiteIcon: React.FC<Props> = ({ className }) => (
         </g>
     </svg>
 );
+
+export default EraseMWhiteIcon;

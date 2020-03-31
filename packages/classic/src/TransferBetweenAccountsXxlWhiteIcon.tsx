@@ -27,3 +27,5 @@ export const TransferBetweenAccountsXxlWhiteIcon: React.FC<Props> = ({
         </g>
     </svg>
 );
+
+export default TransferBetweenAccountsXxlWhiteIcon;

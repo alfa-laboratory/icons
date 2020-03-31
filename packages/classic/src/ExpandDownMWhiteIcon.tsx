@@ -25,3 +25,5 @@ export const ExpandDownMWhiteIcon: React.FC<Props> = ({ className }) => (
         </g>
     </svg>
 );
+
+export default ExpandDownMWhiteIcon;

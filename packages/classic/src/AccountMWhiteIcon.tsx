@@ -26,3 +26,5 @@ export const AccountMWhiteIcon: React.FC<Props> = ({ className }) => (
         </g>
     </svg>
 );
+
+export default AccountMWhiteIcon;

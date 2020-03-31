@@ -24,3 +24,5 @@ export const BankSaintPetersburgXlWhiteIcon: React.FC<Props> = ({
         </g>
     </svg>
 );
+
+export default BankSaintPetersburgXlWhiteIcon;

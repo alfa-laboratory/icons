@@ -27,3 +27,5 @@ export const PlayMBlackIcon: React.FC<Props> = ({ className }) => (
         </g>
     </svg>
 );
+
+export default PlayMBlackIcon;

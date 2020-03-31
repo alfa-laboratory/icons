@@ -35,3 +35,5 @@ export const AlfacheckXxlWhiteIcon: React.FC<Props> = ({ className }) => (
         </g>
     </svg>
 );
+
+export default AlfacheckXxlWhiteIcon;

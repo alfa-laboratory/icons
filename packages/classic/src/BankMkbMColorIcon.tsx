@@ -24,3 +24,5 @@ export const BankMkbMColorIcon: React.FC<Props> = ({ className }) => (
         <path fill="#923035" d="M16.716 12l-6 6h5.25l3-3H21l3-3z" />
     </svg>
 );
+
+export default BankMkbMColorIcon;

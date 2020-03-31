@@ -24,3 +24,5 @@ export const SwapHorizontalHeavyMIcon: React.FC<Props> = ({ className }) => (
         />
     </svg>
 );
+
+export default SwapHorizontalHeavyMIcon;

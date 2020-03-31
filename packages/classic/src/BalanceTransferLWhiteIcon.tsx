@@ -35,3 +35,5 @@ export const BalanceTransferLWhiteIcon: React.FC<Props> = ({ className }) => (
         </g>
     </svg>
 );
+
+export default BalanceTransferLWhiteIcon;

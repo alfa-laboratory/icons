@@ -29,3 +29,5 @@ export const KeyboardHideMWhiteIcon: React.FC<Props> = ({ className }) => (
         </g>
     </svg>
 );
+
+export default KeyboardHideMWhiteIcon;

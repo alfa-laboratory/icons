@@ -30,3 +30,5 @@ export const CategoryRepairsXlWhiteIcon: React.FC<Props> = ({ className }) => (
         </g>
     </svg>
 );
+
+export default CategoryRepairsXlWhiteIcon;

@@ -26,3 +26,5 @@ export const BankRussianStandardLWhiteIcon: React.FC<Props> = ({
         </g>
     </svg>
 );
+
+export default BankRussianStandardLWhiteIcon;

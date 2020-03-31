@@ -26,3 +26,5 @@ export const SliderArrowDoubleXxlColorIcon: React.FC<Props> = ({
         />
     </svg>
 );
+
+export default SliderArrowDoubleXxlColorIcon;

@@ -22,3 +22,5 @@ export const CrownPremiumSColorIcon: React.FC<Props> = ({ className }) => (
         <path fill="#DBDEE1" d="M5 12h8v1H5z" />
     </svg>
 );
+
+export default CrownPremiumSColorIcon;

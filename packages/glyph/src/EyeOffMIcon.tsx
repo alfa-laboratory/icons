@@ -30,3 +30,5 @@ export const EyeOffMIcon: React.FC<Props> = ({ className }) => (
         />
     </svg>
 );
+
+export default EyeOffMIcon;

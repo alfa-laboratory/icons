@@ -26,3 +26,5 @@ export const BankUralsibLWhiteIcon: React.FC<Props> = ({ className }) => (
         </g>
     </svg>
 );
+
+export default BankUralsibLWhiteIcon;

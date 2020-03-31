@@ -51,3 +51,5 @@ export const PaymentErrorMBlackIcon: React.FC<Props> = ({ className }) => (
         </g>
     </svg>
 );
+
+export default PaymentErrorMBlackIcon;

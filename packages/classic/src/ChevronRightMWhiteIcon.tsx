@@ -24,3 +24,5 @@ export const ChevronRightMWhiteIcon: React.FC<Props> = ({ className }) => (
         />
     </svg>
 );
+
+export default ChevronRightMWhiteIcon;

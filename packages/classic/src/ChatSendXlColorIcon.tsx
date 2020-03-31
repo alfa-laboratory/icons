@@ -26,3 +26,5 @@ export const ChatSendXlColorIcon: React.FC<Props> = ({ className }) => (
         </g>
     </svg>
 );
+
+export default ChatSendXlColorIcon;

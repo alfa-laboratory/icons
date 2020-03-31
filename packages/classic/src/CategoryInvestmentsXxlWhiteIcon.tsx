@@ -27,3 +27,5 @@ export const CategoryInvestmentsXxlWhiteIcon: React.FC<Props> = ({
         </g>
     </svg>
 );
+
+export default CategoryInvestmentsXxlWhiteIcon;

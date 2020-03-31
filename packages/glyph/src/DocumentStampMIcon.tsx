@@ -30,3 +30,5 @@ export const DocumentStampMIcon: React.FC<Props> = ({ className }) => (
         />
     </svg>
 );
+
+export default DocumentStampMIcon;

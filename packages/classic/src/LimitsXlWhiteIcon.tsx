@@ -30,3 +30,5 @@ export const LimitsXlWhiteIcon: React.FC<Props> = ({ className }) => (
         />
     </svg>
 );
+
+export default LimitsXlWhiteIcon;

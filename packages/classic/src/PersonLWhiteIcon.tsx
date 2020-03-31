@@ -24,3 +24,5 @@ export const PersonLWhiteIcon: React.FC<Props> = ({ className }) => (
         <path fill="#FFF" d="M9.596 10.628h.001v-.001z" />
     </svg>
 );
+
+export default PersonLWhiteIcon;

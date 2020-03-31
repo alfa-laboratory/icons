@@ -21,3 +21,5 @@ export const ForexXlWhiteIcon: React.FC<Props> = ({ className }) => (
         </g>
     </svg>
 );
+
+export default ForexXlWhiteIcon;

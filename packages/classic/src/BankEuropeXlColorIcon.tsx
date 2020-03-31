@@ -21,3 +21,5 @@ export const BankEuropeXlColorIcon: React.FC<Props> = ({ className }) => (
         <path fill="#FFF" d="M11 18l7-7 6.999 7-7 7z" />
     </svg>
 );
+
+export default BankEuropeXlColorIcon;

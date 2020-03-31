@@ -22,3 +22,5 @@ export const AttachmentSBlackIcon: React.FC<Props> = ({ className }) => (
         />
     </svg>
 );
+
+export default AttachmentSBlackIcon;

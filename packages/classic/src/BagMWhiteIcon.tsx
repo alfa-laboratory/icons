@@ -30,3 +30,5 @@ export const BagMWhiteIcon: React.FC<Props> = ({ className }) => (
         </g>
     </svg>
 );
+
+export default BagMWhiteIcon;

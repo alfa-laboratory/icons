@@ -24,3 +24,5 @@ export const BackSWhiteIcon: React.FC<Props> = ({ className }) => (
         />
     </svg>
 );
+
+export default BackSWhiteIcon;

@@ -30,3 +30,5 @@ export const CategoryAutoLoanSWhiteIcon: React.FC<Props> = ({ className }) => (
         />
     </svg>
 );
+
+export default CategoryAutoLoanSWhiteIcon;

@@ -24,3 +24,5 @@ export const TableSBlackIcon: React.FC<Props> = ({ className }) => (
         />
     </svg>
 );
+
+export default TableSBlackIcon;

@@ -23,3 +23,5 @@ export const FingerPointingXlBlackIcon: React.FC<Props> = ({ className }) => (
         />
     </svg>
 );
+
+export default FingerPointingXlBlackIcon;

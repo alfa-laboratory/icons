@@ -23,3 +23,5 @@ export const BankHomeCreditMWhiteIcon: React.FC<Props> = ({ className }) => (
         </g>
     </svg>
 );
+
+export default BankHomeCreditMWhiteIcon;

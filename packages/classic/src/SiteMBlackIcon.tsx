@@ -32,3 +32,5 @@ export const SiteMBlackIcon: React.FC<Props> = ({ className }) => (
         </g>
     </svg>
 );
+
+export default SiteMBlackIcon;

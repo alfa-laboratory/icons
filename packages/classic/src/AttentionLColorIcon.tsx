@@ -26,3 +26,5 @@ export const AttentionLColorIcon: React.FC<Props> = ({ className }) => (
         <path d="M13.3 7h3.4L16 17h-2l-.7-10z" fill="#fff" />
     </svg>
 );
+
+export default AttentionLColorIcon;

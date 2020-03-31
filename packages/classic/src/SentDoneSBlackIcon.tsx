@@ -25,3 +25,5 @@ export const SentDoneSBlackIcon: React.FC<Props> = ({ className }) => (
         </g>
     </svg>
 );
+
+export default SentDoneSBlackIcon;

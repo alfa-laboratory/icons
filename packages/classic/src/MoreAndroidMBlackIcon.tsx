@@ -27,3 +27,5 @@ export const MoreAndroidMBlackIcon: React.FC<Props> = ({ className }) => (
         />
     </svg>
 );
+
+export default MoreAndroidMBlackIcon;

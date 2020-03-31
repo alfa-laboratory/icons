@@ -28,3 +28,5 @@ export const OfficeMBlackIcon: React.FC<Props> = ({ className }) => (
         </g>
     </svg>
 );
+
+export default OfficeMBlackIcon;

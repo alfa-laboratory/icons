@@ -32,3 +32,5 @@ export const PillowMWhiteIcon: React.FC<Props> = ({ className }) => (
         </g>
     </svg>
 );
+
+export default PillowMWhiteIcon;

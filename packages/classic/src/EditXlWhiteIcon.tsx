@@ -29,3 +29,5 @@ export const EditXlWhiteIcon: React.FC<Props> = ({ className }) => (
         />
     </svg>
 );
+
+export default EditXlWhiteIcon;

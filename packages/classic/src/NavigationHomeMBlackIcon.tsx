@@ -24,3 +24,5 @@ export const NavigationHomeMBlackIcon: React.FC<Props> = ({ className }) => (
         />
     </svg>
 );
+
+export default NavigationHomeMBlackIcon;

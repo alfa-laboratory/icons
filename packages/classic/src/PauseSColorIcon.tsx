@@ -22,3 +22,5 @@ export const PauseSColorIcon: React.FC<Props> = ({ className }) => (
         <path fill="#fff" d="M6 5h2v8H6zM10 5h2v8h-2z" />
     </svg>
 );
+
+export default PauseSColorIcon;

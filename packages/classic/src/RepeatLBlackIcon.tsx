@@ -25,3 +25,5 @@ export const RepeatLBlackIcon: React.FC<Props> = ({ className }) => (
         </g>
     </svg>
 );
+
+export default RepeatLBlackIcon;

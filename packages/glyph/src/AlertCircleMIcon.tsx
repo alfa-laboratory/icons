@@ -26,3 +26,5 @@ export const AlertCircleMIcon: React.FC<Props> = ({ className }) => (
         />
     </svg>
 );
+
+export default AlertCircleMIcon;

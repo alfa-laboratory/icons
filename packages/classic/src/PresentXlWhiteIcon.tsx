@@ -22,3 +22,5 @@ export const PresentXlWhiteIcon: React.FC<Props> = ({ className }) => (
         </g>
     </svg>
 );
+
+export default PresentXlWhiteIcon;

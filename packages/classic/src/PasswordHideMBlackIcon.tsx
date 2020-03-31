@@ -25,3 +25,5 @@ export const PasswordHideMBlackIcon: React.FC<Props> = ({ className }) => (
         </g>
     </svg>
 );
+
+export default PasswordHideMBlackIcon;

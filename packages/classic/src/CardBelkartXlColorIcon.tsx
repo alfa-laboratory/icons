@@ -213,3 +213,5 @@ export const CardBelkartXlColorIcon: React.FC<Props> = ({ className }) => (
         />
     </svg>
 );
+
+export default CardBelkartXlColorIcon;

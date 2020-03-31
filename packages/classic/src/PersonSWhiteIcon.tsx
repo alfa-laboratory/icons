@@ -31,3 +31,5 @@ export const PersonSWhiteIcon: React.FC<Props> = ({ className }) => (
         </g>
     </svg>
 );
+
+export default PersonSWhiteIcon;

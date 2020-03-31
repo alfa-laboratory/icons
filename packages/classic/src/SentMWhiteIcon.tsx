@@ -37,3 +37,5 @@ export const SentMWhiteIcon: React.FC<Props> = ({ className }) => (
         </g>
     </svg>
 );
+
+export default SentMWhiteIcon;

@@ -32,3 +32,5 @@ export const PillowXxlBlackIcon: React.FC<Props> = ({ className }) => (
         </g>
     </svg>
 );
+
+export default PillowXxlBlackIcon;

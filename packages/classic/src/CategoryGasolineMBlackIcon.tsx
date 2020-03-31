@@ -29,3 +29,5 @@ export const CategoryGasolineMBlackIcon: React.FC<Props> = ({ className }) => (
         />
     </svg>
 );
+
+export default CategoryGasolineMBlackIcon;

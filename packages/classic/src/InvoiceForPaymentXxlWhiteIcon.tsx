@@ -29,3 +29,5 @@ export const InvoiceForPaymentXxlWhiteIcon: React.FC<Props> = ({
         </g>
     </svg>
 );
+
+export default InvoiceForPaymentXxlWhiteIcon;

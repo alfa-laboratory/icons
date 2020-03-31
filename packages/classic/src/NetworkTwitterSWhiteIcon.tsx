@@ -22,3 +22,5 @@ export const NetworkTwitterSWhiteIcon: React.FC<Props> = ({ className }) => (
         </g>
     </svg>
 );
+
+export default NetworkTwitterSWhiteIcon;

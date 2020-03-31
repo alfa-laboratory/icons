@@ -28,3 +28,5 @@ export const CategoryHouseMColorIcon: React.FC<Props> = ({ className }) => (
         />
     </svg>
 );
+
+export default CategoryHouseMColorIcon;

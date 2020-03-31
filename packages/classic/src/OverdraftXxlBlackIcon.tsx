@@ -29,3 +29,5 @@ export const OverdraftXxlBlackIcon: React.FC<Props> = ({ className }) => (
         </g>
     </svg>
 );
+
+export default OverdraftXxlBlackIcon;

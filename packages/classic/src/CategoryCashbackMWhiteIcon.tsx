@@ -26,3 +26,5 @@ export const CategoryCashbackMWhiteIcon: React.FC<Props> = ({ className }) => (
         </g>
     </svg>
 );
+
+export default CategoryCashbackMWhiteIcon;

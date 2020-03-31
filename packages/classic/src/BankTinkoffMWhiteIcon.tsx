@@ -25,3 +25,5 @@ export const BankTinkoffMWhiteIcon: React.FC<Props> = ({ className }) => (
         </g>
     </svg>
 );
+
+export default BankTinkoffMWhiteIcon;

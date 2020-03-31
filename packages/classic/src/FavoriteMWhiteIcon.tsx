@@ -25,3 +25,5 @@ export const FavoriteMWhiteIcon: React.FC<Props> = ({ className }) => (
         </g>
     </svg>
 );
+
+export default FavoriteMWhiteIcon;

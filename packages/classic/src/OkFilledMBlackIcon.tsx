@@ -25,3 +25,5 @@ export const OkFilledMBlackIcon: React.FC<Props> = ({ className }) => (
         </g>
     </svg>
 );
+
+export default OkFilledMBlackIcon;

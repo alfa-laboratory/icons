@@ -27,3 +27,5 @@ export const HelpLWhiteIcon: React.FC<Props> = ({ className }) => (
         />
     </svg>
 );
+
+export default HelpLWhiteIcon;

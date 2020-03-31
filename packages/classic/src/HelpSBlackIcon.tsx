@@ -27,3 +27,5 @@ export const HelpSBlackIcon: React.FC<Props> = ({ className }) => (
         />
     </svg>
 );
+
+export default HelpSBlackIcon;

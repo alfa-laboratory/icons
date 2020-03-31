@@ -31,3 +31,5 @@ export const PasswordChangeMWhiteIcon: React.FC<Props> = ({ className }) => (
         </g>
     </svg>
 );
+
+export default PasswordChangeMWhiteIcon;

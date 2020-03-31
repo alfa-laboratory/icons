@@ -26,3 +26,5 @@ export const ArrowLeftXlWhiteIcon: React.FC<Props> = ({ className }) => (
         </g>
     </svg>
 );
+
+export default ArrowLeftXlWhiteIcon;

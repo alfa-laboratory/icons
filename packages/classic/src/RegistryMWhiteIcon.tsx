@@ -32,3 +32,5 @@ export const RegistryMWhiteIcon: React.FC<Props> = ({ className }) => (
         </g>
     </svg>
 );
+
+export default RegistryMWhiteIcon;

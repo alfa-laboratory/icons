@@ -31,3 +31,5 @@ export const PredictionsXxlWhiteIcon: React.FC<Props> = ({ className }) => (
         </g>
     </svg>
 );
+
+export default PredictionsXxlWhiteIcon;

@@ -23,3 +23,5 @@ export const CardMaestroXlWhiteIcon: React.FC<Props> = ({ className }) => (
         </g>
     </svg>
 );
+
+export default CardMaestroXlWhiteIcon;

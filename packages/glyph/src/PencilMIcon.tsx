@@ -24,3 +24,5 @@ export const PencilMIcon: React.FC<Props> = ({ className }) => (
         />
     </svg>
 );
+
+export default PencilMIcon;

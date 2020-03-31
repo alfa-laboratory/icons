@@ -25,3 +25,5 @@ export const NavigationPaymentMColorIcon: React.FC<Props> = ({ className }) => (
         />
     </svg>
 );
+
+export default NavigationPaymentMColorIcon;

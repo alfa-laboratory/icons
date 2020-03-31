@@ -27,3 +27,5 @@ export const ClockMBlackIcon: React.FC<Props> = ({ className }) => (
         </g>
     </svg>
 );
+
+export default ClockMBlackIcon;

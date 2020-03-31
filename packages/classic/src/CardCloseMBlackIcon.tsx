@@ -42,3 +42,5 @@ export const CardCloseMBlackIcon: React.FC<Props> = ({ className }) => (
         </g>
     </svg>
 );
+
+export default CardCloseMBlackIcon;

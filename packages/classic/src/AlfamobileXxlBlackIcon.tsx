@@ -30,3 +30,5 @@ export const AlfamobileXxlBlackIcon: React.FC<Props> = ({ className }) => (
         </g>
     </svg>
 );
+
+export default AlfamobileXxlBlackIcon;

@@ -31,3 +31,5 @@ export const CategoryRentXxlWhiteIcon: React.FC<Props> = ({ className }) => (
         </g>
     </svg>
 );
+
+export default CategoryRentXxlWhiteIcon;

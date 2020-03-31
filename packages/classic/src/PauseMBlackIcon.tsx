@@ -31,3 +31,5 @@ export const PauseMBlackIcon: React.FC<Props> = ({ className }) => (
         </g>
     </svg>
 );
+
+export default PauseMBlackIcon;

@@ -30,3 +30,5 @@ export const UtilitiesMWhiteIcon: React.FC<Props> = ({ className }) => (
         </g>
     </svg>
 );
+
+export default UtilitiesMWhiteIcon;

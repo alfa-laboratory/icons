@@ -24,3 +24,5 @@ export const BackSBlackIcon: React.FC<Props> = ({ className }) => (
         />
     </svg>
 );
+
+export default BackSBlackIcon;

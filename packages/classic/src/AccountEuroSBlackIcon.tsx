@@ -33,3 +33,5 @@ export const AccountEuroSBlackIcon: React.FC<Props> = ({ className }) => (
         />
     </svg>
 );
+
+export default AccountEuroSBlackIcon;

@@ -24,3 +24,5 @@ export const BankVozrozhdenieSColorIcon: React.FC<Props> = ({ className }) => (
         <circle cx="16.5" cy="6.5" r="1.5" fill="#21365F" />
     </svg>
 );
+
+export default BankVozrozhdenieSColorIcon;

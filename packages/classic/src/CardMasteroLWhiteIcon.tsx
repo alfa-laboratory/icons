@@ -24,3 +24,5 @@ export const CardMasteroLWhiteIcon: React.FC<Props> = ({ className }) => (
         </g>
     </svg>
 );
+
+export default CardMasteroLWhiteIcon;

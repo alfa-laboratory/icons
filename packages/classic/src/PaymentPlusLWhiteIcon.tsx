@@ -22,3 +22,5 @@ export const PaymentPlusLWhiteIcon: React.FC<Props> = ({ className }) => (
         </g>
     </svg>
 );
+
+export default PaymentPlusLWhiteIcon;

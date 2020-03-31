@@ -25,3 +25,5 @@ export const AccountSharedMBlackIcon: React.FC<Props> = ({ className }) => (
         </g>
     </svg>
 );
+
+export default AccountSharedMBlackIcon;

@@ -26,3 +26,5 @@ export const NavigationMarketplaceMColorIcon: React.FC<Props> = ({
         />
     </svg>
 );
+
+export default NavigationMarketplaceMColorIcon;

@@ -22,3 +22,5 @@ export const FormatDocXlWhiteIcon: React.FC<Props> = ({ className }) => (
         </g>
     </svg>
 );
+
+export default FormatDocXlWhiteIcon;

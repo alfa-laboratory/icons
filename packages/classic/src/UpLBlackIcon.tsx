@@ -23,3 +23,5 @@ export const UpLBlackIcon: React.FC<Props> = ({ className }) => (
         />
     </svg>
 );
+
+export default UpLBlackIcon;

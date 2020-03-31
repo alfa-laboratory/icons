@@ -26,3 +26,5 @@ export const CancelXxlColorIcon: React.FC<Props> = ({ className }) => (
         </g>
     </svg>
 );
+
+export default CancelXxlColorIcon;

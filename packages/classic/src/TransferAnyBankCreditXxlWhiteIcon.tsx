@@ -30,3 +30,5 @@ export const TransferAnyBankCreditXxlWhiteIcon: React.FC<Props> = ({
         </g>
     </svg>
 );
+
+export default TransferAnyBankCreditXxlWhiteIcon;

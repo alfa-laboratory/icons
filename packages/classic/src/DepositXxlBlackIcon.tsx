@@ -35,3 +35,5 @@ export const DepositXxlBlackIcon: React.FC<Props> = ({ className }) => (
         </g>
     </svg>
 );
+
+export default DepositXxlBlackIcon;

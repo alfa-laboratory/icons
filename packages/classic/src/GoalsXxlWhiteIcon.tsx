@@ -32,3 +32,5 @@ export const GoalsXxlWhiteIcon: React.FC<Props> = ({ className }) => (
         </g>
     </svg>
 );
+
+export default GoalsXxlWhiteIcon;

@@ -27,3 +27,5 @@ export const InfoXlBlackIcon: React.FC<Props> = ({ className }) => (
         />
     </svg>
 );
+
+export default InfoXlBlackIcon;

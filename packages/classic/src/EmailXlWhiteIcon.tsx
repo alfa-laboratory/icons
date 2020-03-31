@@ -23,3 +23,5 @@ export const EmailXlWhiteIcon: React.FC<Props> = ({ className }) => (
         />
     </svg>
 );
+
+export default EmailXlWhiteIcon;

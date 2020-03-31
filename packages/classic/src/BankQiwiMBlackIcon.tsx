@@ -27,3 +27,5 @@ export const BankQiwiMBlackIcon: React.FC<Props> = ({ className }) => (
         />
     </svg>
 );
+
+export default BankQiwiMBlackIcon;

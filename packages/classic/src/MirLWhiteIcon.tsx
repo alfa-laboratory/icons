@@ -33,3 +33,5 @@ export const MirLWhiteIcon: React.FC<Props> = ({ className }) => (
         </defs>
     </svg>
 );
+
+export default MirLWhiteIcon;

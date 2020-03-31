@@ -27,3 +27,5 @@ export const InfoSWhiteIcon: React.FC<Props> = ({ className }) => (
         </g>
     </svg>
 );
+
+export default InfoSWhiteIcon;

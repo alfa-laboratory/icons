@@ -33,3 +33,5 @@ export const LockSWhiteIcon: React.FC<Props> = ({ className }) => (
         </g>
     </svg>
 );
+
+export default LockSWhiteIcon;

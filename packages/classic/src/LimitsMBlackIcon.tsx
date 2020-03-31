@@ -31,3 +31,5 @@ export const LimitsMBlackIcon: React.FC<Props> = ({ className }) => (
         </g>
     </svg>
 );
+
+export default LimitsMBlackIcon;

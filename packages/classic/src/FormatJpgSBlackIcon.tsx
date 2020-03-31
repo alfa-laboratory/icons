@@ -30,3 +30,5 @@ export const FormatJpgSBlackIcon: React.FC<Props> = ({ className }) => (
         />
     </svg>
 );
+
+export default FormatJpgSBlackIcon;

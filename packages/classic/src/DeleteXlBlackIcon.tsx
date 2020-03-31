@@ -30,3 +30,5 @@ export const DeleteXlBlackIcon: React.FC<Props> = ({ className }) => (
         </g>
     </svg>
 );
+
+export default DeleteXlBlackIcon;

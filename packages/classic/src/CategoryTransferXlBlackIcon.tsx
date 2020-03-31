@@ -25,3 +25,5 @@ export const CategoryTransferXlBlackIcon: React.FC<Props> = ({ className }) => (
         </g>
     </svg>
 );
+
+export default CategoryTransferXlBlackIcon;

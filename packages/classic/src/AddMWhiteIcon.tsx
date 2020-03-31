@@ -22,3 +22,5 @@ export const AddMWhiteIcon: React.FC<Props> = ({ className }) => (
         </g>
     </svg>
 );
+
+export default AddMWhiteIcon;

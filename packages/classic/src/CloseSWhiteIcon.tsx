@@ -23,3 +23,5 @@ export const CloseSWhiteIcon: React.FC<Props> = ({ className }) => (
         />
     </svg>
 );
+
+export default CloseSWhiteIcon;

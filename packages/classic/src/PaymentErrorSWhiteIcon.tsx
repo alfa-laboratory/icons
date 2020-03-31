@@ -38,3 +38,5 @@ export const PaymentErrorSWhiteIcon: React.FC<Props> = ({ className }) => (
         />
     </svg>
 );
+
+export default PaymentErrorSWhiteIcon;

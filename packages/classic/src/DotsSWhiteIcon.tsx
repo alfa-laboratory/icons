@@ -25,3 +25,5 @@ export const DotsSWhiteIcon: React.FC<Props> = ({ className }) => (
         </g>
     </svg>
 );
+
+export default DotsSWhiteIcon;

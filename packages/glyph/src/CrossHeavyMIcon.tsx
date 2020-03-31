@@ -24,3 +24,5 @@ export const CrossHeavyMIcon: React.FC<Props> = ({ className }) => (
         />
     </svg>
 );
+
+export default CrossHeavyMIcon;

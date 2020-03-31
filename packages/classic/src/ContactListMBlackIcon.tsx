@@ -26,3 +26,5 @@ export const ContactListMBlackIcon: React.FC<Props> = ({ className }) => (
         </g>
     </svg>
 );
+
+export default ContactListMBlackIcon;

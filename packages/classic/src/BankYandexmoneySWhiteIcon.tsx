@@ -47,3 +47,5 @@ export const BankYandexmoneySWhiteIcon: React.FC<Props> = ({ className }) => (
         </g>
     </svg>
 );
+
+export default BankYandexmoneySWhiteIcon;

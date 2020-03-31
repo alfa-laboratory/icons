@@ -30,3 +30,5 @@ export const UtilitiesMBlackIcon: React.FC<Props> = ({ className }) => (
         </g>
     </svg>
 );
+
+export default UtilitiesMBlackIcon;

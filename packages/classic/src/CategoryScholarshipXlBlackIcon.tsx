@@ -35,3 +35,5 @@ export const CategoryScholarshipXlBlackIcon: React.FC<Props> = ({
         </g>
     </svg>
 );
+
+export default CategoryScholarshipXlBlackIcon;

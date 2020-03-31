@@ -29,3 +29,5 @@ export const ActionPhotoOrFileSBlackIcon: React.FC<Props> = ({ className }) => (
         </g>
     </svg>
 );
+
+export default ActionPhotoOrFileSBlackIcon;

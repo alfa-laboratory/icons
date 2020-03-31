@@ -31,3 +31,5 @@ export const PredictionsXlBlackIcon: React.FC<Props> = ({ className }) => (
         </g>
     </svg>
 );
+
+export default PredictionsXlBlackIcon;

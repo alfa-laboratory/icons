@@ -27,3 +27,5 @@ export const CardMWhiteIcon: React.FC<Props> = ({ className }) => (
         </g>
     </svg>
 );
+
+export default CardMWhiteIcon;

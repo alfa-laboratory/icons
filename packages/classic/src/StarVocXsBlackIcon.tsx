@@ -24,3 +24,5 @@ export const StarVocXsBlackIcon: React.FC<Props> = ({ className }) => (
         />
     </svg>
 );
+
+export default StarVocXsBlackIcon;

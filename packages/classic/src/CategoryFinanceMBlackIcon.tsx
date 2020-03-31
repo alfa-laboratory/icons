@@ -30,3 +30,5 @@ export const CategoryFinanceMBlackIcon: React.FC<Props> = ({ className }) => (
         <path fill="#0B1F35" d="M11 0h1v7.51h-1zM0 23.08h24v1H0z" />
     </svg>
 );
+
+export default CategoryFinanceMBlackIcon;

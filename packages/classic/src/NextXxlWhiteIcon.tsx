@@ -23,3 +23,5 @@ export const NextXxlWhiteIcon: React.FC<Props> = ({ className }) => (
         />
     </svg>
 );
+
+export default NextXxlWhiteIcon;

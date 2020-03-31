@@ -22,3 +22,5 @@ export const InfoSBlackIcon: React.FC<Props> = ({ className }) => (
         </g>
     </svg>
 );
+
+export default InfoSBlackIcon;

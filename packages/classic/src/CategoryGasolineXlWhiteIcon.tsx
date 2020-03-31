@@ -29,3 +29,5 @@ export const CategoryGasolineXlWhiteIcon: React.FC<Props> = ({ className }) => (
         />
     </svg>
 );
+
+export default CategoryGasolineXlWhiteIcon;

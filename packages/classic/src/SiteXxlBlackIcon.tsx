@@ -32,3 +32,5 @@ export const SiteXxlBlackIcon: React.FC<Props> = ({ className }) => (
         </g>
     </svg>
 );
+
+export default SiteXxlBlackIcon;

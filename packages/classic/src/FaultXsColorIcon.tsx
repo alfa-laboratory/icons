@@ -26,3 +26,5 @@ export const FaultXsColorIcon: React.FC<Props> = ({ className }) => (
         </g>
     </svg>
 );
+
+export default FaultXsColorIcon;

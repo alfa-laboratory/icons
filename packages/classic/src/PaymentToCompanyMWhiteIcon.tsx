@@ -30,3 +30,5 @@ export const PaymentToCompanyMWhiteIcon: React.FC<Props> = ({ className }) => (
         </g>
     </svg>
 );
+
+export default PaymentToCompanyMWhiteIcon;

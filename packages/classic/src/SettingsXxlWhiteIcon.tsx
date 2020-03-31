@@ -36,3 +36,5 @@ export const SettingsXxlWhiteIcon: React.FC<Props> = ({ className }) => (
         </g>
     </svg>
 );
+
+export default SettingsXxlWhiteIcon;

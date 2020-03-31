@@ -37,3 +37,5 @@ export const CardCloseLWhiteIcon: React.FC<Props> = ({ className }) => (
         </g>
     </svg>
 );
+
+export default CardCloseLWhiteIcon;

@@ -37,3 +37,5 @@ export const BankRussianStandardMBlackIcon: React.FC<Props> = ({
         />
     </svg>
 );
+
+export default BankRussianStandardMBlackIcon;

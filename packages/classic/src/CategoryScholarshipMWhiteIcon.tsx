@@ -27,3 +27,5 @@ export const CategoryScholarshipMWhiteIcon: React.FC<Props> = ({
         </g>
     </svg>
 );
+
+export default CategoryScholarshipMWhiteIcon;

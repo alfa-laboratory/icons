@@ -37,3 +37,5 @@ export const AttentionMWhiteIcon: React.FC<Props> = ({ className }) => (
         />
     </svg>
 );
+
+export default AttentionMWhiteIcon;

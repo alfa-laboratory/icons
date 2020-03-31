@@ -26,3 +26,5 @@ export const ComunalSBlackIcon: React.FC<Props> = ({ className }) => (
         />
     </svg>
 );
+
+export default ComunalSBlackIcon;

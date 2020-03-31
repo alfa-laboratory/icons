@@ -30,3 +30,5 @@ export const SbpMColorIcon: React.FC<Props> = ({ className }) => (
         />
     </svg>
 );
+
+export default SbpMColorIcon;

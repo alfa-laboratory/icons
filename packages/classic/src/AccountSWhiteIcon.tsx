@@ -34,3 +34,5 @@ export const AccountSWhiteIcon: React.FC<Props> = ({ className }) => (
         />
     </svg>
 );
+
+export default AccountSWhiteIcon;

@@ -26,3 +26,5 @@ export const AndroidDocumentOffMBlackIcon: React.FC<Props> = ({
         />
     </svg>
 );
+
+export default AndroidDocumentOffMBlackIcon;

@@ -26,3 +26,5 @@ export const AddMIcon: React.FC<Props> = ({ className }) => (
         />
     </svg>
 );
+
+export default AddMIcon;

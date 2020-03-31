@@ -33,3 +33,5 @@ export const AccountTextSWhiteIcon: React.FC<Props> = ({ className }) => (
         />
     </svg>
 );
+
+export default AccountTextSWhiteIcon;

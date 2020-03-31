@@ -25,3 +25,5 @@ export const BankGazprombankSBlackIcon: React.FC<Props> = ({ className }) => (
         </g>
     </svg>
 );
+
+export default BankGazprombankSBlackIcon;

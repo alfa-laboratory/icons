@@ -35,3 +35,5 @@ export const MoneyboxMWhiteIcon: React.FC<Props> = ({ className }) => (
         </g>
     </svg>
 );
+
+export default MoneyboxMWhiteIcon;

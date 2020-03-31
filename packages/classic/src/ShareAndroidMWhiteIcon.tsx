@@ -27,3 +27,5 @@ export const ShareAndroidMWhiteIcon: React.FC<Props> = ({ className }) => (
         </g>
     </svg>
 );
+
+export default ShareAndroidMWhiteIcon;

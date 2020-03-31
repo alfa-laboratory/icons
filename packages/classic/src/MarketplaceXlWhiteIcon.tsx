@@ -32,3 +32,5 @@ export const MarketplaceXlWhiteIcon: React.FC<Props> = ({ className }) => (
         </g>
     </svg>
 );
+
+export default MarketplaceXlWhiteIcon;

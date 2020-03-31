@@ -24,3 +24,5 @@ export const AndroidFlashOffMWhiteIcon: React.FC<Props> = ({ className }) => (
         />
     </svg>
 );
+
+export default AndroidFlashOffMWhiteIcon;

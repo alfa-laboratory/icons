@@ -28,3 +28,5 @@ export const VerifyingXlWhiteIcon: React.FC<Props> = ({ className }) => (
         </g>
     </svg>
 );
+
+export default VerifyingXlWhiteIcon;

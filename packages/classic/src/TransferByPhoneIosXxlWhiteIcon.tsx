@@ -31,3 +31,5 @@ export const TransferByPhoneIosXxlWhiteIcon: React.FC<Props> = ({
         </g>
     </svg>
 );
+
+export default TransferByPhoneIosXxlWhiteIcon;

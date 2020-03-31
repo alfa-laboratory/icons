@@ -24,3 +24,5 @@ export const ExchangeXxlBlackIcon: React.FC<Props> = ({ className }) => (
         </g>
     </svg>
 );
+
+export default ExchangeXxlBlackIcon;

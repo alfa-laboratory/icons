@@ -28,3 +28,5 @@ export const CategoryVipRoomSBlackIcon: React.FC<Props> = ({ className }) => (
         />
     </svg>
 );
+
+export default CategoryVipRoomSBlackIcon;

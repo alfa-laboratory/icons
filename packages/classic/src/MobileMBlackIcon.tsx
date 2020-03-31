@@ -28,3 +28,5 @@ export const MobileMBlackIcon: React.FC<Props> = ({ className }) => (
         </g>
     </svg>
 );
+
+export default MobileMBlackIcon;

@@ -24,3 +24,5 @@ export const StarMIcon: React.FC<Props> = ({ className }) => (
         />
     </svg>
 );
+
+export default StarMIcon;

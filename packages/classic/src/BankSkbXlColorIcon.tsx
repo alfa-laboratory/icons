@@ -23,3 +23,5 @@ export const BankSkbXlColorIcon: React.FC<Props> = ({ className }) => (
         />
     </svg>
 );
+
+export default BankSkbXlColorIcon;

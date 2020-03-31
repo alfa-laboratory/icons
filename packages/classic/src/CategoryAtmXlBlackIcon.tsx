@@ -32,3 +32,5 @@ export const CategoryAtmXlBlackIcon: React.FC<Props> = ({ className }) => (
         </g>
     </svg>
 );
+
+export default CategoryAtmXlBlackIcon;

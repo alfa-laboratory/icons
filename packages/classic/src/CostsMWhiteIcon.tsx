@@ -34,3 +34,5 @@ export const CostsMWhiteIcon: React.FC<Props> = ({ className }) => (
         />
     </svg>
 );
+
+export default CostsMWhiteIcon;

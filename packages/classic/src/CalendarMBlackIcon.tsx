@@ -33,3 +33,5 @@ export const CalendarMBlackIcon: React.FC<Props> = ({ className }) => (
         </g>
     </svg>
 );
+
+export default CalendarMBlackIcon;

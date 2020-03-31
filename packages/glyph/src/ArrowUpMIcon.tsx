@@ -24,3 +24,5 @@ export const ArrowUpMIcon: React.FC<Props> = ({ className }) => (
         />
     </svg>
 );
+
+export default ArrowUpMIcon;

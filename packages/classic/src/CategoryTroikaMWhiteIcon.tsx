@@ -27,3 +27,5 @@ export const CategoryTroikaMWhiteIcon: React.FC<Props> = ({ className }) => (
         </g>
     </svg>
 );
+
+export default CategoryTroikaMWhiteIcon;

@@ -24,3 +24,5 @@ export const ListSBlackIcon: React.FC<Props> = ({ className }) => (
         <circle cx="3" cy="13" r="1" fill="#0B1F35" />
     </svg>
 );
+
+export default ListSBlackIcon;

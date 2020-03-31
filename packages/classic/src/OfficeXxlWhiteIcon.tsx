@@ -33,3 +33,5 @@ export const OfficeXxlWhiteIcon: React.FC<Props> = ({ className }) => (
         </g>
     </svg>
 );
+
+export default OfficeXxlWhiteIcon;

@@ -37,3 +37,5 @@ export const CardActivationMBlackIcon: React.FC<Props> = ({ className }) => (
         </g>
     </svg>
 );
+
+export default CardActivationMBlackIcon;

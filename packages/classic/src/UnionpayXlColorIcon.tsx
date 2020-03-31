@@ -33,3 +33,5 @@ export const UnionpayXlColorIcon: React.FC<Props> = ({ className }) => (
         </g>
     </svg>
 );
+
+export default UnionpayXlColorIcon;

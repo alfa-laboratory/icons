@@ -30,3 +30,5 @@ export const CategoryAutoXxlWhiteIcon: React.FC<Props> = ({ className }) => (
         </g>
     </svg>
 );
+
+export default CategoryAutoXxlWhiteIcon;

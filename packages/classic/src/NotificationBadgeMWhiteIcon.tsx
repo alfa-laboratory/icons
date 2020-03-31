@@ -25,3 +25,5 @@ export const NotificationBadgeMWhiteIcon: React.FC<Props> = ({ className }) => (
         </g>
     </svg>
 );
+
+export default NotificationBadgeMWhiteIcon;

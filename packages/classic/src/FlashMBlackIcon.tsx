@@ -30,3 +30,5 @@ export const FlashMBlackIcon: React.FC<Props> = ({ className }) => (
         />
     </svg>
 );
+
+export default FlashMBlackIcon;

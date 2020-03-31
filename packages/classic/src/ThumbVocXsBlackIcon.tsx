@@ -26,3 +26,5 @@ export const ThumbVocXsBlackIcon: React.FC<Props> = ({ className }) => (
         />
     </svg>
 );
+
+export default ThumbVocXsBlackIcon;

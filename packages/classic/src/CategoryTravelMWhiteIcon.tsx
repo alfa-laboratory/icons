@@ -32,3 +32,5 @@ export const CategoryTravelMWhiteIcon: React.FC<Props> = ({ className }) => (
         </g>
     </svg>
 );
+
+export default CategoryTravelMWhiteIcon;

@@ -45,3 +45,5 @@ export const CategoryCardsXxlColorIcon: React.FC<Props> = ({ className }) => (
         />
     </svg>
 );
+
+export default CategoryCardsXxlColorIcon;

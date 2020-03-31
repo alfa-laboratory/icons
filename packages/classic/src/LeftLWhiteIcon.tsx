@@ -22,3 +22,5 @@ export const LeftLWhiteIcon: React.FC<Props> = ({ className }) => (
         />
     </svg>
 );
+
+export default LeftLWhiteIcon;

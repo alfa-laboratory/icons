@@ -33,3 +33,5 @@ export const PaymentOutboxSWhiteIcon: React.FC<Props> = ({ className }) => (
         />
     </svg>
 );
+
+export default PaymentOutboxSWhiteIcon;

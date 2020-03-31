@@ -23,3 +23,5 @@ export const UpXlWhiteIcon: React.FC<Props> = ({ className }) => (
         />
     </svg>
 );
+
+export default UpXlWhiteIcon;

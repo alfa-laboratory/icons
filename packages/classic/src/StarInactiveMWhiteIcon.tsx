@@ -26,3 +26,5 @@ export const StarInactiveMWhiteIcon: React.FC<Props> = ({ className }) => (
         </g>
     </svg>
 );
+
+export default StarInactiveMWhiteIcon;

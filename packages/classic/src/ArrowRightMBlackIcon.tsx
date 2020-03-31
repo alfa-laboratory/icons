@@ -26,3 +26,5 @@ export const ArrowRightMBlackIcon: React.FC<Props> = ({ className }) => (
         </g>
     </svg>
 );
+
+export default ArrowRightMBlackIcon;

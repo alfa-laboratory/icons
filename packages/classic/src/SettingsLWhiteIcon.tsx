@@ -36,3 +36,5 @@ export const SettingsLWhiteIcon: React.FC<Props> = ({ className }) => (
         </g>
     </svg>
 );
+
+export default SettingsLWhiteIcon;

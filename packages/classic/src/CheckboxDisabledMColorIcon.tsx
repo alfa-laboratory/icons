@@ -25,3 +25,5 @@ export const CheckboxDisabledMColorIcon: React.FC<Props> = ({ className }) => (
         </g>
     </svg>
 );
+
+export default CheckboxDisabledMColorIcon;

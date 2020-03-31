@@ -24,3 +24,5 @@ export const RepeatOffMIcon: React.FC<Props> = ({ className }) => (
         />
     </svg>
 );
+
+export default RepeatOffMIcon;
