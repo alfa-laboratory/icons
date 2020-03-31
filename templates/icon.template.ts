@@ -11,4 +11,6 @@ type Props = {
 export const {{ComponentName}}: React.FC<Props> = ({ className }) => (
     {{body}}
 );
+
+export default {{ComponentName}};
 `;

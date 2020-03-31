@@ -53,12 +53,9 @@ export async function createComponent(filePath: string, packageDir: string) {
     componentName += ICON_POSTFIX;
 
     const componentContent = iconTemplate
-        .replace('{{ComponentName}}', `${componentName}`)
+        .replace(/{{ComponentName}}/g, `${componentName}`)
         .replace('{{body}}', data)
-        .replace(
-            '<svg',
-            '<svg className={className} focusable="false"',
-        );
+        .replace('<svg', '<svg className={className} focusable="false"');
 
     const fullFileName = path.join(packageDir, `${componentName}.tsx`);
 
