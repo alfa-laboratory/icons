@@ -20,5 +20,10 @@
 | @alfalab/icons-glyph | [@alfalab/icons-glyph](https://www.npmjs.com/package/@alfalab/icons-glyph) |  Иконки Клика
 
 ### Как импортить иконки в проект
-Пример
-`import { AddIcon } from '@alfalab/icons-classic/AddIcon';` 
+Если у вас в проекте настроен tree-shaking, то можно импортить из корня:
+
+`import { AddIcon } from '@alfalab/icons-classic';`
+
+Если у вас по какой-то причине не работает tree-shaking, то импортируйте напрямую из файла:
+
+`import { AddIcon } from '@alfalab/icons-classic/AddIcon';`
