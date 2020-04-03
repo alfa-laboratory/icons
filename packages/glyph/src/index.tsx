@@ -30,6 +30,7 @@ export * from './CrossCircleMIcon';
 export * from './CrossCompactMIcon';
 export * from './CrossHeavyMIcon';
 export * from './CrossMIcon';
+export * from './DownloadMIcon';
 export * from './EllipsisHorizontalMIcon';
 export * from './EyeOffMIcon';
 export * from './EyeMIcon';
