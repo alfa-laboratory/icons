@@ -17,7 +17,6 @@ export const FormatWordLBlackIcon: React.FC<Props> = ({ className }) => (
         viewBox="0 0 30 30"
         fill="none"
     >
-        <path d="M0 0h30v30H0z" />
         <path
             d="M19 28H6a4.005 4.005 0 0 1-3.998-3.874H2V8.293L8.293 2H19c2.206 0 4 1.794 4 4v5h-1V6c0-1.654-1.346-3-3-3H8.707L3 8.707V24c0 1.654 1.346 3 3 3h13c1.654 0 3-1.346 3-3h1c0 2.206-1.794 4-4 4z"
             fill="#0B1F35"

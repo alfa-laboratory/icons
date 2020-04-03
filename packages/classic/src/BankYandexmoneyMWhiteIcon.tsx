@@ -18,31 +18,35 @@ export const BankYandexmoneyMWhiteIcon: React.FC<Props> = ({ className }) => (
         xmlnsXlink="http://www.w3.org/1999/xlink"
     >
         <defs>
-            <path id="prefix__a" d="M.005.07h15.959V22H.004z" />
+            <polygon
+                id="prefix__a"
+                points="0.00452830189 0.0694695341 15.9638491 0.0694695341 15.9638491 22 0.00452830189 22"
+            />
         </defs>
         <g fill="none" fillRule="evenodd">
-            <path d="M0 0h24v24H0z" />
-            <g transform="translate(4 1)">
-                <mask id="prefix__b" fill="#fff">
-                    <use xlinkHref="#prefix__a" />
-                </mask>
-                <path
-                    d="M0 10.948C0 9.717.1 8.935 2.54 7.031 4.56 5.455 11.038.07 11.038.07V9.06h4.926V22H1.539C.693 22 0 21.276 0 20.392v-9.444"
-                    fill="#FFF"
-                    mask="url(#prefix__b)"
-                />
-                <path
-                    fillOpacity=".3"
-                    fill="#0B1F35"
-                    mask="url(#prefix__b)"
-                    d="M11.038 9.06v5.21l-9.052 6.442 11.445-3.89V9.06h-2.393"
-                />
-                <path
-                    d="M6.902 8.79c.529-.658 1.302-.891 1.727-.519.424.372.34 1.208-.19 1.867-.53.66-1.302.892-1.727.52-.424-.373-.34-1.208.19-1.867"
-                    fillOpacity=".5"
-                    fill="#0B1F35"
-                    mask="url(#prefix__b)"
-                />
+            <g>
+                <g transform="translate(4 1)">
+                    <mask id="prefix__b" fill="#fff">
+                        <use xlinkHref="#prefix__a" />
+                    </mask>
+                    <path
+                        d="M0 10.948C0 9.717.1 8.935 2.54 7.031 4.56 5.455 11.038.07 11.038.07V9.06h4.926V22H1.539C.693 22 0 21.276 0 20.392v-9.444"
+                        fill="#FFF"
+                        mask="url(#prefix__b)"
+                    />
+                    <polyline
+                        fillOpacity=".3"
+                        fill="#0B1F35"
+                        mask="url(#prefix__b)"
+                        points="11.0380377 9.0601362 11.0380377 14.2695627 1.98649057 20.7122509 13.430566 16.8218781 13.430566 9.0601362 11.0380377 9.0601362"
+                    />
+                    <path
+                        d="M6.902 8.79c.529-.658 1.302-.891 1.727-.519.424.372.34 1.208-.19 1.867-.53.66-1.302.892-1.727.52-.424-.373-.34-1.208.19-1.867"
+                        fillOpacity=".5"
+                        fill="#0B1F35"
+                        mask="url(#prefix__b)"
+                    />
+                </g>
             </g>
         </g>
     </svg>

@@ -17,14 +17,13 @@ export const MypaymentsXlWhiteIcon: React.FC<Props> = ({ className }) => (
         viewBox="0 0 36 36"
     >
         <g fill="none" fillRule="evenodd">
-            <path d="M0 0h36v36H0z" />
-            <g fill="#FFF">
+            <g transform="translate(3)" fill="#FFF">
                 <path
-                    d="M28 5h2.014C32 5 33 5.805 33 7.486V22.5h-1V7.206C32 6.538 31.553 6 30.748 6H28V5zM8 5v1H5c-.6 0-1 .42-1 1v24.011C4 33.026 5 34 7.011 34H21v1h1.462-15.45C4 35 3 32.863 3 31.011V7.5C3 5.85 3.861 5 5.5 5H8zm1-2h4.5s.75-3 4.5-3 4.5 3 4.5 3H27v7H9V3zm1.005.997V9H26V3.997h-4.01s-.567-3-3.99-3-3.952 3-3.952 3h-4.043z"
+                    d="M25 5h2.014C29 5 30 5.805 30 7.486V22.5h-1V7.206C29 6.538 28.553 6 27.748 6H25V5zM5 5v1H2c-.6 0-1 .42-1 1v24.011C1 33.026 2 34 4.011 34H18v1h1.462-15.45C1 35 0 32.863 0 31.011V7.5C0 5.85.861 5 2.5 5H5zm1-2h4.5s.75-3 4.5-3 4.5 3 4.5 3H24v7H6V3zm1.005.997V9H23V3.997h-4.01s-.567-3-3.99-3-3.952 3-3.952 3H7.005z"
                     fillRule="nonzero"
                 />
-                <path d="M29 35v-4h4v-1h-4v-4h-1v4h-4v1h4v4z" />
-                <path d="M9 16h18v3H9v-3zm0 6h12v3H9v-3z" opacity=".3" />
+                <polygon points="26 35 26 31 30 31 30 30 26 30 26 26 25 26 25 30 21 30 21 31 25 31 25 35" />
+                <path d="M6 16h18v3H6v-3zm0 6h12v3H6v-3z" opacity=".3" />
             </g>
         </g>
     </svg>

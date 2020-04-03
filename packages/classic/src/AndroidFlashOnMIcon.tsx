@@ -8,9 +8,7 @@ type Props = {
     className?: string;
 };
 
-export const AndroidDocumentOffMBlackIcon: React.FC<Props> = ({
-    className,
-}) => (
+export const AndroidFlashOnMIcon: React.FC<Props> = ({ className }) => (
     <svg
         className={className}
         focusable="false"
@@ -20,11 +18,8 @@ export const AndroidDocumentOffMBlackIcon: React.FC<Props> = ({
         width="24"
     >
         <path d="M0 0h24v24H0z" />
-        <path
-            d="M6 2c-1.1 0-1.99.9-1.99 2L4 20c0 1.1.89 2 1.99 2H18c1.1 0 2-.9 2-2V8l-6-6zm7 7V3.5L18.5 9z"
-            fill="#6d7986"
-        />
+        <path d="M7 2v11h3v9l7-12h-4l4-8z" fill="#fff" />
     </svg>
 );
 
-export default AndroidDocumentOffMBlackIcon;
+export default AndroidFlashOnMIcon;

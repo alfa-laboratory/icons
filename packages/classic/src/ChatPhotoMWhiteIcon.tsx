@@ -17,8 +17,7 @@ export const ChatPhotoMWhiteIcon: React.FC<Props> = ({ className }) => (
         viewBox="0 0 24 24"
     >
         <g fill="none" fillRule="evenodd">
-            <path d="M0 0h24v24H0z" />
-            <rect width="18" height="13" x="4.5" y="7.5" stroke="#FFF" rx="2" />
+            <polygon points="0 0 24 0 24 24 0 24" />
             <circle
                 cx="8"
                 cy="11"

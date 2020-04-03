@@ -17,7 +17,6 @@ export const CategoryHouseXxlColorIcon: React.FC<Props> = ({ className }) => (
         viewBox="0 0 48 48"
         fill="none"
     >
-        <path d="M0 0h48v48H0z" />
         <path
             d="M25 9L9 25v19.764C9 45.447 9.532 46 10.21 46h29.58c.678 0 1.21-.553 1.21-1.236V25L25 9z"
             fill="#B2CCDC"

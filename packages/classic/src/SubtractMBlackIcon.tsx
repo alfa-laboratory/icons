@@ -17,7 +17,6 @@ export const SubtractMBlackIcon: React.FC<Props> = ({ className }) => (
         viewBox="0 0 24 24"
         fill="none"
     >
-        <path d="M0 0h24v24H0z" />
         <path d="M13 5l1-3h-2l-1 3H4v2h16V5h-7z" fill="#0B1F35" />
         <path
             fillRule="evenodd"

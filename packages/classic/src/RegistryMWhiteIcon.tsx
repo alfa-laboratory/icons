@@ -17,7 +17,7 @@ export const RegistryMWhiteIcon: React.FC<Props> = ({ className }) => (
         viewBox="0 0 24 24"
     >
         <g fill="none" fillRule="evenodd">
-            <path d="M0 0h24v24H0z" />
+            <polygon points="0 0 24 0 24 24 0 24" />
             <path
                 d="M1.879 4.536A3 3 0 0 0 1 6.656V19a3 3 0 0 0 3 3h16a3 3 0 0 0 3-3V9a3 3 0 0 0-3-3h-8.535l-1.11-1.664A3 3 0 0 0 7.86 3H4.657a3 3 0 0 0-2.121.879l-.657.657zm-.707-.708l.656-.656A4 4 0 0 1 4.657 2h3.202a4 4 0 0 1 3.328 1.781L12 5h8a4 4 0 0 1 4 4v10a4 4 0 0 1-4 4H4a4 4 0 0 1-4-4V6.657a4 4 0 0 1 1.172-2.829z"
                 fill="#FFF"

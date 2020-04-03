@@ -16,7 +16,6 @@ export const CashMWhiteIcon: React.FC<Props> = ({ className }) => (
         height="24"
         viewBox="0 0 24 24"
     >
-        <path fill="none" d="M0 0h24v24H0z" />
         <g fill="#FFF">
             <path
                 d="M16.697 4H20v18H8v-1.296H7V22a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V4a1 1 0 0 0-1-1h-3.303v1z"

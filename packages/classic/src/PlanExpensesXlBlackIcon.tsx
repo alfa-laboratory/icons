@@ -17,7 +17,7 @@ export const PlanExpensesXlBlackIcon: React.FC<Props> = ({ className }) => (
         viewBox="0 0 36 36"
     >
         <g fill="none" fillRule="evenodd">
-            <path d="M0 0h36v36H0z" />
+            <polygon points="0 0 36 0 36 36 0 36" />
             <g fill="#0B1F35" fillRule="nonzero">
                 <path
                     d="M7 1c-.6 0-1 .4-1 1v3c0 .5.4 1 1 1 .5 0 1-.4 1-1V2c0-.6-.4-1-1-1zm11 0c-.6 0-1 .4-1 1v3c0 .5.4 1 1 1 .5 0 1-.4 1-1V2c0-.6-.4-1-1-1z"

@@ -16,8 +16,9 @@ export const SystemHideArrowMBlackIcon: React.FC<Props> = ({ className }) => (
         height="7"
         viewBox="0 0 22 7"
     >
-        <path
-            d="M2 2l8.847 3L20 2"
+        <polyline
+            points="0 0 8.84745763 3 18 0"
+            transform="translate(2 2)"
             stroke="#000"
             stroke-width="3"
             fill="none"

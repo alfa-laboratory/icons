@@ -17,7 +17,6 @@ export const CardActivationXlWhiteIcon: React.FC<Props> = ({ className }) => (
         viewBox="0 0 36 36"
         fill="none"
     >
-        <path d="M0 0h36v36H0z" />
         <path
             opacity=".3"
             d="M15.393 9.473a8.916 8.916 0 1 0 5.21-.001l-.44 1.434a7.395 7.395 0 0 1 4.929 4.926 7.42 7.42 0 0 1-7.23 9.586 7.419 7.419 0 0 1-2.031-14.51l-.438-1.435z"

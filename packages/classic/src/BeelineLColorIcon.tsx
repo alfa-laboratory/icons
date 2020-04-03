@@ -17,7 +17,6 @@ export const BeelineLColorIcon: React.FC<Props> = ({ className }) => (
         viewBox="0 0 30 30"
         fill="none"
     >
-        <path d="M0 0h30v30H0z" />
         <path
             d="M15 27.5c6.904 0 12.5-5.596 12.5-12.5S21.904 2.5 15 2.5 2.5 8.096 2.5 15 8.096 27.5 15 27.5z"
             fill="#FCC900"

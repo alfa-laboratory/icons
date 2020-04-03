@@ -17,7 +17,6 @@ export const AttentionXxxlColorIcon: React.FC<Props> = ({ className }) => (
         viewBox="0 0 88 88"
         fill="none"
     >
-        <path d="M0 0h88v88H0z" />
         <path
             d="M88 44C88 19.7 68.3 0 44 0S0 19.7 0 44s19.7 44 44 44 44-19.7 44-44z"
             fill="#F6BF65"

@@ -19,7 +19,6 @@ export const ActionPhotoOrFileXxlWhiteIcon: React.FC<Props> = ({
         viewBox="0 0 48 48"
     >
         <g fill="none" fillRule="evenodd">
-            <path d="M0 0h48v48H0z" />
             <path
                 d="M35 18.79L25.85 10H9a2 2 0 0 0-2 2v31a2 2 0 0 0 2 2h24a2 2 0 0 0 2-2V18.79zM9 9h17.252L36 18.365V43a3 3 0 0 1-3 3H9a3 3 0 0 1-3-3V12a3 3 0 0 1 3-3z"
                 fill="#FFF"

@@ -17,7 +17,6 @@ export const ContactlessMWhiteIcon: React.FC<Props> = ({ className }) => (
         viewBox="0 0 24 24"
     >
         <g fill="none" fillRule="evenodd">
-            <path d="M0 0h24v24H0z" />
             <path
                 fill="#FFF"
                 fillRule="nonzero"

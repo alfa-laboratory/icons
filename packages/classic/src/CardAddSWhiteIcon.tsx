@@ -17,7 +17,6 @@ export const CardAddSWhiteIcon: React.FC<Props> = ({ className }) => (
         viewBox="0 0 18 18"
     >
         <g fill="none" fillRule="evenodd">
-            <path d="M0 0h18v18H0z" />
             <path
                 d="M3 10h3v2H3v-2zM0 6h17v2H0V6z"
                 fill="#FFF"
@@ -29,9 +28,9 @@ export const CardAddSWhiteIcon: React.FC<Props> = ({ className }) => (
                 fill="#FFF"
                 fillRule="nonzero"
             />
-            <path
+            <polygon
                 fill="#FFF"
-                d="M15.857 16v-2.143H18v-.714h-2.143V11h-.714v2.143H13v.714h2.143V16z"
+                points="15.8571429 16 15.8571429 13.8571429 18 13.8571429 18 13.1428571 15.8571429 13.1428571 15.8571429 11 15.1428571 11 15.1428571 13.1428571 13 13.1428571 13 13.8571429 15.1428571 13.8571429 15.1428571 16"
             />
         </g>
     </svg>

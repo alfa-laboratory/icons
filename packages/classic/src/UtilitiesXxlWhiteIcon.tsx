@@ -17,7 +17,6 @@ export const UtilitiesXxlWhiteIcon: React.FC<Props> = ({ className }) => (
         viewBox="0 0 48 48"
     >
         <g fill="none">
-            <path d="M0 0h48v48H0z" />
             <g fill="#FFF">
                 <path
                     d="M23.5 18.7C22.2 24.6 18.4 27 18 31v.7c0 3.3 2.7 6 6 6s6-2.7 6-6c0-4.5-4.1-6.7-5.5-12.9-.1-.7-.9-.7-1-.1z"

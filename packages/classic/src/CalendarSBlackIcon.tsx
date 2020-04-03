@@ -17,7 +17,6 @@ export const CalendarSBlackIcon: React.FC<Props> = ({ className }) => (
         viewBox="0 0 18 18"
     >
         <g fill="none" fillRule="evenodd">
-            <path d="M0 0h18v18H0z" />
             <path
                 d="M6.5 2a.5.5 0 0 0-.5.5V3H3.5C2.673 3 2 3.673 2 4.5v10c0 .827.673 1.5 1.5 1.5h11c.827 0 1.5-.673 1.5-1.5v-10c0-.827-.673-1.5-1.5-1.5H12v-.5a.5.5 0 1 0-1 0V3H7v-.5a.5.5 0 0 0-.5-.5zM11 4v.5a.5.5 0 1 0 1 0V4h2.5a.5.5 0 0 1 .5.5v10a.5.5 0 0 1-.5.5h-11a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5H6v.5a.5.5 0 0 0 1 0V4h4z"
                 fillOpacity=".9"

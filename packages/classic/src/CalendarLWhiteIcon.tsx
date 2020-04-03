@@ -17,7 +17,6 @@ export const CalendarLWhiteIcon: React.FC<Props> = ({ className }) => (
         viewBox="0 0 30 30"
     >
         <g fill="none" fillRule="evenodd">
-            <path d="M0 0h30v30H0z" />
             <path
                 d="M7 11h4v2H7v-2zm6 0h4v2h-4v-2zm-6 6h4v2H7v-2zm6 0h4v2h-4v-2zm6-6h4v2h-4v-2z"
                 fillOpacity=".9"

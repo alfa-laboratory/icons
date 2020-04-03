@@ -17,11 +17,10 @@ export const OkLColorIcon: React.FC<Props> = ({ className }) => (
         viewBox="0 0 30 30"
     >
         <g fill="none">
-            <path d="M0 0h30v30H0z" />
             <rect width="30" height="30" fill="#2FC26E" rx="15" />
-            <path
+            <polygon
                 fill="#FFF"
-                d="M12.295 18.503l-3.998-3.769-1.115.925 5.113 5.114 9.864-9.864-1.236-1.051z"
+                points="12.295 18.503 8.297 14.734 7.182 15.659 12.295 20.773 22.159 10.909 20.923 9.858"
             />
         </g>
     </svg>

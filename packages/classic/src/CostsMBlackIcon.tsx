@@ -17,7 +17,6 @@ export const CostsMBlackIcon: React.FC<Props> = ({ className }) => (
         viewBox="0 0 24 24"
         fill="none"
     >
-        <path d="M0 0h24v24H0z" />
         <path
             opacity=".3"
             d="M12 12l5.5-9.5c1.7 1 3.1 2.4 4 4 .9 1.6 1.5 3.6 1.5 5.5H12z"

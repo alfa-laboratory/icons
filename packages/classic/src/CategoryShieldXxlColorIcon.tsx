@@ -17,7 +17,6 @@ export const CategoryShieldXxlColorIcon: React.FC<Props> = ({ className }) => (
         viewBox="0 0 48 48"
         fill="none"
     >
-        <path d="M0 0h48v48H0z" />
         <path
             d="M41.935 8.727C32.36 7.608 24 3 24 3S15.639 7.608 6.065 8.727C6.065 8.727 3.938 35.28 24 45c12.357-5.987 16.296-18.36 17.499-26.98.75-5.376.436-9.293.436-9.293z"
             fill="#5C85AD"

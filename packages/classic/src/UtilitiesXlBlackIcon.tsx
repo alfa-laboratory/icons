@@ -17,7 +17,6 @@ export const UtilitiesXlBlackIcon: React.FC<Props> = ({ className }) => (
         viewBox="0 0 36 36"
     >
         <g fill="none">
-            <path d="M0 0h36v36H0z" />
             <g fill="#0B1F35">
                 <path
                     d="M22.4 23.6c-.5-2.8-3.1-4.6-4-8.8-.1-.4-.6-.4-.7 0-1 4.2-3.5 6-4 8.7-.1.3-.1.6-.1 1 0 2.5 2 4.5 4.5 4.5s4.5-2 4.5-4.5c-.1-.3-.1-.6-.2-.9z"

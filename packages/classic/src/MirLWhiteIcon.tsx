@@ -17,7 +17,6 @@ export const MirLWhiteIcon: React.FC<Props> = ({ className }) => (
         width="30"
         height="10"
     >
-        <path d="M0 0h30v10H0z" />
         <g
             clip-path="url(#prefix__a)"
             clipRule="evenodd"
@@ -28,7 +27,7 @@ export const MirLWhiteIcon: React.FC<Props> = ({ className }) => (
         </g>
         <defs>
             <clipPath id="prefix__a">
-                <path fill="#fff" d="M0 .75h30v8.492H0z" />
+                <rect y=".75" width="30" height="8.492" fill="#fff" />
             </clipPath>
         </defs>
     </svg>

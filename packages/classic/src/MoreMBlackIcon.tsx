@@ -17,12 +17,14 @@ export const MoreMBlackIcon: React.FC<Props> = ({ className }) => (
         viewBox="0 0 24 24"
     >
         <g fill="none" fillRule="evenodd">
-            <path d="M24 0v24H0V0z" />
-            <path
-                d="M10 4.5a1.5 1.5 0 1 1 3.001.001A1.5 1.5 0 0 1 10 4.5zM10 12.5a1.5 1.5 0 1 1 3.001.001A1.5 1.5 0 0 1 10 12.5zM10 20.5a1.5 1.5 0 1 1 3.001.001A1.5 1.5 0 0 1 10 20.5z"
-                fill="#0B1F35"
-                fillRule="nonzero"
-            />
+            <g transform="rotate(90 12 12)">
+                <polygon points="0 0 24 0 24 24 0 24" />
+                <path
+                    d="M4.5 14a1.5 1.5 0 1 1 .001-3.001A1.5 1.5 0 0 1 4.5 14zM12.5 14a1.5 1.5 0 1 1 .001-3.001A1.5 1.5 0 0 1 12.5 14zM20.5 14a1.5 1.5 0 1 1 .001-3.001A1.5 1.5 0 0 1 20.5 14z"
+                    fill="#0B1F35"
+                    fillRule="nonzero"
+                />
+            </g>
         </g>
     </svg>
 );

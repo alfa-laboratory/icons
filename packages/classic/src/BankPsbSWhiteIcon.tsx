@@ -17,7 +17,6 @@ export const BankPsbSWhiteIcon: React.FC<Props> = ({ className }) => (
         viewBox="0 0 18 18"
     >
         <g fill="none" fillRule="evenodd">
-            <path d="M0 0h18v18H0z" />
             <g fill="#FFF" fillRule="nonzero">
                 <path
                     d="M4 11.214V4h-.214A2.794 2.794 0 0 0 1 6.786v7.429A2.794 2.794 0 0 0 3.786 17h7.429A2.794 2.794 0 0 0 14 14.214V14H6.786A2.795 2.795 0 0 1 4 11.214z"

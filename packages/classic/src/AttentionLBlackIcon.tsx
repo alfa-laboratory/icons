@@ -17,7 +17,6 @@ export const AttentionLBlackIcon: React.FC<Props> = ({ className }) => (
         viewBox="0 0 30 30"
         fill="none"
     >
-        <path d="M0 0h30v30H0z" />
         <path
             opacity=".9"
             d="M15.436 3.302a.5.5 0 0 0-.872 0L2.27 25.256a.5.5 0 0 0 .436.744h24.588a.5.5 0 0 0 .436-.744L15.436 3.302zm.873-.488l12.294 21.953A1.5 1.5 0 0 1 27.293 27H2.707a1.5 1.5 0 0 1-1.309-2.233L13.691 2.814a1.5 1.5 0 0 1 2.618 0z"

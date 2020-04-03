@@ -17,10 +17,9 @@ export const BankMkbMBlackIcon: React.FC<Props> = ({ className }) => (
         viewBox="0 0 24 24"
     >
         <g fill="none" fillRule="evenodd">
-            <path d="M0 0h24v24H0z" />
-            <g fill="#0B1F35" fillRule="nonzero">
-                <path d="M8.502 18L0 9.497 3.511 6h5.952L5.952 9.497l2.55 2.551L14.55 6H24l-4.129 4H16.5z" />
-                <path d="M16.716 12l-6 6h5.25l3-3H21l3-3z" />
+            <g transform="translate(0 6)" fill="#0B1F35" fillRule="nonzero">
+                <polygon points="8.502 12 0 3.497 3.511 0 9.463 0 5.952 3.497 8.502 6.048 14.55 0 24 0 19.871 4 16.5 4" />
+                <polygon points="16.716 6 10.716 12 15.966 12 18.966 9 21 9 24 6" />
             </g>
         </g>
     </svg>

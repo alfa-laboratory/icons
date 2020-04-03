@@ -17,7 +17,6 @@ export const MoreAndroidMBlackIcon: React.FC<Props> = ({ className }) => (
         viewBox="0 0 24 24"
         fill="none"
     >
-        <path d="M0 0h24v24H0z" />
         <path
             d="M12 13a1 1 0 1 0 0-2 1 1 0 0 0 0 2zM12 6a1 1 0 1 0 0-2 1 1 0 0 0 0 2zM12 20a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"
             stroke="#0B1F35"

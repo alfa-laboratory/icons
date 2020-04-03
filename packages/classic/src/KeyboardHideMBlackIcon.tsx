@@ -17,7 +17,6 @@ export const KeyboardHideMBlackIcon: React.FC<Props> = ({ className }) => (
         viewBox="0 0 24 24"
         fill="none"
     >
-        <path d="M0 0h24v24H0z" />
         <g fill="#0B1F35">
             <path d="M3 3a1 1 0 0 0-1 1v13a1 1 0 0 0 1 1h19a1 1 0 0 0 1-1V4a1 1 0 0 0-1-1H3zm0-1h19a2 2 0 0 1 2 2v13a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2zM7.695 21.685l.61-1.37 4.195 1.864 4.195-1.864.61 1.37-4.805 2.136-4.805-2.136z" />
             <g fillOpacity=".15">

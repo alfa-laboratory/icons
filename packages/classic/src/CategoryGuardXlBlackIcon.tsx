@@ -17,7 +17,6 @@ export const CategoryGuardXlBlackIcon: React.FC<Props> = ({ className }) => (
         viewBox="0 0 36 36"
     >
         <g fill="none" fillRule="evenodd">
-            <path d="M0 0h36v36H0z" />
             <g fill="#0B1F35">
                 <path d="M2 7.373L18 2l16 5.373C31.87 25.124 26.537 34 18 34 9.463 34 4.13 25.124 2 7.373zm1 .647C5.003 24.673 10.006 33 18.006 33c8.001 0 13-8.327 14.994-24.98L18.006 3 3 8.02z" />
                 <path

@@ -17,7 +17,6 @@ export const ThumbVocXsBlackIcon: React.FC<Props> = ({ className }) => (
         viewBox="0 0 12 12"
         fill="none"
     >
-        <path d="M0 0h12v12H0z" />
         <path
             fillRule="evenodd"
             clipRule="evenodd"

@@ -17,7 +17,7 @@ export const NotificationsMBlackIcon: React.FC<Props> = ({ className }) => (
         viewBox="0 0 24 24"
     >
         <g fill="none">
-            <path d="M0 0h24v24H0z" />
+            <polygon points="0 0 24 0 24 24 0 24" />
             <g fill="#0B1F35">
                 <path
                     fillOpacity=".3"

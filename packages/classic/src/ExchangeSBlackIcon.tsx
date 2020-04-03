@@ -17,9 +17,9 @@ export const ExchangeSBlackIcon: React.FC<Props> = ({ className }) => (
         viewBox="0 0 18 18"
     >
         <g fill="none">
-            <path d="M0 0h18v18H0z" />
-            <g fill="#0B1F35">
-                <path d="M6 3.707V12H5V3.707l-2.5 2.5-.707-.707L5.5 1.793 9.207 5.5l-.707.707zM12 14.086V5.793h1v8.293l2.5-2.5.707.707L12.5 16l-3.707-3.707.707-.707z" />
+            <g fill="#0B1F35" transform="translate(1 1)">
+                <polygon points="5 2.707 5 11 4 11 4 2.707 1.5 5.207 .793 4.5 4.5 .793 8.207 4.5 7.5 5.207" />
+                <polygon points="11 13.086 11 4.793 12 4.793 12 13.086 14.5 10.586 15.207 11.293 11.5 15 7.793 11.293 8.5 10.586" />
             </g>
         </g>
     </svg>

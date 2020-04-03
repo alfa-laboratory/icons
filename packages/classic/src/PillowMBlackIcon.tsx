@@ -17,7 +17,6 @@ export const PillowMBlackIcon: React.FC<Props> = ({ className }) => (
         viewBox="0 0 24 24"
     >
         <g fill="none">
-            <path d="M0 0h24v24H0z" />
             <g fill="#0B1F35">
                 <path
                     fillOpacity=".3"

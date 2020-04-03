@@ -18,9 +18,9 @@ export const OkFilledMBlackIcon: React.FC<Props> = ({ className }) => (
     >
         <g fillRule="nonzero" fill="none">
             <rect fill="#0B1F35" width="24" height="24" rx="12" />
-            <path
+            <polygon
                 fill="#FFF"
-                d="M10.068 15.25l-3.535-3.243-.998.893 4.533 4.399 8.86-8.93-1.072-.98z"
+                points="10.0681818 15.2496182 6.53263033 12.0070269 5.53507057 12.8996398 10.0681818 17.2986773 18.9287033 8.36887065 17.8560723 7.38837515"
             />
         </g>
     </svg>

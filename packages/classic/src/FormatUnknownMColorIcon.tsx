@@ -17,7 +17,6 @@ export const FormatUnknownMColorIcon: React.FC<Props> = ({ className }) => (
         viewBox="0 0 24 24"
         fill="none"
     >
-        <path d="M0 0h24v24H0z" />
         <path
             fillRule="evenodd"
             clipRule="evenodd"

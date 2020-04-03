@@ -12,16 +12,11 @@ export const EllipsisHorizontalMIcon: React.FC<Props> = ({ className }) => (
     <svg
         className={className}
         focusable="false"
+        fill="currentColor"
         width="24"
         height="24"
-        viewBox="0 0 24 24"
-        fill="none"
     >
-        <path d="M0 0h24v24H0z" />
-        <path
-            d="M12.497 13.938A2.004 2.004 0 0 1 10 12a2 2 0 1 1 2.497 1.938zM20.497 13.938A2.004 2.004 0 0 1 18 12a2 2 0 1 1 2.497 1.938zM4.497 13.938a2 2 0 1 1-.994-3.876 2 2 0 0 1 .994 3.876z"
-            fill="#0B1F35"
-        />
+        <path d="M12.497 13.938A2.004 2.004 0 0110 12a2 2 0 112.497 1.938zm8 0A2.004 2.004 0 0118 12a2 2 0 112.497 1.938zm-16 0a2 2 0 11-.994-3.876 2 2 0 01.994 3.876z" />
     </svg>
 );
 

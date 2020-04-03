@@ -17,7 +17,6 @@ export const AttentionXlBlackIcon: React.FC<Props> = ({ className }) => (
         viewBox="0 0 36 36"
         fill="none"
     >
-        <path d="M0 0h36v36H0z" />
         <path
             opacity=".9"
             d="M18.87 5.53a1 1 0 0 0-1.74 0L3.21 30.006a1 1 0 0 0 .869 1.494H31.92a1 1 0 0 0 .87-1.494L18.868 5.53zm.868-.495L33.66 29.511A2 2 0 0 1 31.92 32.5H4.08a2 2 0 0 1-1.739-2.989L16.261 5.035a2 2 0 0 1 3.477 0z"

@@ -17,7 +17,6 @@ export const TransferAnyBankMWhiteIcon: React.FC<Props> = ({ className }) => (
         viewBox="0 0 24 24"
     >
         <g fill="none">
-            <path d="M0 0h36v36H0z" />
             <path
                 fill="#FFF"
                 d="M8 12h2v11H8V12zm6 0h2v11h-2V12z"

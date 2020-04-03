@@ -17,7 +17,6 @@ export const CategoryWalletMColorIcon: React.FC<Props> = ({ className }) => (
         viewBox="0 0 24 24"
         fill="none"
     >
-        <path d="M0 0h24v24H0z" />
         <path
             d="M4.308 6.593a1.6 1.6 0 0 1 1.33-1.83L16.64 3.02a1.6 1.6 0 0 1 1.83 1.33l.968 6.109a1.6 1.6 0 0 1-1.33 1.83L7.106 14.033a1.6 1.6 0 0 1-1.83-1.33l-.968-6.109z"
             fill="#5C85AD"

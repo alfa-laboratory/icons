@@ -18,9 +18,9 @@ export const TransferOutSBlackIcon: React.FC<Props> = ({ className }) => (
     >
         <g fill="#0B1F35" fillRule="evenodd">
             <path d="M13.752 4.669l.724-.701a7.5 7.5 0 1 1-11.63-.395l.69.731a6.5 6.5 0 1 0 10.216.365z" />
-            <path
+            <polygon
                 fillOpacity=".9"
-                d="M5 5.4l.818.7L7.988 4v7h1.023V4l2.17 2.1.819-.7L8.5 2z"
+                points="5 5.4 5.81818182 6.1 7.98863636 4 7.98863636 11 9.01136364 11 9.01136364 4 11.1818182 6.1 12 5.4 8.5 2"
             />
         </g>
     </svg>

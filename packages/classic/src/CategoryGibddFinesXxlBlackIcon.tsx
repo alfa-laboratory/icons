@@ -19,7 +19,6 @@ export const CategoryGibddFinesXxlBlackIcon: React.FC<Props> = ({
         viewBox="0 0 48 48"
     >
         <g fill="none" fillRule="evenodd">
-            <path d="M0 0h48v48H0z" />
             <circle fill="#0B1F35" opacity=".3" cx="24" cy="11" r="5" />
             <circle fill="#0B1F35" opacity=".3" cx="24" cy="24" r="5" />
             <circle fill="#0B1F35" opacity=".3" cx="24" cy="37" r="5" />

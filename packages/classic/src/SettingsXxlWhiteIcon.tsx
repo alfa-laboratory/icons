@@ -18,7 +18,10 @@ export const SettingsXxlWhiteIcon: React.FC<Props> = ({ className }) => (
         xmlnsXlink="http://www.w3.org/1999/xlink"
     >
         <defs>
-            <path id="prefix__a" d="M24 48h24V0H0v48h24z" />
+            <polygon
+                id="prefix__a"
+                points="24.0002 48 48 48 48 0 24.0002 0 0.0004 0 0.0004 48 24.0002 48"
+            />
         </defs>
         <g fill="none" fillRule="evenodd">
             <path

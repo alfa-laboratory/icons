@@ -17,7 +17,6 @@ export const CategoryCardsMColorIcon: React.FC<Props> = ({ className }) => (
         viewBox="0 0 24 24"
         fill="none"
     >
-        <path d="M0 0h24v24H0z" />
         <path
             d="M5.35 4.16a1.638 1.638 0 0 1 2.047-1.088L22.84 7.793a1.638 1.638 0 0 1 1.088 2.046l-2.415 7.897a1.638 1.638 0 0 1-2.045 1.088L4.024 14.103a1.638 1.638 0 0 1-1.087-2.046L5.35 4.16z"
             fill="#B8D1E0"

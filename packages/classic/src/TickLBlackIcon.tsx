@@ -17,10 +17,9 @@ export const TickLBlackIcon: React.FC<Props> = ({ className }) => (
         viewBox="0 0 30 30"
     >
         <g fill="none" fillRule="evenodd">
-            <path d="M0 0h30v30H0z" />
-            <path
+            <polygon
                 fill="#0B1F35"
-                d="M11.182 20.804l-6.686-6.747L3 15.507l8.182 8.181L27.364 7.506 25.847 6z"
+                points="11.1818182 20.8035708 4.4962278 14.0573314 3 15.5062657 11.1818182 23.6880838 27.3636364 7.5062657 25.8473248 6"
             />
         </g>
     </svg>

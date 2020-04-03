@@ -17,11 +17,10 @@ export const WaitingXsBlackIcon: React.FC<Props> = ({ className }) => (
         viewBox="0 0 18 18"
     >
         <g fill="none" fillRule="evenodd">
-            <path d="M0 0h18v18H0z" />
             <circle fill="#B5BBC2" cx="9" cy="9" r="8" />
-            <path
+            <polygon
                 fill="#FFF"
-                d="M8 4v4.967l3.58 3.476 1.413-1.413L10 8.14V4z"
+                points="8 4 8 8.9673784 11.5797806 12.4431406 12.9927806 11.0301406 10.001 8.1403784 10.001 4"
             />
         </g>
     </svg>

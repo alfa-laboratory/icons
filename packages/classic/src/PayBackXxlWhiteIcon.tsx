@@ -17,7 +17,6 @@ export const PayBackXxlWhiteIcon: React.FC<Props> = ({ className }) => (
         viewBox="0 0 48 48"
     >
         <g fill="none" fillRule="evenodd">
-            <path d="M0 0h48v48H0z" />
             <path
                 fill="#FFF"
                 fillRule="nonzero"

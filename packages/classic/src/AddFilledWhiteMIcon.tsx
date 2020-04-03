@@ -23,7 +23,6 @@ export const AddFilledWhiteMIcon: React.FC<Props> = ({ className }) => (
                 fill="#FFF"
                 opacity=".9"
             />
-            <path d="M0 0h24v24H0z" />
         </g>
     </svg>
 );

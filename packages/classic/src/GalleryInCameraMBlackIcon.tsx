@@ -17,7 +17,6 @@ export const GalleryInCameraMBlackIcon: React.FC<Props> = ({ className }) => (
         viewBox="0 0 24 24"
     >
         <g fill="none" fillRule="evenodd">
-            <path d="M0 0h24v24H0z" />
             <path
                 fill="#0B1F35"
                 fillRule="nonzero"

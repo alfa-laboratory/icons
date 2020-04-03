@@ -17,7 +17,6 @@ export const CashbackMWhiteIcon: React.FC<Props> = ({ className }) => (
         viewBox="0 0 24 24"
         fill="none"
     >
-        <path d="M0 0h24v24H0z" />
         <path
             clipRule="evenodd"
             d="M11.5 5.5a9 9 0 0 0-9 9v5.144A3.856 3.856 0 0 0 6.356 23.5h11.288a3.856 3.856 0 0 0 3.856-3.856V14.5a9 9 0 0 0-9-9h-1z"

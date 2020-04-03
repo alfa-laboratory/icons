@@ -17,10 +17,9 @@ export const BankMkbLBlackIcon: React.FC<Props> = ({ className }) => (
         viewBox="0 0 30 30"
     >
         <g fill="none" fillRule="evenodd">
-            <path d="M0 0h30v30H0z" />
-            <g fill="#0B1F35" fillRule="nonzero">
-                <path d="M10.5 21.5l-10-10L4.015 8h7.001L7.5 11.5l3 3L16.999 8H30l-5 5h-6l-8.5 8.5" />
-                <path d="M20 14l-8 8h6l3-3h3l5-5" />
+            <g transform="translate(0 8)" fill="#0B1F35" fillRule="nonzero">
+                <polyline points="10.5 13.5 0.5 3.5 4.015 0 11.016 0 7.5 3.5 10.5 6.5 16.999 0 30 0 25 5 19 5 10.5 13.5" />
+                <polyline points="20 6 12 14 18 14 21 11 24 11 29 6" />
             </g>
         </g>
     </svg>

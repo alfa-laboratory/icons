@@ -17,7 +17,6 @@ export const BankGazprombankLColorIcon: React.FC<Props> = ({ className }) => (
         viewBox="0 0 30 30"
     >
         <g fill="none" fillRule="evenodd">
-            <path d="M0 0h30v30H0z" />
             <path
                 d="M28.588 15.047c0 7.531-6.109 13.643-13.635 13.643S1.318 22.578 1.318 15.047c0-7.53 6.11-13.642 13.635-13.642 7.526 0 13.635 6.111 13.635 13.642"
                 fill="#FFF"

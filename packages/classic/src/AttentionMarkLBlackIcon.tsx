@@ -17,7 +17,7 @@ export const AttentionMarkLBlackIcon: React.FC<Props> = ({ className }) => (
         viewBox="0 0 30 30"
     >
         <g fill="none" fillRule="evenodd">
-            <path d="M0 0h30v30H0z" />
+            <polygon points="0 0 30 0 30 30 0 30" />
             <path
                 fill="#0B1F35"
                 fillRule="nonzero"

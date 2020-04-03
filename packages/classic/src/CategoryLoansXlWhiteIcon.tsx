@@ -17,11 +17,14 @@ export const CategoryLoansXlWhiteIcon: React.FC<Props> = ({ className }) => (
         viewBox="0 0 36 36"
     >
         <g fill="none" fillRule="evenodd">
-            <path d="M0 0h36v36H0z" />
-            <path
+            <rect
                 fill="#FFF"
                 opacity=".4"
-                d="M12.577 25.976l11.09-12.917.758.651-11.089 12.917z"
+                transform="rotate(-49.355 18.501 19.843)"
+                x="9.989"
+                y="19.343"
+                width="17.024"
+                height="1"
             />
             <path
                 d="M23 27c1.654 0 3-1.346 3-3s-1.346-3-3-3-3 1.346-3 3 1.346 3 3 3zm0-5a2 2 0 1 1 .001 3.999A2 2 0 0 1 23 22zM14 18c1.654 0 3-1.346 3-3s-1.346-3-3-3-3 1.346-3 3 1.346 3 3 3zm0-5a2 2 0 1 1 .001 3.999A2 2 0 0 1 14 13z"

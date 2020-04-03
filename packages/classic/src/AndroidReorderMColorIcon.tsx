@@ -17,8 +17,8 @@ export const AndroidReorderMColorIcon: React.FC<Props> = ({ className }) => (
         viewBox="0 0 24 24"
         fill="none"
     >
-        <path d="M0 0h24v24H0z" />
-        <path fill="#CED2D7" d="M3 8h18v2H3zM3 14h18v2H3z" />
+        <rect x="3" y="8" width="18" height="2" fill="#CED2D7" />
+        <rect x="3" y="14" width="18" height="2" fill="#CED2D7" />
     </svg>
 );
 

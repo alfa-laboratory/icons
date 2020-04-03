@@ -17,7 +17,7 @@ export const SelfemloyedRegXxlWhiteIcon: React.FC<Props> = ({ className }) => (
         viewBox="0 0 48 48"
     >
         <g fill="none" fillRule="evenodd">
-            <path d="M0 0h48v48H0z" />
+            <polygon points="0 0 48 0 48 48 0 48" />
             <path
                 fill="#FFF"
                 fillRule="nonzero"

@@ -16,7 +16,6 @@ export const CategoryTelecomMWhiteIcon: React.FC<Props> = ({ className }) => (
         height="24"
         viewBox="0 0 24 24"
     >
-        <path fill="none" d="M0 0h24v24H0z" />
         <g fill="#FFF">
             <path d="M16 12.29l.72.69a6.48 6.48 0 0 0 0-9l-.72.73a5.49 5.49 0 0 1 0 7.58zM8 12.29a5.49 5.49 0 0 1 0-7.58L7.3 4a6.48 6.48 0 0 0 0 9z" />
             <path d="M18.87 15.05l.72.69a10.46 10.46 0 0 0 0-14.48l-.72.74a9.47 9.47 0 0 1 0 13.1zM5.13 15.05A9.47 9.47 0 0 1 5.13 2l-.72-.69a10.46 10.46 0 0 0 0 14.48z" />

@@ -18,13 +18,13 @@ export const SentDoneSWhiteIcon: React.FC<Props> = ({ className }) => (
         viewBox="0 0 18 18"
     >
         <defs>
-            <path
+            <polygon
                 id="prefix__a"
-                d="M7.473 11.399L13.27 5l.73.8L7.477 13 4 9.202l.726-.804z"
+                points="7.473 11.399 13.27 5 14 5.8 7.477 13 4 9.202 4.726 8.398"
             />
         </defs>
         <g fill="none" fillRule="evenodd">
-            <path d="M0 18h18V0H0z" />
+            <polygon points="0 18 18 18 18 0 0 0" />
             <use fill="#FFF" xlinkHref="#prefix__a" />
         </g>
     </svg>

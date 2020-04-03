@@ -17,7 +17,6 @@ export const CategoryGuardMWhiteIcon: React.FC<Props> = ({ className }) => (
         viewBox="0 0 24 24"
     >
         <g fill="none" fillRule="evenodd">
-            <path d="M0 0h24v24H0z" />
             <g fill="#FFF">
                 <path d="M2 5.346l10-3.357 10 3.357c-1.33 11.09-4.664 16.634-10 16.634S3.33 16.435 2 5.346zm.998.658c1.686 10 4.687 14.999 9.002 14.999s7.313-5 8.995-15L12 2.99 2.998 6.004z" />
                 <path

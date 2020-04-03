@@ -17,7 +17,6 @@ export const AttentionMWhiteIcon: React.FC<Props> = ({ className }) => (
         viewBox="0 0 24 24"
         fill="none"
     >
-        <path d="M0 0h24v24H0z" />
         <path
             opacity=".9"
             d="M12.434 3.41a.5.5 0 0 0-.868 0L2.197 19.751a.5.5 0 0 0 .434.749h18.738a.5.5 0 0 0 .433-.749l-9.368-16.34zm.867-.497l9.37 16.34a1.5 1.5 0 0 1-1.302 2.247H2.63a1.5 1.5 0 0 1-1.301-2.246l9.369-16.341a1.5 1.5 0 0 1 2.602 0z"

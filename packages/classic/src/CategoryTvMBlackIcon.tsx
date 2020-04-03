@@ -17,18 +17,23 @@ export const CategoryTvMBlackIcon: React.FC<Props> = ({ className }) => (
         viewBox="0 0 24 24"
     >
         <g fill="none" fillRule="evenodd">
-            <path d="M0 0h24v24H0z" />
-            <path
-                d="M4 5h16a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V7a2 2 0 0 1 2-2zm0 1a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h16a1 1 0 0 0 1-1V7a1 1 0 0 0-1-1H4z"
-                fill="#0B1F35"
-            />
-            <path
-                stroke="#0B1F35"
-                stroke-linecap="square"
-                d="M7.5 2.5l3.5 3h2l3.5-3"
-            />
-            <path fill="#0B1F35" opacity=".3" d="M3 8h18v10H3z" />
-            <path fill="#0B1F35" d="M7 22h10v1H7z" />
+            <g transform="translate(2 2)">
+                <path
+                    d="M2 3h16a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2zm0 1a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h16a1 1 0 0 0 1-1V5a1 1 0 0 0-1-1H2z"
+                    fill="#0B1F35"
+                />
+                <polyline
+                    stroke="#0B1F35"
+                    stroke-linecap="square"
+                    points="5.5 0.5 9 3.5 11 3.5 14.5 0.5"
+                />
+                <polygon
+                    fill="#0B1F35"
+                    opacity=".3"
+                    points="1 6 19 6 19 16 1 16"
+                />
+                <rect fill="#0B1F35" x="5" y="20" width="10" height="1" />
+            </g>
         </g>
     </svg>
 );

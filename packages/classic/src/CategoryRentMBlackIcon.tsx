@@ -17,7 +17,6 @@ export const CategoryRentMBlackIcon: React.FC<Props> = ({ className }) => (
         viewBox="0 0 24 24"
     >
         <g fill="none" fillRule="evenodd">
-            <path d="M0 0h24v24H0z" />
             <circle fill="#0B1F35" opacity=".3" cx="7" cy="9" r="2" />
             <path
                 d="M12.191 6A5.972 5.972 0 0 0 7 3C3.691 3 1 5.691 1 9s2.691 6 6 6a5.972 5.972 0 0 0 5.191-3h7.516l3-3-3-3h-7.516zm7.102 5h-7.704l-.14.272A4.98 4.98 0 0 1 7 14c-2.757 0-5-2.243-5-5s2.243-5 5-5a4.98 4.98 0 0 1 4.449 2.728l.14.272h7.704l2 2-2 2z"

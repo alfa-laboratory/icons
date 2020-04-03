@@ -17,7 +17,7 @@ export const CashbackSBlackIcon: React.FC<Props> = ({ className }) => (
         viewBox="0 0 16 16"
     >
         <g fill="none" fillRule="evenodd">
-            <path d="M0 0h16v16H0z" />
+            <polygon points="0 0 16 0 16 16 0 16" />
             <path
                 stroke="#0B1F35"
                 d="M7.5 3.5a6 6 0 0 0-6 6v3.45a2.55 2.55 0 0 0 2.55 2.55h7.9a2.55 2.55 0 0 0 2.55-2.55V9.5a6 6 0 0 0-6-6h-1z"

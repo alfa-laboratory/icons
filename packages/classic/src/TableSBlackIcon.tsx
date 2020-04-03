@@ -17,11 +17,10 @@ export const TableSBlackIcon: React.FC<Props> = ({ className }) => (
         viewBox="0 0 18 18"
         fill="none"
     >
-        <path d="M0 0h18v18H0z" />
-        <path
-            fill="#0B1F35"
-            d="M4 4h10v1H4zM4 7h10v1H4zM4 10h10v1H4zM4 13h10v1H4z"
-        />
+        <rect x="4" y="4" width="10" height="1" fill="#0B1F35" />
+        <rect x="4" y="7" width="10" height="1" fill="#0B1F35" />
+        <rect x="4" y="10" width="10" height="1" fill="#0B1F35" />
+        <rect x="4" y="13" width="10" height="1" fill="#0B1F35" />
     </svg>
 );
 

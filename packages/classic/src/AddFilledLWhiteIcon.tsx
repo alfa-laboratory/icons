@@ -23,7 +23,6 @@ export const AddFilledLWhiteIcon: React.FC<Props> = ({ className }) => (
                 fill="#FFF"
                 opacity=".9"
             />
-            <path d="M0 0h30v30H0z" />
         </g>
     </svg>
 );

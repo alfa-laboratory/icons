@@ -16,10 +16,10 @@ export const ArrowTopMBlackIcon: React.FC<Props> = ({ className }) => (
         height="24"
         viewBox="0 0 24 24"
     >
-        <path
+        <polygon
             fill="#0B1F35"
             opacity=".9"
-            d="M7 7.4l.818.7 3.17-3.1v16h1.023V5l3.17 3.1.819-.7L11.5 3z"
+            points="7 7.4 7.81818182 8.1 10.9886364 5 10.9886364 21 12.0113636 21 12.0113636 5 15.1818182 8.1 16 7.4 11.5 3"
             fillRule="evenodd"
         />
     </svg>

@@ -8,22 +8,21 @@ type Props = {
     className?: string;
 };
 
-export const DownloadMIcon: React.FC<Props> = ({ className }) => (
+export const AndroidDocumentOffMIcon: React.FC<Props> = ({ className }) => (
     <svg
         className={className}
         focusable="false"
-        width="24"
+        fill="none"
         height="24"
         viewBox="0 0 24 24"
-        fill="none"
+        width="24"
     >
         <path d="M0 0h24v24H0z" />
-        <path d="M0 0h24v24H0V0z" fill="#fff" />
         <path
-            d="M4 19h16v2H4v-2zM11 13.5V3h2v10.5l3.5-3.5 1.5 1.5-6 5.5-6-5.5L7.5 10l3.5 3.5z"
-            fill="#0B1F35"
+            d="M6 2c-1.1 0-1.99.9-1.99 2L4 20c0 1.1.89 2 1.99 2H18c1.1 0 2-.9 2-2V8l-6-6zm7 7V3.5L18.5 9z"
+            fill="#6d7986"
         />
     </svg>
 );
 
-export default DownloadMIcon;
+export default AndroidDocumentOffMIcon;

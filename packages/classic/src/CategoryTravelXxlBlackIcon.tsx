@@ -17,7 +17,6 @@ export const CategoryTravelXxlBlackIcon: React.FC<Props> = ({ className }) => (
         viewBox="0 0 48 48"
     >
         <g fill="none" fillRule="evenodd">
-            <path d="M0 0h48v48H0z" />
             <g fill="#0B1F35" fillRule="nonzero">
                 <path
                     d="M19 46.542c0 .92.746 1.458 1.667 1.458h6.667c.92 0 1.666-.538 1.666-1.458V43H19v3.542z"

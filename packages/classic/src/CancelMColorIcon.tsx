@@ -17,11 +17,10 @@ export const CancelMColorIcon: React.FC<Props> = ({ className }) => (
         viewBox="0 0 24 24"
     >
         <g fill="none">
-            <path d="M0 0h24v24H0z" />
             <rect width="24" height="24" fill="#EF3124" rx="12" />
-            <path
+            <polygon
                 fill="#FFF"
-                d="M12 10.929L15.929 7 17 8.071 13.071 12 17 15.929 15.929 17 12 13.071 8.071 17 7 15.929 10.929 12 7 8.071 8.071 7z"
+                points="12 10.929 15.929 7 17 8.071 13.071 12 17 15.929 15.929 17 12 13.071 8.071 17 7 15.929 10.929 12 7 8.071 8.071 7"
             />
         </g>
     </svg>

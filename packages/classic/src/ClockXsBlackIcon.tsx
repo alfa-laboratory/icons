@@ -17,7 +17,7 @@ export const ClockXsBlackIcon: React.FC<Props> = ({ className }) => (
         viewBox="0 0 12 12"
     >
         <g fill="none" fillRule="evenodd">
-            <path d="M0 0h12v12H0z" />
+            <polygon points="0 0 12 0 12 12 0 12" />
             <circle
                 stroke-opacity=".9"
                 stroke="#0B1F35"

@@ -17,7 +17,7 @@ export const PaymentToStateMBlackIcon: React.FC<Props> = ({ className }) => (
         viewBox="0 0 24 24"
     >
         <g fill="none" fillRule="evenodd">
-            <path d="M0 0h24v24H0z" />
+            <polygon points="0 0 24 0 24 24 0 24" />
             <path
                 d="M18 10h4v12h2v1H0v-1h2V10h4V6h12v4zM3 22h18V11H3v11zm4-12h10V7H7v3z"
                 fill="#0B1F35"

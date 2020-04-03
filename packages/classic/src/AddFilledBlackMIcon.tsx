@@ -23,7 +23,6 @@ export const AddFilledBlackMIcon: React.FC<Props> = ({ className }) => (
                 fill="#0B1F35"
                 opacity=".9"
             />
-            <path d="M0 0h24v24H0z" />
         </g>
     </svg>
 );

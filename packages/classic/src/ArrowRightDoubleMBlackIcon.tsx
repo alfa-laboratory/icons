@@ -17,7 +17,6 @@ export const ArrowRightDoubleMBlackIcon: React.FC<Props> = ({ className }) => (
         viewBox="0 0 24 24"
         fill="none"
     >
-        <path d="M0 0h24v24H0z" />
         <path
             d="M8 16.302l.726.698 5.197-5-5.197-5L8 7.699 12.473 12 8 16.302z"
             fill="#0B1F35"

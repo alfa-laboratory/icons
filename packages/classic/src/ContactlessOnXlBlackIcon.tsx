@@ -17,8 +17,9 @@ export const ContactlessOnXlBlackIcon: React.FC<Props> = ({ className }) => (
         viewBox="0 0 36 36"
     >
         <g fill="none" fillRule="evenodd">
-            <path
-                d="M16.22 31.947l-.731.56 2.592 3.38 4.28-5.58-.73-.56-3.55 4.625z"
+            <polygon
+                points="1.21960567 2.94690025 0.48875 3.50763237 3.08052391 6.88615092 7.36125 1.30769538 6.63039433 0.746349084 3.08052391 5.37223559"
+                transform="translate(15 29)"
                 fill="#0B1F35"
             />
             <path

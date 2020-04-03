@@ -17,7 +17,7 @@ export const CardAddLWhiteIcon: React.FC<Props> = ({ className }) => (
         viewBox="0 0 30 30"
     >
         <g fill="none" fillRule="evenodd">
-            <path d="M0 0h30v30H0z" />
+            <polygon points="0 0 30 0 30 30 0 30" />
             <path
                 d="M6 19h5v2H6v-2zm-4-8h25v4H2v-4z"
                 fill="#FFF"
@@ -29,8 +29,15 @@ export const CardAddLWhiteIcon: React.FC<Props> = ({ className }) => (
                 fill="#FFF"
                 fillRule="nonzero"
             />
-            <path fill="#FFF" d="M25 18h1v9h-1z" />
-            <path fill="#FFF" d="M30 22v1h-9v-1z" />
+            <rect fill="#FFF" x="25" y="18" width="1" height="9" />
+            <rect
+                fill="#FFF"
+                transform="rotate(90 25.5 22.5)"
+                x="25"
+                y="18"
+                width="1"
+                height="9"
+            />
         </g>
     </svg>
 );

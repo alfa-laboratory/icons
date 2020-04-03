@@ -17,7 +17,6 @@ export const AttentionLColorIcon: React.FC<Props> = ({ className }) => (
         viewBox="0 0 30 30"
         fill="none"
     >
-        <path d="M0 0h30v30H0z" />
         <path
             d="M30 15c0-8.284-6.716-15-15-15C6.716 0 0 6.716 0 15c0 8.284 6.716 15 15 15 8.284 0 15-6.716 15-15z"
             fill="#F6BF65"

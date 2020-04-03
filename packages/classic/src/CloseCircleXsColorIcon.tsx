@@ -17,7 +17,6 @@ export const CloseCircleXsColorIcon: React.FC<Props> = ({ className }) => (
         viewBox="0 0 12 12"
         fill="none"
     >
-        <path d="M0 0h12v12H0z" />
         <path
             opacity=".5"
             d="M6 12A6 6 0 1 0 6 0a6 6 0 0 0 0 12z"

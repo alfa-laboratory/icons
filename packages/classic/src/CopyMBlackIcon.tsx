@@ -17,7 +17,6 @@ export const CopyMBlackIcon: React.FC<Props> = ({ className }) => (
         viewBox="0 0 24 24"
     >
         <g fill="none" fillRule="evenodd">
-            <path d="M0 0h24v24H0z" />
             <path
                 d="M10.386 5H19a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H8a2 2 0 0 1-2-2V9.224L10.386 5zm.426 1L7 9.777V21a1 1 0 0 0 1 1h11a1 1 0 0 0 1-1V7a1 1 0 0 0-1-1h-8.188z"
                 fill="#0A1E32"
@@ -27,10 +26,21 @@ export const CopyMBlackIcon: React.FC<Props> = ({ className }) => (
                 fill="#0A1E32"
                 opacity=".3"
             />
-            <path
+            <rect
                 fill="#0A1E32"
                 opacity=".3"
-                d="M10 11h5v2h-5zM10 15h7v2h-7z"
+                x="10"
+                y="11"
+                width="5"
+                height="2"
+            />
+            <rect
+                fill="#0A1E32"
+                opacity=".3"
+                x="10"
+                y="15"
+                width="7"
+                height="2"
             />
         </g>
     </svg>

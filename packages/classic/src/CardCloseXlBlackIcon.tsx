@@ -17,17 +17,17 @@ export const CardCloseXlBlackIcon: React.FC<Props> = ({ className }) => (
         viewBox="0 0 36 36"
     >
         <g fill="none" fillRule="evenodd">
-            <path d="M0 0h36v36H0z" />
+            <polygon points="0 0 36 0 36 36 0 36" />
             <path
                 fill="#0B1F35"
                 fillRule="nonzero"
                 d="M4.848 21.009h6v3h-6v-3zm-2.866-9.003h32v3.972L2.001 16l-.019-3.994z"
                 opacity=".3"
             />
-            <path
+            <polygon
                 fill="#0B1F35"
                 fillRule="nonzero"
-                d="M30.5 23.793l4.146-4.147.708.708-4.147 4.146 4.147 4.146-.708.708-4.146-4.147-4.146 4.147-.708-.708 4.147-4.146-4.147-4.146.708-.708z"
+                points="30.5 23.793 34.646 19.646 35.354 20.354 31.207 24.5 35.354 28.646 34.646 29.354 30.5 25.207 26.354 29.354 25.646 28.646 29.793 24.5 25.646 20.354 26.354 19.646"
             />
             <path
                 fill="#0B1F35"

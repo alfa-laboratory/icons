@@ -19,7 +19,6 @@ export const CategoryRestaurantsXlBlackIcon: React.FC<Props> = ({
         viewBox="0 0 36 36"
     >
         <g fill="none" fillRule="evenodd">
-            <path d="M0 0h36v36H0z" />
             <path
                 d="M25 15.49H2a1.5 1.5 0 0 0-1.5 1.5v3.898h26V16.99a1.5 1.5 0 0 0-1.5-1.5z"
                 fill="#0B1F35"

@@ -17,7 +17,6 @@ export const CategoryHealthMWhiteIcon: React.FC<Props> = ({ className }) => (
         viewBox="0 0 24 24"
     >
         <g fill="none" fillRule="evenodd">
-            <path d="M0 0h24v24H0z" />
             <path
                 d="M10 15v.757C8.873 17.994 8.317 20.364 8.317 23h1c0-2.167.419-4.136 1.224-6H12c6.627 0 12-5.373 12-12V3h-2c-6.627 0-12 5.373-12 12zM23 5c0 6.065-4.935 11-11 11h-1v-1c0-6.065 4.935-11 11-11h1v1z"
                 fill="#FFF"

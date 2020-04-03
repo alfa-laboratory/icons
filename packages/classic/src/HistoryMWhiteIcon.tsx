@@ -16,9 +16,11 @@ export const HistoryMWhiteIcon: React.FC<Props> = ({ className }) => (
         height="24"
         viewBox="0 0 24 24"
     >
-        <path fill="none" d="M0 0h24v24H0z" />
         <g fill="#fff">
-            <path opacity=".3" d="M13 6h-2v7l3.8 3.2 1.3-1.5-3.1-2.6V6z" />
+            <polygon
+                points="13 6 11 6 11 13 14.8 16.2 16.1 14.7 13 12.1 13 6"
+                opacity=".3"
+            />
             <path d="M12 23A11 11 0 1 0 1 12a11 11 0 0 0 11 11zm0-1a10 10 0 1 1 10-10 10 10 0 0 1-10 10z" />
         </g>
     </svg>

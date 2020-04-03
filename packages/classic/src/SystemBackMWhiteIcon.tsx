@@ -17,10 +17,9 @@ export const SystemBackMWhiteIcon: React.FC<Props> = ({ className }) => (
         viewBox="0 0 24 24"
     >
         <g fill="none" fillRule="evenodd">
-            <path d="M0 0h24v24H0z" />
-            <path
+            <polygon
                 fill="#FFF"
-                d="M10.243 2.1L.343 12l9.9 9.9 1.414-1.415L3.172 12l8.485-8.485z"
+                points="10.2426407 2.10050506 0.343145751 12 10.2426407 21.8994949 11.6568542 20.4852814 3.17157288 12 11.6568542 3.51471863"
             />
         </g>
     </svg>

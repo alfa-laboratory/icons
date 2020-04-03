@@ -17,7 +17,6 @@ export const CategoryHealthXxlBlackIcon: React.FC<Props> = ({ className }) => (
         viewBox="0 0 48 48"
     >
         <g fill="none" fillRule="evenodd">
-            <path d="M0 0h48v48H0z" />
             <path
                 d="M20 28.143v3.208c-2.014 4.226-3 8.693-3 13.649h1c0-4.719.924-8.975 2.804-13h3.053C36.639 32 47 21.639 47 8.857V5h-3.857C30.361 5 20 15.361 20 28.143zM46 8.857C46 21.067 36.067 31 23.857 31H21v-2.857C21 15.933 30.933 6 43.143 6H46v2.857z"
                 fill="#0B1F35"

@@ -17,8 +17,7 @@ export const TickXxlWhiteIcon: React.FC<Props> = ({ className }) => (
         viewBox="0 0 48 48"
     >
         <g fill="none">
-            <path d="M0 0h48v48H0z" />
-            <path fill="#FFF" d="M44 8l3 3-29 29L2 24l3-3 13 13z" />
+            <polygon fill="#FFF" points="44 8 47 11 18 40 2 24 5 21 18 34" />
         </g>
     </svg>
 );

@@ -17,7 +17,6 @@ export const BalanceTransferMWhiteIcon: React.FC<Props> = ({ className }) => (
         viewBox="0 0 24 24"
     >
         <g fill="none">
-            <path d="M0 0h24v24H0z" />
             <g fill="#FFF">
                 <path d="M2 2h15a2 2 0 0 1 2 2v2h3a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2v-2H2a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2zm0 1a1 1 0 0 0-1 1v11a1 1 0 0 0 1 1h3V8a2 2 0 0 1 2-2h11V4a1 1 0 0 0-1-1H2zm5 4a1 1 0 0 0-1 1v11a1 1 0 0 0 1 1h15a1 1 0 0 0 1-1V8a1 1 0 0 0-1-1H7z" />
                 <path d="M7 6H1v3h4V8a2 2 0 0 1 2-2z" opacity=".3" />

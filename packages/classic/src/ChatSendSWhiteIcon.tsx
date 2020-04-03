@@ -16,10 +16,9 @@ export const ChatSendSWhiteIcon: React.FC<Props> = ({ className }) => (
         height="14"
         viewBox="0 0 16 14"
     >
-        <g fill="none" fillRule="evenodd">
-            <path d="M-1-2h18v18H-1z" />
+        <g transform="translate(-1 -2)" fill="none" fillRule="evenodd">
             <path
-                d="M16 7L.582 13.962c-.199.09-.44.017-.54-.163a.333.333 0 0 1-.04-.203l.72-5.688L7.155 7 .722 6.092.002.404C-.022.205.137.025.357.002a.44.44 0 0 1 .226.036L16 7z"
+                d="M17 9L1.582 15.962c-.199.09-.44.017-.54-.163a.333.333 0 0 1-.04-.203l.72-5.688L8.155 9l-6.433-.908-.72-5.688c-.025-.199.134-.379.354-.402a.44.44 0 0 1 .226.036L17 9z"
                 fill="#FFF"
                 fillRule="nonzero"
             />

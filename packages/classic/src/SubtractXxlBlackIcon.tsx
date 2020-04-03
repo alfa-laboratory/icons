@@ -17,7 +17,6 @@ export const SubtractXxlBlackIcon: React.FC<Props> = ({ className }) => (
         viewBox="0 0 48 48"
         fill="none"
     >
-        <path d="M0 0h48v48H0z" />
         <path d="M26 10l2-6h-4l-2 6H8v4h32v-4H26z" fill="#0B1F35" />
         <path
             fillRule="evenodd"

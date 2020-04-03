@@ -17,7 +17,7 @@ export const SelfemloyedRegMWhiteIcon: React.FC<Props> = ({ className }) => (
         viewBox="0 0 24 24"
     >
         <g fill="none" fillRule="evenodd">
-            <path d="M0 0h24v24H0z" />
+            <polygon points="0 0 24 0 24 24 0 24" />
             <path
                 fill="#FFF"
                 fillRule="nonzero"

@@ -16,10 +16,9 @@ export const TickXsBlackIcon: React.FC<Props> = ({ className }) => (
         height="12"
         viewBox="0 0 12 12"
     >
-        <path fill="none" d="M0 0h12v12H0z" />
-        <path
+        <polygon
             fill="#0b1f35"
-            d="M4.88 7.6L1.8 4.69l-.99.89 4.07 4.07 6.31-6.32-1.07-.98L4.88 7.6z"
+            points="4.88 7.6 1.8 4.69 0.81 5.58 4.88 9.65 11.19 3.33 10.12 2.35 4.88 7.6"
         />
     </svg>
 );

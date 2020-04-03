@@ -17,7 +17,6 @@ export const CardVoidMBlackIcon: React.FC<Props> = ({ className }) => (
         viewBox="0 0 24 24"
         fill="none"
     >
-        <path d="M0 0h24v24H0z" />
         <path d="M3 4a3 3 0 0 0-3 3h24a3 3 0 0 0-3-3H3z" fill="#DBDEE1" />
         <path
             fillRule="evenodd"

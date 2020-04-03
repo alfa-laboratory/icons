@@ -17,7 +17,6 @@ export const SubtractLBlackIcon: React.FC<Props> = ({ className }) => (
         viewBox="0 0 30 30"
         fill="none"
     >
-        <path d="M0 0h30v30H0z" />
         <path
             d="M16.25 6.25L17.5 2.5H15l-1.25 3.75H5v2.5h20v-2.5h-8.75z"
             fill="#0B1F35"

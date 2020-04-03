@@ -17,7 +17,6 @@ export const UnionpayXxlColorIcon: React.FC<Props> = ({ className }) => (
         viewBox="0 0 48 48"
     >
         <g fill="none" fillRule="evenodd">
-            <path d="M0 0h48v48H0z" />
             <path
                 d="M10.59 10h11.287c1.575 0 2.47 1.272 1.997 2.836l-6.751 22.332C16.646 36.728 14.984 38 13.41 38H2.122C.549 38-.347 36.728.127 35.168L6.88 12.836C7.352 11.272 9.013 10 10.59 10"
                 fill="#C92D3B"

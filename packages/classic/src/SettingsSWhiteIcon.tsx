@@ -18,7 +18,10 @@ export const SettingsSWhiteIcon: React.FC<Props> = ({ className }) => (
         xmlnsXlink="http://www.w3.org/1999/xlink"
     >
         <defs>
-            <path id="prefix__a" d="M18 18V0H0v18h9z" />
+            <polygon
+                id="prefix__a"
+                points="18 18 18 0 9.000075 0 0.00015 0 0.00015 18 9.000075 18"
+            />
         </defs>
         <g fill="none" fillRule="evenodd">
             <path

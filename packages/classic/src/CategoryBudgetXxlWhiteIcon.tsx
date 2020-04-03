@@ -17,7 +17,6 @@ export const CategoryBudgetXxlWhiteIcon: React.FC<Props> = ({ className }) => (
         viewBox="0 0 48 48"
         fill="none"
     >
-        <path d="M0 0h48v48H0z" />
         <path
             fillRule="evenodd"
             clipRule="evenodd"

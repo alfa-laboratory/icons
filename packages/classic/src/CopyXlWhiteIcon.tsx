@@ -17,7 +17,6 @@ export const CopyXlWhiteIcon: React.FC<Props> = ({ className }) => (
         viewBox="0 0 36 36"
     >
         <g fill="none" fillRule="evenodd">
-            <path d="M0 0h36v36H0z" />
             <path
                 d="M10 13.241L17.339 6H29.5A2.5 2.5 0 0 1 32 8.5v23a2.5 2.5 0 0 1-2.5 2.5h-17a2.5 2.5 0 0 1-2.5-2.5V13.241zm1 .517V31.4a1.6 1.6 0 0 0 1.6 1.6h16.8a1.6 1.6 0 0 0 1.6-1.6V8.6A1.6 1.6 0 0 0 29.4 7H17.703L11 13.758z"
                 fill="#FFF"
@@ -27,7 +26,15 @@ export const CopyXlWhiteIcon: React.FC<Props> = ({ className }) => (
                 fill="#FFF"
                 opacity=".3"
             />
-            <path fill="#FFF" opacity=".3" d="M15 14h8v3h-8zM15 19h12v3H15z" />
+            <rect fill="#FFF" opacity=".3" x="15" y="14" width="8" height="3" />
+            <rect
+                fill="#FFF"
+                opacity=".3"
+                x="15"
+                y="19"
+                width="12"
+                height="3"
+            />
             <circle fill="#FFF" opacity=".3" cx="17" cy="26" r="2" />
         </g>
     </svg>

@@ -18,7 +18,10 @@ export const SettingsMBlackIcon: React.FC<Props> = ({ className }) => (
         xmlnsXlink="http://www.w3.org/1999/xlink"
     >
         <defs>
-            <path id="prefix__a" d="M12 24h12V0H0v24h12z" />
+            <polygon
+                id="prefix__a"
+                points="12.0001 24 24 24 24 0 12.0001 0 0.0002 0 0.0002 24 12.0001 24"
+            />
         </defs>
         <g fill="none" fillRule="evenodd">
             <path

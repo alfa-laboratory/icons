@@ -17,12 +17,12 @@ export const CategoryGameXxlWhiteIcon: React.FC<Props> = ({ className }) => (
         viewBox="0 0 48 48"
         fill="none"
     >
-        <path d="M0 0h48v48H0z" />
         <path
-            d="M17 18h-3v3h-3v3h3v3h3v-3h3v-3h-3v-3zM34 19.5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zM35.5 24a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3zM34 25.5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zM29.5 24a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3zM23 2h2v8h-2z"
+            d="M17 18h-3v3h-3v3h3v3h3v-3h3v-3h-3v-3zM34 19.5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zM35.5 24a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3zM34 25.5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zM29.5 24a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z"
             fill="#fff"
             fillOpacity=".3"
         />
+        <rect x="23" y="2" width="2" height="8" fill="#fff" fillOpacity=".3" />
         <path
             fillRule="evenodd"
             clipRule="evenodd"

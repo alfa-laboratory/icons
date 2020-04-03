@@ -16,16 +16,23 @@ export const AccountInfoXlBlackIcon: React.FC<Props> = ({ className }) => (
         height="36"
         viewBox="0 0 36 36"
     >
-        <g fill="none" fillRule="evenodd">
-            <path d="M0 0h36v36H0z" />
+        <g transform="translate(-128 -303)" fill="none" fillRule="evenodd">
             <path
-                d="M28.2 34.1H7.8c-1.5 0-2.8-1.3-2.8-2.8V3.8C5 2.3 6.3 1 7.8 1h15.3L31 8.9v22.4c0 1.6-1.3 2.8-2.8 2.8zM7.8 2C6.8 2 6 2.8 6 3.8v27.5c0 1 .8 1.8 1.8 1.8h20.4c1 0 1.8-.8 1.8-1.8v-22L22.6 2H7.8z"
+                d="M156.2 337.1h-20.4c-1.5 0-2.8-1.3-2.8-2.8v-27.5c0-1.5 1.3-2.8 2.8-2.8h15.3l7.9 7.9v22.4c0 1.6-1.3 2.8-2.8 2.8zM135.8 305c-1 0-1.8.8-1.8 1.8v27.5c0 1 .8 1.8 1.8 1.8h20.4c1 0 1.8-.8 1.8-1.8v-22l-7.4-7.3h-14.8z"
                 fill="#0B1F35"
             />
             <path
-                d="M17.5 10c1.1 0 2 .9 2 2s-.9 2-2 2-2-.9-2-2 .9-2 2-2M16 17h3v9h-3z"
+                d="M145.5 313c1.1 0 2 .9 2 2s-.9 2-2 2-2-.9-2-2 .9-2 2-2"
                 fill="#0B1F35"
                 opacity=".3"
+            />
+            <rect
+                fill="#0B1F35"
+                opacity=".3"
+                x="144"
+                y="320"
+                width="3"
+                height="9"
             />
         </g>
     </svg>

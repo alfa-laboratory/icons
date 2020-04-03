@@ -17,7 +17,6 @@ export const AccountSBlackIcon: React.FC<Props> = ({ className }) => (
         viewBox="0 0 18 18"
         fill="none"
     >
-        <path d="M0 0h18v18H0z" />
         <path
             opacity=".35"
             d="M12.75 8.25h-7.5v1.5h7.5v-1.5zM9.75 5.25h-4.5v1.5h4.5v-1.5z"

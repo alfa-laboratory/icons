@@ -17,7 +17,6 @@ export const PillowXlWhiteIcon: React.FC<Props> = ({ className }) => (
         viewBox="0 0 36 36"
     >
         <g fill="none">
-            <path d="M0 0h36v36H0z" />
             <g fill="#FFF">
                 <path
                     fillOpacity=".3"

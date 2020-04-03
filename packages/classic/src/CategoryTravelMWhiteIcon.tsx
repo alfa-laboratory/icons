@@ -17,7 +17,6 @@ export const CategoryTravelMWhiteIcon: React.FC<Props> = ({ className }) => (
         viewBox="0 0 24 24"
     >
         <g fill="none" fillRule="evenodd">
-            <path d="M0 0h24v24H0z" />
             <g fill="#FFF" fillRule="nonzero">
                 <path
                     d="M9 22a1 1 0 0 0 1 1h4a1 1 0 0 0 1-1v-2H9v2z"

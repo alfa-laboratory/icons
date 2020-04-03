@@ -17,7 +17,6 @@ export const CategoryVipRoomSWhiteIcon: React.FC<Props> = ({ className }) => (
         viewBox="0 0 18 18"
         fill="none"
     >
-        <path d="M0 0h18v18H0z" />
         <path
             d="M4.5 3.912C4.568 2.837 5.477 2 6.577 2h4.812c1.099 0 2.008.837 2.077 1.912l.52 2.8c-.846 0-2.164.622-2.486 1.916h-5C6 7 4.86 6.713 4.133 6.713l.367-2.8z"
             fill="#FFF"

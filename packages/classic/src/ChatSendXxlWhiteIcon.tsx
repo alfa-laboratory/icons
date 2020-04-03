@@ -16,10 +16,9 @@ export const ChatSendXxlWhiteIcon: React.FC<Props> = ({ className }) => (
         height="36"
         viewBox="0 0 41 36"
     >
-        <g fill="none" fillRule="evenodd">
-            <path d="M-4-6h48v48H-4z" />
+        <g transform="translate(-4 -6)" fill="none" fillRule="evenodd">
             <path
-                d="M41 18L1.491 35.9c-.509.23-1.128.044-1.382-.417a.858.858 0 0 1-.102-.524L1.85 20.334 18.335 18 1.851 15.666.007 1.04C-.058.527.348.065.913.006c.199-.02.4.012.578.093L41 17.999z"
+                d="M45 24L5.491 41.9c-.509.23-1.128.044-1.382-.417a.858.858 0 0 1-.102-.524L5.85 26.334 22.335 24 5.851 21.666 4.007 7.04c-.065-.513.341-.975.906-1.034.199-.02.4.012.578.093L45 23.999z"
                 fill="#FFF"
                 fillRule="nonzero"
             />

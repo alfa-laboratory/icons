@@ -16,7 +16,6 @@ export const LogoAlfabankMColorIcon: React.FC<Props> = ({ className }) => (
         height="24"
         viewBox="0 0 24 24"
     >
-        <path fill="none" d="M0 0h24v24H0z" />
         <path
             d="M0 12.08A12 12 0 1 0 11.92 0 12 12 0 0 0 0 12.08z"
             fill="#ef3124"

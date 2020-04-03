@@ -17,7 +17,6 @@ export const CategoryCardsXxlColorIcon: React.FC<Props> = ({ className }) => (
         viewBox="0 0 48 48"
         fill="none"
     >
-        <path d="M0 0h48v48H0z" />
         <path
             d="M11.56 6.373a1.921 1.921 0 0 1 2.402-1.288l32.676 10.07a1.942 1.942 0 0 1 1.277 2.422l-5.474 18.05a1.921 1.921 0 0 1-2.403 1.288L7.362 26.845a1.942 1.942 0 0 1-1.277-2.422l5.474-18.05z"
             fill="#B8D1E0"

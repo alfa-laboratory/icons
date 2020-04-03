@@ -17,12 +17,11 @@ export const OfferMWhiteIcon: React.FC<Props> = ({ className }) => (
         viewBox="0 0 24 24"
     >
         <g fill="none" fillRule="evenodd">
-            <path
+            <polygon
                 stroke="#FFF"
                 stroke-opacity=".3"
-                d="M5 11.524L14.195 2l-2.015 8.571 6.153 1.905L9.103 22l2.051-8.571z"
+                points="5 11.524 14.195 2 12.18 10.571 18.333 12.476 9.103 22 11.154 13.429"
             />
-            <path d="M0 0h24v24H0z" />
         </g>
     </svg>
 );

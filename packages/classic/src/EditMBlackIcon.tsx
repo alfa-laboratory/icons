@@ -16,12 +16,12 @@ export const EditMBlackIcon: React.FC<Props> = ({ className }) => (
         height="24"
         viewBox="0 0 24 24"
     >
-        <path fill="none" d="M0 0h24v24H0z" />
-        <g fill="#0B1F35">
-            <path d="M21 10h1v10a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11v1H4a1 1 0 0 0-1 1v15a1 1 0 0 0 1 1h16a1 1 0 0 0 1-1" />
-            <path
+        <g fill="#0B1F35" transform="translate(2 1)">
+            <path d="M19 9h1v10a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h11v1H2a1 1 0 0 0-1 1v15a1 1 0 0 0 1 1h16a1 1 0 0 0 1-1" />
+            <polygon points="21.1 2.9 19.7 4.4 17.6 2.3 19 .9" opacity=".3" />
+            <polygon
+                points="9.1 15 7 15 7 12.9 16.2 3.7 18.3 5.8"
                 opacity=".3"
-                d="M23.1 3.9l-1.4 1.5-2.1-2.1L21 1.9zM11.1 16H9v-2.1l9.2-9.2 2.1 2.1z"
             />
         </g>
     </svg>

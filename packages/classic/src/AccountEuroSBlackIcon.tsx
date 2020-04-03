@@ -17,7 +17,6 @@ export const AccountEuroSBlackIcon: React.FC<Props> = ({ className }) => (
         viewBox="0 0 18 18"
         fill="none"
     >
-        <path d="M0 0h18v18H0z" />
         <path
             fillRule="evenodd"
             clipRule="evenodd"

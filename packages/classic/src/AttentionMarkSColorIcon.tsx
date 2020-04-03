@@ -17,7 +17,7 @@ export const AttentionMarkSColorIcon: React.FC<Props> = ({ className }) => (
         viewBox="0 0 18 18"
     >
         <g fill="none" fillRule="evenodd">
-            <path d="M0 0h18v18H0z" />
+            <polygon points="0 0 18 0 18 18 0 18" />
             <path
                 fill="#EF3124"
                 fillRule="nonzero"

@@ -17,7 +17,6 @@ export const CategoryCashMColorIcon: React.FC<Props> = ({ className }) => (
         viewBox="0 0 24 24"
         fill="none"
     >
-        <path d="M0 0h24v24H0z" />
         <path
             d="M7.942 23.5L0 8.758l8.222-4.315 7.941 14.742L7.942 23.5z"
             fill="#DCE8F0"

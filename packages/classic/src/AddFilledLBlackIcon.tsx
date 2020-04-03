@@ -23,7 +23,6 @@ export const AddFilledLBlackIcon: React.FC<Props> = ({ className }) => (
                 fill="#0B1F35"
                 opacity=".9"
             />
-            <path d="M0 0h30v30H0z" />
         </g>
     </svg>
 );
