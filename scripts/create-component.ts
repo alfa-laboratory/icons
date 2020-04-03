@@ -14,7 +14,20 @@ const writeFile = promisify(fs.writeFile);
 
 const ICON_POSTFIX = 'Icon';
 
-const svgo = new Svgo({
+const removeEmptyRect = item => {
+    const isRect = item.elem === 'rect';
+    const noFill =
+        item.attrs && item.attrs.fill ? item.attrs.fill.value === 'none' : true;
+    const noChilds = item.content ? item.content.length === 0 : true;
+
+    if (isRect && noChilds && noFill) {
+        item.attrs = {};
+    }
+
+    return item;
+};
+
+const optimizer = new Svgo({
     plugins: [
         { convertPathData: { noSpaceAfterFlags: false } },
         { mergePaths: { noSpaceAfterFlags: false } },
@@ -22,7 +35,20 @@ const svgo = new Svgo({
         { removeXMLNS: true },
         { prefixIds: true },
         { removeViewBox: false },
+        { convertShapeToPath: false },
+        {
+            // @ts-ignore
+            removeEmptyRect: {
+                type: 'perItem',
+                description: 'Remove empty rect',
+                fn: removeEmptyRect,
+            },
+        },
     ],
+});
+
+const monoColorOptimizer = new Svgo({
+    plugins: [{ removeAttrs: { attrs: 'fill' } }],
 });
 
 const transformSvg = (svg: string): string =>
@@ -31,20 +57,21 @@ const transformSvg = (svg: string): string =>
         .replace(/clip-rule/g, 'clipRule')
         .replace(/fill-opacity/g, 'fillOpacity')
         .replace(/xmlns:xlink/g, 'xmlnsXlink')
-        .replace(/xlink:href/g, 'xlinkHref');
+        .replace(/xlink:href/g, 'xlinkHref')
+        .replace(/<rect\/>/g, '');
 
 export async function createComponent(filePath: string, packageDir: string) {
     const fileContent = await readFile(filePath, ENCODING);
 
-    let { data } = await svgo.optimize(fileContent);
+    let { data } = await optimizer.optimize(fileContent);
 
-    data = transformSvg(data);
+    let svg = transformSvg(data);
 
-    let componentName = path
-        .basename(filePath, `.${SVG_EXT}`)
-        .split('_')
-        .slice(1)
-        .join('_');
+    const basename = path.basename(filePath, `.${SVG_EXT}`);
+
+    const [packageName, name, size, color] = basename.split('_');
+
+    let componentName = `${name}_${size}${color ? `_${color}` : ``}`;
 
     componentName = camelcase(componentName, {
         pascalCase: true,
@@ -52,10 +79,20 @@ export async function createComponent(filePath: string, packageDir: string) {
 
     componentName += ICON_POSTFIX;
 
+    if (!color) {
+        let { data } = await monoColorOptimizer.optimize(svg);
+        svg = data;
+    }
+
     const componentContent = iconTemplate
         .replace(/{{ComponentName}}/g, `${componentName}`)
-        .replace('{{body}}', data)
-        .replace('<svg', '<svg className={className} focusable="false"');
+        .replace('{{body}}', svg)
+        .replace(
+            '<svg',
+            `<svg className={className} focusable="false" ${
+                color ? '' : 'fill="currentColor"'
+            }`
+        );
 
     const fullFileName = path.join(packageDir, `${componentName}.tsx`);
 
