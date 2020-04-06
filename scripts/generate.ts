@@ -91,7 +91,7 @@ async function createPackage(packageName: string) {
         iconVariants.map(filePath => createComponent(filePath, srcPackageDir))
     );
 
-    await createIndexImportFile(componentNames, srcPackageDir)
+    await createIndexImportFile(componentNames, srcPackageDir);
 }
 
 async function generateComponents() {

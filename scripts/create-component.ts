@@ -48,7 +48,7 @@ const optimizer = new Svgo({
 });
 
 const monoColorOptimizer = new Svgo({
-    plugins: [{ removeAttrs: { attrs: 'fill' } }],
+    plugins: [{ removeAttrs: { attrs: 'fill' } }, { removeViewBox: false }],
 });
 
 const transformSvg = (svg: string): string =>
@@ -63,10 +63,6 @@ const transformSvg = (svg: string): string =>
 export async function createComponent(filePath: string, packageDir: string) {
     const fileContent = await readFile(filePath, ENCODING);
 
-    let { data } = await optimizer.optimize(fileContent);
-
-    let svg = transformSvg(data);
-
     const basename = path.basename(filePath, `.${SVG_EXT}`);
 
     const [packageName, name, size, color] = basename.split('_');
@@ -79,10 +75,16 @@ export async function createComponent(filePath: string, packageDir: string) {
 
     componentName += ICON_POSTFIX;
 
+    let { data } = await optimizer.optimize(fileContent);
+
+    let svg = data;
+
     if (!color) {
         let { data } = await monoColorOptimizer.optimize(svg);
         svg = data;
     }
+
+    svg = transformSvg(svg);
 
     const componentContent = iconTemplate
         .replace(/{{ComponentName}}/g, `${componentName}`)
