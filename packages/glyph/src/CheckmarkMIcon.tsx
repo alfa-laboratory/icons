@@ -17,7 +17,11 @@ export const CheckmarkMIcon: React.FC<Props> = ({ className }) => (
         height="24"
         viewBox="0 0 24 24"
     >
-        <path d="M9.602 14.478a.2.2 0 00.286 0l6.921-7.057a1 1 0 011.429 1.4L10.03 17.19a.4.4 0 01-.571 0l-4.053-4.132a1 1 0 011.429-1.4l2.766 2.82z" />
+        <path
+            fillRule="evenodd"
+            clipRule="evenodd"
+            d="M20 7.5L10.5 17 4 10.5 5.5 9l5 5 8-8L20 7.5z"
+        />
     </svg>
 );
 

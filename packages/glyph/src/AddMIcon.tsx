@@ -17,11 +17,7 @@ export const AddMIcon: React.FC<Props> = ({ className }) => (
         height="24"
         viewBox="0 0 24 24"
     >
-        <path
-            fillRule="evenodd"
-            clipRule="evenodd"
-            d="M6 11h4.8a.2.2 0 00.2-.2V6a1 1 0 112 0v4.8c0 .11.09.2.2.2H18a1 1 0 110 2h-4.8a.2.2 0 00-.2.2V18a1 1 0 11-2 0v-4.8a.2.2 0 00-.2-.2H6a1 1 0 110-2z"
-        />
+        <path d="M11 11H5v2h6v6h2v-6h6v-2h-6V5h-2v6z" />
     </svg>
 );
 

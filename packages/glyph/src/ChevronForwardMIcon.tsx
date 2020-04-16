@@ -17,11 +17,7 @@ export const ChevronForwardMIcon: React.FC<Props> = ({ className }) => (
         height="24"
         viewBox="0 0 24 24"
     >
-        <path
-            fillRule="evenodd"
-            clipRule="evenodd"
-            d="M14.614 12.147a.2.2 0 000-.296L8.451 6.248a1 1 0 111.345-1.48l7.628 6.935a.4.4 0 010 .591L9.796 19.23a1 1 0 11-1.345-1.48l6.163-5.603z"
-        />
+        <path d="M15 12l-7 6.5L9.5 20l8.5-8-8.5-8L8 5.5l7 6.5z" />
     </svg>
 );
 

@@ -20,13 +20,7 @@ export const PercentMIcon: React.FC<Props> = ({ className }) => (
         <path
             fillRule="evenodd"
             clipRule="evenodd"
-            d="M6.5 11a3.5 3.5 0 100-7 3.5 3.5 0 000 7zm0-2.5a1 1 0 100-2 1 1 0 000 2z"
-        />
-        <path d="M14.781 5a.5.5 0 00-.427.24L6.277 18.545a.3.3 0 00.256.456H9.22a.5.5 0 00.427-.24l8.077-13.304A.3.3 0 0017.467 5H14.78z" />
-        <path
-            fillRule="evenodd"
-            clipRule="evenodd"
-            d="M21 16.5a3.5 3.5 0 11-7 0 3.5 3.5 0 017 0zm-2.5 0a1 1 0 11-2 0 1 1 0 012 0z"
+            d="M3 7a3 3 0 016 0v1a3 3 0 01-6 0V7zm2 0a1 1 0 012 0v1a1 1 0 01-2 0V7zm14-3L8 20H5L16.085 4H19zm-1 9a3 3 0 00-3 3v1a3 3 0 106 0v-1a3 3 0 00-3-3zm0 2a1 1 0 00-1 1v1a1 1 0 102 0v-1a1 1 0 00-1-1z"
         />
     </svg>
 );

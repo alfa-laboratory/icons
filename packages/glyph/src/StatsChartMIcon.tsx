@@ -17,11 +17,7 @@ export const StatsChartMIcon: React.FC<Props> = ({ className }) => (
         height="24"
         viewBox="0 0 24 24"
     >
-        <path
-            fillRule="evenodd"
-            clipRule="evenodd"
-            d="M3.2 21a.2.2 0 01-.2-.2v-7.6c0-.11.09-.2.2-.2h3.6c.11 0 .2.09.2.2v7.6a.2.2 0 01-.2.2H3.2zm7 0a.2.2 0 01-.2-.2V3.2c0-.11.09-.2.2-.2h3.6c.11 0 .2.09.2.2v17.6a.2.2 0 01-.2.2h-3.6zm7 0a.2.2 0 01-.2-.2V9.2c0-.11.09-.2.2-.2h3.6c.11 0 .2.09.2.2v11.6a.2.2 0 01-.2.2h-3.6z"
-        />
+        <path d="M3 13h4v8H3v-8zm7-10h4v18h-4V3zm7 6h4v12h-4V9z" />
     </svg>
 );
 

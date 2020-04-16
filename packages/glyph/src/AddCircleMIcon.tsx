@@ -20,7 +20,7 @@ export const AddCircleMIcon: React.FC<Props> = ({ className }) => (
         <path
             fillRule="evenodd"
             clipRule="evenodd"
-            d="M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2 2 6.477 2 12s4.477 10 10 10zM11 8a1 1 0 112 0v2.8c0 .11.09.2.2.2H16a1 1 0 110 2h-2.8a.2.2 0 00-.2.2V16a1 1 0 01-2 0v-2.8a.2.2 0 00-.2-.2H8a1 1 0 110-2h2.8a.2.2 0 00.2-.2V8z"
+            d="M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2 2 6.477 2 12s4.477 10 10 10zM8 11h3V8h2v3h3v2h-3v3h-2v-3H8v-2z"
         />
     </svg>
 );

@@ -17,11 +17,7 @@ export const ChevronDownCompactMIcon: React.FC<Props> = ({ className }) => (
         height="24"
         viewBox="0 0 24 24"
     >
-        <path
-            fillRule="evenodd"
-            clipRule="evenodd"
-            d="M6.933 11.085a1 1 0 011.48-1.345l3.439 3.783a.2.2 0 00.296 0l3.44-3.783a1 1 0 111.48 1.345l-4.772 5.249a.4.4 0 01-.592 0l-4.771-5.249z"
-        />
+        <path d="M12 13L8.5 9 7 10.5l5 5.5 5-5.5L15.5 9 12 13z" />
     </svg>
 );
 
