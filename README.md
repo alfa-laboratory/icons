@@ -2,12 +2,13 @@
 
 # Alfa Bank Icons
 
-Репозиторий React-компонета Icon.
-[Вставить ссылку на демо](https://github.com/alfa-laboratory/icons).
+React компонент Icon
+
+[Вставить ссылку на витрину иконок](https://github.com/alfa-laboratory/icons)
 
 ### Как сюда попадают новые иконки
-- дизайнер рисует иконку в фигме.
-- с помощью [фигма-плагина](https://www.figma.com/community/plugin/822773501021259599/Publish-Icons) автоматически создается пулл-реквест с иконкой в репозиторий [alfa-ui-primitives](https://github.com/alfa-laboratory/alfa-ui-primitives).
+- Дизайнер рисует [иконку в фигме](https://www.figma.com/file/QoGuPDB1hAMoMMqsQQ4Mx7lB/Icons?node-id=3882%3A144).
+- С помощью [фигма-плагина](https://www.figma.com/community/plugin/822773501021259599/Publish-Icons) автоматически создается пулл-реквест с иконкой в репозиторий [alfa-ui-primitives](https://github.com/alfa-laboratory/alfa-ui-primitives).
 - После мерджа пулл-реквеста в [alfa-ui-primitives](https://github.com/alfa-laboratory/alfa-ui-primitives) и публикации нового пакета, с помощью github-actions начинается процесс генерации новых реакт-компонентов на основе svg-файла иконки.
 - После успешной генерации новых React-компонетов, публикуются новые версии пакета.
 
