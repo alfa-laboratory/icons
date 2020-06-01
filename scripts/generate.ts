@@ -112,7 +112,6 @@ async function main() {
     }
 
     await generateComponents();
-    await generateJson();
 }
 
 main();

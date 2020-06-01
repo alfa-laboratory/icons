@@ -12,7 +12,8 @@
     "generate": "yarn compile && yarn format-icons",
     "compile": "TS_NODE_PROJECT=scripts/tsconfig.json node -r ts-node/register scripts/generate.ts --target=icon",
     "format-icons": "prettier --write \"./packages/**/*.{ts,tsx}\" --loglevel warn",
-    "lint": "eslint ./scripts/ --ext .ts,.tsx"
+    "lint": "eslint ./scripts/ --ext .ts,.tsx",
+    "generate-json": "TS_NODE_PROJECT=scripts/tsconfig.json node -r ts-node/register scripts/generate-json.ts"
   },
   "dependencies": {},
   "devDependencies": {

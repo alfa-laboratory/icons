@@ -142,3 +142,5 @@ export async function generateJson() {
 
     await writeFile(jsonFileName, JSON.stringify(json), ENCODING);
 }
+
+generateJson();
