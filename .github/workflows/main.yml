@@ -18,6 +18,10 @@ jobs:
     - run: yarn install
     - run: yarn add --dev alfa-ui-primitives@latest
     - run: yarn generate
+    
+    - run: yarn generate-json
+      env:
+        FIGMA_TOKEN: ${{ secrets.FIGMA_TOKEN }}
 
     - name: commit changes
       uses: github-actions-x/commit@v2.5
