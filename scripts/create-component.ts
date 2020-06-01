@@ -1,9 +1,8 @@
+/* eslint-disable import/no-extraneous-dependencies */
 import { promisify } from 'util';
 import fs from 'fs';
 import path from 'path';
-/* eslint-disable import/no-extraneous-dependencies */
 import camelcase from 'camelcase';
-/* eslint-disable import/no-extraneous-dependencies */
 import Svgo from 'svgo';
 
 import { iconTemplate } from '../templates/icon.template';
@@ -12,12 +11,11 @@ import { SVG_EXT, ENCODING } from './generate';
 const readFile = promisify(fs.readFile);
 const writeFile = promisify(fs.writeFile);
 
-const ICON_POSTFIX = 'Icon';
+export const ICON_POSTFIX = 'Icon';
 
 const removeEmptyRect = item => {
     const isRect = item.elem === 'rect';
-    const noFill =
-        item.attrs && item.attrs.fill ? item.attrs.fill.value === 'none' : true;
+    const noFill = item.attrs && item.attrs.fill ? item.attrs.fill.value === 'none' : true;
     const noChilds = item.content ? item.content.length === 0 : true;
 
     if (isRect && noChilds && noFill) {
@@ -91,9 +89,7 @@ export async function createComponent(filePath: string, packageDir: string) {
         .replace('{{body}}', svg)
         .replace(
             '<svg',
-            `<svg className={className} focusable="false" ${
-                color ? '' : 'fill="currentColor"'
-            }`
+            `<svg className={className} focusable="false" ${color ? '' : 'fill="currentColor"'}`,
         );
 
     const fullFileName = path.join(packageDir, `${componentName}.tsx`);

@@ -3,13 +3,11 @@ import path from 'path';
 import { promisify } from 'util';
 import { createComponent } from './create-component';
 import { checkOrCreateFiles, createIndexImportFile } from './create-files';
+import { generateJson } from './generate-json';
 
 export const ENCODING = 'utf-8';
 
-const rootIconsDir = path.resolve(
-    __dirname,
-    '../node_modules/alfa-ui-primitives/icons'
-);
+const rootIconsDir = path.resolve(__dirname, '../node_modules/alfa-ui-primitives/icons');
 
 const srcDir = path.resolve(__dirname, '../packages');
 
@@ -36,8 +34,7 @@ const PACKAGE_ALIAS = {
     icon: 'classic',
 };
 
-const getPackageName = (iconPrefix: string) =>
-    PACKAGE_ALIAS[iconPrefix] || iconPrefix;
+export const getPackageName = (iconPrefix: string) => PACKAGE_ALIAS[iconPrefix] || iconPrefix;
 
 function generateIcon(iconName: string, dir: string) {
     const re = new RegExp(`.${SVG_EXT}$`);
@@ -82,13 +79,10 @@ async function createPackage(packageName: string) {
 
     await checkOrCreateFiles(packageDir, srcPackageDir, packageName);
 
-    const iconVariants = icons[packageName].reduce(
-        (acc, icon) => [...acc, ...icon.variants],
-        []
-    );
+    const iconVariants = icons[packageName].reduce((acc, icon) => [...acc, ...icon.variants], []);
 
     const componentNames = await Promise.all(
-        iconVariants.map(filePath => createComponent(filePath, srcPackageDir))
+        iconVariants.map(filePath => createComponent(filePath, srcPackageDir)),
     );
 
     await createIndexImportFile(componentNames, srcPackageDir);
@@ -98,7 +92,7 @@ async function generateComponents() {
     await Promise.all(
         Object.keys(icons)
             .filter(packageName => !EXCLUDED_PACKAGES.includes(packageName))
-            .map(createPackage)
+            .map(createPackage),
     );
 }
 
@@ -118,6 +112,7 @@ async function main() {
     }
 
     await generateComponents();
+    await generateJson();
 }
 
 main();
