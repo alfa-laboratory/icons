@@ -9,17 +9,7 @@ type Props = {
 };
 
 export const AndroidReorderMColorIcon: React.FC<Props> = ({ className }) => (
-    <svg
-        className={className}
-        focusable="false"
-        width="24"
-        height="24"
-        viewBox="0 0 24 24"
-        fill="none"
-    >
-        <rect x="3" y="8" width="18" height="2" fill="#CED2D7" />
-        <rect x="3" y="14" width="18" height="2" fill="#CED2D7" />
-    </svg>
+    <svg className={className} focusable="false"  width="24" height="24" viewBox="0 0 24 24" fill="none"><rect x="3" y="8" width="18" height="2" fill="#CED2D7"/><rect x="3" y="14" width="18" height="2" fill="#CED2D7"/></svg>
 );
 
 export default AndroidReorderMColorIcon;

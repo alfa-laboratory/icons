@@ -9,23 +9,7 @@ type Props = {
 };
 
 export const MobileAndroidXxlWhiteIcon: React.FC<Props> = ({ className }) => (
-    <svg
-        className={className}
-        focusable="false"
-        height="48"
-        viewBox="0 0 48 48"
-        width="48"
-    >
-        <g fill="none" fillRule="evenodd">
-            <path d="M0 0h48v48H0z" />
-            <path
-                d="M20.5 39h7v3h-7zM12.5 9h23v27h-23z"
-                fill="#fff"
-                fillOpacity=".3"
-                fillRule="nonzero"
-            />
-        </g>
-    </svg>
+    <svg className={className} focusable="false"  height="48" viewBox="0 0 48 48" width="48"><g fill="none" fillRule="evenodd"><path d="M0 0h48v48H0z"/><path d="M20.5 39h7v3h-7zM12.5 9h23v27h-23z" fill="#fff" fillOpacity=".3" fillRule="nonzero"/></g></svg>
 );
 
 export default MobileAndroidXxlWhiteIcon;

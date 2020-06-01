@@ -9,22 +9,7 @@ type Props = {
 };
 
 export const ArrowRightMBlackIcon: React.FC<Props> = ({ className }) => (
-    <svg
-        className={className}
-        focusable="false"
-        width="24"
-        height="24"
-        viewBox="0 0 24 24"
-    >
-        <g fill="none" fillRule="evenodd">
-            <path
-                fill="#000"
-                fillRule="nonzero"
-                d="M8.578 16.074l.708.708 5.068-5.068-5.068-5.068-.708.708 4.362 4.36z"
-            />
-            <path d="M0 0v24h24V0z" />
-        </g>
-    </svg>
+    <svg className={className} focusable="false"  width="24" height="24" viewBox="0 0 24 24"><g fill="none" fillRule="evenodd"><path fill="#000" fillRule="nonzero" d="M8.578 16.074l.708.708 5.068-5.068-5.068-5.068-.708.708 4.362 4.36z"/><path d="M0 0v24h24V0z"/></g></svg>
 );
 
 export default ArrowRightMBlackIcon;

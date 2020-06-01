@@ -9,19 +9,7 @@ type Props = {
 };
 
 export const ChevronRightMBlackIcon: React.FC<Props> = ({ className }) => (
-    <svg
-        className={className}
-        focusable="false"
-        width="24"
-        height="24"
-        viewBox="0 0 24 24"
-        fill="none"
-    >
-        <path
-            d="M9.414 19.142L8 17.728l5.657-5.657L8 6.414 9.414 5l7.071 7.071-7.07 7.071z"
-            fill="#0B1F35"
-        />
-    </svg>
+    <svg className={className} focusable="false"  width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M9.414 19.142L8 17.728l5.657-5.657L8 6.414 9.414 5l7.071 7.071-7.07 7.071z" fill="#0B1F35"/></svg>
 );
 
 export default ChevronRightMBlackIcon;

@@ -9,28 +9,7 @@ type Props = {
 };
 
 export const SelfemloyedRegXxlWhiteIcon: React.FC<Props> = ({ className }) => (
-    <svg
-        className={className}
-        focusable="false"
-        width="48"
-        height="48"
-        viewBox="0 0 48 48"
-    >
-        <g fill="none" fillRule="evenodd">
-            <polygon points="0 0 48 0 48 48 0 48" />
-            <path
-                fill="#FFF"
-                fillRule="nonzero"
-                d="M10 3a3 3 0 0 0-3 3v36a3 3 0 0 0 3 3h28a3 3 0 0 0 3-3V6a3 3 0 0 0-3-3H10zm0-1h28a4 4 0 0 1 4 4v36a4 4 0 0 1-4 4H10a4 4 0 0 1-4-4V6a4 4 0 0 1 4-4z"
-            />
-            <path
-                fill="#FFF"
-                fillRule="nonzero"
-                d="M14 18h20v4H14v-4zm0-8h14v4H14v-4zm0 16h8v4h-8v-4zm14 9a5 5 0 1 1 6 0v5l-3-2.081L28 40v-5z"
-                opacity=".3"
-            />
-        </g>
-    </svg>
+    <svg className={className} focusable="false"  width="48" height="48" viewBox="0 0 48 48"><g fill="none" fillRule="evenodd"><polygon points="0 0 48 0 48 48 0 48"/><path fill="#FFF" fillRule="nonzero" d="M10 3a3 3 0 0 0-3 3v36a3 3 0 0 0 3 3h28a3 3 0 0 0 3-3V6a3 3 0 0 0-3-3H10zm0-1h28a4 4 0 0 1 4 4v36a4 4 0 0 1-4 4H10a4 4 0 0 1-4-4V6a4 4 0 0 1 4-4z"/><path fill="#FFF" fillRule="nonzero" d="M14 18h20v4H14v-4zm0-8h14v4H14v-4zm0 16h8v4h-8v-4zm14 9a5 5 0 1 1 6 0v5l-3-2.081L28 40v-5z" opacity=".3"/></g></svg>
 );
 
 export default SelfemloyedRegXxlWhiteIcon;

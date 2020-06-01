@@ -9,21 +9,7 @@ type Props = {
 };
 
 export const OfferMWhiteIcon: React.FC<Props> = ({ className }) => (
-    <svg
-        className={className}
-        focusable="false"
-        width="24"
-        height="24"
-        viewBox="0 0 24 24"
-    >
-        <g fill="none" fillRule="evenodd">
-            <polygon
-                stroke="#FFF"
-                stroke-opacity=".3"
-                points="5 11.524 14.195 2 12.18 10.571 18.333 12.476 9.103 22 11.154 13.429"
-            />
-        </g>
-    </svg>
+    <svg className={className} focusable="false"  width="24" height="24" viewBox="0 0 24 24"><g fill="none" fillRule="evenodd"><polygon stroke="#FFF" stroke-opacity=".3" points="5 11.524 14.195 2 12.18 10.571 18.333 12.476 9.103 22 11.154 13.429"/></g></svg>
 );
 
 export default OfferMWhiteIcon;

@@ -9,18 +9,7 @@ type Props = {
 };
 
 export const SearchMBlackIcon: React.FC<Props> = ({ className }) => (
-    <svg
-        className={className}
-        focusable="false"
-        width="24"
-        height="24"
-        viewBox="0 0 24 24"
-    >
-        <g fill="#0B1F35">
-            <path d="M15.611 17.025l5.685 5.685a1 1 0 0 0 1.414-1.414l-5.685-5.685-1.414 1.414z" />
-            <path d="M10 19a9 9 0 1 0 0-18 9 9 0 0 0 0 18zm0-1a8 8 0 1 1 0-16 8 8 0 0 1 0 16z" />
-        </g>
-    </svg>
+    <svg className={className} focusable="false"  width="24" height="24" viewBox="0 0 24 24"><g fill="#0B1F35"><path d="M15.611 17.025l5.685 5.685a1 1 0 0 0 1.414-1.414l-5.685-5.685-1.414 1.414z"/><path d="M10 19a9 9 0 1 0 0-18 9 9 0 0 0 0 18zm0-1a8 8 0 1 1 0-16 8 8 0 0 1 0 16z"/></g></svg>
 );
 
 export default SearchMBlackIcon;
