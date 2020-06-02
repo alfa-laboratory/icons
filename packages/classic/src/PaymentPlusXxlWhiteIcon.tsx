@@ -9,7 +9,18 @@ type Props = {
 };
 
 export const PaymentPlusXxlWhiteIcon: React.FC<Props> = ({ className }) => (
-    <svg className={className} focusable="false"  width="48" height="48" viewBox="0 0 48 48"><g fill="#FFF" fillRule="evenodd"><path d="M24 9h1v29h-1z"/><path d="M10 23h29v1H10z"/></g></svg>
+    <svg
+        className={className}
+        focusable="false"
+        width="48"
+        height="48"
+        viewBox="0 0 48 48"
+    >
+        <g fill="#FFF" fillRule="evenodd">
+            <path d="M24 9h1v29h-1z" />
+            <path d="M10 23h29v1H10z" />
+        </g>
+    </svg>
 );
 
 export default PaymentPlusXxlWhiteIcon;

@@ -8,8 +8,12 @@ type Props = {
     className?: string;
 };
 
-export const CheckIndeterminateSWhiteIcon: React.FC<Props> = ({ className }) => (
-    <svg className={className} focusable="false"  viewBox="0 0 18 18"><path fill="#fff" d="M4 8h10v2H4z"/></svg>
+export const CheckIndeterminateSWhiteIcon: React.FC<Props> = ({
+    className,
+}) => (
+    <svg className={className} focusable="false" viewBox="0 0 18 18">
+        <path fill="#fff" d="M4 8h10v2H4z" />
+    </svg>
 );
 
 export default CheckIndeterminateSWhiteIcon;

@@ -9,7 +9,20 @@ type Props = {
 };
 
 export const SettingsMIcon: React.FC<Props> = ({ className }) => (
-    <svg className={className} focusable="false" fill="currentColor" width="24" height="24" viewBox="0 0 24 24"><path fillRule="evenodd" clipRule="evenodd" d="M10 2h4v2.252a7.992 7.992 0 013.73 2.166L20 5l2 3.5-2.273 1.42A8.01 8.01 0 0120 12a8.01 8.01 0 01-.273 2.08L22 15.5 20 19l-2.27-1.418A7.992 7.992 0 0114 19.748V22h-4v-2.252a7.992 7.992 0 01-3.73-2.166L4 19l-2-3.5 2.273-1.42A8.01 8.01 0 014 12c0-.72.095-1.416.273-2.08L2 8.5 4 5l2.269 1.418A7.992 7.992 0 0110 4.252V2zm2 13.5a3.5 3.5 0 100-7 3.5 3.5 0 000 7z"/></svg>
+    <svg
+        className={className}
+        focusable="false"
+        fill="currentColor"
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+    >
+        <path
+            fillRule="evenodd"
+            clipRule="evenodd"
+            d="M10 2h4v2.252a7.992 7.992 0 013.73 2.166L20 5l2 3.5-2.273 1.42A8.01 8.01 0 0120 12a8.01 8.01 0 01-.273 2.08L22 15.5 20 19l-2.27-1.418A7.992 7.992 0 0114 19.748V22h-4v-2.252a7.992 7.992 0 01-3.73-2.166L4 19l-2-3.5 2.273-1.42A8.01 8.01 0 014 12c0-.72.095-1.416.273-2.08L2 8.5 4 5l2.269 1.418A7.992 7.992 0 0110 4.252V2zm2 13.5a3.5 3.5 0 100-7 3.5 3.5 0 000 7z"
+        />
+    </svg>
 );
 
 export default SettingsMIcon;

@@ -9,7 +9,20 @@ type Props = {
 };
 
 export const DotsMWhiteIcon: React.FC<Props> = ({ className }) => (
-    <svg className={className} focusable="false"  width="24" height="24" viewBox="0 0 24 24"><g transform="rotate(-90 12 12)" fill="none" fillRule="evenodd"><path d="M3 15a3 3 0 1 1 0-6 3 3 0 0 1 0 6zm0-1a2 2 0 1 0 0-4 2 2 0 0 0 0 4zM12 15a3 3 0 1 1 0-6 3 3 0 0 1 0 6zm0-1a2 2 0 1 0 0-4 2 2 0 0 0 0 4zM21 15a3 3 0 1 1 0-6 3 3 0 0 1 0 6zm0-1a2 2 0 1 0 0-4 2 2 0 0 0 0 4z" fill="#FFF"/></g></svg>
+    <svg
+        className={className}
+        focusable="false"
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+    >
+        <g transform="rotate(-90 12 12)" fill="none" fillRule="evenodd">
+            <path
+                d="M3 15a3 3 0 1 1 0-6 3 3 0 0 1 0 6zm0-1a2 2 0 1 0 0-4 2 2 0 0 0 0 4zM12 15a3 3 0 1 1 0-6 3 3 0 0 1 0 6zm0-1a2 2 0 1 0 0-4 2 2 0 0 0 0 4zM21 15a3 3 0 1 1 0-6 3 3 0 0 1 0 6zm0-1a2 2 0 1 0 0-4 2 2 0 0 0 0 4z"
+                fill="#FFF"
+            />
+        </g>
+    </svg>
 );
 
 export default DotsMWhiteIcon;
