@@ -18,10 +18,6 @@ jobs:
     - run: yarn install
     - run: yarn add --dev alfa-ui-primitives@latest
     - run: yarn generate
-    
-    - run: yarn generate-json
-      env:
-        FIGMA_TOKEN: ${{ secrets.FIGMA_TOKEN }}
 
     - name: commit changes
       uses: github-actions-x/commit@v2.5
@@ -40,6 +36,10 @@ jobs:
        args: version minor --no-push --yes
 
     - run: yarn build
+    
+    - run: yarn generate-json
+      env:
+        FIGMA_TOKEN: ${{ secrets.FIGMA_TOKEN }}
 
     - name: Set NPM Token Action
       uses: filipstefansson/set-npm-token-action@v1
