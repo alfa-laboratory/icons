@@ -36,10 +36,6 @@ jobs:
        args: version minor --no-push --yes
 
     - run: yarn build
-    
-    - run: yarn generate-json
-      env:
-        FIGMA_TOKEN: ${{ secrets.FIGMA_TOKEN }}
 
     - name: Set NPM Token Action
       uses: filipstefansson/set-npm-token-action@v1
@@ -50,6 +46,11 @@ jobs:
       uses: "MrBoolean/action-lerna@master"
       with:
         args: publish from-git --contents dist --yes
+        
+    
+    - run: yarn generate-json
+      env:
+        FIGMA_TOKEN: ${{ secrets.FIGMA_TOKEN }}
 
     - run: npm version minor --git-tag-version false
     - run: cp package.json dist/package.json
