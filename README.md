@@ -34,3 +34,7 @@
 
 ## Размеры иконок
 Все иконки соответствуют [размерной сетке](https://github.com/alfa-laboratory/alfa-ui-primitives/wiki/%D0%A2%D1%80%D0%B5%D0%B1%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F-%D0%BA-%D0%B8%D0%BA%D0%BE%D0%BD%D0%BA%D0%B0%D0%BC).
+
+## Цвет иконок
+В пакете `@alfalab/icons-glyph` цвет иконок задается атрибутом `fill="currentColor"`. То есть цвет наследуется от родительского свойства `color`.
+В пакете `@alfalab/icons-classic` цвет иконок не наследуется.
