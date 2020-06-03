@@ -2,7 +2,8 @@
 
 ![BUILD](https://github.com/alfa-laboratory/icons/workflows/BUILD/badge.svg?branch=master&event=repository_dispatch)
 
-TODO: витрина иконок с поиском.
+## Витрина иконок
+[Демо](https://alfa-laboratory.github.io/icons-demo/)
 
 ## Как сюда попадают новые иконки
 - Дизайнер рисует [иконки в фигме](https://www.figma.com/file/QoGuPDB1hAMoMMqsQQ4Mx7lB/Icons?node-id=3882%3A144).
