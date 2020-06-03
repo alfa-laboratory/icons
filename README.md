@@ -2,8 +2,8 @@
 
 ![BUILD](https://github.com/alfa-laboratory/icons/workflows/BUILD/badge.svg?branch=master&event=repository_dispatch)
 
-## Витрина иконок
-[Демо](https://alfa-laboratory.github.io/icons-demo/)
+## Как найти иконку
+[Витрина иконок с поиском](https://alfa-laboratory.github.io/icons-demo/)
 
 ## Как сюда попадают новые иконки
 - Дизайнер рисует [иконки в фигме](https://www.figma.com/file/QoGuPDB1hAMoMMqsQQ4Mx7lB/Icons?node-id=3882%3A144).
@@ -36,6 +36,6 @@
 Все иконки соответствуют [размерной сетке](https://github.com/alfa-laboratory/alfa-ui-primitives/wiki/%D0%A2%D1%80%D0%B5%D0%B1%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F-%D0%BA-%D0%B8%D0%BA%D0%BE%D0%BD%D0%BA%D0%B0%D0%BC).
 
 ## Цвет иконок
-В пакете `@alfalab/icons-glyph` цвет иконок задается атрибутом `fill="currentColor"`. То есть цвет наследуется от родительского свойства `color`.
+В пакете `@alfalab/icons-glyph` цвет иконок задается атрибутом `fill="currentColor"`, т.е. цвет наследуется от родительского свойства `color`.
 
 В пакете `@alfalab/icons-classic` цвет иконок не наследуется.
