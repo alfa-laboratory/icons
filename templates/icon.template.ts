@@ -2,13 +2,9 @@ export const iconTemplate = `/**
  * This is auto-generated file by scripts/generate.ts
  * Do not edit it manually
  */
-import React from 'react';
+import React, { SVGProps } from 'react';
 
-type Props = {
-    className?: string;
-};
-
-export const {{ComponentName}}: React.FC<Props> = ({ className }) => (
+export const {{ComponentName}}: React.FC<SVGProps<SVGSVGElement>> = props => (
     {{body}}
 );
 
