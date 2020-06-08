@@ -7,6 +7,9 @@
         "react-dom": "^16.13.0"
     },
     "main": "./index.js",
-    "module": "./esm/index.js"
+    "module": "./esm/index.js",
+    "devDependencies": {
+        "tslib": "^2.0.0"
+    }
 }
   
