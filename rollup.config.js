@@ -1,5 +1,4 @@
 import pkg from './package.json';
-import auto from '@rollup/plugin-auto-install';
 import resolve from '@rollup/plugin-node-resolve';
 import { terser } from 'rollup-plugin-terser';
 import typescript from '@rollup/plugin-typescript';
@@ -15,7 +14,6 @@ const cjs = {
         },
     ],
     plugins: [
-        auto(),
         resolve(),
         typescript({
             allowSyntheticDefaultImports: true,
@@ -45,7 +43,6 @@ const esm = {
         },
     ],
     plugins: [
-        auto(),
         resolve(),
         typescript({
             allowSyntheticDefaultImports: true,
