@@ -18,6 +18,11 @@ jobs:
     - run: yarn install
     - run: yarn add --dev alfa-ui-primitives@latest
     - run: yarn generate
+    
+    - name: lerna up version
+      uses: "MrBoolean/action-lerna@master"
+      with:
+       args: version minor --no-push --yes
 
     - name: commit changes
       uses: github-actions-x/commit@v2.5
@@ -29,11 +34,6 @@ jobs:
         files: .
         name: dmitrsavk
         email: dmitrsavk@yandex.ru
-
-    - name: lerna up version
-      uses: "MrBoolean/action-lerna@master"
-      with:
-       args: version minor --no-push --yes
 
     - run: yarn build
 
