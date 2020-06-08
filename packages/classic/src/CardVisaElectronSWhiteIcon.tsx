@@ -2,20 +2,12 @@
  * This is auto-generated file by scripts/generate.ts
  * Do not edit it manually
  */
-import React from 'react';
+import React, { SVGProps } from 'react';
 
-type Props = {
-    className?: string;
-};
-
-export const CardVisaElectronSWhiteIcon: React.FC<Props> = ({ className }) => (
-    <svg
-        className={className}
-        focusable="false"
-        width="16"
-        height="9"
-        viewBox="0 0 16 9"
-    >
+export const CardVisaElectronSWhiteIcon: React.FC<SVGProps<
+    SVGSVGElement
+>> = props => (
+    <svg {...props} focusable="false" width="16" height="9" viewBox="0 0 16 9">
         <path
             fill="#FFF"
             fillRule="evenodd"

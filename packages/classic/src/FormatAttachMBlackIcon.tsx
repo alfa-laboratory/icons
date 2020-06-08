@@ -2,14 +2,12 @@
  * This is auto-generated file by scripts/generate.ts
  * Do not edit it manually
  */
-import React from 'react';
+import React, { SVGProps } from 'react';
 
-type Props = {
-    className?: string;
-};
-
-export const FormatAttachMBlackIcon: React.FC<Props> = ({ className }) => (
-    <svg className={className} focusable="false" width="24" height="24">
+export const FormatAttachMBlackIcon: React.FC<SVGProps<
+    SVGSVGElement
+>> = props => (
+    <svg {...props} focusable="false" width="24" height="24">
         <path
             fill="#0B1F35"
             d="M19 8h-1V4c0-1.103-.897-2-2-2H6.707L2 6.707V7H1v-.707L6.293 1H16c1.654 0 3 1.346 3 3v4z"

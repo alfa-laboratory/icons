@@ -2,17 +2,13 @@
  * This is auto-generated file by scripts/generate.ts
  * Do not edit it manually
  */
-import React from 'react';
+import React, { SVGProps } from 'react';
 
-type Props = {
-    className?: string;
-};
-
-export const CategoryMedicineXxlWhiteIcon: React.FC<Props> = ({
-    className,
-}) => (
+export const CategoryMedicineXxlWhiteIcon: React.FC<SVGProps<
+    SVGSVGElement
+>> = props => (
     <svg
-        className={className}
+        {...props}
         focusable="false"
         width="48"
         height="48"

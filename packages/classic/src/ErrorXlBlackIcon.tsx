@@ -2,14 +2,10 @@
  * This is auto-generated file by scripts/generate.ts
  * Do not edit it manually
  */
-import React from 'react';
+import React, { SVGProps } from 'react';
 
-type Props = {
-    className?: string;
-};
-
-export const ErrorXlBlackIcon: React.FC<Props> = ({ className }) => (
-    <svg className={className} focusable="false" width="36" height="36">
+export const ErrorXlBlackIcon: React.FC<SVGProps<SVGSVGElement>> = props => (
+    <svg {...props} focusable="false" width="36" height="36">
         <g fill="none" fillRule="evenodd">
             <path d="M0 0h36v36H0z" />
             <path

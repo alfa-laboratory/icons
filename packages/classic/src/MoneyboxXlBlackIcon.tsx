@@ -2,15 +2,11 @@
  * This is auto-generated file by scripts/generate.ts
  * Do not edit it manually
  */
-import React from 'react';
+import React, { SVGProps } from 'react';
 
-type Props = {
-    className?: string;
-};
-
-export const MoneyboxXlBlackIcon: React.FC<Props> = ({ className }) => (
+export const MoneyboxXlBlackIcon: React.FC<SVGProps<SVGSVGElement>> = props => (
     <svg
-        className={className}
+        {...props}
         focusable="false"
         width="36"
         height="36"
