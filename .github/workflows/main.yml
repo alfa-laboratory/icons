@@ -19,11 +19,6 @@ jobs:
     - run: yarn add --dev alfa-ui-primitives@latest
     - run: yarn generate
     
-    - name: lerna up version
-      uses: "MrBoolean/action-lerna@master"
-      with:
-       args: version minor --no-push --yes
-
     - name: commit changes
       uses: github-actions-x/commit@v2.5
       with:
@@ -34,6 +29,11 @@ jobs:
         files: .
         name: dmitrsavk
         email: dmitrsavk@yandex.ru
+    
+    - name: lerna up version
+      uses: "MrBoolean/action-lerna@master"
+      with:
+       args: version minor --no-push --yes
 
     - run: yarn build
 
@@ -41,6 +41,17 @@ jobs:
       uses: filipstefansson/set-npm-token-action@v1
       with:
         token: ${{ secrets.NPM_TOKEN }}
+    
+    - name: commit changes
+      uses: github-actions-x/commit@v2.5
+      with:
+        github-token: ${{ secrets.GITHUB_TOKEN }}
+        push-branch: 'master'
+        commit-message: 'feat(*): add gen files'
+        force-add: 'false'
+        files: .
+        name: dmitrsavk
+        email: dmitrsavk@yandex.ru
 
     - name: lerna publish subpackages
       uses: "MrBoolean/action-lerna@master"
