@@ -1,6 +1,6 @@
 {
     "name": "@alfalab/icons-flag",
-    "version": "1.1.0",
+    "version": "1.2.0",
     "peerDependencies": {
         "react": "^16.13.0",
         "react-dom": "^16.13.0"
