@@ -1,7 +1,6 @@
 {
     "name": "@alfalab/icons-website",
-    "version": "1.0.0",
-    "dependencies": {},
+    "version": "1.1.0",
     "peerDependencies": {
         "react": "^16.13.0",
         "react-dom": "^16.13.0"
@@ -12,4 +11,3 @@
         "access": "public"
     }
 }
-  
