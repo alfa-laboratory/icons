@@ -44,11 +44,13 @@ type FigmaResponse = {
 enum PAGES {
     icon = 'icon',
     glyph = 'glyph',
+    flag = 'flag',
 }
 
 const ICON_NAME_REG_EXP = {
     [PAGES.icon]: /^(?:icon_[a-z0-9-]+\/)?icon_([a-z0-9-]+)_([a-z0-9]+)(?:_([a-z0-9]+))$/i,
     [PAGES.glyph]: /^([a-z0-9-]+)_([a-z0-9]+)_*([a-z0-9]*)$/i,
+    [PAGES.flag]: /^([a-z0-9-]+)_([a-z0-9]+)_*([a-z0-9]*)$/i,
 };
 
 const nameParsers = {
@@ -78,6 +80,19 @@ const nameParsers = {
             color: m[3] || '',
         };
     },
+    [PAGES.flag]: (origName: string) => {
+        const m = ICON_NAME_REG_EXP[PAGES.flag].exec(origName);
+
+        if (!m) {
+            return null;
+        }
+
+        return {
+            name: m[1],
+            size: m[2],
+            color: m[3] || '',
+        };
+    },
 };
 
 function getName(iconComponent: FigmaComponent): string {
@@ -89,7 +104,11 @@ function getName(iconComponent: FigmaComponent): string {
 
     const icon = nameParsers[page](iconComponent.name);
 
-    return icon ? `${page}_${icon.name}_${icon.size}${icon.color ? `_${icon.color}` : ''}` : null;
+    return icon
+        ? `${page}_${icon.name}_${icon.size}${
+              icon.color ? `_${icon.color}` : ''
+          }`
+        : null;
 }
 
 /**
