@@ -28,6 +28,8 @@ export const CategoryWalletMColorIcon: React.FC<SVGProps<
             fill="#D2E0EB"
         />
         <path
+            fillRule="evenodd"
+            clipRule="evenodd"
             d="M19.25 15.75a1.25 1.25 0 1 0 0-2.5 1.25 1.25 0 0 0 0 2.5z"
             fill="#5C85AD"
         />
