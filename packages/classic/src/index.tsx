@@ -1444,6 +1444,7 @@ export * from './FormatDocSBlackIcon';
 export * from './FormatDocSWhiteIcon';
 export * from './FormatDocXlBlackIcon';
 export * from './FormatDocXlWhiteIcon';
+export * from './FormatDocXxlColorIcon';
 export * from './FormatErrorXxlColorIcon';
 export * from './FormatJpgLBlackIcon';
 export * from './FormatJpgLWhiteIcon';

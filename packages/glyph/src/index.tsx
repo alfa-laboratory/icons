@@ -26,6 +26,7 @@ export * from './CategoryInvoiceMIcon';
 export * from './CategoryMobileMIcon';
 export * from './CategoryOtherMIcon';
 export * from './CategoryPasswordMIcon';
+export * from './ChainSIcon';
 export * from './CheckmarkCircleMIcon';
 export * from './CheckmarkCompactMIcon';
 export * from './CheckmarkHeavyMIcon';
