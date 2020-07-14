@@ -22,13 +22,13 @@ jobs:
     - name: commit changes
       uses: github-actions-x/commit@v2.5
       with:
-        github-token: ${{ secrets.GITHUB_TOKEN }}
+        github-token: ${{ secrets.BOT_AUTH_TOKEN }}
         push-branch: 'master'
         commit-message: 'feat(*): add new icons'
         force-add: 'false'
         files: .
-        name: dmitrsavk
-        email: dmitrsavk@yandex.ru
+        name: alfa-bot
+        email: ds@alfabank.ru
     
     - name: lerna up version
       uses: "MrBoolean/action-lerna@master"
@@ -45,13 +45,13 @@ jobs:
     - name: commit changes
       uses: github-actions-x/commit@v2.5
       with:
-        github-token: ${{ secrets.GITHUB_TOKEN }}
+        github-token: ${{ secrets.BOT_AUTH_TOKEN }}
         push-branch: 'master'
         commit-message: 'feat(*): add gen files'
         force-add: 'false'
         files: .
-        name: dmitrsavk
-        email: dmitrsavk@yandex.ru
+        name: alfa-bot
+        email: ds@alfabank.ru
 
     - name: lerna publish subpackages
       uses: "MrBoolean/action-lerna@master"
@@ -70,13 +70,13 @@ jobs:
     - name: commit changes
       uses: github-actions-x/commit@v2.5
       with:
-        github-token: ${{ secrets.GITHUB_TOKEN }}
+        github-token: ${{ secrets.BOT_AUTH_TOKEN }}
         push-branch: 'master'
         commit-message: 'chore(*): update version'
         force-add: 'false'
         files: package.json
-        name: dmitrsavk
-        email: dmitrsavk@yandex.ru
+        name: alfa-bot
+        email: ds@alfabank.ru
     
     - run: curl -X POST -u '${{secrets.PAT_USERNAME}}:${{secrets.PAT_TOKEN}}' -H 'Accept:\ application/vnd.github.everest-preview+json' -H 'Content-Type:\ application/json' https://api.github.com/repos/alfa-laboratory/icons-demo/dispatches --data '{"event_type":"build_application"}'
       
