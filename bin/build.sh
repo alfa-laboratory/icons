@@ -10,6 +10,6 @@ rm -rf dist
 
 mkdir dist
 
-lerna exec --parallel -- $(pwd)/scripts/build-root-package.sh \$LERNA_PACKAGE_NAME
+lerna exec --parallel -- $(pwd)/bin/build-root-package.sh \$LERNA_PACKAGE_NAME
 
 cp package.json dist/package.json

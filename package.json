@@ -8,7 +8,7 @@
   "license": "ISC",
   "private": false,
   "scripts": {
-    "build": "./scripts/build.sh",
+    "build": "./bin/build.sh",
     "generate": "yarn compile && yarn format-icons",
     "compile": "TS_NODE_PROJECT=scripts/tsconfig.json node -r ts-node/register scripts/generate.ts --target=icon",
     "format-icons": "prettier --write \"./packages/**/*.{ts,tsx}\" --loglevel warn",
