@@ -53,19 +53,16 @@ jobs:
         name: alfa-bot
         email: ds@alfabank.ru
 
-    - name: lerna publish subpackages
-      uses: "MrBoolean/action-lerna@master"
-      with:
-        args: publish from-git --contents dist --yes
-        
-    
     - run: yarn generate-json
       env:
         FIGMA_TOKEN: ${{ secrets.FIGMA_TOKEN }}
 
-    - run: npm version minor --git-tag-version false
-    - run: cp package.json dist/package.json
-    - run: npm publish dist
+    - run: yarn publish-root-package
+
+    - name: lerna publish subpackages
+      uses: "MrBoolean/action-lerna@master"
+      with:
+        args: publish from-git --contents dist --yes
 
     - name: commit changes
       uses: github-actions-x/commit@v2.5

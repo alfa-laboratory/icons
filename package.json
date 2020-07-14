@@ -13,7 +13,8 @@
     "compile": "TS_NODE_PROJECT=scripts/tsconfig.json node -r ts-node/register scripts/generate.ts --target=icon",
     "format-icons": "prettier --write \"./packages/**/*.{ts,tsx}\" --loglevel warn",
     "lint": "eslint ./scripts/ --ext .ts,.tsx",
-    "generate-json": "TS_NODE_PROJECT=scripts/tsconfig.json node -r ts-node/register scripts/generate-json.ts"
+    "generate-json": "TS_NODE_PROJECT=scripts/tsconfig.json node -r ts-node/register scripts/generate-json.ts",
+    "publish-root-package": "./bin/publish-root-package.sh"
   },
   "dependencies": {},
   "devDependencies": {
