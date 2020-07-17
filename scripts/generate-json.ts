@@ -4,9 +4,7 @@ import camelcase from 'camelcase';
 import { promisify } from 'util';
 import path from 'path';
 import fs from 'fs';
-
-import { ENCODING, getPackageName } from './generate';
-import { ICON_POSTFIX } from './create-component';
+import { ICON_POSTFIX, getPackageName, ENCODING } from './constants';
 
 const FIGMA_API_URL = 'https://api.figma.com/v1';
 const FIGMA_FILE_ID = 'QoGuPDB1hAMoMMqsQQ4Mx7lB';

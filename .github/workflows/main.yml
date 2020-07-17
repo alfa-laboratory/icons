@@ -11,31 +11,6 @@ jobs:
     - uses: actions/setup-node@v1
       with:
         node-version: '12.x'
-    
-    - run: git fetch --prune --unshallow
-    - run: git fetch --tags
-
-    - run: yarn install
-    - run: yarn add --dev alfa-ui-primitives@latest
-    - run: yarn generate
-    
-    - name: commit changes
-      uses: github-actions-x/commit@v2.5
-      with:
-        github-token: ${{ secrets.BOT_AUTH_TOKEN }}
-        push-branch: 'master'
-        commit-message: 'feat(*): add new icons'
-        force-add: 'false'
-        files: .
-        name: alfa-bot
-        email: ds@alfabank.ru
-    
-    - name: lerna up version
-      uses: "MrBoolean/action-lerna@master"
-      with:
-       args: version minor --no-push --yes
-
-    - run: yarn build
 
     - name: Set NPM Token Action
       uses: filipstefansson/set-npm-token-action@v1
@@ -43,39 +18,15 @@ jobs:
         token: ${{ secrets.NPM_TOKEN }}
     
     - run: npm set registry https://registry.npmjs.org
-    
-    - name: commit changes
-      uses: github-actions-x/commit@v2.5
-      with:
-        github-token: ${{ secrets.BOT_AUTH_TOKEN }}
-        push-branch: 'master'
-        commit-message: 'feat(*): add gen files'
-        force-add: 'false'
-        files: .
-        name: alfa-bot
-        email: ds@alfabank.ru
 
-    - run: yarn generate-json
+    - run: npm run ci
       env:
         FIGMA_TOKEN: ${{ secrets.FIGMA_TOKEN }}
 
-    - run: yarn publish-root-package
-
-    - name: lerna publish subpackages
-      uses: "MrBoolean/action-lerna@master"
+    - name: Push changes
+      uses: ad-m/github-push-action@master
       with:
-        args: publish from-git --contents dist --yes
+        github_token: ${{ secrets.BOT_AUTH_TOKEN }}
+        tags: true
 
-    - name: commit changes
-      uses: github-actions-x/commit@v2.5
-      with:
-        github-token: ${{ secrets.BOT_AUTH_TOKEN }}
-        push-branch: 'master'
-        commit-message: 'chore(*): update version'
-        force-add: 'false'
-        files: package.json
-        name: alfa-bot
-        email: ds@alfabank.ru
-    
     - run: curl -X POST -u '${{secrets.PAT_USERNAME}}:${{secrets.PAT_TOKEN}}' -H 'Accept:\ application/vnd.github.everest-preview+json' -H 'Content-Type:\ application/json' https://api.github.com/repos/alfa-laboratory/icons-demo/dispatches --data '{"event_type":"build_application"}'
-      

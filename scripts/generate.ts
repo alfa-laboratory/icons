@@ -3,9 +3,7 @@ import path from 'path';
 import { promisify } from 'util';
 import { createComponent } from './create-component';
 import { checkOrCreateFiles, createIndexImportFile } from './create-files';
-import { generateJson } from './generate-json';
-
-export const ENCODING = 'utf-8';
+import { getPackageName, ENCODING } from './constants';
 
 const rootIconsDir = path.resolve(
     __dirname,
@@ -32,13 +30,6 @@ interface Icons {
 export const SVG_EXT = 'svg';
 
 const icons: Icons = {};
-
-const PACKAGE_ALIAS = {
-    icon: 'classic',
-};
-
-export const getPackageName = (iconPrefix: string) =>
-    PACKAGE_ALIAS[iconPrefix] || iconPrefix;
 
 function generateIcon(iconName: string, dir: string) {
     const re = new RegExp(`.${SVG_EXT}$`);

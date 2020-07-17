@@ -1,7 +1,7 @@
 import { promisify } from 'util';
 import fs from 'fs';
 import path from 'path';
-import { ENCODING } from './generate';
+import { ENCODING } from './constants';
 
 const readFile = promisify(fs.readFile);
 const writeFile = promisify(fs.writeFile);
