@@ -32,8 +32,6 @@ mkdir dist
 
 lerna exec --parallel -- $(pwd)/bin/build-root-package.sh \$LERNA_PACKAGE_NAME
 
-cp package.json dist/package.json
-
 ## build root
 
 yarn generate-json
@@ -45,7 +43,10 @@ else
     echo "Publish root package"
     npm version minor --git-tag-version false
     cp package.json dist/package.json
-    # npm publish dist    
+    npm publish dist    
 fi
 
-# lerna publish from-git --contents dist --yes
+git add .
+git commit -m "chore(*): update version"
+
+lerna publish from-git --contents dist --yes
