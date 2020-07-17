@@ -45,7 +45,7 @@ else
     echo "Publish root package"
     npm version minor --git-tag-version false
     cp package.json dist/package.json
-    npm publish dist    
+    # npm publish dist    
 fi
 
-lerna publish from-git --contents dist --yes
+# lerna publish from-git --contents dist --yes
