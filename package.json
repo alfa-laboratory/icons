@@ -13,7 +13,7 @@
     "compile": "TS_NODE_PROJECT=scripts/tsconfig.json node -r ts-node/register scripts/generate.ts --target=icon",
     "format-icons": "prettier --write \"./packages/**/*.{ts,tsx}\" --loglevel warn",
     "lint": "eslint ./scripts/ --ext .ts,.tsx",
-    "generate-json": "TS_NODE_PROJECT=scripts/tsconfig.json node -r ts-node/register scripts/generate-json.ts", 
+    "generate-json": "TS_NODE_PROJECT=scripts/tsconfig.json node -r ts-node/register scripts/generate-json.ts",
     "ci": "./bin/ci.sh"
   },
   "dependencies": {},
@@ -27,7 +27,7 @@
     "@types/svgo": "^1.3.1",
     "@typescript-eslint/eslint-plugin": "^2.24.0",
     "@typescript-eslint/parser": "^2.24.0",
-    "alfa-ui-primitives": "^2.18.0",
+    "alfa-ui-primitives": "^2.19.0",
     "arui-presets-lint": "^4.0.0",
     "axios": "^0.19.2",
     "camelcase": "^5.3.1",
