@@ -20,6 +20,8 @@ jobs:
     - run: npm set registry https://registry.npmjs.org
 
     - run: npm run ci
+      env:
+        FIGMA_TOKEN: ${{ secrets.FIGMA_TOKEN }}
 
     - name: Push changes
       uses: ad-m/github-push-action@master

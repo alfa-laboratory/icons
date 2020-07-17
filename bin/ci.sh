@@ -36,7 +36,7 @@ cp package.json dist/package.json
 
 ## build root
 
-yarn generate-json
+node scripts/generate-json.ts
 
 if [ -z "$changed_packages" ]
 then
