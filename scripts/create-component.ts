@@ -6,7 +6,8 @@ import camelcase from 'camelcase';
 import Svgo from 'svgo';
 
 import { iconTemplate } from '../templates/icon.template';
-import { SVG_EXT, ENCODING } from './generate';
+import { SVG_EXT } from './generate';
+import { ENCODING } from './constants';
 
 const readFile = promisify(fs.readFile);
 const writeFile = promisify(fs.writeFile);
