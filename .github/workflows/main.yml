@@ -18,17 +18,12 @@ jobs:
     - run: yarn install
     - run: yarn add --dev alfa-ui-primitives@latest
     - run: yarn generate
-    
-    - name: commit changes
-      uses: github-actions-x/commit@v2.5
-      with:
-        github-token: ${{ secrets.BOT_AUTH_TOKEN }}
-        push-branch: 'master'
-        commit-message: 'feat(*): add new icons'
-        force-add: 'false'
-        files: .
-        name: alfa-bot
-        email: ds@alfabank.ru
+
+    - name: Commit files
+      run: |
+        git config --local user.email "ds@alfabank.ru"
+        git config --local user.name "alfa-bot"
+        git commit -m "feat(*): add new icons" -a
     
     - name: lerna up version
       uses: "MrBoolean/action-lerna@master"
@@ -43,39 +38,34 @@ jobs:
         token: ${{ secrets.NPM_TOKEN }}
     
     - run: npm set registry https://registry.npmjs.org
-    
-    - name: commit changes
-      uses: github-actions-x/commit@v2.5
-      with:
-        github-token: ${{ secrets.BOT_AUTH_TOKEN }}
-        push-branch: 'master'
-        commit-message: 'feat(*): add gen files'
-        force-add: 'false'
-        files: .
-        name: alfa-bot
-        email: ds@alfabank.ru
+
+    - name: Commit files
+      run: |
+        git commit -m "feat(*): add gen files" -a
 
     - run: yarn generate-json
       env:
         FIGMA_TOKEN: ${{ secrets.FIGMA_TOKEN }}
 
     - run: yarn publish-root-package
+    
+    - name: Commit files
+      run: |
+        git commit -m "feat(*): add gen files" -a
 
     - name: lerna publish subpackages
       uses: "MrBoolean/action-lerna@master"
       with:
         args: publish from-git --contents dist --yes
 
-    - name: commit changes
-      uses: github-actions-x/commit@v2.5
-      with:
-        github-token: ${{ secrets.BOT_AUTH_TOKEN }}
-        push-branch: 'master'
-        commit-message: 'chore(*): update version'
-        force-add: 'false'
-        files: package.json
-        name: alfa-bot
-        email: ds@alfabank.ru
+    - name: Commit files
+      run: |
+          git commit -m "feat(*): add gen files" -a
     
+    - name: Push changes
+      uses: ad-m/github-push-action@master
+      with:
+        github_token: ${{ secrets.BOT_AUTH_TOKEN }}
+        tags: true
+
     - run: curl -X POST -u '${{secrets.PAT_USERNAME}}:${{secrets.PAT_TOKEN}}' -H 'Accept:\ application/vnd.github.everest-preview+json' -H 'Content-Type:\ application/json' https://api.github.com/repos/alfa-laboratory/icons-demo/dispatches --data '{"event_type":"build_application"}'
-      
