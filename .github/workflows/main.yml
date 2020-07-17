@@ -11,26 +11,6 @@ jobs:
     - uses: actions/setup-node@v1
       with:
         node-version: '12.x'
-    
-    - run: git fetch --prune --unshallow
-    - run: git fetch --tags
-
-    - run: yarn install
-    - run: yarn add --dev alfa-ui-primitives@latest
-    - run: yarn generate
-
-    - name: Commit files
-      run: |
-        git config --local user.email "ds@alfabank.ru"
-        git config --local user.name "alfa-bot"
-        git commit -m "feat(*): add new icons" -a
-    
-    - name: lerna up version
-      uses: "MrBoolean/action-lerna@master"
-      with:
-       args: version minor --no-push --yes
-
-    - run: yarn build
 
     - name: Set NPM Token Action
       uses: filipstefansson/set-npm-token-action@v1
@@ -39,29 +19,8 @@ jobs:
     
     - run: npm set registry https://registry.npmjs.org
 
-    - name: Commit files
-      run: |
-        git commit -m "feat(*): add gen files" -a
+    - run: npm run ci
 
-    - run: yarn generate-json
-      env:
-        FIGMA_TOKEN: ${{ secrets.FIGMA_TOKEN }}
-
-    - run: yarn publish-root-package
-    
-    - name: Commit files
-      run: |
-        git commit -m "feat(*): add gen files" -a
-
-    - name: lerna publish subpackages
-      uses: "MrBoolean/action-lerna@master"
-      with:
-        args: publish from-git --contents dist --yes
-
-    - name: Commit files
-      run: |
-          git commit -m "feat(*): add gen files" -a
-    
     - name: Push changes
       uses: ad-m/github-push-action@master
       with:
