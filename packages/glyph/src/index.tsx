@@ -86,6 +86,8 @@ export * from './LogOutMIcon';
 export * from './LogOutMIcon';
 export * from './MailMIcon';
 export * from './MaskMIcon';
+export * from './MaterialArrowBackMIcon';
+export * from './MaterialCrossMIcon';
 export * from './MaterialShareMIcon';
 export * from './MedicineCrossMIcon';
 export * from './MobilePhoneMIcon';
