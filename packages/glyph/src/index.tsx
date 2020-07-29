@@ -130,3 +130,4 @@ export * from './TrashCanMIcon';
 export * from './UserMIcon';
 export * from './UsualHouseMIcon';
 export * from './WalletMIcon';
+export * from './WorldTransfersMIcon';
