@@ -15,6 +15,7 @@ export * from './BarcodeMIcon';
 export * from './BowlMIcon';
 export * from './BriefcaseMIcon';
 export * from './CallMIcon';
+export * from './CameraMIcon';
 export * from './CarMIcon';
 export * from './CardIMIcon';
 export * from './CardTransferMIcon';
