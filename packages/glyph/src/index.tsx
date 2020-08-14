@@ -112,6 +112,7 @@ export * from './RepeatMIcon';
 export * from './RepeatOffMIcon';
 export * from './RoundPercentMIcon';
 export * from './SafeBoxMIcon';
+export * from './SettingsCompactSIcon';
 export * from './SettingsMIcon';
 export * from './SfBubbleXxlIcon';
 export * from './SfCircleGridXxlIcon';
