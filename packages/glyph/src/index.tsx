@@ -103,6 +103,7 @@ export * from './MoneyBoxMIcon';
 export * from './PencilHeavyMIcon';
 export * from './PencilMIcon';
 export * from './PercentMIcon';
+export * from './PlayCircleMIcon';
 export * from './PointerDownMIcon';
 export * from './PointerUpMIcon';
 export * from './PrintMIcon';
