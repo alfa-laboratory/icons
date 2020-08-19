@@ -3,6 +3,7 @@ export * from './AddCompactMIcon';
 export * from './AddMIcon';
 export * from './AirplaneMIcon';
 export * from './AlertCircleMIcon';
+export * from './ArmchairMIcon';
 export * from './ArrowBackMIcon';
 export * from './ArrowDownCircleMIcon';
 export * from './ArrowDownMIcon';
