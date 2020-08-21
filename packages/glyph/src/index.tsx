@@ -78,6 +78,8 @@ export * from './EuroMIcon';
 export * from './ExclamationMIcon';
 export * from './EyeMIcon';
 export * from './EyeOffMIcon';
+export * from './FlashCircleMIcon';
+export * from './FlashCircleSIcon';
 export * from './GasStationMIcon';
 export * from './HairbrushMIcon';
 export * from './HandHeartMIcon';
