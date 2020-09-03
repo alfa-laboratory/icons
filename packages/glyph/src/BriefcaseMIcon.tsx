@@ -16,7 +16,7 @@ export const BriefcaseMIcon: React.FC<SVGProps<SVGSVGElement>> = props => (
         <path
             fillRule="evenodd"
             clipRule="evenodd"
-            d="M6 3h12v4h3a1 1 0 011 1v3l-8 3v-1h-4v1l-8-3V8a1 1 0 011-1h3V3zm2 4h8V5H8v2zM2 20v-7l8 3v1h4v-1l8-3v7a1 1 0 01-1 1H3a1 1 0 01-1-1z"
+            d="M8 6a2 2 0 012-2h4a2 2 0 012 2v1h4a2 2 0 012 2v2H2V9a2 2 0 012-2h4V6zm6 0v1h-4V6h4zm8 7H2v6a2 2 0 002 2h16a2 2 0 002-2v-6zm-8 0a2 2 0 11-4 0h4z"
         />
     </svg>
 );

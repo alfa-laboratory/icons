@@ -13,12 +13,12 @@ export const UsualHouseMIcon: React.FC<SVGProps<SVGSVGElement>> = props => (
         height="24"
         viewBox="0 0 24 24"
     >
-        <path d="M19 6.278V2c0-.321-.224-.582-.5-.582h-2c-.276 0-.5.26-.5.582v1.113l3 3.165z" />
         <path
             fillRule="evenodd"
             clipRule="evenodd"
-            d="M1.5 12v1H4v6a2 2 0 002 2h12a2 2 0 002-2v-6h2.5v-1l-9.44-9.94a1.5 1.5 0 00-2.12 0L1.5 12zM14 13h-4v6h4v-6z"
+            d="M3.586 13c-.914 0-1.349-1.125-.672-1.74l8.077-7.343a1.5 1.5 0 012.018 0l8.077 7.343c.676.615.241 1.74-.673 1.74H19v6.5a1.5 1.5 0 01-1.5 1.5h-11A1.5 1.5 0 015 19.5V13H3.586zM10 13h4v5h-4v-5z"
         />
+        <path d="M16 3.545h2V7l-2-2V3.545z" />
     </svg>
 );
 

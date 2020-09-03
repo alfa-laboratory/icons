@@ -4,7 +4,7 @@
  */
 import React, { SVGProps } from 'react';
 
-export const LockClosedMIcon: React.FC<SVGProps<SVGSVGElement>> = props => (
+export const CategoryBankMIcon: React.FC<SVGProps<SVGSVGElement>> = props => (
     <svg
         {...props}
         focusable="false"
@@ -16,9 +16,9 @@ export const LockClosedMIcon: React.FC<SVGProps<SVGSVGElement>> = props => (
         <path
             fillRule="evenodd"
             clipRule="evenodd"
-            d="M7 7a5 5 0 0110 0v3h2v10a2 2 0 01-2 2H7a2 2 0 01-2-2V10h2V7zm8 0v3H9V7a3 3 0 116 0zm-3 11a2 2 0 100-4 2 2 0 000 4z"
+            d="M22.5 10V8L12 3 1.5 8v2h1.75v8h.005l-.895.447a2 2 0 00-1.105 1.79V21.5h22v-1.264a2 2 0 00-1.106-1.789L20.755 18h-.005v-8h1.75zm-4.25 0h-2.5v8h2.5v-8zm-5 0h-2.5v8h2.5v-8zm-5 0h-2.5v8h2.5v-8z"
         />
     </svg>
 );
 
-export default LockClosedMIcon;
+export default CategoryBankMIcon;

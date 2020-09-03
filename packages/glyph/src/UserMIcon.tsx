@@ -13,11 +13,7 @@ export const UserMIcon: React.FC<SVGProps<SVGSVGElement>> = props => (
         height="24"
         viewBox="0 0 24 24"
     >
-        <path
-            fillRule="evenodd"
-            clipRule="evenodd"
-            d="M16 6a4 4 0 11-8 0 4 4 0 018 0zm-4 6c8.1 0 9 9 9 9H3s.9-9 9-9z"
-        />
+        <path d="M21 21v-2c-.052-.76-.395-1.35-.892-1.927C18.975 15.756 16.392 14 12 14c-4.008 0-6.68 1.652-7.946 2.98-.602.63-.995 1.15-1.054 2.02v2h18zM12 1.5c3 0 4 2.524 4 5S14.227 11 12 11c-2.227 0-4-1.977-4-4.5 0-2.523 1-5 4-5z" />
     </svg>
 );
 
