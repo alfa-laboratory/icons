@@ -98,6 +98,7 @@ export * from './HouseHeartMIcon';
 export * from './HouseMIcon';
 export * from './InformationCircleMIcon';
 export * from './InternetMIcon';
+export * from './InternetOffMIcon';
 export * from './IosBackMIcon';
 export * from './JoystickMIcon';
 export * from './JudgeHammerMIcon';
