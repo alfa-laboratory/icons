@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# выхожу, если одна из команд завершилась неудачно
+set -e
+
 # Подтягиваем тэги
 git fetch --prune --unshallow
 git fetch --tags
