@@ -31,6 +31,43 @@ export const SVG_EXT = 'svg';
 
 const icons: Icons = {};
 
+/**
+ * Проверяем пакет иконок на дубли.
+ * Если встречаем одну и ту же иконку в разных категориях (папках) -
+ * то выводим предупреждение и удаляем дублирующиеся иконки
+ */
+function deleteDuplicates(packageName: string) {
+    icons[packageName].forEach(icon => {
+        const iconVariantNames = [...icon.variants].map(filePath =>
+            path.basename(filePath)
+        );
+
+        if (new Set(iconVariantNames).size !== iconVariantNames.length) {
+            console.warn(
+                `Обнаружены дубликаты иконок:\n${[...icon.variants].join(
+                    '\n'
+                )}\n`
+            );
+
+            /**
+             * Создаем пустой массив, и добавляем туда иконки без дублей
+             */
+            const variants: string[] = [];
+
+            icon.variants.forEach(filePath => {
+                const basename = path.basename(filePath);
+
+                if (!variants.find(iconName => iconName.includes(basename))) {
+                    variants.push(filePath);
+                }
+            });
+
+            // eslint-disable-next-line no-param-reassign
+            icon.variants = new Set(variants);
+        }
+    });
+}
+
 function generateIcon(iconName: string, dir: string) {
     const re = new RegExp(`.${SVG_EXT}$`);
 
@@ -73,6 +110,12 @@ async function createPackage(packageName: string) {
     const srcPackageDir = path.join(packageDir, 'src');
 
     await checkOrCreateFiles(packageDir, srcPackageDir, packageName);
+
+    /**
+     * Проверяем пакет иконок на дубли, так как иногда случалось так,
+     * что одна и та же иконка находилась в разных категориях (папках).
+     */
+    deleteDuplicates(packageName);
 
     const iconVariants = icons[packageName].reduce(
         (acc, icon) => [...acc, ...icon.variants],
