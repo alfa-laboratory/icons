@@ -4,7 +4,7 @@
  */
 import React, { SVGProps } from 'react';
 
-export const CardTransferMIcon: React.FC<SVGProps<SVGSVGElement>> = props => (
+export const RemarkHeavyMIcon: React.FC<SVGProps<SVGSVGElement>> = props => (
     <svg
         {...props}
         focusable="false"
@@ -13,14 +13,12 @@ export const CardTransferMIcon: React.FC<SVGProps<SVGSVGElement>> = props => (
         height="24"
         viewBox="0 0 24 24"
     >
-        <path d="M2 4.5A2.5 2.5 0 014.5 2h10A2.5 2.5 0 0117 4.5V9H8.8C6.701 9 5 10.79 5 13h-.5A2.5 2.5 0 012 10.5v-6z" />
-        <path d="M22 13v1H7v-1a2 2 0 012-2h11a2 2 0 012 2z" />
         <path
             fillRule="evenodd"
             clipRule="evenodd"
-            d="M9 22a2 2 0 01-2-2v-4h15v4a2 2 0 01-2 2H9zm0-4h3v1.5H9V18z"
+            d="M4.653 5.112l-2 3.383L9.138 12l-6.485 3.505 2 3.383 5.833-4.247-.483 6.609h3.994l-.484-6.61 5.834 4.248 2-3.383L14.862 12l6.485-3.505-2-3.383-5.834 4.247.484-6.609h-3.994l.483 6.609-5.833-4.247z"
         />
     </svg>
 );
 
-export default CardTransferMIcon;
+export default RemarkHeavyMIcon;

@@ -4,7 +4,7 @@
  */
 import React, { SVGProps } from 'react';
 
-export const StarsMIcon: React.FC<SVGProps<SVGSVGElement>> = props => (
+export const RemarksMIcon: React.FC<SVGProps<SVGSVGElement>> = props => (
     <svg
         {...props}
         focusable="false"
@@ -21,4 +21,4 @@ export const StarsMIcon: React.FC<SVGProps<SVGSVGElement>> = props => (
     </svg>
 );
 
-export default StarsMIcon;
+export default RemarksMIcon;
