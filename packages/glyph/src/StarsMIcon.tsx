@@ -4,7 +4,7 @@
  */
 import React, { SVGProps } from 'react';
 
-export const CreditCardMIcon: React.FC<SVGProps<SVGSVGElement>> = props => (
+export const StarsMIcon: React.FC<SVGProps<SVGSVGElement>> = props => (
     <svg
         {...props}
         focusable="false"
@@ -13,13 +13,12 @@ export const CreditCardMIcon: React.FC<SVGProps<SVGSVGElement>> = props => (
         height="24"
         viewBox="0 0 24 24"
     >
-        <path d="M3 9h18V8a2 2 0 00-2-2H5a2 2 0 00-2 2v1z" />
         <path
             fillRule="evenodd"
             clipRule="evenodd"
-            d="M3 16a2 2 0 002 2h14a2 2 0 002-2v-5H3v5zm5-3H5v1.5h3V13z"
+            d="M5 16l.428-2.997L3 15l-1-2 2.804-1L2 11l1-2 2.428 1.997L5 8h2l-.428 2.997L9 9l1 2-2.804 1L10 13l-1 2-2.428-1.997L7 16H5zm12 0l.428-2.997L15 15l-1-2 2.804-1L14 11l1-2 2.428 1.997L17 8h2l-.428 2.997L21 9l1 2-2.804 1L22 13l-1 2-2.428-1.997L19 16h-2z"
         />
     </svg>
 );
 
-export default CreditCardMIcon;
+export default StarsMIcon;

@@ -4,7 +4,7 @@
  */
 import React, { SVGProps } from 'react';
 
-export const CardIMIcon: React.FC<SVGProps<SVGSVGElement>> = props => (
+export const CardPlusMIcon: React.FC<SVGProps<SVGSVGElement>> = props => (
     <svg
         {...props}
         focusable="false"
@@ -13,8 +13,8 @@ export const CardIMIcon: React.FC<SVGProps<SVGSVGElement>> = props => (
         height="24"
         viewBox="0 0 24 24"
     >
-        <path d="M3 9h18V8a2 2 0 00-2-2H5a2 2 0 00-2 2v1zm11 9H5a2 2 0 01-2-2v-5h12a4.992 4.992 0 00-2 4c0 1.126.372 2.164 1 3zm5.5-7h-2v2h2v-2zm-3 5.5h1V19h2v-4.5h-3v2z" />
+        <path d="M5 18h9a4.978 4.978 0 01-1-3 4.99 4.99 0 012-4H3v5a2 2 0 002 2zm16-9H3V8a2 2 0 012-2h14a2 2 0 012 2v1zm-4 9v-2h-2v-2h2v-2h2v2h2v2h-2v2h-2z" />
     </svg>
 );
 
-export default CardIMIcon;
+export default CardPlusMIcon;
