@@ -16,6 +16,7 @@ export * from './ArrowUpDownHeavyMIcon';
 export * from './ArrowUpDownMIcon';
 export * from './ArrowUpMIcon';
 export * from './ArrowsLeftRightThinMIcon';
+export * from './BackspaceXxlIcon';
 export * from './BadgeSIcon';
 export * from './BankMIcon';
 export * from './BarChartMIcon';
