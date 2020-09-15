@@ -106,6 +106,7 @@ export * from './GbpAndroidMIcon';
 export * from './GbpIosMIcon';
 export * from './HairbrushMIcon';
 export * from './HandHeartMIcon';
+export * from './HeadsetMIcon';
 export * from './HouseHeartMIcon';
 export * from './HouseMIcon';
 export * from './InformationCircleMIcon';
