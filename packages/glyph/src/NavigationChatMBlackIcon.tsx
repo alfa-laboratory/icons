@@ -1,0 +1,27 @@
+/**
+ * This is auto-generated file by scripts/generate.ts
+ * Do not edit it manually
+ */
+import React, { SVGProps } from 'react';
+
+export const NavigationChatMBlackIcon: React.FC<SVGProps<
+    SVGSVGElement
+>> = props => (
+    <svg
+        {...props}
+        focusable="false"
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+        fill="none"
+    >
+        <path
+            fillRule="evenodd"
+            clipRule="evenodd"
+            d="M24 10c0-6.5-5-10-12-10S0 3.5 0 10s5 9.971 11 9.971v2.559c0 .507 0 .76.159 1.008.11.173.376.368.574.423.283.078.47.02.845-.096C18 22 24 16.5 24 10zm-6-3v2H6V7h12zm-4 4H6v2h8v-2z"
+            fill="#0B1F35"
+        />
+    </svg>
+);
+
+export default NavigationChatMBlackIcon;

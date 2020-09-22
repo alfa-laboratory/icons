@@ -4,22 +4,24 @@
  */
 import React, { SVGProps } from 'react';
 
-export const LogOutMIcon: React.FC<SVGProps<SVGSVGElement>> = props => (
+export const NavigationHistoryMBlackIcon: React.FC<SVGProps<
+    SVGSVGElement
+>> = props => (
     <svg
         {...props}
         focusable="false"
-        fill="currentColor"
         width="24"
         height="24"
         viewBox="0 0 24 24"
+        fill="none"
     >
         <path
             fillRule="evenodd"
             clipRule="evenodd"
-            d="M10 3.344a1 1 0 011.287-.958L19.43 4.83a.8.8 0 01.57.766v12.81a.8.8 0 01-.57.766l-8.143 2.443A1 1 0 0110 20.656V3.344zM14 12a1 1 0 11-2 0 1 1 0 012 0z"
+            d="M12 24c6.627 0 12-5.373 12-12S18.627 0 12 0 0 5.373 0 12s5.373 12 12 12zm1.245-18.5v6.534l3.171 3.17-1.59 1.591-3.501-3.5a1.125 1.125 0 0 1-.33-.795v-7h2.25z"
+            fill="#0B1F35"
         />
-        <path d="M5 5a1 1 0 00-1 1v12a1 1 0 001 1h3V5H5z" />
     </svg>
 );
 
-export default LogOutMIcon;
+export default NavigationHistoryMBlackIcon;

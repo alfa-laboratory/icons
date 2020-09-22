@@ -4,7 +4,7 @@
  */
 import React, { SVGProps } from 'react';
 
-export const LogOutMIcon: React.FC<SVGProps<SVGSVGElement>> = props => (
+export const LockOpenLineMIcon: React.FC<SVGProps<SVGSVGElement>> = props => (
     <svg
         {...props}
         focusable="false"
@@ -13,13 +13,13 @@ export const LogOutMIcon: React.FC<SVGProps<SVGSVGElement>> = props => (
         height="24"
         viewBox="0 0 24 24"
     >
+        <path d="M12 18a2 2 0 100-4 2 2 0 000 4z" />
         <path
             fillRule="evenodd"
             clipRule="evenodd"
-            d="M10 3.344a1 1 0 011.287-.958L19.43 4.83a.8.8 0 01.57.766v12.81a.8.8 0 01-.57.766l-8.143 2.443A1 1 0 0110 20.656V3.344zM14 12a1 1 0 11-2 0 1 1 0 012 0z"
+            d="M12 1a5 5 0 00-5 5v1h2V6a3 3 0 116 0v3H4v11a3 3 0 003 3h10a3 3 0 003-3V9h-3V6a5 5 0 00-5-5zM6 20v-9h12v9a1 1 0 01-1 1H7a1 1 0 01-1-1z"
         />
-        <path d="M5 5a1 1 0 00-1 1v12a1 1 0 001 1h3V5H5z" />
     </svg>
 );
 
-export default LogOutMIcon;
+export default LockOpenLineMIcon;

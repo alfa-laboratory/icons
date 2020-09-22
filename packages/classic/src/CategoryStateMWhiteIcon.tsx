@@ -13,21 +13,33 @@ export const CategoryStateMWhiteIcon: React.FC<SVGProps<
         width="24"
         height="24"
         viewBox="0 0 24 24"
+        fill="none"
     >
-        <g fill="none" fillRule="evenodd">
-            <path fill="#FFF" fillOpacity=".01" d="M0 0h24v24H0z" />
-            <path fill="#D8D8D8" d="M17 6h1v4h-1zM0 22h24v1H0z" />
-            <path fill="#FFF" d="M2 10h1v13H2zm19 0h1v13h-1z" />
-            <path fill="#FFF" d="M2 10h20v1H2z" />
-            <path fill="#FFF" d="M6 6h1v5H6zm1 0h11v1H7z" />
-            <path
-                fill="#FFF"
-                d="M6 14h2v8H6zm5 0h2v8h-2zm5 0h2v8h-2zM12 0h-1v6h1V3.333L17 4V.667z"
-                opacity=".3"
-            />
-            <path fill="#D8D8D8" d="M0 22h24v1H0z" />
-            <path fill="#FFF" d="M0 22h24v1H0zM17 6h1v5h-1z" />
-        </g>
+        <path
+            fillRule="evenodd"
+            clipRule="evenodd"
+            d="M17 6h1v4h-1V6zM0 22h24v1H0v-1z"
+            fill="#D8D8D8"
+        />
+        <path
+            fillRule="evenodd"
+            clipRule="evenodd"
+            d="M6 14h2v8H6v-8zm5 0h2v8h-2v-8zm5 0h2v8h-2v-8zM12 0h-1v6h1V3.333L17 4V.667L12 0z"
+            fill="#fff"
+            fillOpacity=".3"
+        />
+        <path
+            fillRule="evenodd"
+            clipRule="evenodd"
+            d="M0 22h24v1H0v-1z"
+            fill="#D8D8D8"
+        />
+        <path
+            fillRule="evenodd"
+            clipRule="evenodd"
+            d="M2 22H0v1h24v-1h-2V10h-4V6H6v4H2v12zm1 0h18V11H3v11zm14-12V7H7v3h10z"
+            fill="#fff"
+        />
     </svg>
 );
 
