@@ -176,6 +176,7 @@ export * from './RoundPercentMIcon';
 export * from './RubAndroidMIcon';
 export * from './RubIosMIcon';
 export * from './SafeBoxMIcon';
+export * from './SendMIcon';
 export * from './SettingsCompactSIcon';
 export * from './SettingsMIcon';
 export * from './SfBubbleXxlIcon';
