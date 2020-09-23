@@ -66,6 +66,7 @@ export * from './ChevronDownMIcon';
 export * from './ChevronForwardCircleMIcon';
 export * from './ChevronForwardCompactMIcon';
 export * from './ChevronForwardCompactSIcon';
+export * from './ChevronForwardExtraMIcon';
 export * from './ChevronForwardHeavyMIcon';
 export * from './ChevronForwardMIcon';
 export * from './ChevronUpCircleMIcon';
