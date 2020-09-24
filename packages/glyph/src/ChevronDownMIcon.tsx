@@ -13,7 +13,7 @@ export const ChevronDownMIcon: React.FC<SVGProps<SVGSVGElement>> = props => (
         height="24"
         viewBox="0 0 24 24"
     >
-        <path d="M12 15L5.5 8 4 9.5l8 8.5 8-8.5L18.5 8 12 15z" />
+        <path d="M12 14L6.5 8.5 5 10l7 7 7-7-1.5-1.5L12 14z" />
     </svg>
 );
 
