@@ -15,7 +15,7 @@ export const ChevronBackCompactMIcon: React.FC<SVGProps<
         height="24"
         viewBox="0 0 24 24"
     >
-        <path d="M11 12l3.5-3.5L13 7l-5 5 5 5 1.5-1.5L11 12z" />
+        <path d="M11 12l4-3.5L13.5 7 8 12l5.5 5 1.5-1.5-4-3.5z" />
     </svg>
 );
 
