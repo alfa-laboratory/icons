@@ -111,6 +111,7 @@ export * from './HairbrushMIcon';
 export * from './HandHeartMIcon';
 export * from './HandStarMIcon';
 export * from './HeadsetMIcon';
+export * from './HourglassMIcon';
 export * from './HouseHeartMIcon';
 export * from './HouseMIcon';
 export * from './InformationCircleMIcon';
