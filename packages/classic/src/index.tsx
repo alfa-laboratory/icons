@@ -1101,6 +1101,8 @@ export * from './CheckXlWhiteIcon';
 export * from './CheckXxlBlackIcon';
 export * from './CheckXxlWhiteIcon';
 export * from './CheckboxDisabledMColorIcon';
+export * from './ChevronForSelectDownMBlackIcon';
+export * from './ChevronForSelectUpMBlackIcon';
 export * from './ChevronRightMBlackIcon';
 export * from './ChevronRightMWhiteIcon';
 export * from './ClockFilledXsWhiteIcon';
