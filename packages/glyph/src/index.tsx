@@ -209,6 +209,7 @@ export * from './StarMIcon';
 export * from './StatsChartMIcon';
 export * from './SupermarketTrolleyMIcon';
 export * from './SwapHorizontalHeavyMIcon';
+export * from './SwapHorizontalMIcon';
 export * from './TrainSubwayMIcon';
 export * from './TramMIcon';
 export * from './TransferMIcon';
