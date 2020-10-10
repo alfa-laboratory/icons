@@ -13,12 +13,7 @@ export const PointerDownMIcon: React.FC<SVGProps<SVGSVGElement>> = props => (
         height="24"
         viewBox="0 0 24 24"
     >
-        <path
-            fillRule="evenodd"
-            clipRule="evenodd"
-            d="M5 10.114a2 2 0 00.656 1.481l5.637 5.112a1 1 0 001.414 0l5.637-5.112A2 2 0 0019 10.114V8.586L13.5 12V2h-3v10L5 8.586v1.528z"
-        />
-        <path d="M5 19h14v3H5v-3z" />
+        <path d="M16.444 9.935L13 13.305V3h-2v10.304L7.556 9.935l-1.399 1.43L12 17.08l5.843-5.715-1.399-1.43zM20 21v-2H4v2h16z" />
     </svg>
 );
 

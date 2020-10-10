@@ -4,21 +4,24 @@
  */
 import React, { SVGProps } from 'react';
 
-export const PointerUpMIcon: React.FC<SVGProps<SVGSVGElement>> = props => (
+export const CheckmarkCircleMColorIcon: React.FC<SVGProps<
+    SVGSVGElement
+>> = props => (
     <svg
         {...props}
         focusable="false"
-        fill="currentColor"
         width="24"
         height="24"
         viewBox="0 0 24 24"
+        fill="none"
     >
         <path
             fillRule="evenodd"
             clipRule="evenodd"
-            d="M11 6.377l-3.444 3.37-1.399-1.43L12 2.601l5.843 5.714-1.399 1.43L13 6.377v10.305h-2V6.377zM4 21v-2h16v2H4z"
+            d="M22 12c0 5.523-4.477 10-10 10S2 17.523 2 12 6.477 2 12 2s10 4.477 10 10zm-11.5 4L17 9.5 15.5 8l-5 5-2-2L7 12.5l3.5 3.5z"
+            fill="#2FC26E"
         />
     </svg>
 );
 
-export default PointerUpMIcon;
+export default CheckmarkCircleMColorIcon;
