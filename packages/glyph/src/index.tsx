@@ -37,6 +37,7 @@ export * from './CardDocumentMIcon';
 export * from './CardIMIcon';
 export * from './CardOffMIcon';
 export * from './CardPlusMIcon';
+export * from './CardScissorsLineMIcon';
 export * from './CardTransferMIcon';
 export * from './CashMIcon';
 export * from './CashMoneyLineMIcon';
