@@ -1,6 +1,6 @@
 {
     "name": "@alfalab/icons-classic",
-    "version": "1.27.0",
+    "version": "1.28.0",
     "peerDependencies": {
         "react": "^16.13.0",
         "react-dom": "^16.13.0"
