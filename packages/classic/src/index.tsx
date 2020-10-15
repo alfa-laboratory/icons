@@ -2149,6 +2149,8 @@ export * from './TarifsSBlackIcon';
 export * from './TarifsXlBlackIcon';
 export * from './TarifsXxlBlackIcon';
 export * from './TemplatesMWhiteIcon';
+export * from './TenderMBlackIcon';
+export * from './TenderXlBlackIcon';
 export * from './ThumbVocXsBlackIcon';
 export * from './TickLBlackIcon';
 export * from './TickLWhiteIcon';

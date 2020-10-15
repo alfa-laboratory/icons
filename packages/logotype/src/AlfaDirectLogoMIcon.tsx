@@ -4,7 +4,7 @@
  */
 import React, { SVGProps } from 'react';
 
-export const TransferMIcon: React.FC<SVGProps<SVGSVGElement>> = props => (
+export const AlfaDirectLogoMIcon: React.FC<SVGProps<SVGSVGElement>> = props => (
     <svg
         {...props}
         focusable="false"
@@ -16,9 +16,9 @@ export const TransferMIcon: React.FC<SVGProps<SVGSVGElement>> = props => (
         <path
             fillRule="evenodd"
             clipRule="evenodd"
-            d="M8.5 2.5L10 4 5 9l5 5-1.5 1.5L2 9l6.5-6.5zm7 6L14 10l5 5-5 5 1.5 1.5L22 15l-6.5-6.5z"
+            d="M4 4h16v16h-3.022V9.327L6.305 20 4 17.695 14.673 7.022H4V4z"
         />
     </svg>
 );
 
-export default TransferMIcon;
+export default AlfaDirectLogoMIcon;
