@@ -158,6 +158,7 @@ export * from './NavigationHistoryMBlackIcon';
 export * from './NavigationHomeMBlackIcon';
 export * from './NavigationMarketplaceMBlackIcon';
 export * from './NavigationPaymentMBlackIcon';
+export * from './NavigationProfileMIcon';
 export * from './OtherMIcon';
 export * from './OutsideMIcon';
 export * from './PaperclipMIcon';
