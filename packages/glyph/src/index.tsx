@@ -221,6 +221,7 @@ export * from './SwapHorizontalMIcon';
 export * from './TrainSubwayMIcon';
 export * from './TramMIcon';
 export * from './TransferMIcon';
+export * from './TransferOfDebtMIcon';
 export * from './TrashCanMIcon';
 export * from './TwoUsersMIcon';
 export * from './UmbrellaMIcon';
