@@ -97,6 +97,7 @@ export * from './DocumentMIcon';
 export * from './DocumentStampMIcon';
 export * from './DogMIcon';
 export * from './DollarLineMIcon';
+export * from './DollarRoundedMIcon';
 export * from './DownloadMIcon';
 export * from './EMoneyMIcon';
 export * from './EagleMIcon';
