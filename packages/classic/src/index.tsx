@@ -735,6 +735,8 @@ export * from './CardVisaXxlWhiteIcon';
 export * from './CardVoidMBlackIcon';
 export * from './CardXlBlackIcon';
 export * from './CardXlWhiteIcon';
+export * from './CashInHandsMBlackIcon';
+export * from './CashInHandsMWhiteIcon';
 export * from './CashMBlackIcon';
 export * from './CashMWhiteIcon';
 export * from './CashbackBonusLBlackIcon';
