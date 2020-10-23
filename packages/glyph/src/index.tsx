@@ -184,6 +184,7 @@ export * from './RemarkCircleMIcon';
 export * from './RemarkHeavyMIcon';
 export * from './RemarksMIcon';
 export * from './RepearToolMIcon';
+export * from './RepeatCircleMIcon';
 export * from './RepeatMIcon';
 export * from './RepeatOffMIcon';
 export * from './ReplacementMIcon';
