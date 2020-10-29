@@ -1,5 +1,6 @@
 export * from './AlfaBankLogoMIcon';
 export * from './AlfaDirectLogoMIcon';
+export * from './AlfaDirectLogoXxxlIcon';
 export * from './ApplePayLIcon';
 export * from './GooglePayLIcon';
 export * from './MaestroLColorIcon';
