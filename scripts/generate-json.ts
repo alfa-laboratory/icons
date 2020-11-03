@@ -59,7 +59,7 @@ function getName(iconComponent: FigmaComponent): string {
         return '';
     }
 
-    return `${pageName.trim()}_${m.groups.iconName.trim()}.svg`;
+    return `${pageName.trim()}_${m.groups.iconName.trim()}`;
 }
 
 /**
