@@ -39,74 +39,27 @@ type FigmaResponse = {
     };
 };
 
-enum PAGES {
-    icon = 'icon',
-    glyph = 'glyph',
-    flag = 'flag',
-}
-
-const ICON_NAME_REG_EXP = {
-    [PAGES.icon]: /^(?:icon_[a-z0-9-]+\/)?icon_([a-z0-9-]+)_([a-z0-9]+)(?:_([a-z0-9]+))$/i,
-    [PAGES.glyph]: /^([a-z0-9-]+)_([a-z0-9]+)_*([a-z0-9]*)$/i,
-    [PAGES.flag]: /^([a-z0-9-]+)_([a-z0-9]+)_*([a-z0-9]*)$/i,
-};
-
-const nameParsers = {
-    [PAGES.icon]: (origName: string) => {
-        const m = ICON_NAME_REG_EXP[PAGES.icon].exec(origName);
-
-        if (!m) {
-            return null;
-        }
-
-        return {
-            name: m[1],
-            size: m[2],
-            color: m[3] || '',
-        };
-    },
-    [PAGES.glyph]: (origName: string) => {
-        const m = ICON_NAME_REG_EXP[PAGES.glyph].exec(origName);
-
-        if (!m) {
-            return null;
-        }
-
-        return {
-            name: m[1],
-            size: m[2],
-            color: m[3] || '',
-        };
-    },
-    [PAGES.flag]: (origName: string) => {
-        const m = ICON_NAME_REG_EXP[PAGES.flag].exec(origName);
-
-        if (!m) {
-            return null;
-        }
-
-        return {
-            name: m[1],
-            size: m[2],
-            color: m[3] || '',
-        };
-    },
-};
-
 function getName(iconComponent: FigmaComponent): string {
-    const page = iconComponent.containing_frame.pageName;
+    const {
+        containing_frame: { pageName },
+        name: iconName,
+    } = iconComponent;
 
-    if (!nameParsers[page]) {
-        return null;
+    if (!pageName) {
+        return '';
     }
 
-    const icon = nameParsers[page](iconComponent.name);
+    const rx = new RegExp(
+        `^([^\\/]+\\/)?(?:${pageName}_)?(?<iconName>([a-z0-9-]+)(?<size>_[a-z0-9]+)?(?<color>_[a-z0-9]+)?)$`
+    );
 
-    return icon
-        ? `${page}_${icon.name}_${icon.size}${
-              icon.color ? `_${icon.color}` : ''
-          }`
-        : null;
+    const m = rx.exec(iconName);
+
+    if (!m) {
+        return '';
+    }
+
+    return `${pageName.trim()}_${m.groups.iconName.trim()}.svg`;
 }
 
 /**
