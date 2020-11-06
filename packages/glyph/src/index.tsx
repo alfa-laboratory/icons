@@ -171,6 +171,7 @@ export * from './PencilMIcon';
 export * from './PercentMIcon';
 export * from './PersonalManagerMIcon';
 export * from './PhoneMIcon';
+export * from './PinMIcon';
 export * from './PlayCircleMIcon';
 export * from './PointerDownMIcon';
 export * from './PointerUpMIcon';
