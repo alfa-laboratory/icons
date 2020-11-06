@@ -152,6 +152,7 @@ export * from './MaterialLinesMIcon';
 export * from './MaterialShareMIcon';
 export * from './MedicineCrossMIcon';
 export * from './MinusCircleMIcon';
+export * from './MinusMIcon';
 export * from './MobilePhoneLineMIcon';
 export * from './MobilePhoneMIcon';
 export * from './MoneyBoxMIcon';
