@@ -1723,6 +1723,7 @@ export * from './MarketplaceXlBlackIcon';
 export * from './MarketplaceXlWhiteIcon';
 export * from './MastercardLColorIcon';
 export * from './MastercardSColorIcon';
+export * from './MenuSBlackIcon';
 export * from './MessageMBlackIcon';
 export * from './MessageMWhiteIcon';
 export * from './MetroMBlackIcon';
