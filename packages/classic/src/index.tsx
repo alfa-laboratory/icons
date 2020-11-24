@@ -159,6 +159,7 @@ export * from './ArrowRightXlBlackIcon';
 export * from './ArrowRightXlWhiteIcon';
 export * from './ArrowRightXxlBlackIcon';
 export * from './ArrowRightXxlWhiteIcon';
+export * from './ArrowSelectMBlackIcon';
 export * from './ArrowTopMBlackIcon';
 export * from './ArrowTopMWhiteIcon';
 export * from './ArrowTopSBlackIcon';
