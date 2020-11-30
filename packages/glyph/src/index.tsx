@@ -218,6 +218,7 @@ export * from './SfBubbleXxlIcon';
 export * from './SfCircleGridXxlIcon';
 export * from './SfCrossCircleMIcon';
 export * from './SfCrossMIcon';
+export * from './SfEllipsisCircleFillMIcon';
 export * from './SfFaceIdMIcon';
 export * from './SfFaceIdXxlIcon';
 export * from './SfLinesMIcon';
