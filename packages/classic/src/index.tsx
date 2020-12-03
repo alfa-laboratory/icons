@@ -1606,6 +1606,7 @@ export * from './HelpFilledLWhiteIcon';
 export * from './HelpFilledMBlackIcon';
 export * from './HelpFilledMWhiteIcon';
 export * from './HelpFilledSBlackIcon';
+export * from './HelpFilledSColorIcon';
 export * from './HelpFilledSWhiteIcon';
 export * from './HelpFilledXlBlackIcon';
 export * from './HelpFilledXlWhiteIcon';
