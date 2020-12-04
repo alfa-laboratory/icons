@@ -103,6 +103,7 @@ export * from './DebtMIcon';
 export * from './DocumentAddMIcon';
 export * from './DocumentDocMIcon';
 export * from './DocumentExcelMIcon';
+export * from './DocumentImageMIcon';
 export * from './DocumentInfoMIcon';
 export * from './DocumentLineMIcon';
 export * from './DocumentMIcon';
