@@ -191,6 +191,7 @@ export * from './PinMIcon';
 export * from './PlayCircleMIcon';
 export * from './PointerDownMIcon';
 export * from './PointerUpMIcon';
+export * from './PowerButtonCircleMIcon';
 export * from './PowerButtonMIcon';
 export * from './PrintMIcon';
 export * from './QrCodeMIcon';
