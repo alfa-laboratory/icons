@@ -140,6 +140,8 @@ export * from './HouseHeartMIcon';
 export * from './HouseMIcon';
 export * from './InformationCircleMIcon';
 export * from './InformationMIcon';
+export * from './InstallmentLineMIcon';
+export * from './InstallmentMIcon';
 export * from './InternetMIcon';
 export * from './InternetOffMIcon';
 export * from './IosBackMIcon';
