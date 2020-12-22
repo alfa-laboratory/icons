@@ -1,0 +1,26 @@
+/**
+ * This is auto-generated file by scripts/generate.ts
+ * Do not edit it manually
+ */
+import React, { SVGProps } from 'react';
+
+export const ArrowDownSIcon: React.FC<SVGProps<SVGSVGElement>> = props => (
+    <svg
+        {...props}
+        focusable="false"
+        fill="currentColor"
+        width="18"
+        height="18"
+        viewBox="0 0 18 18"
+    >
+        <g fillRule="evenodd">
+            <path d="M0 18h18V0H0z" />
+            <path
+                fillRule="nonzero"
+                d="M12.182 6.879l.707.707L9 11.474 5.112 7.586l.707-.707L9 10.06z"
+            />
+        </g>
+    </svg>
+);
+
+export default ArrowDownSIcon;
