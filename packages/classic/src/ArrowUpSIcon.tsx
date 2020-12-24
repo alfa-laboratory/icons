@@ -13,13 +13,7 @@ export const ArrowUpSIcon: React.FC<SVGProps<SVGSVGElement>> = props => (
         height="18"
         viewBox="0 0 18 18"
     >
-        <g fillRule="evenodd">
-            <path
-                fillRule="nonzero"
-                d="M12.182 11.474l.707-.707L9 6.879l-3.888 3.888.707.707L9 8.293z"
-            />
-            <path d="M0 18h18V0H0z" />
-        </g>
+        <path d="M12.182 11.474l.707-.707L9 6.879l-3.888 3.888.707.707L9 8.293z" />
     </svg>
 );
 
