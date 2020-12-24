@@ -9,11 +9,13 @@ export const BankAlfaXxlIcon: React.FC<SVGProps<SVGSVGElement>> = props => (
         {...props}
         focusable="false"
         fill="currentColor"
-        width="30"
-        height="30"
-        viewBox="0 0 30 30"
+        width="48"
+        height="48"
+        viewBox="0 0 48 48"
     >
-        <path d="M12.29 13.62l2.69-8h.09l2.54 8zm6.21-9.46c-.5-1.62-1.17-2.91-3.33-2.91s-2.82 1.28-3.4 2.91L5.85 21h3.93l1.37-4h7.55l1.3 4h4.18z" />
+        <g>
+            <path d="M38 38H11v6h27zM29.502 8.03L37.352 31h-5.774l-1.8-5H19.325l-1.897 5H12l8.197-22.97C20.987 5.771 21.9 4 24.89 4c2.99 0 3.918 1.786 4.61 4.03zM20.903 21h7.366l-3.517-11h-.124l-3.725 11z" />
+        </g>
     </svg>
 );
 

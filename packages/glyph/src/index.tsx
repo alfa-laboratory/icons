@@ -62,8 +62,6 @@ export * from './CategoryPasswordMIcon';
 export * from './ChainSIcon';
 export * from './CheckmarkCircleMColorIcon';
 export * from './CheckmarkCircleMIcon';
-export * from './CheckmarkCircleXlColorIcon';
-export * from './CheckmarkCircleXxlColorIcon';
 export * from './CheckmarkCompactMIcon';
 export * from './CheckmarkHeavyMIcon';
 export * from './CheckmarkMIcon';

@@ -9,11 +9,11 @@ export const BankAlfaMIcon: React.FC<SVGProps<SVGSVGElement>> = props => (
         {...props}
         focusable="false"
         fill="currentColor"
-        width="30"
-        height="30"
-        viewBox="0 0 30 30"
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
     >
-        <path d="M12.29 13.62l2.69-8h.09l2.54 8zm6.21-9.46c-.5-1.62-1.17-2.91-3.33-2.91s-2.82 1.28-3.4 2.91L5.85 21h3.93l1.37-4h7.55l1.3 4h4.18z" />
+        <path d="M10 10.46l2-6h.08l1.9 6zm4.66-7.09c-.41-1.22-.88-2.18-2.5-2.18S10 2.15 9.58 3.37L5.14 16h3l1-3h5.67l1 3h3.13z" />
     </svg>
 );
 
