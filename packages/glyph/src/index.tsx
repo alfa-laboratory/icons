@@ -138,6 +138,7 @@ export * from './HeadsetMIcon';
 export * from './HourglassMIcon';
 export * from './HouseHeartMIcon';
 export * from './HouseMIcon';
+export * from './HousesMIcon';
 export * from './InformationCircleMIcon';
 export * from './InformationMIcon';
 export * from './InstallmentLineMIcon';
