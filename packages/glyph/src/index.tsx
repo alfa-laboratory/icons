@@ -215,6 +215,7 @@ export * from './RubAndroidMIcon';
 export * from './RubIosMIcon';
 export * from './SafeBoxMIcon';
 export * from './ScalesMIcon';
+export * from './SelectionMaskMIcon';
 export * from './SendMIcon';
 export * from './SettingsCompactSIcon';
 export * from './SettingsLineMIcon';
