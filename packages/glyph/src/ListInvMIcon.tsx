@@ -13,7 +13,7 @@ export const ListInvMIcon: React.FC<SVGProps<SVGSVGElement>> = props => (
         height="24"
         viewBox="0 0 24 24"
     >
-        <path d="M3 6h8v2H3V6zm0 5h13v2H3v-2zm0 5h18v2H3v-2z" />
+        <path d="M3 5.75h8v2.5H3v-2.5zm0 5h13v2.5H3v-2.5zm0 5h18v2.5H3v-2.5z" />
     </svg>
 );
 
