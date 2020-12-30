@@ -154,6 +154,7 @@ export * from './KeyboardHideMIcon';
 export * from './KnifespoonMIcon';
 export * from './LinkMIcon';
 export * from './ListInvMIcon';
+export * from './ListMIcon';
 export * from './LocatorLineMIcon';
 export * from './LocatorMIcon';
 export * from './LockClosedLineMIcon';

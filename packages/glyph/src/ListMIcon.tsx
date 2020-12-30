@@ -4,7 +4,7 @@
  */
 import React, { SVGProps } from 'react';
 
-export const ListInvMIcon: React.FC<SVGProps<SVGSVGElement>> = props => (
+export const ListMIcon: React.FC<SVGProps<SVGSVGElement>> = props => (
     <svg
         {...props}
         focusable="false"
@@ -13,8 +13,8 @@ export const ListInvMIcon: React.FC<SVGProps<SVGSVGElement>> = props => (
         height="24"
         viewBox="0 0 24 24"
     >
-        <path d="M3 5.75h8v2.5H3v-2.5zm0 5h13v2.5H3v-2.5zm0 5h18v2.5H3v-2.5z" />
+        <path d="M3 13.25h13v-2.5H3v2.5zm0-7.5v2.5h18v-2.5H3zm0 12.5h8v-2.5H3v2.5z" />
     </svg>
 );
 
-export default ListInvMIcon;
+export default ListMIcon;
