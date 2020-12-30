@@ -153,6 +153,7 @@ export * from './KeyMIcon';
 export * from './KeyboardHideMIcon';
 export * from './KnifespoonMIcon';
 export * from './LinkMIcon';
+export * from './ListInvMIcon';
 export * from './LocatorLineMIcon';
 export * from './LocatorMIcon';
 export * from './LockClosedLineMIcon';
