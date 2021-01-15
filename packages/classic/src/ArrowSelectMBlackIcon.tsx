@@ -15,7 +15,12 @@ export const ArrowSelectMBlackIcon: React.FC<SVGProps<
         viewBox="0 0 24 24"
         fill="none"
     >
-        <path d="M9 15l3 3 3-3M9 9l3-3 3 3" stroke="#0B1F35" />
+        <path
+            fillRule="evenodd"
+            clipRule="evenodd"
+            d="M12 5.293l3.354 3.353-.707.708L12 6.707 9.354 9.354l-.708-.708L12 5.293zm-3.354 10.06l.708-.707L12 17.293l2.646-2.646.708.707L12 18.707l-3.354-3.353z"
+            fill="#0B1F35"
+        />
     </svg>
 );
 
