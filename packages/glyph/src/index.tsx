@@ -23,6 +23,8 @@ export * from './ArrowsLeftRightThinMIcon';
 export * from './BackspaceXxlIcon';
 export * from './BadgeSIcon';
 export * from './BankMIcon';
+export * from './BanknoteInMIcon';
+export * from './BanknoteOutMIcon';
 export * from './BarChartMIcon';
 export * from './BarcodeMIcon';
 export * from './BellAddMIcon';
