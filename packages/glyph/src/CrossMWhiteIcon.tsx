@@ -4,21 +4,20 @@
  */
 import React, { SVGProps } from 'react';
 
-export const TransferMIcon: React.FC<SVGProps<SVGSVGElement>> = props => (
+export const CrossMWhiteIcon: React.FC<SVGProps<SVGSVGElement>> = props => (
     <svg
         {...props}
         focusable="false"
-        fill="currentColor"
         width="24"
         height="24"
         viewBox="0 0 24 24"
+        fill="none"
     >
         <path
-            fillRule="evenodd"
-            clipRule="evenodd"
-            d="M8.5 2.5L10 4 5 9l5 5-1.5 1.5L2 9l6.5-6.5zm7 6L14 10l5 5-5 5 1.5 1.5L22 15l-6.5-6.5z"
+            d="M10.586 12L6 16.5 7.5 18l4.5-4.586L16.5 18l1.5-1.5-4.586-4.5L18 7.5 16.5 6 12 10.586 7.5 6 6 7.5l4.586 4.5z"
+            fill="#FFF"
         />
     </svg>
 );
 
-export default TransferMIcon;
+export default CrossMWhiteIcon;
