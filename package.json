@@ -29,7 +29,7 @@
     "@typescript-eslint/parser": "^2.24.0",
     "alfa-ui-primitives": "^2.134.0",
     "arui-presets-lint": "^4.0.0",
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "camelcase": "^5.3.1",
     "eslint": "^6.8.0",
     "eslint-config-airbnb": "^18.1.0",
