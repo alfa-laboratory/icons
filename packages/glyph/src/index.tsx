@@ -250,6 +250,7 @@ export * from './SquareAcademicCapMIcon';
 export * from './StarLineMIcon';
 export * from './StarMIcon';
 export * from './StatsChartMIcon';
+export * from './SubwayMIcon';
 export * from './SupermarketTrolleyMIcon';
 export * from './SwapHorizontalHeavyMIcon';
 export * from './SwapHorizontalMIcon';
