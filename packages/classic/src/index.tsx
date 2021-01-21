@@ -1997,6 +1997,7 @@ export * from './PaymentToStateXlBlackIcon';
 export * from './PaymentToStateXlWhiteIcon';
 export * from './PaymentToStateXxlBlackIcon';
 export * from './PaymentToStateXxlWhiteIcon';
+export * from './PercentMBlackIcon';
 export * from './PercentMWhiteIcon';
 export * from './PersonLBlackIcon';
 export * from './PersonLIcon';
