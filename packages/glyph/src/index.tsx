@@ -255,6 +255,7 @@ export * from './SubwayMIcon';
 export * from './SupermarketTrolleyMIcon';
 export * from './SwapHorizontalHeavyMIcon';
 export * from './SwapHorizontalMIcon';
+export * from './TelescopeMIcon';
 export * from './ThumbDownMIcon';
 export * from './ThumbUpMIcon';
 export * from './TrainSubwayMIcon';
