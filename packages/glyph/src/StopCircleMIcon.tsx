@@ -4,7 +4,7 @@
  */
 import React, { SVGProps } from 'react';
 
-export const DocumentStampMIcon: React.FC<SVGProps<SVGSVGElement>> = props => (
+export const StopCircleMIcon: React.FC<SVGProps<SVGSVGElement>> = props => (
     <svg
         {...props}
         focusable="false"
@@ -13,13 +13,12 @@ export const DocumentStampMIcon: React.FC<SVGProps<SVGSVGElement>> = props => (
         height="24"
         viewBox="0 0 24 24"
     >
-        <path d="M15.3 16a1.3 1.3 0 11-2.6 0 1.3 1.3 0 012.6 0z" />
         <path
             fillRule="evenodd"
             clipRule="evenodd"
-            d="M5 2a1 1 0 00-1 1v18a1 1 0 001 1h14a1 1 0 001-1V9.815a3 3 0 00-3.299-2.985l-1.458.146a.2.2 0 01-.219-.22L15.17 5.3A3 3 0 0012.185 2H5zm12 14a3 3 0 11-6 0 3 3 0 016 0z"
+            d="M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2 2 6.477 2 12s4.477 10 10 10zm5-12H7v4h10v-4z"
         />
     </svg>
 );
 
-export default DocumentStampMIcon;
+export default StopCircleMIcon;
