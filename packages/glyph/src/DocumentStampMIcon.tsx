@@ -13,10 +13,11 @@ export const DocumentStampMIcon: React.FC<SVGProps<SVGSVGElement>> = props => (
         height="24"
         viewBox="0 0 24 24"
     >
+        <path d="M15.3 16a1.3 1.3 0 11-2.6 0 1.3 1.3 0 012.6 0z" />
         <path
             fillRule="evenodd"
             clipRule="evenodd"
-            d="M5 2a1 1 0 00-1 1v18a1 1 0 001 1h14a1 1 0 001-1V8h-6V2H5zm11 4V2l4 4h-4zm1 10a3 3 0 11-6 0 3 3 0 016 0zm-1.7 0a1.3 1.3 0 11-2.6 0 1.3 1.3 0 012.6 0z"
+            d="M5 2a1 1 0 00-1 1v18a1 1 0 001 1h14a1 1 0 001-1V9.815a3 3 0 00-3.299-2.985l-1.458.146a.2.2 0 01-.219-.22L15.17 5.3A3 3 0 0012.185 2H5zm12 14a3 3 0 11-6 0 3 3 0 016 0z"
         />
     </svg>
 );
