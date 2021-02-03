@@ -1,0 +1,20 @@
+/**
+ * This is auto-generated file by scripts/generate.ts
+ * Do not edit it manually
+ */
+import React, { SVGProps } from 'react';
+
+export const DotMIcon: React.FC<SVGProps<SVGSVGElement>> = props => (
+    <svg
+        {...props}
+        focusable="false"
+        fill="currentColor"
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+    >
+        <circle cx="12" cy="12" r="5" />
+    </svg>
+);
+
+export default DotMIcon;
