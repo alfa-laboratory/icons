@@ -18,7 +18,7 @@ export const InformationCircleMIcon: React.FC<SVGProps<
         <path
             fillRule="evenodd"
             clipRule="evenodd"
-            d="M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2 2 6.477 2 12s4.477 10 10 10zM11 9V7h2v2h-2zm2 8v-6H9v2h2v4h2z"
+            d="M12 2C6.477 2 2 6.477 2 12s4.477 10 10 10 10-4.477 10-10S17.523 2 12 2zm1 15v-6h-2v6h2zm-1-8a1.274 1.274 0 100-2.548A1.274 1.274 0 0012 9z"
         />
     </svg>
 );
