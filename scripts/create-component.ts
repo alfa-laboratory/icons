@@ -90,7 +90,7 @@ export async function createComponent(filePath: string, packageDir: string) {
         .replace('{{body}}', svg)
         .replace(
             '<svg',
-            `<svg {...props} focusable="false" ${color ? '' : 'fill="currentColor"'}`,
+            `<svg role="img" {...props} focusable="false" ${color ? '' : 'fill="currentColor"'}`,
         );
 
     const fullFileName = path.join(packageDir, `${componentName}.tsx`);
