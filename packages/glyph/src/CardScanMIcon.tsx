@@ -6,6 +6,7 @@ import React, { SVGProps } from 'react';
 
 export const CardScanMIcon: React.FC<SVGProps<SVGSVGElement>> = props => (
     <svg
+        role="img"
         {...props}
         focusable="false"
         fill="currentColor"

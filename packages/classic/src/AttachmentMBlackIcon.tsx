@@ -8,6 +8,7 @@ export const AttachmentMBlackIcon: React.FC<SVGProps<
     SVGSVGElement
 >> = props => (
     <svg
+        role="img"
         {...props}
         focusable="false"
         width="17"

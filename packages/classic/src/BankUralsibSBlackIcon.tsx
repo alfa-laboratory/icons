@@ -8,6 +8,7 @@ export const BankUralsibSBlackIcon: React.FC<SVGProps<
     SVGSVGElement
 >> = props => (
     <svg
+        role="img"
         {...props}
         focusable="false"
         width="18"

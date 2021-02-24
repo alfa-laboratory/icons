@@ -8,6 +8,7 @@ export const ShareAndroidXxlBlackIcon: React.FC<SVGProps<
     SVGSVGElement
 >> = props => (
     <svg
+        role="img"
         {...props}
         focusable="false"
         width="37"

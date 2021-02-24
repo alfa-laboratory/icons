@@ -7,7 +7,14 @@ import React, { SVGProps } from 'react';
 export const SystemHideArrowMBlackIcon: React.FC<SVGProps<
     SVGSVGElement
 >> = props => (
-    <svg {...props} focusable="false" width="22" height="7" viewBox="0 0 22 7">
+    <svg
+        role="img"
+        {...props}
+        focusable="false"
+        width="22"
+        height="7"
+        viewBox="0 0 22 7"
+    >
         <polyline
             points="0 0 8.84745763 3 18 0"
             transform="translate(2 2)"

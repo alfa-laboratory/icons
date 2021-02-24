@@ -8,6 +8,7 @@ export const ArrowLeftXxlWhiteIcon: React.FC<SVGProps<
     SVGSVGElement
 >> = props => (
     <svg
+        role="img"
         {...props}
         focusable="false"
         width="48"

@@ -8,6 +8,7 @@ export const AndroidDocumentOffMIcon: React.FC<SVGProps<
     SVGSVGElement
 >> = props => (
     <svg
+        role="img"
         {...props}
         focusable="false"
         fill="none"

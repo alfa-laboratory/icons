@@ -7,7 +7,14 @@ import React, { SVGProps } from 'react';
 export const BankSaintPetersburgSWhiteIcon: React.FC<SVGProps<
     SVGSVGElement
 >> = props => (
-    <svg {...props} focusable="false" width="8" height="17" viewBox="0 0 8 17">
+    <svg
+        role="img"
+        {...props}
+        focusable="false"
+        width="8"
+        height="17"
+        viewBox="0 0 8 17"
+    >
         <g fill="#FFF" transform="translate(-1)">
             <ellipse cx="5" cy="4.722" rx="4" ry="3.778" />
             <ellipse

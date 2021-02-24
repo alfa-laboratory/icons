@@ -6,6 +6,7 @@ import React, { SVGProps } from 'react';
 
 export const CloseLWhiteIcon: React.FC<SVGProps<SVGSVGElement>> = props => (
     <svg
+        role="img"
         {...props}
         focusable="false"
         height="30"

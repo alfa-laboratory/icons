@@ -8,6 +8,7 @@ export const TransferByPhoneXxlWhiteIcon: React.FC<SVGProps<
     SVGSVGElement
 >> = props => (
     <svg
+        role="img"
         {...props}
         focusable="false"
         height="48"

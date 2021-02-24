@@ -6,6 +6,7 @@ import React, { SVGProps } from 'react';
 
 export const BankMtsSWhiteIcon: React.FC<SVGProps<SVGSVGElement>> = props => (
     <svg
+        role="img"
         {...props}
         focusable="false"
         width="16"

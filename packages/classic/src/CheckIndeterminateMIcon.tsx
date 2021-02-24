@@ -7,7 +7,13 @@ import React, { SVGProps } from 'react';
 export const CheckIndeterminateMIcon: React.FC<SVGProps<
     SVGSVGElement
 >> = props => (
-    <svg {...props} focusable="false" fill="currentColor" viewBox="0 0 24 24">
+    <svg
+        role="img"
+        {...props}
+        focusable="false"
+        fill="currentColor"
+        viewBox="0 0 24 24"
+    >
         <path d="M5 11h14v2H5z" />
     </svg>
 );

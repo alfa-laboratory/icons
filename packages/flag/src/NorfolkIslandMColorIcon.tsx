@@ -8,6 +8,7 @@ export const NorfolkIslandMColorIcon: React.FC<SVGProps<
     SVGSVGElement
 >> = props => (
     <svg
+        role="img"
         {...props}
         focusable="false"
         width="24"

@@ -8,6 +8,7 @@ export const FormatDefaultLWhiteIcon: React.FC<SVGProps<
     SVGSVGElement
 >> = props => (
     <svg
+        role="img"
         {...props}
         focusable="false"
         width="30"

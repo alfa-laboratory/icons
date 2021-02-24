@@ -6,6 +6,7 @@ import React, { SVGProps } from 'react';
 
 export const LocatorMIcon: React.FC<SVGProps<SVGSVGElement>> = props => (
     <svg
+        role="img"
         {...props}
         focusable="false"
         fill="currentColor"

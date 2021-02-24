@@ -8,6 +8,7 @@ export const ArrowDownCircleMIcon: React.FC<SVGProps<
     SVGSVGElement
 >> = props => (
     <svg
+        role="img"
         {...props}
         focusable="false"
         fill="currentColor"

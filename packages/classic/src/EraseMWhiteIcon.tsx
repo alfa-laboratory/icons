@@ -6,6 +6,7 @@ import React, { SVGProps } from 'react';
 
 export const EraseMWhiteIcon: React.FC<SVGProps<SVGSVGElement>> = props => (
     <svg
+        role="img"
         {...props}
         focusable="false"
         data-name="Layer 1"

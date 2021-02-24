@@ -6,6 +6,7 @@ import React, { SVGProps } from 'react';
 
 export const CashbackMBlackIcon: React.FC<SVGProps<SVGSVGElement>> = props => (
     <svg
+        role="img"
         {...props}
         focusable="false"
         height="24"

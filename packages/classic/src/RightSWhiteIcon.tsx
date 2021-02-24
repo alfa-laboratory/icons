@@ -5,7 +5,14 @@
 import React, { SVGProps } from 'react';
 
 export const RightSWhiteIcon: React.FC<SVGProps<SVGSVGElement>> = props => (
-    <svg {...props} focusable="false" width="9" height="15" viewBox="0 0 9 15">
+    <svg
+        role="img"
+        {...props}
+        focusable="false"
+        width="9"
+        height="15"
+        viewBox="0 0 9 15"
+    >
         <path
             fill="#FFF"
             fillRule="evenodd"

@@ -6,6 +6,7 @@ import React, { SVGProps } from 'react';
 
 export const FailXlIcon: React.FC<SVGProps<SVGSVGElement>> = props => (
     <svg
+        role="img"
         {...props}
         focusable="false"
         fill="currentColor"

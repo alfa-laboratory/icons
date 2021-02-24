@@ -6,6 +6,7 @@ import React, { SVGProps } from 'react';
 
 export const Format1CMWhiteIcon: React.FC<SVGProps<SVGSVGElement>> = props => (
     <svg
+        role="img"
         {...props}
         focusable="false"
         width="18"

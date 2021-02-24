@@ -8,6 +8,7 @@ export const LockFilledXsWhiteIcon: React.FC<SVGProps<
     SVGSVGElement
 >> = props => (
     <svg
+        role="img"
         {...props}
         focusable="false"
         width="12"

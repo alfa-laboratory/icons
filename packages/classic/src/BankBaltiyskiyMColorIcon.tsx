@@ -8,6 +8,7 @@ export const BankBaltiyskiyMColorIcon: React.FC<SVGProps<
     SVGSVGElement
 >> = props => (
     <svg
+        role="img"
         {...props}
         focusable="false"
         version="1.0"

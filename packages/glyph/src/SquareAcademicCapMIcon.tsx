@@ -8,6 +8,7 @@ export const SquareAcademicCapMIcon: React.FC<SVGProps<
     SVGSVGElement
 >> = props => (
     <svg
+        role="img"
         {...props}
         focusable="false"
         fill="currentColor"

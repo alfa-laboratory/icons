@@ -7,7 +7,7 @@ import React, { SVGProps } from 'react';
 export const CheckIndeterminateMBlackIcon: React.FC<SVGProps<
     SVGSVGElement
 >> = props => (
-    <svg {...props} focusable="false" viewBox="0 0 24 24">
+    <svg role="img" {...props} focusable="false" viewBox="0 0 24 24">
         <path fill="#0a1e32" d="M5 11h14v2H5z" />
     </svg>
 );

@@ -8,6 +8,7 @@ export const CategoryBusinessActivityMWhiteIcon: React.FC<SVGProps<
     SVGSVGElement
 >> = props => (
     <svg
+        role="img"
         {...props}
         focusable="false"
         xmlnsXlink="http://www.w3.org/1999/xlink"
