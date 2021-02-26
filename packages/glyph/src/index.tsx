@@ -39,6 +39,7 @@ export * from './BookmarkOffSIcon';
 export * from './BookmarkSIcon';
 export * from './BowlMIcon';
 export * from './BriefcaseMIcon';
+export * from './BurgerMIcon';
 export * from './CalendarMIcon';
 export * from './CallMIcon';
 export * from './CameraMIcon';
