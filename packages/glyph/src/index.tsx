@@ -149,6 +149,7 @@ export * from './HouseHeartMIcon';
 export * from './HouseMIcon';
 export * from './HousesMIcon';
 export * from './InformationCircleMIcon';
+export * from './InformationCircleSIcon';
 export * from './InformationMIcon';
 export * from './InstallmentLineMIcon';
 export * from './InstallmentMIcon';
