@@ -12,12 +12,12 @@ export const PercentMIcon: React.FC<SVGProps<SVGSVGElement>> = props => (
         fill="currentColor"
         width="24"
         height="24"
-        viewBox="0 0 24 24"
     >
+        <path d="M0 0h24v24H0z" />
         <path
             fillRule="evenodd"
             clipRule="evenodd"
-            d="M3 7a3 3 0 016 0v1a3 3 0 01-6 0V7zm2 0a1 1 0 012 0v1a1 1 0 01-2 0V7zm14-3L8 20H5L16.085 4H19zm-1 9a3 3 0 00-3 3v1a3 3 0 106 0v-1a3 3 0 00-3-3zm0 2a1 1 0 00-1 1v1a1 1 0 102 0v-1a1 1 0 00-1-1z"
+            d="M11 7a4 4 0 11-8 0 4 4 0 018 0zM7 9a2 2 0 100-4 2 2 0 000 4zm-.359 10.963l-1.534-1.284L17.36 4.038l1.534 1.284L6.64 19.963zM13 17a4 4 0 118 0 4 4 0 01-8 0zm4-2a2 2 0 100 4 2 2 0 000-4z"
         />
     </svg>
 );
