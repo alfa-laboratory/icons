@@ -257,6 +257,7 @@ export * from './SfTouchIdXxlIcon';
 export * from './ShareMIcon';
 export * from './ShieldMIcon';
 export * from './ShoppingBagMIcon';
+export * from './SliderMIcon';
 export * from './SmartphoneMIcon';
 export * from './SpeedMIcon';
 export * from './SquareAcademicCapMIcon';
