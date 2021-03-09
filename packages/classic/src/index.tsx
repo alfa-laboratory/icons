@@ -1031,6 +1031,8 @@ export * from './CategoryShoppingXlBlackIcon';
 export * from './CategoryShoppingXlWhiteIcon';
 export * from './CategoryShoppingXxlBlackIcon';
 export * from './CategoryShoppingXxlWhiteIcon';
+export * from './CategorySliderMBlackIcon';
+export * from './CategorySliderMWhiteIcon';
 export * from './CategoryStateMBlackIcon';
 export * from './CategoryStateMWhiteIcon';
 export * from './CategoryStateXlBlackIcon';
