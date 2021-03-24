@@ -166,6 +166,7 @@ export * from './KeyMIcon';
 export * from './KeyboardHideMIcon';
 export * from './KnifespoonMIcon';
 export * from './LightningMIcon';
+export * from './LightningSIcon';
 export * from './LinkMIcon';
 export * from './ListInvMIcon';
 export * from './ListMIcon';
