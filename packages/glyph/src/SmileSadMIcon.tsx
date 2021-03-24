@@ -4,7 +4,7 @@
  */
 import React, { SVGProps } from 'react';
 
-export const FlashCircleMIcon: React.FC<SVGProps<SVGSVGElement>> = props => (
+export const SmileSadMIcon: React.FC<SVGProps<SVGSVGElement>> = props => (
     <svg
         role="img"
         {...props}
@@ -17,9 +17,9 @@ export const FlashCircleMIcon: React.FC<SVGProps<SVGSVGElement>> = props => (
         <path
             fillRule="evenodd"
             clipRule="evenodd"
-            d="M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2 2 6.477 2 12s4.477 10 10 10zm2-16l-6 6 3.333 1.333L10 18l6-6-3.333-1.333L14 6z"
+            d="M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2 2 6.477 2 12s4.477 10 10 10zm3.5-11a1.5 1.5 0 100-3 1.5 1.5 0 000 3zm-6.745 5.967C11.37 16.277 13.097 16 16 16v-2c-3.097 0-4.997.305-7.755 1.033l.51 1.934zM8.5 11a1.5 1.5 0 100-3 1.5 1.5 0 000 3z"
         />
     </svg>
 );
 
-export default FlashCircleMIcon;
+export default SmileSadMIcon;
