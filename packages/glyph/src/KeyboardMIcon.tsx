@@ -12,9 +12,9 @@ export const KeyboardMIcon: React.FC<SVGProps<SVGSVGElement>> = props => (
         fill="currentColor"
         width="24"
         height="24"
+        viewBox="0 0 24 24"
     >
-        <path d="M0 0h24v24H0z" />
-        <g clip-path="url(#prefix__a)">
+        <g clip-path="url(#prefix__clip0)">
             <path
                 fillRule="evenodd"
                 clipRule="evenodd"
@@ -22,7 +22,7 @@ export const KeyboardMIcon: React.FC<SVGProps<SVGSVGElement>> = props => (
             />
         </g>
         <defs>
-            <clipPath id="prefix__a">
+            <clipPath id="prefix__clip0">
                 <path transform="rotate(-180 12 12)" d="M0 0h24v24H0z" />
             </clipPath>
         </defs>
