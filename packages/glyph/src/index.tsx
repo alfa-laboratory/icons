@@ -159,6 +159,7 @@ export * from './InstallmentMIcon';
 export * from './InternetMIcon';
 export * from './InternetOffMIcon';
 export * from './IosBackMIcon';
+export * from './JapaneseCandlesMIcon';
 export * from './JoystickMIcon';
 export * from './JudgeHammerMIcon';
 export * from './KettleMIcon';
