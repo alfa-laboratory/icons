@@ -88,9 +88,10 @@ export async function createComponent(filePath: string, packageDir: string) {
     const componentContent = iconTemplate
         .replace(/{{ComponentName}}/g, `${componentName}`)
         .replace('{{body}}', svg)
+        .replace(/viewBox=\"[^"]*"/g, '$& {...props}')
         .replace(
             '<svg',
-            `<svg role="img" {...props} focusable="false" ${color ? '' : 'fill="currentColor"'}`,
+            `<svg role="img" focusable="false" ${color ? '' : 'fill="currentColor"'}`,
         );
 
     const fullFileName = path.join(packageDir, `${componentName}.tsx`);
