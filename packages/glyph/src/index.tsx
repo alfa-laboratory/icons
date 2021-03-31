@@ -14,6 +14,7 @@ export * from './ArrowDownCompactXsIcon';
 export * from './ArrowDownMIcon';
 export * from './ArrowDownUpMIcon';
 export * from './ArrowForwardMIcon';
+export * from './ArrowLeftBigMIcon';
 export * from './ArrowRiseMIcon';
 export * from './ArrowUpCircleMIcon';
 export * from './ArrowUpCompactXsIcon';
