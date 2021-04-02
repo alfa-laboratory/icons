@@ -102,6 +102,7 @@ export * from './ClockLineMIcon';
 export * from './ClockMIcon';
 export * from './ClockRepeatMIcon';
 export * from './ClockSIcon';
+export * from './ContainerMIcon';
 export * from './CopyLineMIcon';
 export * from './CopyMIcon';
 export * from './CreditCardLogoMIcon';
