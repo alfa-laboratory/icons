@@ -4,24 +4,22 @@
  */
 import React, { SVGProps } from 'react';
 
-export const AlfaDirectLogoXxxlIcon: React.FC<SVGProps<
-    SVGSVGElement
->> = props => (
+export const ContainerMIcon: React.FC<SVGProps<SVGSVGElement>> = props => (
     <svg
         role="img"
         {...props}
         focusable="false"
         fill="currentColor"
-        width="88"
-        height="88"
-        viewBox="0 0 88 88"
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
     >
         <path
             fillRule="evenodd"
             clipRule="evenodd"
-            d="M56.361 20.978L7 70.339 17.66 81l49.362-49.364V81H81V7H7v13.978h49.361z"
+            d="M19 12h2V6a2 2 0 00-2-2H5a2 2 0 00-2 2v6h2V6h14v6zm-4 2v1.5a1.5 1.5 0 01-1.5 1.5h-3A1.5 1.5 0 019 15.5V14H3v4a2 2 0 002 2h14a2 2 0 002-2v-4h-6z"
         />
     </svg>
 );
 
-export default AlfaDirectLogoXxxlIcon;
+export default ContainerMIcon;

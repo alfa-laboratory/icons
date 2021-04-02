@@ -4,7 +4,9 @@
  */
 import React, { SVGProps } from 'react';
 
-export const TransferMIcon: React.FC<SVGProps<SVGSVGElement>> = props => (
+export const JapaneseCandlesMIcon: React.FC<SVGProps<
+    SVGSVGElement
+>> = props => (
     <svg
         role="img"
         {...props}
@@ -14,12 +16,8 @@ export const TransferMIcon: React.FC<SVGProps<SVGSVGElement>> = props => (
         height="24"
         viewBox="0 0 24 24"
     >
-        <path
-            fillRule="evenodd"
-            clipRule="evenodd"
-            d="M8.5 2.5L10 4 5 9l5 5-1.5 1.5L2 9l6.5-6.5zm7 6L14 10l5 5-5 5 1.5 1.5L22 15l-6.5-6.5z"
-        />
+        <path d="M7 2H5v8H3a1 1 0 00-1 1v7h3v4h2v-4h3v-7a1 1 0 00-1-1H7V2zm12 0h-2v4h-2a1 1 0 00-1 1v11h3v4h2v-4h3V7a1 1 0 00-1-1h-2V2z" />
     </svg>
 );
 
-export default TransferMIcon;
+export default JapaneseCandlesMIcon;

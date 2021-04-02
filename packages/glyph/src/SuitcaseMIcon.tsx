@@ -4,7 +4,7 @@
  */
 import React, { SVGProps } from 'react';
 
-export const TransferMIcon: React.FC<SVGProps<SVGSVGElement>> = props => (
+export const SuitcaseMIcon: React.FC<SVGProps<SVGSVGElement>> = props => (
     <svg
         role="img"
         {...props}
@@ -14,12 +14,8 @@ export const TransferMIcon: React.FC<SVGProps<SVGSVGElement>> = props => (
         height="24"
         viewBox="0 0 24 24"
     >
-        <path
-            fillRule="evenodd"
-            clipRule="evenodd"
-            d="M8.5 2.5L10 4 5 9l5 5-1.5 1.5L2 9l6.5-6.5zm7 6L14 10l5 5-5 5 1.5 1.5L22 15l-6.5-6.5z"
-        />
+        <path d="M18 23h-2v-1H8v1H6v-1c-1.1 0-2-.9-2-2V7c0-1.1.9-2 2-2h2V2c0-.6.4-1 1-1h6c.6 0 1 .4 1 1v3h2c1.1 0 2 .9 2 2v13c0 1.1-.9 2-2 2v1zM10 9H8v9h2V9zm6 0h-2v9h2V9zm-2-6h-4v2h4V3z" />
     </svg>
 );
 
-export default TransferMIcon;
+export default SuitcaseMIcon;

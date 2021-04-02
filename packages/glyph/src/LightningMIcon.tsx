@@ -14,7 +14,7 @@ export const LightningMIcon: React.FC<SVGProps<SVGSVGElement>> = props => (
         height="24"
         viewBox="0 0 24 24"
     >
-        <path d="M6 11.571L13.98 3l-1.75 7.714 5.341 1.715L9.561 21l1.78-7.714L6 11.57z" />
+        <path d="M6 12l9-9-2 7 5 2-9 9 2-7-5-2z" />
     </svg>
 );
 

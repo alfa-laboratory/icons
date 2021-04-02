@@ -4,7 +4,7 @@
  */
 import React, { SVGProps } from 'react';
 
-export const TransferMIcon: React.FC<SVGProps<SVGSVGElement>> = props => (
+export const NavigationChatMIcon: React.FC<SVGProps<SVGSVGElement>> = props => (
     <svg
         role="img"
         {...props}
@@ -17,9 +17,9 @@ export const TransferMIcon: React.FC<SVGProps<SVGSVGElement>> = props => (
         <path
             fillRule="evenodd"
             clipRule="evenodd"
-            d="M8.5 2.5L10 4 5 9l5 5-1.5 1.5L2 9l6.5-6.5zm7 6L14 10l5 5-5 5 1.5 1.5L22 15l-6.5-6.5z"
+            d="M24 10c0-6.5-5-10-12-10S0 3.5 0 10s5 9.971 11 9.971v2.559c0 .507 0 .76.159 1.008.11.173.376.368.574.423.283.078.47.02.845-.096C18 22 24 16.5 24 10zm-6-3v2H6V7h12zm-4 4H6v2h8v-2z"
         />
     </svg>
 );
 
-export default TransferMIcon;
+export default NavigationChatMIcon;

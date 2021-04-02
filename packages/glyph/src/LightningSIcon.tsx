@@ -4,7 +4,7 @@
  */
 import React, { SVGProps } from 'react';
 
-export const FlashCircleSIcon: React.FC<SVGProps<SVGSVGElement>> = props => (
+export const LightningSIcon: React.FC<SVGProps<SVGSVGElement>> = props => (
     <svg
         role="img"
         {...props}
@@ -14,12 +14,8 @@ export const FlashCircleSIcon: React.FC<SVGProps<SVGSVGElement>> = props => (
         height="18"
         viewBox="0 0 18 18"
     >
-        <path
-            fillRule="evenodd"
-            clipRule="evenodd"
-            d="M9 16A7 7 0 109 2a7 7 0 000 14zm1.78-12l-5 5 2.778 1.111L7.208 14l5-5-2.54-1.111L10.78 4z"
-        />
+        <path d="M4.5 9l7-7-1.556 5.444L13.5 9l-7 7 1.889-5.444L4.5 9z" />
     </svg>
 );
 
-export default FlashCircleSIcon;
+export default LightningSIcon;
