@@ -1214,6 +1214,7 @@ export * from './ContactListXlBlackIcon';
 export * from './ContactListXlWhiteIcon';
 export * from './ContactListXxlBlackIcon';
 export * from './ContactListXxlWhiteIcon';
+export * from './ContactlessIndicatorMBlackIcon';
 export * from './ContactlessMBlackIcon';
 export * from './ContactlessMWhiteIcon';
 export * from './ContactlessOffXlBlackIcon';
