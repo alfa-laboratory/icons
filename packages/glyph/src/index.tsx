@@ -276,6 +276,7 @@ export * from './SpeedMIcon';
 export * from './SquareAcademicCapMIcon';
 export * from './StarLineMIcon';
 export * from './StarMIcon';
+export * from './StarOffMIcon';
 export * from './StatsChartMIcon';
 export * from './StopCircleMIcon';
 export * from './SubwayMIcon';
