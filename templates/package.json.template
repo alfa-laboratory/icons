@@ -1,6 +1,7 @@
 {
     "name": "@alfalab/icons-{{package-name}}",
     "version": "1.0.0",
+    "license": "MIT",
     "dependencies": {},
     "peerDependencies": {
         "react": "^16.13.0",
@@ -12,4 +13,3 @@
         "access": "public"
     }
 }
-  
