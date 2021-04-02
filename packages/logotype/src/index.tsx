@@ -1,7 +1,4 @@
 export * from './AlfaBankLogoMIcon';
-export * from './AlfaDirectLogoFullLIcon';
-export * from './AlfaDirectLogoMIcon';
-export * from './AlfaDirectLogoXxxlIcon';
 export * from './AlfaInvestLogoMIcon';
 export * from './AlfaInvestLogoXxxlIcon';
 export * from './AlfaInvestRuLogoFullLIcon';

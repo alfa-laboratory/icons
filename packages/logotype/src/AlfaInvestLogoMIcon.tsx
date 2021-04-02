@@ -14,7 +14,11 @@ export const AlfaInvestLogoMIcon: React.FC<SVGProps<SVGSVGElement>> = props => (
         height="24"
         viewBox="0 0 24 24"
     >
-        <path d="M4.18 4v2.67h11.235L4 18.076l1.887 1.886L17.33 8.52v11.3H20V4H4.18z" />
+        <path
+            fillRule="evenodd"
+            clipRule="evenodd"
+            d="M4 4h16v16h-3.022V9.327L6.305 20 4 17.695 14.673 7.022H4V4z"
+        />
     </svg>
 );
 
