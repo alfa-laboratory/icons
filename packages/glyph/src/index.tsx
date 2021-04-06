@@ -224,6 +224,7 @@ export * from './PointerUpMIcon';
 export * from './PowerButtonCircleMIcon';
 export * from './PowerButtonMIcon';
 export * from './PrintMIcon';
+export * from './QrCodeGiftMIcon';
 export * from './QrCodeMIcon';
 export * from './QuestionMIcon';
 export * from './RackMIcon';
