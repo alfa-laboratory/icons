@@ -7,11 +7,11 @@ import React, { SVGProps } from 'react';
 export const AlfacheckMBlackIcon: React.FC<SVGProps<SVGSVGElement>> = props => (
     <svg
         role="img"
-        {...props}
         focusable="false"
         width="22"
         height="19"
         viewBox="0 0 22 19"
+        {...props}
     >
         <g fill="none" fillRule="evenodd">
             <path d="M-1-2h24v24H-1z" />

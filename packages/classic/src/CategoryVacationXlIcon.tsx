@@ -9,12 +9,12 @@ export const CategoryVacationXlIcon: React.FC<SVGProps<
 >> = props => (
     <svg
         role="img"
-        {...props}
         focusable="false"
         fill="currentColor"
         width="36"
         height="36"
         viewBox="0 0 36 36"
+        {...props}
     >
         <path d="M15 3h6V2h-6v1zm-1-2h8v3h-8V1zm-4 33h3v-1h-3v1zm-1-2h5v3H9v-3zm14 2h3v-1h-3v1zm-1-2h5v3h-5v-3z" />
         <path d="M11 10h2v17h-2zm6 0h2v17h-2zm6 0h2v17h-2z" opacity=".3" />

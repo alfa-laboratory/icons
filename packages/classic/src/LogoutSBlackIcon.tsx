@@ -7,11 +7,11 @@ import React, { SVGProps } from 'react';
 export const LogoutSBlackIcon: React.FC<SVGProps<SVGSVGElement>> = props => (
     <svg
         role="img"
-        {...props}
         focusable="false"
         width="18"
         height="18"
         viewBox="0 0 18 18"
+        {...props}
     >
         <g fillRule="nonzero" fillOpacity=".9" fill="#0B1F35">
             <polygon points="13.396 5.854 15.543 8 6 8 6 9 15.543 9 13.396 11.146 14.104 11.854 17.457 8.5 14.104 5.146" />

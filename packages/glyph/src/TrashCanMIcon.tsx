@@ -7,12 +7,12 @@ import React, { SVGProps } from 'react';
 export const TrashCanMIcon: React.FC<SVGProps<SVGSVGElement>> = props => (
     <svg
         role="img"
-        {...props}
         focusable="false"
         fill="currentColor"
         width="24"
         height="24"
         viewBox="0 0 24 24"
+        {...props}
     >
         <path d="M13 5V2h-2v3H4v2h16V5h-7z" />
         <path

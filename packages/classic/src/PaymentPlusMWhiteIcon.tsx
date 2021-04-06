@@ -9,11 +9,11 @@ export const PaymentPlusMWhiteIcon: React.FC<SVGProps<
 >> = props => (
     <svg
         role="img"
-        {...props}
         focusable="false"
         width="24"
         height="24"
         viewBox="0 0 24 24"
+        {...props}
     >
         <g fill="#FFF" fillRule="evenodd">
             <path d="M12 2h1v19h-1z" />

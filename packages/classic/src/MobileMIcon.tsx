@@ -7,12 +7,12 @@ import React, { SVGProps } from 'react';
 export const MobileMIcon: React.FC<SVGProps<SVGSVGElement>> = props => (
     <svg
         role="img"
-        {...props}
         focusable="false"
         fill="currentColor"
         width="24"
         height="24"
         viewBox="0 0 24 24"
+        {...props}
     >
         <path d="M5.5 5h13v12h-13z" opacity=".2" />
         <path d="M10 19h4v1h-4z" opacity=".3" />

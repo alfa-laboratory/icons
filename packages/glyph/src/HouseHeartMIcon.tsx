@@ -7,12 +7,12 @@ import React, { SVGProps } from 'react';
 export const HouseHeartMIcon: React.FC<SVGProps<SVGSVGElement>> = props => (
     <svg
         role="img"
-        {...props}
         focusable="false"
         fill="currentColor"
         width="24"
         height="24"
         viewBox="0 0 24 24"
+        {...props}
     >
         <path d="M19 2v4.113l-3-3V2c0-.321.224-.582.5-.582h2c.276 0 .5.26.5.582z" />
         <path

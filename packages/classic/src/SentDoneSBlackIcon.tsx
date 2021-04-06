@@ -7,10 +7,10 @@ import React, { SVGProps } from 'react';
 export const SentDoneSBlackIcon: React.FC<SVGProps<SVGSVGElement>> = props => (
     <svg
         role="img"
-        {...props}
         focusable="false"
         height="18"
         viewBox="0 0 18 18"
+        {...props}
         width="18"
     >
         <g fill="none" fillRule="evenodd">

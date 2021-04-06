@@ -7,11 +7,11 @@ import React, { SVGProps } from 'react';
 export const CancelMColorIcon: React.FC<SVGProps<SVGSVGElement>> = props => (
     <svg
         role="img"
-        {...props}
         focusable="false"
         width="24"
         height="24"
         viewBox="0 0 24 24"
+        {...props}
     >
         <g fill="none">
             <rect width="24" height="24" fill="#EF3124" rx="12" />

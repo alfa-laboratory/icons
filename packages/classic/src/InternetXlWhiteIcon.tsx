@@ -7,11 +7,11 @@ import React, { SVGProps } from 'react';
 export const InternetXlWhiteIcon: React.FC<SVGProps<SVGSVGElement>> = props => (
     <svg
         role="img"
-        {...props}
         focusable="false"
         width="36"
         height="33"
         viewBox="0 0 36 33"
+        {...props}
     >
         <g fill="none" fillRule="evenodd" transform="translate(0 -1)">
             <path d="M0 0h36v36H0z" />

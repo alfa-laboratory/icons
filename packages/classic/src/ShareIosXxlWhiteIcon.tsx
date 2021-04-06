@@ -9,11 +9,11 @@ export const ShareIosXxlWhiteIcon: React.FC<SVGProps<
 >> = props => (
     <svg
         role="img"
-        {...props}
         focusable="false"
         width="33"
         height="46"
         viewBox="0 0 33 46"
+        {...props}
     >
         <g fill="none" fillRule="evenodd">
             <path d="M-8 0h48v48H-8z" />

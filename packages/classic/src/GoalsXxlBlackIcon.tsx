@@ -7,11 +7,11 @@ import React, { SVGProps } from 'react';
 export const GoalsXxlBlackIcon: React.FC<SVGProps<SVGSVGElement>> = props => (
     <svg
         role="img"
-        {...props}
         focusable="false"
         width="48"
         height="44"
         viewBox="0 0 48 44"
+        {...props}
     >
         <g fill="none" fillRule="evenodd">
             <path d="M0-2h48v48H0z" />

@@ -1,3 +1,6 @@
+export * from './AClubLogoActiveMIcon';
+export * from './AClubLogoDisableDarkModeMIcon';
+export * from './AClubLogoDisableLightModeMIcon';
 export * from './AlfaBankLogoMIcon';
 export * from './AlfaInvestLogoMIcon';
 export * from './AlfaInvestLogoXxxlIcon';

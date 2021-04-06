@@ -9,11 +9,11 @@ export const ReadyToSendMWhiteIcon: React.FC<SVGProps<
 >> = props => (
     <svg
         role="img"
-        {...props}
         focusable="false"
         width="21"
         height="23"
         viewBox="0 0 21 23"
+        {...props}
     >
         <g fill="none" fillRule="evenodd">
             <path d="M-2 0h24v24H-2z" />

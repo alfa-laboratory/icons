@@ -7,11 +7,11 @@ import React, { SVGProps } from 'react';
 export const SubtractXlBlackIcon: React.FC<SVGProps<SVGSVGElement>> = props => (
     <svg
         role="img"
-        {...props}
         focusable="false"
         width="36"
         height="36"
         viewBox="0 0 36 36"
+        {...props}
         fill="none"
     >
         <path d="M19.5 7.5L21 3h-3l-1.5 4.5H6v3h24v-3H19.5z" fill="#0B1F35" />

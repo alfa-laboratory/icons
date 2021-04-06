@@ -7,11 +7,11 @@ import React, { SVGProps } from 'react';
 export const DiscountMWhiteIcon: React.FC<SVGProps<SVGSVGElement>> = props => (
     <svg
         role="img"
-        {...props}
         focusable="false"
         width="25"
         height="24"
         viewBox="0 0 25 24"
+        {...props}
     >
         <g fill="none" fillRule="evenodd">
             <path d="M0 0h24v24H0z" />

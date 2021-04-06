@@ -9,11 +9,11 @@ export const CategoryCashXlBlackIcon: React.FC<SVGProps<
 >> = props => (
     <svg
         role="img"
-        {...props}
         focusable="false"
         width="36"
         height="20"
         viewBox="0 0 36 20"
+        {...props}
     >
         <g fill="#0B1F35" fillRule="evenodd">
             <path d="M20 16.023a4 4 0 1 0 0-8 4 4 0 0 0 0 8z" opacity=".3" />

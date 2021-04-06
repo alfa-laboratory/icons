@@ -7,11 +7,11 @@ import React, { SVGProps } from 'react';
 export const OfficeMBlackIcon: React.FC<SVGProps<SVGSVGElement>> = props => (
     <svg
         role="img"
-        {...props}
         focusable="false"
         width="24"
         height="24"
         viewBox="0 0 24 24"
+        {...props}
     >
         <g fill="#0B1F35" transform="translate(1 1)">
             <polygon points="14 18.5 14 3.006 20.5 .5 20.5 21.5" opacity=".2" />

@@ -9,11 +9,11 @@ export const BankTinkoffLWhiteIcon: React.FC<SVGProps<
 >> = props => (
     <svg
         role="img"
-        {...props}
         focusable="false"
         width="30"
         height="30"
         viewBox="0 0 30 30"
+        {...props}
     >
         <g fill="#FFF" fillRule="evenodd">
             <path d="M13.22 3.423a3.992 3.992 0 0 1 3.56.008l.44-.896a5 5 0 0 0-4.438-.01l.437.9zM9.394 25.497c1.776 1.16 3.707 1.774 5.583 1.774 1.894 0 3.84-.624 5.632-1.806l-.552-.835c-3.24 2.137-6.873 2.147-10.117.03l-.546.837z" />

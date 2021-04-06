@@ -7,11 +7,11 @@ import React, { SVGProps } from 'react';
 export const BankQiwiXlWhiteIcon: React.FC<SVGProps<SVGSVGElement>> = props => (
     <svg
         role="img"
-        {...props}
         focusable="false"
         width="29"
         height="30"
         viewBox="0 0 29 30"
+        {...props}
     >
         <g fill="#FFF">
             <path d="M22.404 19.846c-.302-.101-.302.201-.201.403.201.503.403.906.503 1.007.101.101.302-.101.201-.604.001-.202-.201-.705-.503-.806zm-2.214 1.007c-.201 0-.302 0-.503.101-.302.201-.403.705-.101 1.107.101.201.302.302.503.403.201 0 .302 0 .503-.101.302-.302.302-.805 0-1.208-.1-.101-.201-.302-.402-.302z" />

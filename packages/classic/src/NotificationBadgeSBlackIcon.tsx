@@ -9,11 +9,11 @@ export const NotificationBadgeSBlackIcon: React.FC<SVGProps<
 >> = props => (
     <svg
         role="img"
-        {...props}
         focusable="false"
         width="18"
         height="18"
         viewBox="0 0 18 18"
+        {...props}
     >
         <g fill="#0B1F35" fillRule="evenodd">
             <circle cx="14.5" cy="3.5" r="3.5" fillOpacity=".3" />

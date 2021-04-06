@@ -7,12 +7,12 @@ import React, { SVGProps } from 'react';
 export const CalendarLIcon: React.FC<SVGProps<SVGSVGElement>> = props => (
     <svg
         role="img"
-        {...props}
         focusable="false"
         fill="currentColor"
         width="30"
         height="30"
         viewBox="0 0 30 30"
+        {...props}
     >
         <g fillOpacity=".9">
             <path d="M7 11h4v2H7v-2zm6 0h4v2h-4v-2zm-6 6h4v2H7v-2zm6 0h4v2h-4v-2zm6-6h4v2h-4v-2z" />

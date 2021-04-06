@@ -7,11 +7,11 @@ import React, { SVGProps } from 'react';
 export const AnalyticsSWhiteIcon: React.FC<SVGProps<SVGSVGElement>> = props => (
     <svg
         role="img"
-        {...props}
         focusable="false"
         width="18"
         height="18"
         viewBox="0 0 18 18"
+        {...props}
     >
         <g transform="translate(1 3)" fill="#FFF" fillRule="evenodd">
             <polygon

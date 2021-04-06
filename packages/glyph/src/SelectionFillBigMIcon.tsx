@@ -9,12 +9,12 @@ export const SelectionFillBigMIcon: React.FC<SVGProps<
 >> = props => (
     <svg
         role="img"
-        {...props}
         focusable="false"
         fill="currentColor"
         width="24"
         height="24"
         viewBox="0 0 24 24"
+        {...props}
     >
         <circle cx="12" cy="12" r="12" />
     </svg>

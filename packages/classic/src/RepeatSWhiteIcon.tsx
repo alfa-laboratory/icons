@@ -7,11 +7,11 @@ import React, { SVGProps } from 'react';
 export const RepeatSWhiteIcon: React.FC<SVGProps<SVGSVGElement>> = props => (
     <svg
         role="img"
-        {...props}
         focusable="false"
         width="14"
         height="13"
         viewBox="0 0 14 13"
+        {...props}
     >
         <path
             fill="#FFF"

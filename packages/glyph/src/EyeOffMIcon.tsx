@@ -7,12 +7,12 @@ import React, { SVGProps } from 'react';
 export const EyeOffMIcon: React.FC<SVGProps<SVGSVGElement>> = props => (
     <svg
         role="img"
-        {...props}
         focusable="false"
         fill="currentColor"
         width="24"
         height="24"
         viewBox="0 0 24 24"
+        {...props}
     >
         <path d="M20.944 14.702a.197.197 0 00.293-.014C21.886 13.89 22.564 12.93 23 12c-1.914-4.089-6.19-7.01-11-7.01-.164 0-.326.003-.489.01-.17.007-.246.022-.125.143l9.558 9.559z" />
         <path

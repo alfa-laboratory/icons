@@ -9,11 +9,11 @@ export const NavigationPaymentMBlackIcon: React.FC<SVGProps<
 >> = props => (
     <svg
         role="img"
-        {...props}
         focusable="false"
         width="24"
         height="24"
         viewBox="0 0 24 24"
+        {...props}
         fill="none"
     >
         <path d="M13 8h-2v3h2c1.5 0 2-.5 2-1.5S14.5 8 13 8z" fill="#B6BCC3" />

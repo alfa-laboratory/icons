@@ -9,11 +9,11 @@ export const BalanceTransferLBlackIcon: React.FC<SVGProps<
 >> = props => (
     <svg
         role="img"
-        {...props}
         focusable="false"
         width="30"
         height="30"
         viewBox="0 0 30 30"
+        {...props}
         fill="none"
     >
         <path

@@ -9,11 +9,11 @@ export const LockFilledXsWhiteIcon: React.FC<SVGProps<
 >> = props => (
     <svg
         role="img"
-        {...props}
         focusable="false"
         width="12"
         height="12"
         viewBox="0 0 12 12"
+        {...props}
     >
         <g fill="none" fillRule="evenodd">
             <path

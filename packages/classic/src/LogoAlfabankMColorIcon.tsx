@@ -9,11 +9,11 @@ export const LogoAlfabankMColorIcon: React.FC<SVGProps<
 >> = props => (
     <svg
         role="img"
-        {...props}
         focusable="false"
         width="24"
         height="24"
         viewBox="0 0 24 24"
+        {...props}
     >
         <path
             d="M0 12.08A12 12 0 1 0 11.92 0 12 12 0 0 0 0 12.08z"

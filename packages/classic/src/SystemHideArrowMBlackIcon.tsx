@@ -9,11 +9,11 @@ export const SystemHideArrowMBlackIcon: React.FC<SVGProps<
 >> = props => (
     <svg
         role="img"
-        {...props}
         focusable="false"
         width="22"
         height="7"
         viewBox="0 0 22 7"
+        {...props}
     >
         <polyline
             points="0 0 8.84745763 3 18 0"

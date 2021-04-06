@@ -9,11 +9,11 @@ export const ArrowRightXxlWhiteIcon: React.FC<SVGProps<
 >> = props => (
     <svg
         role="img"
-        {...props}
         focusable="false"
         width="12"
         height="21"
         viewBox="0 0 12 21"
+        {...props}
     >
         <g fill="none" fillRule="evenodd">
             <path

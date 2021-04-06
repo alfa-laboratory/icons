@@ -9,11 +9,11 @@ export const AlfamobileMBlackIcon: React.FC<SVGProps<
 >> = props => (
     <svg
         role="img"
-        {...props}
         focusable="false"
         width="16"
         height="22"
         viewBox="0 0 16 22"
+        {...props}
     >
         <g fill="none" fillRule="evenodd">
             <path d="M-4-1h24v24H-4z" />

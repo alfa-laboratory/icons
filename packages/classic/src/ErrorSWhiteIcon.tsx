@@ -7,11 +7,11 @@ import React, { SVGProps } from 'react';
 export const ErrorSWhiteIcon: React.FC<SVGProps<SVGSVGElement>> = props => (
     <svg
         role="img"
-        {...props}
         focusable="false"
         width="18"
         height="15"
         viewBox="0 0 18 15"
+        {...props}
     >
         <path
             fill="#FFF"

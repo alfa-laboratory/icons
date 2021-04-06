@@ -7,11 +7,11 @@ import React, { SVGProps } from 'react';
 export const MobileXxlWhiteIcon: React.FC<SVGProps<SVGSVGElement>> = props => (
     <svg
         role="img"
-        {...props}
         focusable="false"
         width="28"
         height="45"
         viewBox="0 0 28 45"
+        {...props}
     >
         <g fill="none" fillRule="evenodd">
             <path d="M-10-2h48v48h-48z" />

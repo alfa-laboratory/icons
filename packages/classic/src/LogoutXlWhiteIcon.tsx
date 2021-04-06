@@ -7,11 +7,11 @@ import React, { SVGProps } from 'react';
 export const LogoutXlWhiteIcon: React.FC<SVGProps<SVGSVGElement>> = props => (
     <svg
         role="img"
-        {...props}
         focusable="false"
         width="40"
         height="40"
         viewBox="0 0 40 40"
+        {...props}
     >
         <g fillRule="nonzero" fillOpacity=".9" fill="#FFF">
             <path d="M22.438 34C23.826 34 25 32.855 25 31.5V25h-1v6.5c0 .813-.716 1.5-1.562 1.5h-14C7.632 33 7 32.341 7 31.5v-23C7 7.659 7.632 7 8.438 7h14C23.284 7 24 7.687 24 8.5V14h1V8.5C25 7.145 23.826 6 22.438 6h-14C7.07 6 6 7.098 6 8.5v23C6 32.902 7.07 34 8.438 34h14z" />

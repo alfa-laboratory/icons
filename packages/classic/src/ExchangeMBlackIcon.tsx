@@ -7,11 +7,11 @@ import React, { SVGProps } from 'react';
 export const ExchangeMBlackIcon: React.FC<SVGProps<SVGSVGElement>> = props => (
     <svg
         role="img"
-        {...props}
         focusable="false"
         width="24"
         height="24"
         viewBox="0 0 24 24"
+        {...props}
     >
         <g fill="none">
             <g fill="#0B1F35" transform="translate(2 3)">

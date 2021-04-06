@@ -9,11 +9,11 @@ export const FavoriteXxlBlackIcon: React.FC<SVGProps<
 >> = props => (
     <svg
         role="img"
-        {...props}
         focusable="false"
         width="48"
         height="46"
         viewBox="0 0 48 46"
+        {...props}
     >
         <g fill="none" fillRule="evenodd">
             <path d="M0-1h48v48H0z" />

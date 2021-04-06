@@ -7,11 +7,11 @@ import React, { SVGProps } from 'react';
 export const CancelXxxlColorIcon: React.FC<SVGProps<SVGSVGElement>> = props => (
     <svg
         role="img"
-        {...props}
         focusable="false"
         width="88"
         height="88"
         viewBox="0 0 88 88"
+        {...props}
     >
         <g fill="none">
             <polygon points="0 0 88 1.796 88 88 0 88" />

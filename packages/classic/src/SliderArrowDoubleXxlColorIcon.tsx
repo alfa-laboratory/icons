@@ -9,11 +9,11 @@ export const SliderArrowDoubleXxlColorIcon: React.FC<SVGProps<
 >> = props => (
     <svg
         role="img"
-        {...props}
         focusable="false"
         width="48"
         height="48"
         viewBox="0 0 48 48"
+        {...props}
     >
         <circle cx="24" cy="24" r="24" fill="#F1463A" />
         <polygon

@@ -7,11 +7,11 @@ import React, { SVGProps } from 'react';
 export const BankSberMWhiteIcon: React.FC<SVGProps<SVGSVGElement>> = props => (
     <svg
         role="img"
-        {...props}
         focusable="false"
         width="22"
         height="22"
         viewBox="0 0 22 22"
+        {...props}
     >
         <g fill="#FFF">
             <path d="M.88 6.56l5.76 3.36 12-6.88c-.32-.32-.64-.56-.96-.8L6.64 8.48l-5.2-2.96c-.24.32-.4.72-.56 1.04z" />

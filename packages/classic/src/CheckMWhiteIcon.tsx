@@ -7,11 +7,11 @@ import React, { SVGProps } from 'react';
 export const CheckMWhiteIcon: React.FC<SVGProps<SVGSVGElement>> = props => (
     <svg
         role="img"
-        {...props}
         focusable="false"
         width="23"
         height="20"
         viewBox="0 0 23 20"
+        {...props}
     >
         <g fill="none" fillRule="evenodd">
             <path d="M-1-2h24v24H-1z" />

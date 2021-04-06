@@ -9,12 +9,12 @@ export const ChevronForwardCompactSIcon: React.FC<SVGProps<
 >> = props => (
     <svg
         role="img"
-        {...props}
         focusable="false"
         fill="currentColor"
         width="18"
         height="18"
         viewBox="0 0 18 18"
+        {...props}
     >
         <path d="M6.5 4l5 5-5 5" stroke="#0B1F35" stroke-width="2" />
     </svg>

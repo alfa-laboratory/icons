@@ -7,11 +7,11 @@ import React, { SVGProps } from 'react';
 export const CreditMBlackIcon: React.FC<SVGProps<SVGSVGElement>> = props => (
     <svg
         role="img"
-        {...props}
         focusable="false"
         width="24"
         height="24"
         viewBox="0 0 24 24"
+        {...props}
     >
         <g fill="#0B1F35" transform="translate(1)">
             <path d="M19.5 23h-17A2.503 2.503 0 0 1 0 20.5v-16C0 3.122 1.121 2 2.5 2H5v1H2.5C1.673 3 1 3.673 1 4.5v16c0 .827.673 1.5 1.5 1.5h17c.827 0 1.5-.673 1.5-1.5v-16c0-.827-.673-1.5-1.5-1.5H17V2h2.5C20.879 2 22 3.122 22 4.5v16c0 1.378-1.121 2.5-2.5 2.5z" />

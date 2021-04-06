@@ -9,10 +9,10 @@ export const MobileIosXxlWhiteIcon: React.FC<SVGProps<
 >> = props => (
     <svg
         role="img"
-        {...props}
         focusable="false"
         height="48"
         viewBox="0 0 48 48"
+        {...props}
         width="48"
     >
         <g fill="none" fillRule="evenodd">

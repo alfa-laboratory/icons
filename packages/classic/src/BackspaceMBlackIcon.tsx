@@ -7,11 +7,11 @@ import React, { SVGProps } from 'react';
 export const BackspaceMBlackIcon: React.FC<SVGProps<SVGSVGElement>> = props => (
     <svg
         role="img"
-        {...props}
         focusable="false"
         width="22"
         height="16"
         viewBox="0 0 22 16"
+        {...props}
     >
         <g fill="none" fillRule="evenodd">
             <path d="M-1-4h24v24H-1z" />

@@ -7,12 +7,12 @@ import React, { SVGProps } from 'react';
 export const EmailMBlackIcon: React.FC<SVGProps<SVGSVGElement>> = props => (
     <svg
         role="img"
-        {...props}
         focusable="false"
         width="24"
         height="24"
         version="1"
         viewBox="0 0 24 24"
+        {...props}
     >
         <path
             fill="#0B1F35"

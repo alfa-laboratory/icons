@@ -9,12 +9,12 @@ export const CheckmarkOffCircleMIcon: React.FC<SVGProps<
 >> = props => (
     <svg
         role="img"
-        {...props}
         focusable="false"
         fill="currentColor"
         width="24"
         height="24"
         viewBox="0 0 24 24"
+        {...props}
     >
         <path
             d="M12 2.7a9.3 9.3 0 110 18.6 9.3 9.3 0 010-18.6z"

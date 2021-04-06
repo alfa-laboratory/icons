@@ -7,11 +7,11 @@ import React, { SVGProps } from 'react';
 export const ChatSendMWhiteIcon: React.FC<SVGProps<SVGSVGElement>> = props => (
     <svg
         role="img"
-        {...props}
         focusable="false"
         width="21"
         height="18"
         viewBox="0 0 21 18"
+        {...props}
     >
         <g transform="translate(-2 -3)" fill="none" fillRule="evenodd">
             <path

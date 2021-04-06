@@ -9,11 +9,11 @@ export const TransferOutSWhiteIcon: React.FC<SVGProps<
 >> = props => (
     <svg
         role="img"
-        {...props}
         focusable="false"
         width="18"
         height="18"
         viewBox="0 0 18 18"
+        {...props}
     >
         <g fill="#FFF" fillRule="evenodd">
             <path d="M13.752 4.669l.724-.701a7.5 7.5 0 1 1-11.63-.395l.69.731a6.5 6.5 0 1 0 10.216.365z" />

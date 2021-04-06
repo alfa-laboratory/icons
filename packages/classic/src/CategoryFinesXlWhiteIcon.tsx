@@ -9,11 +9,11 @@ export const CategoryFinesXlWhiteIcon: React.FC<SVGProps<
 >> = props => (
     <svg
         role="img"
-        {...props}
         focusable="false"
         width="28"
         height="34"
         viewBox="0 0 28 34"
+        {...props}
     >
         <g fill="none" fillRule="evenodd">
             <path d="M-4-1h36v36H-4z" />

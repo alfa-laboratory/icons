@@ -7,12 +7,12 @@ import React, { SVGProps } from 'react';
 export const CostsXlIcon: React.FC<SVGProps<SVGSVGElement>> = props => (
     <svg
         role="img"
-        {...props}
         focusable="false"
         fill="currentColor"
         width="32"
         height="32"
         viewBox="0 0 32 32"
+        {...props}
     >
         <path
             d="M16 16l8-13.9c2.4 1.4 4.5 3.4 5.9 5.9 1.4 2.4 2.1 5.2 2.1 8H16z"

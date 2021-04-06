@@ -7,11 +7,11 @@ import React, { SVGProps } from 'react';
 export const CardAddXxlWhiteIcon: React.FC<SVGProps<SVGSVGElement>> = props => (
     <svg
         role="img"
-        {...props}
         focusable="false"
         width="48"
         height="48"
         viewBox="0 0 48 48"
+        {...props}
     >
         <g fill="none" fillRule="evenodd">
             <polygon points="23.9998 48 47.9996 48 47.9996 0 23.9998 0 0 0 0 48" />

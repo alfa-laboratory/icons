@@ -9,11 +9,11 @@ export const TransferOutMBlackIcon: React.FC<SVGProps<
 >> = props => (
     <svg
         role="img"
-        {...props}
         focusable="false"
         width="24"
         height="24"
         viewBox="0 0 24 24"
+        {...props}
     >
         <g fill="#0B1F35" fillRule="evenodd">
             <path d="M2.683 6.797A10.447 10.447 0 0 0 1 12.5C1 18.3 5.7 23 11.5 23S22 18.3 22 12.5c0-1.89-.5-3.66-1.37-5.192l-.746.72A9.5 9.5 0 0 1 11.5 22 9.5 9.5 0 0 1 2 12.5c0-1.814.51-3.51 1.39-4.952l-.707-.75z" />

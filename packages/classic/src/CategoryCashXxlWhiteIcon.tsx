@@ -9,11 +9,11 @@ export const CategoryCashXxlWhiteIcon: React.FC<SVGProps<
 >> = props => (
     <svg
         role="img"
-        {...props}
         focusable="false"
         width="46"
         height="26"
         viewBox="0 0 46 26"
+        {...props}
     >
         <g fill="#FFF" fillRule="evenodd" transform="translate(-1 -11)">
             <circle cx="26" cy="26" opacity=".3" r="6" />

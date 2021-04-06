@@ -7,12 +7,12 @@ import React, { SVGProps } from 'react';
 export const BadgeSIcon: React.FC<SVGProps<SVGSVGElement>> = props => (
     <svg
         role="img"
-        {...props}
         focusable="false"
         fill="currentColor"
         width="18"
         height="18"
         viewBox="0 0 18 18"
+        {...props}
     >
         <circle cx="5" cy="9" r="3" />
     </svg>

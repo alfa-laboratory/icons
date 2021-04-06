@@ -7,11 +7,11 @@ import React, { SVGProps } from 'react';
 export const OkSColorIcon: React.FC<SVGProps<SVGSVGElement>> = props => (
     <svg
         role="img"
-        {...props}
         focusable="false"
         width="18"
         height="18"
         viewBox="0 0 18 18"
+        {...props}
     >
         <g fill="none">
             <rect width="18" height="18" fill="#2FC26E" rx="9" />

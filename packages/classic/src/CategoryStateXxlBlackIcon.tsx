@@ -9,11 +9,11 @@ export const CategoryStateXxlBlackIcon: React.FC<SVGProps<
 >> = props => (
     <svg
         role="img"
-        {...props}
         focusable="false"
         width="48"
         height="48"
         viewBox="0 0 48 48"
+        {...props}
     >
         <g fill="#0B1F35">
             <path fill="none" d="M0 0h48v48H0z" />

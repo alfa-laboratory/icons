@@ -7,11 +7,11 @@ import React, { SVGProps } from 'react';
 export const ClockXxxlColorIcon: React.FC<SVGProps<SVGSVGElement>> = props => (
     <svg
         role="img"
-        {...props}
         focusable="false"
         width="88"
         height="88"
         viewBox="0 0 88 88"
+        {...props}
         fill="none"
     >
         <path

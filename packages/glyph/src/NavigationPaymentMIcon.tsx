@@ -9,12 +9,12 @@ export const NavigationPaymentMIcon: React.FC<SVGProps<
 >> = props => (
     <svg
         role="img"
-        {...props}
         focusable="false"
         fill="currentColor"
         width="24"
         height="24"
         viewBox="0 0 24 24"
+        {...props}
     >
         <path d="M10 8h3.5a2 2 0 110 4H10V8z" />
         <path

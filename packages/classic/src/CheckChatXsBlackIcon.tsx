@@ -9,11 +9,11 @@ export const CheckChatXsBlackIcon: React.FC<SVGProps<
 >> = props => (
     <svg
         role="img"
-        {...props}
         focusable="false"
         width="12"
         height="12"
         viewBox="0 0 12 12"
+        {...props}
     >
         <g fill="none" fillRule="evenodd">
             <polygon points="0 0 12 0 12 12 0 12" />

@@ -7,11 +7,11 @@ import React, { SVGProps } from 'react';
 export const DotsLBlackIcon: React.FC<SVGProps<SVGSVGElement>> = props => (
     <svg
         role="img"
-        {...props}
         focusable="false"
         width="30"
         height="30"
         viewBox="0 0 30 30"
+        {...props}
     >
         <g transform="rotate(-90 15 15)" fill="none" fillRule="evenodd">
             <path

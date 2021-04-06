@@ -7,12 +7,12 @@ import React, { SVGProps } from 'react';
 export const ClockLineMIcon: React.FC<SVGProps<SVGSVGElement>> = props => (
     <svg
         role="img"
-        {...props}
         focusable="false"
         fill="currentColor"
         width="24"
         height="24"
         viewBox="0 0 24 24"
+        {...props}
     >
         <path d="M11 12V7h2v5a1 1 0 00.4.8l2.6 1.7-1.2 1.6-2.6-1.7A3 3 0 0111 12z" />
         <path

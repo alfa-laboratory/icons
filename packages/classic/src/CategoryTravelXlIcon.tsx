@@ -9,12 +9,12 @@ export const CategoryTravelXlIcon: React.FC<SVGProps<
 >> = props => (
     <svg
         role="img"
-        {...props}
         focusable="false"
         fill="currentColor"
         width="36"
         height="36"
         viewBox="0 0 36 36"
+        {...props}
     >
         <path
             d="M14 33.667c0 .736.597 1.333 1.333 1.333h5.333c.737 0 1.334-.597 1.334-1.333V31h-8v2.667z"

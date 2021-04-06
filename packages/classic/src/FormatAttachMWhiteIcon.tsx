@@ -7,7 +7,7 @@ import React, { SVGProps } from 'react';
 export const FormatAttachMWhiteIcon: React.FC<SVGProps<
     SVGSVGElement
 >> = props => (
-    <svg role="img" {...props} focusable="false" width="24" height="24">
+    <svg role="img" focusable="false" width="24" height="24">
         <path
             fill="#FFF"
             d="M19 8h-1V4c0-1.103-.897-2-2-2H6.707L2 6.707V7H1v-.707L6.293 1H16c1.654 0 3 1.346 3 3v4z"

@@ -9,11 +9,11 @@ export const CategoryRentXxlWhiteIcon: React.FC<SVGProps<
 >> = props => (
     <svg
         role="img"
-        {...props}
         focusable="false"
         width="48"
         height="48"
         viewBox="0 0 48 48"
+        {...props}
     >
         <g fill="none" fillRule="evenodd">
             <circle fill="#FFF" opacity=".3" cx="14.5" cy="16.5" r="4.5" />

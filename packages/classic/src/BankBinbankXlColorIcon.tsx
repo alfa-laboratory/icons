@@ -9,11 +9,11 @@ export const BankBinbankXlColorIcon: React.FC<SVGProps<
 >> = props => (
     <svg
         role="img"
-        {...props}
         focusable="false"
         width="36"
         height="36"
         viewBox="0 0 36 36"
+        {...props}
     >
         <g fill="none" fillRule="evenodd">
             <g transform="translate(1 5)" fillRule="nonzero">

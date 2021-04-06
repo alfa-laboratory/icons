@@ -7,11 +7,11 @@ import React, { SVGProps } from 'react';
 export const PowerCardSBlackIcon: React.FC<SVGProps<SVGSVGElement>> = props => (
     <svg
         role="img"
-        {...props}
         focusable="false"
         width="18"
         height="18"
         viewBox="0 0 18 18"
+        {...props}
         fill="none"
     >
         <path d="M8.25 1h1.5v8h-1.5V1z" fill="#0B1F35" />

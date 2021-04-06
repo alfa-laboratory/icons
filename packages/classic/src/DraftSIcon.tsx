@@ -7,12 +7,12 @@ import React, { SVGProps } from 'react';
 export const DraftSIcon: React.FC<SVGProps<SVGSVGElement>> = props => (
     <svg
         role="img"
-        {...props}
         focusable="false"
         fill="currentColor"
         width="18"
         height="18"
         viewBox="0 0 18 18"
+        {...props}
     >
         <g fillRule="evenodd">
             <path d="M2 17v-5.4L9.6 4 15 9.4 7.4 17H2zm5-1l6.6-6.6-4-4L3 12.1V16h4z" />

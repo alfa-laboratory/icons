@@ -7,12 +7,12 @@ import React, { SVGProps } from 'react';
 export const CategoryCreditMIcon: React.FC<SVGProps<SVGSVGElement>> = props => (
     <svg
         role="img"
-        {...props}
         focusable="false"
         fill="currentColor"
         width="24"
         height="24"
         viewBox="0 0 24 24"
+        {...props}
     >
         <path d="M23 6.08V6c0-2.881-2.686-5-6-5s-6 2.119-6 5c0 2.66 2.04 4.68 5 5v2c1.875 0 7-2.842 7-6.865V6.08z" />
         <path

@@ -7,11 +7,11 @@ import React, { SVGProps } from 'react';
 export const FormatZipSWhiteIcon: React.FC<SVGProps<SVGSVGElement>> = props => (
     <svg
         role="img"
-        {...props}
         focusable="false"
         width="15"
         height="16"
         viewBox="0 0 15 16"
+        {...props}
     >
         <g fill="none" fillRule="evenodd">
             <path d="M-1-1h18v18H-1z" />

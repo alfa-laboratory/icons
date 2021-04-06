@@ -9,11 +9,11 @@ export const PaymentRoundedPlusSWhiteIcon: React.FC<SVGProps<
 >> = props => (
     <svg
         role="img"
-        {...props}
         focusable="false"
         width="18"
         height="18"
         viewBox="0 0 18 18"
+        {...props}
     >
         <g fill="#FFF" fillRule="evenodd">
             <path d="M9.5 1C5.364 1 2 4.364 2 8.5S5.364 16 9.5 16 17 12.636 17 8.5 13.636 1 9.5 1zm0 14A6.508 6.508 0 0 1 3 8.5C3 4.916 5.916 2 9.5 2S16 4.916 16 8.5 13.084 15 9.5 15z" />

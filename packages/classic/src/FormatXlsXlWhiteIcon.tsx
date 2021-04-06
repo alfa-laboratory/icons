@@ -9,11 +9,11 @@ export const FormatXlsXlWhiteIcon: React.FC<SVGProps<
 >> = props => (
     <svg
         role="img"
-        {...props}
         focusable="false"
         width="30"
         height="32"
         viewBox="0 0 30 32"
+        {...props}
     >
         <g fill="#FFF" fillRule="evenodd">
             <path d="M21.558 32h-17a4.505 4.505 0 0 1-4.5-4.5V8.294L8.292 0h13.266c2.481 0 4.5 2.019 4.5 4.5V10h-1V4.5c0-1.93-1.57-3.5-3.5-3.5H8.708l-7.65 7.706V27.5c0 1.93 1.57 3.5 3.5 3.5h17c1.93 0 3.5-1.57 3.5-3.5V26h1v1.5c0 2.481-2.019 4.5-4.5 4.5z" />

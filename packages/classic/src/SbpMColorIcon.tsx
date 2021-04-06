@@ -7,11 +7,11 @@ import React, { SVGProps } from 'react';
 export const SbpMColorIcon: React.FC<SVGProps<SVGSVGElement>> = props => (
     <svg
         role="img"
-        {...props}
         focusable="false"
         width="24"
         height="24"
         viewBox="0 0 24 24"
+        {...props}
     >
         <polygon
             points="11 0.45 11 10.27 14 12 14 5.65 11 0.45"

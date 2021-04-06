@@ -7,11 +7,11 @@ import React, { SVGProps } from 'react';
 export const PresentMWhiteIcon: React.FC<SVGProps<SVGSVGElement>> = props => (
     <svg
         role="img"
-        {...props}
         focusable="false"
         width="24"
         height="24"
         viewBox="0 0 24 24"
+        {...props}
     >
         <g transform="translate(1)" fill="#FFF">
             <polygon points="13 17 10.5 14.5 8 17 8 7.5 13 7.5" opacity=".3" />

@@ -9,11 +9,11 @@ export const TransferCardXlBlackIcon: React.FC<SVGProps<
 >> = props => (
     <svg
         role="img"
-        {...props}
         focusable="false"
         width="35"
         height="30"
         viewBox="0 0 35 30"
+        {...props}
     >
         <g fill="none" fillRule="evenodd">
             <path d="M0-3h36v36H0z" />

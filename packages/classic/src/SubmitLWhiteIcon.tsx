@@ -7,11 +7,11 @@ import React, { SVGProps } from 'react';
 export const SubmitLWhiteIcon: React.FC<SVGProps<SVGSVGElement>> = props => (
     <svg
         role="img"
-        {...props}
         focusable="false"
         width="30"
         height="30"
         viewBox="0 0 30 30"
+        {...props}
     >
         <g fill="none" fillRule="evenodd">
             <path d="M0 0h30v30H0z" />

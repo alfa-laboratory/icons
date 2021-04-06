@@ -7,11 +7,11 @@ import React, { SVGProps } from 'react';
 export const InfoMWhiteIcon: React.FC<SVGProps<SVGSVGElement>> = props => (
     <svg
         role="img"
-        {...props}
         focusable="false"
         width="24"
         height="24"
         viewBox="0 0 24 24"
+        {...props}
     >
         <g fill="none" fillRule="evenodd">
             <circle stroke="#FFF" opacity=".9" cx="12" cy="12" r="10.5" />

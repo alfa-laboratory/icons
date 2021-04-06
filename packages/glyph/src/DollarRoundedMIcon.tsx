@@ -7,12 +7,12 @@ import React, { SVGProps } from 'react';
 export const DollarRoundedMIcon: React.FC<SVGProps<SVGSVGElement>> = props => (
     <svg
         role="img"
-        {...props}
         focusable="false"
         fill="currentColor"
         width="24"
         height="24"
         viewBox="0 0 24 24"
+        {...props}
     >
         <path d="M13.022 13.233v3.405c1.05-.172 1.646-.785 1.646-1.716 0-.85-.518-1.392-1.646-1.69zm-1.962-2.58V7.485c-.848.183-1.429.807-1.429 1.593 0 .75.493 1.29 1.429 1.575z" />
         <path

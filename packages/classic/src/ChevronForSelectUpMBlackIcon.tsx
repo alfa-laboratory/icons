@@ -9,11 +9,11 @@ export const ChevronForSelectUpMBlackIcon: React.FC<SVGProps<
 >> = props => (
     <svg
         role="img"
-        {...props}
         focusable="false"
         width="18"
         height="18"
         viewBox="0 0 18 18"
+        {...props}
         fill="none"
     >
         <path

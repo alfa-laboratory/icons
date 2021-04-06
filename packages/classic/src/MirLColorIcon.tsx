@@ -7,11 +7,11 @@ import React, { SVGProps } from 'react';
 export const MirLColorIcon: React.FC<SVGProps<SVGSVGElement>> = props => (
     <svg
         role="img"
-        {...props}
         focusable="false"
         width="30"
         height="10"
         viewBox="0 0 30 10"
+        {...props}
     >
         <g fill="none" fillRule="evenodd">
             <path

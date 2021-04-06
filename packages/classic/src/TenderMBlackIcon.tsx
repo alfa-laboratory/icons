@@ -7,11 +7,11 @@ import React, { SVGProps } from 'react';
 export const TenderMBlackIcon: React.FC<SVGProps<SVGSVGElement>> = props => (
     <svg
         role="img"
-        {...props}
         focusable="false"
         width="24"
         height="24"
         viewBox="0 0 24 24"
+        {...props}
         fill="none"
     >
         <path d="M2.209 21.882v.96h10.56v-.96H2.209z" fill="#0B1F35" />

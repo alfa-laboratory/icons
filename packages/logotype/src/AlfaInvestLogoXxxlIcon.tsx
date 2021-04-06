@@ -9,12 +9,12 @@ export const AlfaInvestLogoXxxlIcon: React.FC<SVGProps<
 >> = props => (
     <svg
         role="img"
-        {...props}
         focusable="false"
         fill="currentColor"
         width="88"
         height="88"
         viewBox="0 0 88 88"
+        {...props}
     >
         <path
             fillRule="evenodd"

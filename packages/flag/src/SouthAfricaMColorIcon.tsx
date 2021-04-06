@@ -9,11 +9,11 @@ export const SouthAfricaMColorIcon: React.FC<SVGProps<
 >> = props => (
     <svg
         role="img"
-        {...props}
         focusable="false"
         width="24"
         height="24"
         viewBox="0 0 24 24"
+        {...props}
         fill="none"
     >
         <path d="M0 7.034v9.931L6.62 12 0 7.034z" fill="#464655" />

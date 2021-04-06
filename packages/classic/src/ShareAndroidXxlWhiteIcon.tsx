@@ -9,11 +9,11 @@ export const ShareAndroidXxlWhiteIcon: React.FC<SVGProps<
 >> = props => (
     <svg
         role="img"
-        {...props}
         focusable="false"
         width="37"
         height="46"
         viewBox="0 0 37 46"
+        {...props}
     >
         <g fill="none" fillRule="evenodd">
             <path d="M-5-1h48v48H-5z" />

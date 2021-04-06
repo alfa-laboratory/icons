@@ -7,12 +7,12 @@ import React, { SVGProps } from 'react';
 export const LockClosedLineMIcon: React.FC<SVGProps<SVGSVGElement>> = props => (
     <svg
         role="img"
-        {...props}
         focusable="false"
         fill="currentColor"
         width="24"
         height="24"
         viewBox="0 0 24 24"
+        {...props}
     >
         <path d="M14 16a2 2 0 11-4 0 2 2 0 014 0z" />
         <path

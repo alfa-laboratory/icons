@@ -7,11 +7,11 @@ import React, { SVGProps } from 'react';
 export const UserAddLBlackIcon: React.FC<SVGProps<SVGSVGElement>> = props => (
     <svg
         role="img"
-        {...props}
         focusable="false"
         width="30"
         height="30"
         viewBox="0 0 30 30"
+        {...props}
     >
         <g fill="#0B1F35">
             <path d="M25 27h-1c0-3.1-4.3-5.3-5.7-6-2.4-1.2-2.9-2-2.9-4.7h1c0 2.5.4 2.9 2.3 3.8 1.6.8 6.3 3.2 6.3 6.9zM2 27H1c0-3.7 4.7-6.1 6.2-6.9 2-1 2.3-1.4 2.3-3.8h1c0 2.8-.5 3.5-2.9 4.7-1.3.7-5.6 2.9-5.6 6z" />

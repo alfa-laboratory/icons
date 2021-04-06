@@ -9,11 +9,11 @@ export const CategoryGibddFinesXxlWhiteIcon: React.FC<SVGProps<
 >> = props => (
     <svg
         role="img"
-        {...props}
         focusable="false"
         width="48"
         height="48"
         viewBox="0 0 48 48"
+        {...props}
     >
         <g fill="none" fillRule="evenodd">
             <circle fill="#FFF" opacity=".3" cx="24" cy="11" r="5" />

@@ -9,11 +9,11 @@ export const PaymentToStateXxlWhiteIcon: React.FC<SVGProps<
 >> = props => (
     <svg
         role="img"
-        {...props}
         focusable="false"
         width="48"
         height="48"
         viewBox="0 0 48 48"
+        {...props}
     >
         <g fill="#FFF" fillRule="evenodd">
             <path fillOpacity=".01" d="M0 0h48v48H0z" />

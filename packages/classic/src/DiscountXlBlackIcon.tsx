@@ -5,7 +5,7 @@
 import React, { SVGProps } from 'react';
 
 export const DiscountXlBlackIcon: React.FC<SVGProps<SVGSVGElement>> = props => (
-    <svg role="img" {...props} focusable="false" width="36" height="36">
+    <svg role="img" focusable="false" width="36" height="36">
         <g fill="none" fillRule="evenodd">
             <path d="M0 0h36v36H0z" />
             <circle

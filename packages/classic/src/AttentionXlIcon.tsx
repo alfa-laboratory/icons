@@ -7,12 +7,12 @@ import React, { SVGProps } from 'react';
 export const AttentionXlIcon: React.FC<SVGProps<SVGSVGElement>> = props => (
     <svg
         role="img"
-        {...props}
         focusable="false"
         fill="currentColor"
         width="36"
         height="36"
         viewBox="0 0 36 36"
+        {...props}
     >
         <path
             opacity=".9"

@@ -9,11 +9,11 @@ export const CardListXxlBlackIcon: React.FC<SVGProps<
 >> = props => (
     <svg
         role="img"
-        {...props}
         focusable="false"
         width="47"
         height="41"
         viewBox="0 0 47 41"
+        {...props}
     >
         <g fill="none" fillRule="evenodd">
             <path d="M-1-4h48v48H-1z" />

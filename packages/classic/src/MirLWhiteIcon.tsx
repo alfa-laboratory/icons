@@ -7,10 +7,10 @@ import React, { SVGProps } from 'react';
 export const MirLWhiteIcon: React.FC<SVGProps<SVGSVGElement>> = props => (
     <svg
         role="img"
-        {...props}
         focusable="false"
         fill="none"
         viewBox="0 0 30 10"
+        {...props}
         width="30"
         height="10"
     >

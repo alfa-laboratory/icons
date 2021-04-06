@@ -7,11 +7,11 @@ import React, { SVGProps } from 'react';
 export const BankVtbSWhiteIcon: React.FC<SVGProps<SVGSVGElement>> = props => (
     <svg
         role="img"
-        {...props}
         focusable="false"
         width="15"
         height="13"
         viewBox="0 0 15 13"
+        {...props}
     >
         <path
             fill="#FFF"

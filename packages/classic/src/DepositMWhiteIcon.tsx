@@ -7,11 +7,11 @@ import React, { SVGProps } from 'react';
 export const DepositMWhiteIcon: React.FC<SVGProps<SVGSVGElement>> = props => (
     <svg
         role="img"
-        {...props}
         focusable="false"
         width="22"
         height="21"
         viewBox="0 0 22 21"
+        {...props}
     >
         <g fill="none" fillRule="evenodd" transform="translate(-1 -2)">
             <path d="M0 0h24v24H0z" />

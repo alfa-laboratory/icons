@@ -9,12 +9,12 @@ export const CategoryBusinessActivityMWhiteIcon: React.FC<SVGProps<
 >> = props => (
     <svg
         role="img"
-        {...props}
         focusable="false"
         xmlnsXlink="http://www.w3.org/1999/xlink"
         width="22"
         height="22"
         viewBox="0 0 22 22"
+        {...props}
     >
         <defs>
             <path

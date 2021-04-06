@@ -9,11 +9,11 @@ export const PasswordChangeXxlWhiteIcon: React.FC<SVGProps<
 >> = props => (
     <svg
         role="img"
-        {...props}
         focusable="false"
         width="42"
         height="42"
         viewBox="0 0 42 42"
+        {...props}
     >
         <g fill="none" fillRule="evenodd">
             <path d="M-3-3h48v48H-3z" />

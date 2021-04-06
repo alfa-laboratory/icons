@@ -9,11 +9,11 @@ export const CashbackBonusSBlackIcon: React.FC<SVGProps<
 >> = props => (
     <svg
         role="img"
-        {...props}
         focusable="false"
         width="16"
         height="16"
         viewBox="0 0 16 16"
+        {...props}
     >
         <g fill="none" fillRule="evenodd">
             <g fill="#0B1F35" fillRule="nonzero">

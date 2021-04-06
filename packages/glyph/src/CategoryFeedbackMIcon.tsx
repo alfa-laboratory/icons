@@ -9,12 +9,12 @@ export const CategoryFeedbackMIcon: React.FC<SVGProps<
 >> = props => (
     <svg
         role="img"
-        {...props}
         focusable="false"
         fill="currentColor"
         width="24"
         height="24"
         viewBox="0 0 24 24"
+        {...props}
     >
         <g clip-path="url(#prefix__clip0)">
             <path d="M11 0l3.127 7.636L22 8.402l-5.608 5.18-.415.378-.155-.194-2.086-2.709a3.03 3.03 0 00-3.964-.748 3.044 3.044 0 00-1.018 4.212l2.073 3.341L4.202 22l1.738-8.11L0 8.403l7.873-.768L11 0z" />

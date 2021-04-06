@@ -7,12 +7,12 @@ import React, { SVGProps } from 'react';
 export const BowlMIcon: React.FC<SVGProps<SVGSVGElement>> = props => (
     <svg
         role="img"
-        {...props}
         focusable="false"
         fill="currentColor"
         width="24"
         height="24"
         viewBox="0 0 24 24"
+        {...props}
     >
         <path d="M4.04 2.176a2.222 2.222 0 013.92 0l.08.148a2.5 2.5 0 010 2.352L8 4.75a2.656 2.656 0 000 2.5l.545 1.023a12.073 12.073 0 011.117 8.371L8.667 21H3.333l-.995-4.356a12.073 12.073 0 011.117-8.371L4 7.25a2.656 2.656 0 000-2.5l-.04-.074a2.5 2.5 0 010-2.352l.08-.148z" />
         <path

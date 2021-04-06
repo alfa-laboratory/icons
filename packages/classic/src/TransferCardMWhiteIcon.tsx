@@ -9,11 +9,11 @@ export const TransferCardMWhiteIcon: React.FC<SVGProps<
 >> = props => (
     <svg
         role="img"
-        {...props}
         focusable="false"
         width="24"
         height="20"
         viewBox="0 0 24 20"
+        {...props}
     >
         <g fill="none" fillRule="evenodd">
             <path d="M0-2h24v24H0z" />

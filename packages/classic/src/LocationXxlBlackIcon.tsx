@@ -9,11 +9,11 @@ export const LocationXxlBlackIcon: React.FC<SVGProps<
 >> = props => (
     <svg
         role="img"
-        {...props}
         focusable="false"
         width="32"
         height="47"
         viewBox="0 0 32 47"
+        {...props}
     >
         <g fill="none" fillRule="evenodd" transform="translate(-8 -1)">
             <path d="M0 0h48v48H0z" />

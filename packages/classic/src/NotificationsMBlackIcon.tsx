@@ -9,11 +9,11 @@ export const NotificationsMBlackIcon: React.FC<SVGProps<
 >> = props => (
     <svg
         role="img"
-        {...props}
         focusable="false"
         width="24"
         height="24"
         viewBox="0 0 24 24"
+        {...props}
     >
         <g fill="none">
             <polygon points="0 0 24 0 24 24 0 24" />

@@ -9,11 +9,11 @@ export const CurrencyJpyXlWhiteIcon: React.FC<SVGProps<
 >> = props => (
     <svg
         role="img"
-        {...props}
         focusable="false"
         width="19"
         height="25"
         viewBox="0 0 19 25"
+        {...props}
     >
         <path
             fill="#FFF"

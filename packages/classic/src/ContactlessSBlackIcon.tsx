@@ -9,11 +9,11 @@ export const ContactlessSBlackIcon: React.FC<SVGProps<
 >> = props => (
     <svg
         role="img"
-        {...props}
         focusable="false"
         width="18"
         height="18"
         viewBox="0 0 18 18"
+        {...props}
     >
         <g fill="#0B1F35">
             <path d="M12.12 16.73a.47.47 0 0 1-.35-.15c-.2-.2-.2-.51 0-.71 4-4 4-10.5 0-14.5-.2-.2-.2-.51 0-.71.2-.2.51-.2.71 0 4.39 4.39 4.39 11.52 0 15.91a.48.48 0 0 1-.36.16z" />

@@ -9,11 +9,11 @@ export const MarketplaceXlBlackIcon: React.FC<SVGProps<
 >> = props => (
     <svg
         role="img"
-        {...props}
         focusable="false"
         width="36"
         height="36"
         viewBox="0 0 36 36"
+        {...props}
     >
         <g transform="translate(0 1)" fill="none" fillRule="evenodd">
             <polygon points="0 0 36 0 36 36 0 36" />

@@ -9,11 +9,11 @@ export const CurrencyRubXlWhiteIcon: React.FC<SVGProps<
 >> = props => (
     <svg
         role="img"
-        {...props}
         focusable="false"
         width="18"
         height="25"
         viewBox="0 0 18 25"
+        {...props}
     >
         <path
             fill="#FFF"

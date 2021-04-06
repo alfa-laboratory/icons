@@ -7,11 +7,11 @@ import React, { SVGProps } from 'react';
 export const FormatDocLWhiteIcon: React.FC<SVGProps<SVGSVGElement>> = props => (
     <svg
         role="img"
-        {...props}
         focusable="false"
         width="25"
         height="26"
         viewBox="0 0 25 26"
+        {...props}
     >
         <g fill="#FFF" fillRule="evenodd">
             <path d="M17 26H4a4.005 4.005 0 0 1-3.998-3.874H0V6.293L6.293 0H17c2.206 0 4 1.794 4 4v5h-1V4c0-1.654-1.346-3-3-3H6.707L1 6.707V22c0 1.654 1.346 3 3 3h13c1.654 0 3-1.346 3-3h1c0 2.206-1.794 4-4 4z" />

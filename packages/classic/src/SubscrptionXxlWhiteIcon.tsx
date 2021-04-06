@@ -9,11 +9,11 @@ export const SubscrptionXxlWhiteIcon: React.FC<SVGProps<
 >> = props => (
     <svg
         role="img"
-        {...props}
         focusable="false"
         width="32"
         height="48"
         viewBox="0 0 32 48"
+        {...props}
     >
         <g fill="none" fillRule="evenodd">
             <path d="M-8 0h48v48H-8z" />

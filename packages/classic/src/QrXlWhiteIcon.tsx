@@ -7,11 +7,11 @@ import React, { SVGProps } from 'react';
 export const QrXlWhiteIcon: React.FC<SVGProps<SVGSVGElement>> = props => (
     <svg
         role="img"
-        {...props}
         focusable="false"
         width="34"
         height="34"
         viewBox="0 0 34 34"
+        {...props}
     >
         <g fill="none" fillRule="evenodd">
             <path d="M-1-1h36v36H-1z" />

@@ -9,11 +9,11 @@ export const PaymentToSelfXlBlackIcon: React.FC<SVGProps<
 >> = props => (
     <svg
         role="img"
-        {...props}
         focusable="false"
         width="34"
         height="35"
         viewBox="0 0 34 35"
+        {...props}
     >
         <g fill="none" fillRule="evenodd">
             <path d="M-1 0h36v36H-1z" />

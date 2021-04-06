@@ -7,12 +7,12 @@ import React, { SVGProps } from 'react';
 export const AScoresCircleSIcon: React.FC<SVGProps<SVGSVGElement>> = props => (
     <svg
         role="img"
-        {...props}
         focusable="false"
         fill="currentColor"
         width="18"
         height="18"
         viewBox="0 0 18 18"
+        {...props}
     >
         <path d="M7.89 9.666h2.18L9.03 6.333h-.04l-1.1 3.333z" />
         <path

@@ -9,11 +9,11 @@ export const InternetXxlBlackIcon: React.FC<SVGProps<
 >> = props => (
     <svg
         role="img"
-        {...props}
         focusable="false"
         width="44"
         height="39"
         viewBox="0 0 44 39"
+        {...props}
     >
         <g fill="none" fillRule="evenodd" transform="translate(-2 -4)">
             <path d="M0 0h48v48H0z" />

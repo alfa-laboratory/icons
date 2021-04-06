@@ -7,11 +7,11 @@ import React, { SVGProps } from 'react';
 export const TickXxlBlackIcon: React.FC<SVGProps<SVGSVGElement>> = props => (
     <svg
         role="img"
-        {...props}
         focusable="false"
         width="48"
         height="48"
         viewBox="0 0 48 48"
+        {...props}
     >
         <g fill="none">
             <polygon fill="#0B1F35" points="44 8 47 11 18 40 2 24 5 21 18 34" />

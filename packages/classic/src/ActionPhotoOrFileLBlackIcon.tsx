@@ -9,11 +9,11 @@ export const ActionPhotoOrFileLBlackIcon: React.FC<SVGProps<
 >> = props => (
     <svg
         role="img"
-        {...props}
         focusable="false"
         width="30"
         height="30"
         viewBox="0 0 30 30"
+        {...props}
     >
         <g transform="translate(4 2)" fill="#0B1F35" fillRule="evenodd">
             <path

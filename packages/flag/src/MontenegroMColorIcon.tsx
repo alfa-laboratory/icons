@@ -9,11 +9,11 @@ export const MontenegroMColorIcon: React.FC<SVGProps<
 >> = props => (
     <svg
         role="img"
-        {...props}
         focusable="false"
         width="24"
         height="24"
         viewBox="0 0 24 24"
+        {...props}
         fill="none"
     >
         <path d="M23.172 4.965H.828v14.07h22.344V4.965z" fill="#F5F5F5" />

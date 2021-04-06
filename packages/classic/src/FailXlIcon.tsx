@@ -7,12 +7,12 @@ import React, { SVGProps } from 'react';
 export const FailXlIcon: React.FC<SVGProps<SVGSVGElement>> = props => (
     <svg
         role="img"
-        {...props}
         focusable="false"
         fill="currentColor"
         width="36"
         height="36"
         viewBox="0 0 36 36"
+        {...props}
     >
         <g>
             <path d="M18 .973C8.596.973.973 8.596.973 18S8.596 35.027 18 35.027 35.027 27.404 35.027 18 27.404.973 18 .973zM18 0c9.941 0 18 8.059 18 18s-8.059 18-18 18S0 27.941 0 18 8.059 0 18 0z" />

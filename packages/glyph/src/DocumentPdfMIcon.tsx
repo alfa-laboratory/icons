@@ -7,12 +7,12 @@ import React, { SVGProps } from 'react';
 export const DocumentPdfMIcon: React.FC<SVGProps<SVGSVGElement>> = props => (
     <svg
         role="img"
-        {...props}
         focusable="false"
         fill="currentColor"
         width="24"
         height="24"
         viewBox="0 0 24 24"
+        {...props}
     >
         <path d="M10.657 14.645v-1.953h2.25c.523 0 .996.256.996.909s-.442 1.044-1.021 1.044h-2.225z" />
         <path

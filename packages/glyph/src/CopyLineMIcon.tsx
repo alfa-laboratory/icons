@@ -7,12 +7,12 @@ import React, { SVGProps } from 'react';
 export const CopyLineMIcon: React.FC<SVGProps<SVGSVGElement>> = props => (
     <svg
         role="img"
-        {...props}
         focusable="false"
         fill="currentColor"
         width="24"
         height="24"
         viewBox="0 0 24 24"
+        {...props}
     >
         <path d="M10 2a2 2 0 00-2 2h10v14a2 2 0 002-2V4a2 2 0 00-2-2h-8z" />
         <path

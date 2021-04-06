@@ -9,11 +9,11 @@ export const FormatSketchXlWhiteIcon: React.FC<SVGProps<
 >> = props => (
     <svg
         role="img"
-        {...props}
         focusable="false"
         width="33"
         height="34"
         viewBox="0 0 33 34"
+        {...props}
     >
         <g fill="#FFF" fillRule="evenodd">
             <path d="M15 32H4.558a4.505 4.505 0 0 1-4.5-4.5V8.294L8.292 0h13.266c2.481 0 4.5 2.019 4.5 4.5V8h-1V4.5c0-1.93-1.57-3.5-3.5-3.5H8.708l-7.65 7.706V27.5c0 1.93 1.57 3.5 3.5 3.5H15v1z" />

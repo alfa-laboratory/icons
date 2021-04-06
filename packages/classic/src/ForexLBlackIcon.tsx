@@ -7,11 +7,11 @@ import React, { SVGProps } from 'react';
 export const ForexLBlackIcon: React.FC<SVGProps<SVGSVGElement>> = props => (
     <svg
         role="img"
-        {...props}
         focusable="false"
         width="30"
         height="30"
         viewBox="0 0 30 30"
+        {...props}
     >
         <g fill="#0B1F35" fillRule="evenodd">
             <polygon points="8.10490024 6.92307692 8.06057279 6.92307692 4.61538462 18.4615385 11.5384615 18.4615385" />

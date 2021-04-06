@@ -9,11 +9,11 @@ export const TransferExternalXlWhiteIcon: React.FC<SVGProps<
 >> = props => (
     <svg
         role="img"
-        {...props}
         focusable="false"
         width="36"
         height="36"
         viewBox="0 0 36 36"
+        {...props}
     >
         <g fill="#FFF" fillRule="evenodd">
             <path d="M13.5 6.4l.818.7 3.17-3.1v17h1.023V4l3.17 3.1.819-.7L18 2z" />

@@ -7,11 +7,11 @@ import React, { SVGProps } from 'react';
 export const BankPsbXlColorIcon: React.FC<SVGProps<SVGSVGElement>> = props => (
     <svg
         role="img"
-        {...props}
         focusable="false"
         width="36"
         height="36"
         viewBox="0 0 36 36"
+        {...props}
     >
         <g transform="translate(-422 -107)" fill="none" fillRule="evenodd">
             <g fillRule="nonzero">

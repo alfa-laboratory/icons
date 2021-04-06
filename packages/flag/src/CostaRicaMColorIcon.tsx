@@ -7,11 +7,11 @@ import React, { SVGProps } from 'react';
 export const CostaRicaMColorIcon: React.FC<SVGProps<SVGSVGElement>> = props => (
     <svg
         role="img"
-        {...props}
         focusable="false"
         width="24"
         height="24"
         viewBox="0 0 24 24"
+        {...props}
         fill="none"
     >
         <path d="M24 9.517H0v4.966h24V9.517z" fill="#FF4B55" />

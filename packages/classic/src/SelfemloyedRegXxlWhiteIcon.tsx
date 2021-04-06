@@ -9,11 +9,11 @@ export const SelfemloyedRegXxlWhiteIcon: React.FC<SVGProps<
 >> = props => (
     <svg
         role="img"
-        {...props}
         focusable="false"
         width="48"
         height="48"
         viewBox="0 0 48 48"
+        {...props}
     >
         <g fill="none" fillRule="evenodd">
             <polygon points="0 0 48 0 48 48 0 48" />

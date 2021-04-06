@@ -7,11 +7,11 @@ import React, { SVGProps } from 'react';
 export const ShareIosXlWhiteIcon: React.FC<SVGProps<SVGSVGElement>> = props => (
     <svg
         role="img"
-        {...props}
         focusable="false"
         width="25"
         height="35"
         viewBox="0 0 25 35"
+        {...props}
     >
         <g fill="none" fillRule="evenodd">
             <path d="M-6 0h36v36H-6z" />

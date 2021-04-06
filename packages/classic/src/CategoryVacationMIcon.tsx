@@ -9,12 +9,12 @@ export const CategoryVacationMIcon: React.FC<SVGProps<
 >> = props => (
     <svg
         role="img"
-        {...props}
         focusable="false"
         fill="currentColor"
         width="24"
         height="24"
         viewBox="0 0 24 24"
+        {...props}
     >
         <path d="M10 3h4V2h-4v1zM9 1h6v3H9V1z" />
         <path opacity=".3" d="M6 21h3v2H6zm9 0h3v2h-3z" />

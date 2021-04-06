@@ -7,11 +7,11 @@ import React, { SVGProps } from 'react';
 export const ClockMWhiteIcon: React.FC<SVGProps<SVGSVGElement>> = props => (
     <svg
         role="img"
-        {...props}
         focusable="false"
         width="20"
         height="20"
         viewBox="0 0 20 20"
+        {...props}
     >
         <g transform="translate(-2 -2)" fill="none" fillRule="evenodd">
             <path d="M0 0h24v24H0z" />

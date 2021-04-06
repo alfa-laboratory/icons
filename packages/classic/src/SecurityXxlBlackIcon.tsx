@@ -9,11 +9,11 @@ export const SecurityXxlBlackIcon: React.FC<SVGProps<
 >> = props => (
     <svg
         role="img"
-        {...props}
         focusable="false"
         width="40"
         height="42"
         viewBox="0 0 40 42"
+        {...props}
     >
         <g fill="none" fillRule="evenodd">
             <path d="M-4-4h48v48H-4z" />

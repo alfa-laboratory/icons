@@ -7,12 +7,12 @@ import React, { SVGProps } from 'react';
 export const SettingsLineMIcon: React.FC<SVGProps<SVGSVGElement>> = props => (
     <svg
         role="img"
-        {...props}
         focusable="false"
         fill="currentColor"
         width="24"
         height="24"
         viewBox="0 0 24 24"
+        {...props}
     >
         <path d="M12 10a2 2 0 110 4 2 2 0 010-4z" />
         <path

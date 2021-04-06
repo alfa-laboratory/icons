@@ -7,12 +7,12 @@ import React, { SVGProps } from 'react';
 export const DocumentStampMIcon: React.FC<SVGProps<SVGSVGElement>> = props => (
     <svg
         role="img"
-        {...props}
         focusable="false"
         fill="currentColor"
         width="24"
         height="24"
         viewBox="0 0 24 24"
+        {...props}
     >
         <path d="M15.3 16a1.3 1.3 0 11-2.6 0 1.3 1.3 0 012.6 0z" />
         <path

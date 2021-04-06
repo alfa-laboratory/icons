@@ -9,11 +9,11 @@ export const BankUnicreditMWhiteIcon: React.FC<SVGProps<
 >> = props => (
     <svg
         role="img"
-        {...props}
         focusable="false"
         width="24"
         height="22"
         viewBox="0 0 24 22"
+        {...props}
     >
         <path
             fill="#FFF"

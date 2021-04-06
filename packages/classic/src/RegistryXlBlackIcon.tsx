@@ -7,11 +7,11 @@ import React, { SVGProps } from 'react';
 export const RegistryXlBlackIcon: React.FC<SVGProps<SVGSVGElement>> = props => (
     <svg
         role="img"
-        {...props}
         focusable="false"
         width="36"
         height="36"
         viewBox="0 0 36 36"
+        {...props}
     >
         <g fill="none" fillRule="evenodd">
             <polygon points="0 0 36 0 36 36 0 36" />

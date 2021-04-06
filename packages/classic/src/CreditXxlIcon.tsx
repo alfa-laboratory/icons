@@ -7,12 +7,12 @@ import React, { SVGProps } from 'react';
 export const CreditXxlIcon: React.FC<SVGProps<SVGSVGElement>> = props => (
     <svg
         role="img"
-        {...props}
         focusable="false"
         fill="currentColor"
         width="42"
         height="43"
         viewBox="0 0 42 43"
+        {...props}
     >
         <path
             d="M31 0a1 1 0 00-1 1v6a1 1 0 002 0V1a1 1 0 00-1-1zM11 0a1 1 0 00-1 1v6a1 1 0 002 0V1a1 1 0 00-1-1z"

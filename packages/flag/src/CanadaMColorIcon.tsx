@@ -7,11 +7,11 @@ import React, { SVGProps } from 'react';
 export const CanadaMColorIcon: React.FC<SVGProps<SVGSVGElement>> = props => (
     <svg
         role="img"
-        {...props}
         focusable="false"
         width="24"
         height="24"
         viewBox="0 0 24 24"
+        {...props}
         fill="none"
     >
         <path d="M18.62 4.138H5.38v15.724h13.24V4.138z" fill="#F5F5F5" />

@@ -9,11 +9,11 @@ export const ChatSendXxlWhiteIcon: React.FC<SVGProps<
 >> = props => (
     <svg
         role="img"
-        {...props}
         focusable="false"
         width="41"
         height="36"
         viewBox="0 0 41 36"
+        {...props}
     >
         <g transform="translate(-4 -6)" fill="none" fillRule="evenodd">
             <path

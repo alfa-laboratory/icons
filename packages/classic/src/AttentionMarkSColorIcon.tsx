@@ -9,11 +9,11 @@ export const AttentionMarkSColorIcon: React.FC<SVGProps<
 >> = props => (
     <svg
         role="img"
-        {...props}
         focusable="false"
         width="18"
         height="18"
         viewBox="0 0 18 18"
+        {...props}
     >
         <g fill="none" fillRule="evenodd">
             <polygon points="0 0 18 0 18 18 0 18" />

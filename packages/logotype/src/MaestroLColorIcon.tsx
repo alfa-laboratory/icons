@@ -7,11 +7,11 @@ import React, { SVGProps } from 'react';
 export const MaestroLColorIcon: React.FC<SVGProps<SVGSVGElement>> = props => (
     <svg
         role="img"
-        {...props}
         focusable="false"
         width="30"
         height="18"
         viewBox="0 0 30 18"
+        {...props}
         fill="none"
     >
         <path d="M19.332 1.924H10.67v14.15h8.663V1.924z" fill="#6C6BBD" />

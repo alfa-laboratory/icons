@@ -7,11 +7,11 @@ import React, { SVGProps } from 'react';
 export const NetworkVkMWhiteIcon: React.FC<SVGProps<SVGSVGElement>> = props => (
     <svg
         role="img"
-        {...props}
         focusable="false"
         width="22"
         height="22"
         viewBox="0 0 22 22"
+        {...props}
     >
         <g fill="#FFF" fillRule="evenodd">
             <path d="M17.5 0h-13A4.505 4.505 0 0 0 0 4.5v13C0 19.981 2.019 22 4.5 22h13c2.481 0 4.5-2.019 4.5-4.5v-13C22 2.019 19.981 0 17.5 0zM21 17.5c0 1.93-1.57 3.5-3.5 3.5h-13C2.57 21 1 19.43 1 17.5v-13C1 2.57 2.57 1 4.5 1h13C19.43 1 21 2.57 21 4.5v13z" />

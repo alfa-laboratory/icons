@@ -7,12 +7,12 @@ import React, { SVGProps } from 'react';
 export const CardListMIcon: React.FC<SVGProps<SVGSVGElement>> = props => (
     <svg
         role="img"
-        {...props}
         focusable="false"
         fill="currentColor"
         width="24"
         height="21"
         viewBox="0 0 24 21"
+        {...props}
     >
         <path d="M15.5 13h-13A2.503 2.503 0 010 10.5v-8C0 1.122 1.122 0 2.5 0h13C16.878 0 18 1.122 18 2.5v8c0 1.378-1.122 2.5-2.5 2.5zM2.5 1C1.673 1 1 1.673 1 2.5v8c0 .827.673 1.5 1.5 1.5h13c.827 0 1.5-.673 1.5-1.5v-8c0-.827-.673-1.5-1.5-1.5h-13z" />
         <path d="M.5 4h17v2H.5z" opacity=".3" />

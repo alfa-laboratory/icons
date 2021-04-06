@@ -7,11 +7,11 @@ import React, { SVGProps } from 'react';
 export const InfoSColorIcon: React.FC<SVGProps<SVGSVGElement>> = props => (
     <svg
         role="img"
-        {...props}
         focusable="false"
         width="16"
         height="16"
         viewBox="0 0 16 16"
+        {...props}
     >
         <g transform="translate(-1 -1)" fill="none" fillRule="evenodd">
             <polygon opacity=".547" points="0 0 18 0 18 18 0 18" />

@@ -9,11 +9,11 @@ export const SubscrptionMBlackIcon: React.FC<SVGProps<
 >> = props => (
     <svg
         role="img"
-        {...props}
         focusable="false"
         width="16"
         height="24"
         viewBox="0 0 16 24"
+        {...props}
     >
         <g fill="none" fillRule="evenodd">
             <path d="M-4 0h24v24H-4z" />

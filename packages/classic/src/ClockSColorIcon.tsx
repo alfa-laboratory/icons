@@ -7,11 +7,11 @@ import React, { SVGProps } from 'react';
 export const ClockSColorIcon: React.FC<SVGProps<SVGSVGElement>> = props => (
     <svg
         role="img"
-        {...props}
         focusable="false"
         width="18"
         height="18"
         viewBox="0 0 18 18"
+        {...props}
         fill="none"
     >
         <circle cx="9" cy="9" r="9" fill="#6D7986" />

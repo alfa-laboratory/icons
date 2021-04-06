@@ -7,12 +7,12 @@ import React, { SVGProps } from 'react';
 export const ErrorLIcon: React.FC<SVGProps<SVGSVGElement>> = props => (
     <svg
         role="img"
-        {...props}
         focusable="false"
         fill="currentColor"
         width="30"
         height="25"
         viewBox="0 0 30 25"
+        {...props}
     >
         <path
             fillRule="evenodd"

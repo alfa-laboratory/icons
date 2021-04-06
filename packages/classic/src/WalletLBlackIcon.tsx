@@ -7,11 +7,11 @@ import React, { SVGProps } from 'react';
 export const WalletLBlackIcon: React.FC<SVGProps<SVGSVGElement>> = props => (
     <svg
         role="img"
-        {...props}
         focusable="false"
         width="30"
         height="30"
         viewBox="0 0 30 30"
+        {...props}
     >
         <g fill="#0B1F35">
             <path d="M27 21h1v3.5a2.5 2.5 0 0 1-2.5 2.5h-22A2.5 2.5 0 0 1 1 24.5V8.676a2.5 2.5 0 0 1 2.062-2.462l18.5-3.288a2.5 2.5 0 0 1 2.938 2.46V7.5h-1V5.387a1.5 1.5 0 0 0-1.763-1.477L3.237 7.2A1.5 1.5 0 0 0 2 8.676V24.5A1.5 1.5 0 0 0 3.5 26h22a1.5 1.5 0 0 0 1.5-1.5V21z" />

@@ -9,11 +9,11 @@ export const CardMastercardLColorIcon: React.FC<SVGProps<
 >> = props => (
     <svg
         role="img"
-        {...props}
         focusable="false"
         width="30"
         height="30"
         viewBox="0 0 30 30"
+        {...props}
     >
         <path fill="none" d="M0 0h30v30H0z" />
         <path fill="#ff5f00" d="M10.54 7.71h8.92v14.58h-8.92z" />

@@ -7,12 +7,12 @@ import React, { SVGProps } from 'react';
 export const KeyboardHideMIcon: React.FC<SVGProps<SVGSVGElement>> = props => (
     <svg
         role="img"
-        {...props}
         focusable="false"
         fill="currentColor"
         width="24"
         height="24"
         viewBox="0 0 24 24"
+        {...props}
     >
         <path d="M7.014 20.374L12 23.144l4.986-2.77-.972-1.748L12 20.856l-4.014-2.23-.972 1.748z" />
         <path

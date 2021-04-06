@@ -7,12 +7,12 @@ import React, { SVGProps } from 'react';
 export const AttentionLIcon: React.FC<SVGProps<SVGSVGElement>> = props => (
     <svg
         role="img"
-        {...props}
         focusable="false"
         fill="currentColor"
         width="30"
         height="30"
         viewBox="0 0 30 30"
+        {...props}
     >
         <path
             opacity=".9"

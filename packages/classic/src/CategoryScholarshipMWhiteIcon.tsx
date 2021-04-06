@@ -9,11 +9,11 @@ export const CategoryScholarshipMWhiteIcon: React.FC<SVGProps<
 >> = props => (
     <svg
         role="img"
-        {...props}
         focusable="false"
         width="22"
         height="19"
         viewBox="0 0 22 19"
+        {...props}
     >
         <g fill="#FFF" fillRule="evenodd">
             <path

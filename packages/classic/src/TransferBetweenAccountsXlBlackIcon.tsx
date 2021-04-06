@@ -9,11 +9,11 @@ export const TransferBetweenAccountsXlBlackIcon: React.FC<SVGProps<
 >> = props => (
     <svg
         role="img"
-        {...props}
         focusable="false"
         width="36"
         height="36"
         viewBox="0 0 36 36"
+        {...props}
     >
         <g fill="#0B1F35">
             <path d="M28.516 28l-2.725-2.726.707-.707 3.938 3.939-.005.004-3.938 3.939-.707-.707L28.528 29h-8.521v-1h8.51zm.497.496v.019l.009-.01-.01-.009z" />

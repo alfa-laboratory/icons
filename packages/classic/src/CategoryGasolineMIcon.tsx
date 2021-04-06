@@ -9,12 +9,12 @@ export const CategoryGasolineMIcon: React.FC<SVGProps<
 >> = props => (
     <svg
         role="img"
-        {...props}
         focusable="false"
         fill="currentColor"
         width="24"
         height="24"
         viewBox="0 0 24 24"
+        {...props}
     >
         <path d="M0 0h24v24H0z" />
         <path d="M16 22.5h-1v-19A1.5 1.5 0 0013.5 2h-9A1.5 1.5 0 003 3.5v19H2v-19A2.5 2.5 0 014.5 1h9A2.5 2.5 0 0116 3.5v19z" />

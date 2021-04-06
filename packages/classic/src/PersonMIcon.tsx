@@ -7,12 +7,12 @@ import React, { SVGProps } from 'react';
 export const PersonMIcon: React.FC<SVGProps<SVGSVGElement>> = props => (
     <svg
         role="img"
-        {...props}
         focusable="false"
         fill="currentColor"
         width="24"
         height="24"
         viewBox="0 0 24 24"
+        {...props}
     >
         <g fillRule="evenodd">
             <path d="M12 15c-3.8 0-6-4.3-6-8.5 0-3 .7-6.5 6-6.5s6 3.5 6 6.5c0 4.2-2.2 8.5-6 8.5zm0-14C8.4 1 7 2.6 7 6.5 7 9.6 8.6 14 12 14s5-4.4 5-7.5C17 2.6 15.6 1 12 1z" />

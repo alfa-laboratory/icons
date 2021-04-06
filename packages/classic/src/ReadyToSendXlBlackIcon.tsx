@@ -9,11 +9,11 @@ export const ReadyToSendXlBlackIcon: React.FC<SVGProps<
 >> = props => (
     <svg
         role="img"
-        {...props}
         focusable="false"
         width="31"
         height="34"
         viewBox="0 0 31 34"
+        {...props}
     >
         <g fill="none" fillRule="evenodd">
             <path d="M-3 0h36v36H-3z" />

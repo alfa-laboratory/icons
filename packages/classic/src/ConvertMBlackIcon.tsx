@@ -7,11 +7,11 @@ import React, { SVGProps } from 'react';
 export const ConvertMBlackIcon: React.FC<SVGProps<SVGSVGElement>> = props => (
     <svg
         role="img"
-        {...props}
         focusable="false"
         width="24"
         height="24"
         viewBox="0 0 24 24"
+        {...props}
     >
         <g fill="none" fillRule="evenodd">
             <g fill="#0B1F35" fillRule="nonzero">

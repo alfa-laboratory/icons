@@ -9,12 +9,12 @@ export const BankHomeCreditSColorIcon: React.FC<SVGProps<
 >> = props => (
     <svg
         role="img"
-        {...props}
         focusable="false"
         width="18"
         height="18"
         version="1"
         viewBox="0 0 18 18"
+        {...props}
     >
         <path fill="#CD1232" d="M0 4h18v11H0z" />
         <path

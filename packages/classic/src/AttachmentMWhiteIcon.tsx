@@ -9,11 +9,11 @@ export const AttachmentMWhiteIcon: React.FC<SVGProps<
 >> = props => (
     <svg
         role="img"
-        {...props}
         focusable="false"
         width="17"
         height="18"
         viewBox="0 0 17 18"
+        {...props}
     >
         <g fill="none" fillRule="evenodd">
             <path d="M-3-3h24v24H-3" />

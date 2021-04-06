@@ -9,11 +9,11 @@ export const BankTinkoffMColorIcon: React.FC<SVGProps<
 >> = props => (
     <svg
         role="img"
-        {...props}
         focusable="false"
         width="24"
         height="25"
         viewBox="0 0 24 25"
+        {...props}
     >
         <g fill="none" fillRule="evenodd">
             <path fill="#FFE60D" d="M9 9h2l1 1 1-1h2v9l-3 1-3-1" />

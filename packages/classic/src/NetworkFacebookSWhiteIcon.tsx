@@ -9,11 +9,11 @@ export const NetworkFacebookSWhiteIcon: React.FC<SVGProps<
 >> = props => (
     <svg
         role="img"
-        {...props}
         focusable="false"
         width="16"
         height="15"
         viewBox="0 0 16 15"
+        {...props}
     >
         <path
             fill="#FFF"

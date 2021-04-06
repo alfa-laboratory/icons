@@ -9,11 +9,11 @@ export const AnalyticsXxlBlackIcon: React.FC<SVGProps<
 >> = props => (
     <svg
         role="img"
-        {...props}
         focusable="false"
         width="48"
         height="48"
         viewBox="0 0 48 48"
+        {...props}
     >
         <g transform="translate(2 6)" fill="#0B1F35" fillRule="evenodd">
             <polygon

@@ -7,11 +7,11 @@ import React, { SVGProps } from 'react';
 export const InfoSBlackIcon: React.FC<SVGProps<SVGSVGElement>> = props => (
     <svg
         role="img"
-        {...props}
         focusable="false"
         width="18"
         height="18"
         viewBox="0 0 18 18"
+        {...props}
     >
         <g fill="#0B1F35" fillRule="evenodd">
             <path d="M9 1C4.588 1 1 4.588 1 9s3.588 8 8 8 8-3.588 8-8-3.588-8-8-8zm0 14.933A6.941 6.941 0 0 1 2.067 9 6.941 6.941 0 0 1 9 2.067 6.941 6.941 0 0 1 15.933 9 6.941 6.941 0 0 1 9 15.933z" />

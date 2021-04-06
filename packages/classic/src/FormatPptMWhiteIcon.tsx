@@ -7,11 +7,11 @@ import React, { SVGProps } from 'react';
 export const FormatPptMWhiteIcon: React.FC<SVGProps<SVGSVGElement>> = props => (
     <svg
         role="img"
-        {...props}
         focusable="false"
         width="20"
         height="22"
         viewBox="0 0 20 22"
+        {...props}
     >
         <path
             fill="#FFF"

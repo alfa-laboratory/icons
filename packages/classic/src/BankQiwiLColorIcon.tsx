@@ -7,12 +7,12 @@ import React, { SVGProps } from 'react';
 export const BankQiwiLColorIcon: React.FC<SVGProps<SVGSVGElement>> = props => (
     <svg
         role="img"
-        {...props}
         focusable="false"
         width="30"
         height="30"
         version="1"
         viewBox="0 0 30 30"
+        {...props}
     >
         <g fill="#EB923C">
             <path d="M22.868 20.813c0-.183-.183-.642-.459-.734-.275-.092-.275.183-.183.367.183.459.367.825.459.917.091.091.275-.092.183-.55zm-2.109.458c-.092-.092-.183-.275-.367-.275s-.275 0-.459.092c-.275.183-.367.642-.092 1.009.092.183.275.275.459.367.183 0 .275 0 .459-.092.275-.276.275-.734 0-1.101z" />

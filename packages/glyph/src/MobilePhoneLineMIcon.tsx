@@ -9,12 +9,12 @@ export const MobilePhoneLineMIcon: React.FC<SVGProps<
 >> = props => (
     <svg
         role="img"
-        {...props}
         focusable="false"
         fill="currentColor"
         width="24"
         height="24"
         viewBox="0 0 24 24"
+        {...props}
     >
         <path d="M9 18v2h6v-2H9z" />
         <path

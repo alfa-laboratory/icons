@@ -9,11 +9,11 @@ export const BankYandexmoneyLBlackIcon: React.FC<SVGProps<
 >> = props => (
     <svg
         role="img"
-        {...props}
         focusable="false"
         width="30"
         height="30"
         viewBox="0 0 30 30"
+        {...props}
         xmlnsXlink="http://www.w3.org/1999/xlink"
     >
         <defs>

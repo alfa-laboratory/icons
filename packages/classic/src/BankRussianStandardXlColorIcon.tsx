@@ -9,12 +9,12 @@ export const BankRussianStandardXlColorIcon: React.FC<SVGProps<
 >> = props => (
     <svg
         role="img"
-        {...props}
         focusable="false"
         width="36"
         height="36"
         version="1"
         viewBox="0 0 36 36"
+        {...props}
     >
         <path
             fill="#4B411C"

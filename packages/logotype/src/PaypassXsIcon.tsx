@@ -7,12 +7,12 @@ import React, { SVGProps } from 'react';
 export const PaypassXsIcon: React.FC<SVGProps<SVGSVGElement>> = props => (
     <svg
         role="img"
-        {...props}
         focusable="false"
         fill="currentColor"
         width="12"
         height="12"
         viewBox="0 0 12 12"
+        {...props}
     >
         <path
             fillRule="evenodd"

@@ -7,12 +7,12 @@ import React, { SVGProps } from 'react';
 export const VisaXxlIcon: React.FC<SVGProps<SVGSVGElement>> = props => (
     <svg
         role="img"
-        {...props}
         focusable="false"
         fill="currentColor"
         width="48"
         height="18"
         viewBox="0 0 48 18"
+        {...props}
     >
         <path
             fillRule="evenodd"

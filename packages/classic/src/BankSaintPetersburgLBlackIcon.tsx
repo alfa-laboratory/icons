@@ -9,12 +9,12 @@ export const BankSaintPetersburgLBlackIcon: React.FC<SVGProps<
 >> = props => (
     <svg
         role="img"
-        {...props}
         focusable="false"
         width="30"
         height="30"
         version="1"
         viewBox="0 0 30 30"
+        {...props}
     >
         <circle cx="15" cy="9" r="8" fill="#0B1F35" />
         <ellipse

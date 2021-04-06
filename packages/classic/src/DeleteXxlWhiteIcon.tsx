@@ -7,11 +7,11 @@ import React, { SVGProps } from 'react';
 export const DeleteXxlWhiteIcon: React.FC<SVGProps<SVGSVGElement>> = props => (
     <svg
         role="img"
-        {...props}
         focusable="false"
         width="41"
         height="45"
         viewBox="0 0 41 45"
+        {...props}
     >
         <g fill="none" fillRule="evenodd">
             <path d="M-4 0h48v48H-4z" />

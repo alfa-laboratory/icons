@@ -9,11 +9,11 @@ export const CashInHandsMWhiteIcon: React.FC<SVGProps<
 >> = props => (
     <svg
         role="img"
-        {...props}
         focusable="false"
         width="24"
         height="24"
         viewBox="0 0 24 24"
+        {...props}
         fill="none"
     >
         <path d="M12.239 11a2.277 2.277 0 1 1 4.427 0H12.24z" fill="#B6BCC3" />

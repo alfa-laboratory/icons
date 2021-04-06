@@ -7,12 +7,12 @@ import React, { SVGProps } from 'react';
 export const PaypassMIcon: React.FC<SVGProps<SVGSVGElement>> = props => (
     <svg
         role="img"
-        {...props}
         focusable="false"
         fill="currentColor"
         width="24"
         height="24"
         viewBox="0 0 24 24"
+        {...props}
     >
         <path d="M15.49 3.471l1.914-.957a18.895 18.895 0 01.003 18.966l-1.914-.957c.018-.044.04-.088.064-.13a16.757 16.757 0 000-16.786 1.081 1.081 0 01-.067-.136z" />
         <path d="M11.554 5.439l1.915-.957.01.018a14.973 14.973 0 010 15l-.007.013-1.915-.958c.018-.043.038-.085.062-.127a12.834 12.834 0 000-12.856 1.089 1.089 0 01-.065-.133z" />

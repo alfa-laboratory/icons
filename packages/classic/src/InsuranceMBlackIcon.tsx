@@ -7,11 +7,11 @@ import React, { SVGProps } from 'react';
 export const InsuranceMBlackIcon: React.FC<SVGProps<SVGSVGElement>> = props => (
     <svg
         role="img"
-        {...props}
         focusable="false"
         width="24"
         height="24"
         viewBox="0 0 24 24"
+        {...props}
     >
         <g transform="translate(3)" fill="#0B1F35" fillRule="evenodd">
             <path

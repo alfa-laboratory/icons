@@ -9,11 +9,11 @@ export const AccountInfoXxlWhiteIcon: React.FC<SVGProps<
 >> = props => (
     <svg
         role="img"
-        {...props}
         focusable="false"
         width="48"
         height="48"
         viewBox="0 0 48 48"
+        {...props}
     >
         <g transform="translate(3)" fill="none" fillRule="evenodd">
             <path

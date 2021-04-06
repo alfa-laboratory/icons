@@ -7,10 +7,10 @@ import React, { SVGProps } from 'react';
 export const CashbackMBlackIcon: React.FC<SVGProps<SVGSVGElement>> = props => (
     <svg
         role="img"
-        {...props}
         focusable="false"
         height="24"
         viewBox="0 0 24 24"
+        {...props}
         width="24"
     >
         <g fill="none" fillRule="evenodd">

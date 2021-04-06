@@ -9,11 +9,11 @@ export const CardVisaElectronSWhiteIcon: React.FC<SVGProps<
 >> = props => (
     <svg
         role="img"
-        {...props}
         focusable="false"
         width="16"
         height="9"
         viewBox="0 0 16 9"
+        {...props}
     >
         <path
             fill="#FFF"

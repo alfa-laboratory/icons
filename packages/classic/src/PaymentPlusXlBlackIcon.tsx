@@ -9,11 +9,11 @@ export const PaymentPlusXlBlackIcon: React.FC<SVGProps<
 >> = props => (
     <svg
         role="img"
-        {...props}
         focusable="false"
         width="36"
         height="36"
         viewBox="0 0 36 36"
+        {...props}
     >
         <g fill="#0B1F35" fillRule="evenodd">
             <path d="M18 5h1v25h-1z" />

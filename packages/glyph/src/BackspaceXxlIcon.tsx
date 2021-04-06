@@ -7,12 +7,12 @@ import React, { SVGProps } from 'react';
 export const BackspaceXxlIcon: React.FC<SVGProps<SVGSVGElement>> = props => (
     <svg
         role="img"
-        {...props}
         focusable="false"
         fill="currentColor"
         width="48"
         height="48"
         viewBox="0 0 48 48"
+        {...props}
     >
         <path d="M27 22.222l-4.007-4.007-1.765 1.832 3.991 3.962-3.994 3.963 1.77 1.81L27 25.778l4.004 4.004 1.771-1.81-3.996-3.965 3.998-4.008L31 18.223l-4 4z" />
         <path

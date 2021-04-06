@@ -7,10 +7,10 @@ import React, { SVGProps } from 'react';
 export const CloseLWhiteIcon: React.FC<SVGProps<SVGSVGElement>> = props => (
     <svg
         role="img"
-        {...props}
         focusable="false"
         height="30"
         viewBox="0 0 30 30"
+        {...props}
         width="30"
     >
         <path

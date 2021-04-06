@@ -9,11 +9,11 @@ export const CategoryTelecomMWhiteIcon: React.FC<SVGProps<
 >> = props => (
     <svg
         role="img"
-        {...props}
         focusable="false"
         width="24"
         height="24"
         viewBox="0 0 24 24"
+        {...props}
     >
         <g fill="#FFF">
             <path d="M16 12.29l.72.69a6.48 6.48 0 0 0 0-9l-.72.73a5.49 5.49 0 0 1 0 7.58zM8 12.29a5.49 5.49 0 0 1 0-7.58L7.3 4a6.48 6.48 0 0 0 0 9z" />

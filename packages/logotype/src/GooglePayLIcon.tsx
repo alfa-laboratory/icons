@@ -7,12 +7,12 @@ import React, { SVGProps } from 'react';
 export const GooglePayLIcon: React.FC<SVGProps<SVGSVGElement>> = props => (
     <svg
         role="img"
-        {...props}
         focusable="false"
         fill="currentColor"
         width="30"
         height="20"
         viewBox="0 0 30 20"
+        {...props}
     >
         <path d="M4.954 6.961a2.688 2.688 0 011.9.743L8.268 6.29A4.759 4.759 0 004.954 5a4.954 4.954 0 000 9.909c1.337 0 2.463-.44 3.283-1.196.936-.862 1.474-2.138 1.474-3.646 0-.337-.028-.674-.085-1.007H4.954v1.908H7.63c-.231 1.285-1.446 1.98-2.676 1.98-1.999 0-3.405-2.089-2.781-3.942.392-1.173 1.489-2.045 2.78-2.045z" />
         <path

@@ -9,11 +9,11 @@ export const CloseCircleSColorIcon: React.FC<SVGProps<
 >> = props => (
     <svg
         role="img"
-        {...props}
         focusable="false"
         width="18"
         height="18"
         viewBox="0 0 18 18"
+        {...props}
         fill="none"
     >
         <path d="M9 18A9 9 0 1 0 9 0a9 9 0 0 0 0 18z" fill="#F3F4F5" />

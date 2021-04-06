@@ -9,11 +9,11 @@ export const BackspaceXxlWhiteIcon: React.FC<SVGProps<
 >> = props => (
     <svg
         role="img"
-        {...props}
         focusable="false"
         width="43"
         height="30"
         viewBox="0 0 43 30"
+        {...props}
     >
         <g fill="none" fillRule="evenodd">
             <path d="M-2-9h48v48H-2z" />

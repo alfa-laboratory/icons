@@ -7,11 +7,11 @@ import React, { SVGProps } from 'react';
 export const DownSBlackIcon: React.FC<SVGProps<SVGSVGElement>> = props => (
     <svg
         role="img"
-        {...props}
         focusable="false"
         width="16"
         height="16"
         viewBox="0 0 16 16"
+        {...props}
     >
         <path
             fill="#0B1F35"

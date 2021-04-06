@@ -9,11 +9,11 @@ export const FormatZipXlWhiteIcon: React.FC<SVGProps<
 >> = props => (
     <svg
         role="img"
-        {...props}
         focusable="false"
         width="32"
         height="32"
         viewBox="0 0 32 32"
+        {...props}
     >
         <g fill="none" fillRule="evenodd">
             <path d="M-2-2h36v36H-2z" />

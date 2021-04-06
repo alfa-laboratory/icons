@@ -7,12 +7,12 @@ import React, { SVGProps } from 'react';
 export const MailLineMIcon: React.FC<SVGProps<SVGSVGElement>> = props => (
     <svg
         role="img"
-        {...props}
         focusable="false"
         fill="currentColor"
         width="24"
         height="24"
         viewBox="0 0 24 24"
+        {...props}
     >
         <path d="M22 9V7l-10 4.5L2 7v2l10 4.5L22 9z" />
         <path
