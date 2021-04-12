@@ -21,8 +21,11 @@ git commit -m "feat(*): add new icons"
 # Смотрим, были ли какие-то изменения в иконках
 changed_packages=`lerna changed`;
 
-# Если изменения были, апдейтим версию подпакетов
-lerna version minor --no-push --yes
+LATEST_TAG=$(git describe --tags --abbrev=0)
+DELETED_ICONS=$(git diff --name-only $LATEST_TAG HEAD --diff-filter=D | grep "packages")
+
+# Поднимаем версии в подпакетах, если в них были изменения
+lerna exec --parallel -- $(pwd)/bin/update-package-version.sh \$LERNA_PACKAGE_NAME
 
 # Собираем все подпакеты
 
@@ -48,7 +51,13 @@ then
 else
     echo "Publish root package"
     # Апдейтим версию
-    npm version minor --git-tag-version false
+    if [ -z "$DELETED_ICONS" ]
+    then
+        npm version minor --git-tag-version false
+    else
+        npm version major --git-tag-version false
+    fi
+
     cp package.json dist/package.json
     # Публикуем пакет
     npm publish dist    
