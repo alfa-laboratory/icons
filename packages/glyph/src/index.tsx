@@ -207,6 +207,7 @@ export * from './NavigationMarketplaceMIcon';
 export * from './NavigationPaymentMIcon';
 export * from './NavigationProfileMIcon';
 export * from './NavigationQuotationsMIcon';
+export * from './NoImageMIcon';
 export * from './OtherMIcon';
 export * from './OutsideMIcon';
 export * from './PaperclipMIcon';
