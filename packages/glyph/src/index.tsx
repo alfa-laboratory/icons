@@ -215,6 +215,7 @@ export * from './PauseCircleMIcon';
 export * from './PaypassMIcon';
 export * from './PencilHeavyMIcon';
 export * from './PencilMIcon';
+export * from './PercentHeavyMIcon';
 export * from './PercentMIcon';
 export * from './PersonalManagerMIcon';
 export * from './PhoneMIcon';
