@@ -299,6 +299,7 @@ export * from './TransferOfDebtMIcon';
 export * from './TrashCanLineMIcon';
 export * from './TrashCanMIcon';
 export * from './TwoUsersMIcon';
+export * from './TwoUsersSIcon';
 export * from './UmbrellaMIcon';
 export * from './UsdAndroidMIcon';
 export * from './UsdIosMIcon';
