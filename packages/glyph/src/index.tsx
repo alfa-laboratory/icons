@@ -1,6 +1,7 @@
 export * from './AScoresCircleMIcon';
 export * from './AScoresCircleSIcon';
 export * from './AddCircleMIcon';
+export * from './AddCommentMIcon';
 export * from './AddCompactMIcon';
 export * from './AddLargeMIcon';
 export * from './AddMIcon';
