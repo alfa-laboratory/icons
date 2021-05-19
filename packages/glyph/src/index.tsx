@@ -209,6 +209,7 @@ export * from './MinusMIcon';
 export * from './MobilePhoneLineMIcon';
 export * from './MobilePhoneMIcon';
 export * from './MoneyBoxMIcon';
+export * from './MoreMIcon';
 export * from './NavigationBriefcaseMIcon';
 export * from './NavigationChatMIcon';
 export * from './NavigationHistoryMIcon';
