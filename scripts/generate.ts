@@ -15,7 +15,7 @@ const srcDir = path.resolve(__dirname, '../packages');
 const readDir = promisify(fs.readdir);
 const mkDir = promisify(fs.mkdir);
 
-const EXCLUDED_CATEGORIES = ['purgatory'];
+const EXCLUDED_CATEGORIES = ['purgatory', 'dev'];
 const EXCLUDED_PACKAGES = ['art'];
 
 interface Icon {
