@@ -13,10 +13,21 @@ export const OkXxxlColorIcon: React.FC<SVGProps<SVGSVGElement>> = props => (
         viewBox="0 0 88 88"
         {...props}
     >
-        <g fill="none">
-            <polygon points="0 0 88 1.796 88 88 0 88" />
-            <rect width="88" height="88" fill="#2FC26E" rx="44" />
-            <polygon fill="#FFF" points="64 28 67 31 38 60 22 44 25 41 38 54" />
+        <g fill="none" fillRule="evenodd">
+            <rect
+                fill="#0DBA26"
+                fillRule="nonzero"
+                width="88"
+                height="88"
+                rx="44"
+            />
+            <g transform="translate(20 20)">
+                <polygon
+                    fill="#FFF"
+                    fillRule="nonzero"
+                    points="19 34 6 21 4 23 19 38 45 12 43 10"
+                />
+            </g>
         </g>
     </svg>
 );
