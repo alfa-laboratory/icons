@@ -250,6 +250,7 @@ export * from './ReceiptMIcon';
 export * from './RemarkCircleMIcon';
 export * from './RemarkHeavyMIcon';
 export * from './RemarksMIcon';
+export * from './RepairToolMIcon';
 export * from './RepearToolMIcon';
 export * from './RepeatCircleMIcon';
 export * from './RepeatMIcon';
