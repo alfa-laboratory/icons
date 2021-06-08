@@ -39,6 +39,7 @@ export * from './BarcodeMIcon';
 export * from './BellAddMIcon';
 export * from './BellMIcon';
 export * from './BellSIcon';
+export * from './BigArrowLeftLineMIcon';
 export * from './BiometricsUserMIcon';
 export * from './BlankLineMIcon';
 export * from './BookmarkLineMIcon';
