@@ -5,6 +5,7 @@ export * from './AccountAddXlWhiteIcon';
 export * from './AccountAddXxlBlackIcon';
 export * from './AccountAddXxlWhiteIcon';
 export * from './AccountDefaultMBlackIcon';
+export * from './AccountDefaultMIcon';
 export * from './AccountDefaultMWhiteIcon';
 export * from './AccountEuroMBlackIcon';
 export * from './AccountEuroMWhiteIcon';
