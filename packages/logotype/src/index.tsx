@@ -17,5 +17,6 @@ export * from './MastercardLIcon';
 export * from './MastercardXxlColorIcon';
 export * from './MastercardXxlIcon';
 export * from './MirXxlIcon';
+export * from './MobileIdMIcon';
 export * from './PaypassXsIcon';
 export * from './VisaXxlIcon';
