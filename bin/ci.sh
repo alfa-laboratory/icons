@@ -25,7 +25,7 @@ LATEST_TAG=$(git describe --tags --abbrev=0)
 DELETED_ICONS=$(git diff --name-only $LATEST_TAG HEAD --diff-filter=D | grep "packages")
 
 # Поднимаем версии в подпакетах, если в них были изменения
-lerna exec --parallel -- $(pwd)/bin/update-package-version.sh \$LERNA_PACKAGE_NAME
+lerna exec --concurrency 1 -- $(pwd)/bin/update-package-version.sh \$LERNA_PACKAGE_NAME
 
 # Собираем все подпакеты
 
@@ -64,7 +64,7 @@ else
 fi
 
 git add .
-git commit -m "chore(*): update version"
+git commit --amend -m "feat(*): add new icons"
 
 # Релизим все подпакеты
 lerna publish from-package --contents dist --yes

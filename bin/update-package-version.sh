@@ -8,7 +8,10 @@ DELETED_ICONS=$(git diff --name-only $LATEST_TAG HEAD --diff-filter=D | grep "$p
 
 if [ -z "$DELETED_ICONS" ]
 then
-    lerna version minor --no-push --yes
+    npm version minor
 else
-    lerna version major --no-push --yes
+    npm version major
 fi
+
+git add .
+git commit --amend -m "feat(*): add new icons"
