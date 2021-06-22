@@ -55,7 +55,7 @@ else
 fi
 
 git add .
-git commit --amend -m "feat(*): add new icons"
+git commit -m "chore(*): update version"
 
 # Релизим все подпакеты
 lerna publish from-package --contents dist --yes
