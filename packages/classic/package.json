@@ -1,6 +1,6 @@
 {
     "name": "@alfalab/icons-classic",
-    "version": "1.73.0",
+    "version": "1.74.0",
     "license": "MIT",
     "peerDependencies": {
         "react": "^16.13.0",
