@@ -158,6 +158,7 @@ export * from './FlashCircleSIcon';
 export * from './GasStationMIcon';
 export * from './GbpAndroidMIcon';
 export * from './GbpIosMIcon';
+export * from './GiftSIcon';
 export * from './HairbrushMIcon';
 export * from './HandHeartMIcon';
 export * from './HandStarMIcon';
