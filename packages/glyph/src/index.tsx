@@ -9,6 +9,7 @@ export * from './AddedCommentMIcon';
 export * from './AirplaneMIcon';
 export * from './AlertCircleMIcon';
 export * from './AlfaScoresIosMIcon';
+export * from './AlfaSubscriptionMIcon';
 export * from './ArmchairMIcon';
 export * from './ArmoredCarMIcon';
 export * from './ArrowBackCircleMIcon';
