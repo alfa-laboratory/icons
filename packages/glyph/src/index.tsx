@@ -56,6 +56,7 @@ export * from './BriefcaseMIcon';
 export * from './BurgerMIcon';
 export * from './CakeMIcon';
 export * from './CalculatorMIcon';
+export * from './CalendarLineMIcon';
 export * from './CalendarMIcon';
 export * from './CallMIcon';
 export * from './CameraMIcon';
