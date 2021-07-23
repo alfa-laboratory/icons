@@ -20,4 +20,6 @@ export * from './MastercardXxlIcon';
 export * from './MirXxlIcon';
 export * from './MobileIdMIcon';
 export * from './PaypassXsIcon';
+export * from './PerekrestokSIcon';
+export * from './PyaterochkaSColorIcon';
 export * from './VisaXxlIcon';
