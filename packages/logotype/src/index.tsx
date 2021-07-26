@@ -22,4 +22,5 @@ export * from './MobileIdMIcon';
 export * from './PaypassXsIcon';
 export * from './PerekrestokSIcon';
 export * from './PyaterochkaSColorIcon';
+export * from './SamsungPayLIcon';
 export * from './VisaXxlIcon';
