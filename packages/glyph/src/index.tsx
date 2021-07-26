@@ -246,6 +246,7 @@ export * from './PencilHeavyMIcon';
 export * from './PencilMIcon';
 export * from './PercentHeavyMIcon';
 export * from './PercentMIcon';
+export * from './PerekrestokSIcon';
 export * from './PersonalManagerMIcon';
 export * from './PhoneMIcon';
 export * from './PinMIcon';
