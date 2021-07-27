@@ -339,6 +339,7 @@ export * from './UsdAndroidMIcon';
 export * from './UsdIosMIcon';
 export * from './UserLineMIcon';
 export * from './UserMIcon';
+export * from './UserPhoneMIcon';
 export * from './UserPlusMIcon';
 export * from './UsualHouseMIcon';
 export * from './WalletMIcon';
