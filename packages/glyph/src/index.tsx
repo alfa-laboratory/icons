@@ -30,6 +30,7 @@ export * from './ArrowUpDownHeavyMIcon';
 export * from './ArrowUpDownMIcon';
 export * from './ArrowUpMIcon';
 export * from './ArrowUpSIcon';
+export * from './ArrowsForkMIcon';
 export * from './ArrowsLeftRightThinMIcon';
 export * from './BackspaceXxlIcon';
 export * from './BadgeSIcon';
