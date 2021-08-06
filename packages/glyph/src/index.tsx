@@ -118,6 +118,7 @@ export * from './ClockMIcon';
 export * from './ClockRepeatMIcon';
 export * from './ClockSIcon';
 export * from './CommentCheckmarkMIcon';
+export * from './CommentMinusMIcon';
 export * from './CommentPlusMIcon';
 export * from './ContainerMIcon';
 export * from './CopyLineMIcon';
