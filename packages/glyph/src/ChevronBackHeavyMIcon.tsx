@@ -1,0 +1,27 @@
+/**
+ * This is auto-generated file by scripts/generate.ts
+ * Do not edit it manually
+ */
+import React, { SVGProps } from 'react';
+
+export const ChevronBackHeavyMIcon: React.FC<SVGProps<
+    SVGSVGElement
+>> = props => (
+    <svg
+        role="img"
+        focusable="false"
+        fill="currentColor"
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+        {...props}
+    >
+        <path
+            fillRule="evenodd"
+            clipRule="evenodd"
+            d="M15 22L5 12 15 2l2.5 2.5L10 12l7.5 7.5L15 22z"
+        />
+    </svg>
+);
+
+export default ChevronBackHeavyMIcon;
