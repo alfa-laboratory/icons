@@ -40,6 +40,8 @@ export * from './BanditMIcon';
 export * from './BankMIcon';
 export * from './BankSIcon';
 export * from './BanknoteInMIcon';
+export * from './BanknoteOffMIcon';
+export * from './BanknoteOnMIcon';
 export * from './BanknoteOutMIcon';
 export * from './BarChartMIcon';
 export * from './BarcodeMIcon';
