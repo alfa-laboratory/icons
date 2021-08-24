@@ -138,6 +138,7 @@ export * from './CrossHeavyMIcon';
 export * from './CrossMIcon';
 export * from './CrossMWhiteIcon';
 export * from './DebtMIcon';
+export * from './DesktopMIcon';
 export * from './DiagramLineMIcon';
 export * from './DiagramMIcon';
 export * from './DocumentAddMIcon';
