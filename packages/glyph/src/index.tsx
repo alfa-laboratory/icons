@@ -354,6 +354,7 @@ export * from './UserMIcon';
 export * from './UserPhoneMIcon';
 export * from './UserPlusMIcon';
 export * from './UsualHouseMIcon';
+export * from './WalkingManSIcon';
 export * from './WalletMIcon';
 export * from './WorldCashMIcon';
 export * from './WorldTransfersMIcon';
