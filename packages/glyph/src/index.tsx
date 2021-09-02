@@ -97,6 +97,7 @@ export * from './CheckmarkHeavyMIcon';
 export * from './CheckmarkMIcon';
 export * from './CheckmarkOffCircleMIcon';
 export * from './CheckmarkOnCircleMIcon';
+export * from './CheckmarkReceiptMIcon';
 export * from './CheckmarkSIcon';
 export * from './ChestOnLegsMIcon';
 export * from './ChevronBackCircleMIcon';
