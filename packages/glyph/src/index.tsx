@@ -129,6 +129,7 @@ export * from './CommentCheckmarkMIcon';
 export * from './CommentMinusMIcon';
 export * from './CommentMinusSIcon';
 export * from './CommentPlusMIcon';
+export * from './CommentWithTextMIcon';
 export * from './ContainerMIcon';
 export * from './CopyLineMIcon';
 export * from './CopyMIcon';
