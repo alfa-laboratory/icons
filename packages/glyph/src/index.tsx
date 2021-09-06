@@ -324,6 +324,7 @@ export * from './SfTouchIdXxlIcon';
 export * from './ShareMIcon';
 export * from './ShieldMIcon';
 export * from './ShoppingBagMIcon';
+export * from './ShoppingListLineMIcon';
 export * from './ShowcaseMIcon';
 export * from './SignMIcon';
 export * from './SimCardMIcon';
