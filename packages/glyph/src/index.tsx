@@ -378,6 +378,7 @@ export * from './UserStarMIcon';
 export * from './UsualHouseMIcon';
 export * from './WalkingManSIcon';
 export * from './WalletMIcon';
+export * from './WatchMIcon';
 export * from './WorldCashMIcon';
 export * from './WorldTransfersMIcon';
 export * from './WorldTransfersSIcon';
