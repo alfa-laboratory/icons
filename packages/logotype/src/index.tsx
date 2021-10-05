@@ -27,3 +27,4 @@ export * from './SamsungPayLIcon';
 export * from './TelegramMIcon';
 export * from './VisaXxlIcon';
 export * from './WhatsappMIcon';
+export * from './X5CardLIcon';
