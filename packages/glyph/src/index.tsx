@@ -62,6 +62,7 @@ export * from './BookmarkSIcon';
 export * from './BowlMIcon';
 export * from './BriefcaseMIcon';
 export * from './BurgerMIcon';
+export * from './BusStopSIcon';
 export * from './CakeMIcon';
 export * from './CalculatorMIcon';
 export * from './CalendarLineMIcon';
