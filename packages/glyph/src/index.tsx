@@ -359,6 +359,7 @@ export * from './SwapHorizontalHeavyMIcon';
 export * from './SwapHorizontalMIcon';
 export * from './TShirtMIcon';
 export * from './TelescopeMIcon';
+export * from './TerminalStationaryMIcon';
 export * from './TerminalWirelessMIcon';
 export * from './ThumbDownMIcon';
 export * from './ThumbUpMIcon';
