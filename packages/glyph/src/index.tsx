@@ -278,6 +278,7 @@ export * from './PercentHeavyMIcon';
 export * from './PercentMIcon';
 export * from './PerekrestokSIcon';
 export * from './PersonalManagerMIcon';
+export * from './PhoneCircleMIcon';
 export * from './PhoneMIcon';
 export * from './PhoneSmsLineMIcon';
 export * from './PinMIcon';
