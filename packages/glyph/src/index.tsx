@@ -36,6 +36,8 @@ export * from './ArrowsInwardMIcon';
 export * from './ArrowsLeftRightThinMIcon';
 export * from './ArrowsOutwardMIcon';
 export * from './BackspaceXxlIcon';
+export * from './BadgeBackwardSIcon';
+export * from './BadgeCenterSIcon';
 export * from './BadgeSIcon';
 export * from './BanditMIcon';
 export * from './BankMIcon';
