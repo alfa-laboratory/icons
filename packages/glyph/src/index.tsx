@@ -233,6 +233,7 @@ export * from './ListInvMIcon';
 export * from './ListMIcon';
 export * from './LocatorLineMIcon';
 export * from './LocatorMIcon';
+export * from './LocatorOffMIcon';
 export * from './LockClosedLineMIcon';
 export * from './LockClosedMIcon';
 export * from './LockOpenLineMIcon';
