@@ -24,6 +24,7 @@ export * from './PaypassXsIcon';
 export * from './PerekrestokSIcon';
 export * from './PyaterochkaSColorIcon';
 export * from './SamsungPayLIcon';
+export * from './SbpMColorIcon';
 export * from './TelegramMIcon';
 export * from './VisaXxlIcon';
 export * from './WhatsappMIcon';
