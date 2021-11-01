@@ -127,6 +127,7 @@ export * from './ChevronUpCompactSIcon';
 export * from './ChevronUpMIcon';
 export * from './ChfAndroidMIcon';
 export * from './ChfIosMIcon';
+export * from './ClockCrossLineMIcon';
 export * from './ClockLineMIcon';
 export * from './ClockMIcon';
 export * from './ClockRepeatMIcon';
