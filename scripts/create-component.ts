@@ -28,16 +28,22 @@ const removeEmptyRect = item => {
 };
 
 const renameAttributesToCamelCase = item => {
-    Object.keys(item.attrs || {}).map(attributeName => {
-        if (attributeName.includes('-')) {
-            const attribute = item.attrs[attributeName];
+    Object.keys(item.attrs || {}).forEach(rawAttributeName => {
+        if (
+            rawAttributeName.includes('-') &&
+            !rawAttributeName.includes('data-')
+        ) {
+            const attribute = item.attrs[rawAttributeName];
 
-            delete item.attrs[attributeName];
+            delete item.attrs[rawAttributeName];
 
-            attribute.name = camelcase(attributeName);
-            attribute.local = attribute.name;
+            const attributeName = camelcase(rawAttributeName);
 
-            item.attrs[attribute.name] = attribute;
+            item.attrs[attributeName] = {
+                ...attribute,
+                name: attributeName,
+                local: camelcase(attribute.local),
+            };
         }
     });
 
@@ -61,19 +67,25 @@ const optimizer = new Svgo({
                 fn: removeEmptyRect,
             },
         },
-        {
-            // @ts-ignore
-            renameAttributesToCamelCase: {
-                type: 'perItem',
-                description: 'rename attributes to camel case',
-                fn: renameAttributesToCamelCase,
-            },
-        },
     ],
 });
 
 const monoColorOptimizer = new Svgo({
     plugins: [{ removeAttrs: { attrs: 'fill' } }, { removeViewBox: false }],
+});
+
+const renameAttributesOptimizer = new Svgo({
+    plugins: [
+        { removeViewBox: false },
+        {
+            // @ts-ignore
+            renameAttributesToCamelCase: {
+                type: 'perItem',
+                description: 'rename attributes to camel-case',
+                fn: renameAttributesToCamelCase,
+            },
+        },
+    ],
 });
 
 const transformSvg = (svg: string): string =>
@@ -103,6 +115,11 @@ export async function createComponent(filePath: string, packageDir: string) {
 
     if (!color) {
         let { data } = await monoColorOptimizer.optimize(svg);
+        svg = data;
+    }
+
+    {
+        let { data } = await renameAttributesOptimizer.optimize(svg);
         svg = data;
     }
 
