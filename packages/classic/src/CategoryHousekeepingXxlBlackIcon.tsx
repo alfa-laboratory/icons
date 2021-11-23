@@ -25,14 +25,7 @@ export const CategoryHousekeepingXxlBlackIcon: React.FC<SVGProps<
                 d="M3.973 24H6v19h26v-1H7V23H3.973c-.664 0-1.22-.362-1.416-.922-.183-.521-.006-1.06.469-1.438L21.5 6.16l10.89 8.535.617-.787L21.5 4.89 2.405 19.855c-.813.649-1.117 1.627-.792 2.553.339.967 1.265 1.592 2.36 1.592z"
                 fill="#0B1F35"
             />
-            <rect
-                fill="#0B1F35"
-                opacity=".3"
-                x="13"
-                y="25"
-                width="6"
-                height="8"
-            />
+            <path fill="#0B1F35" opacity=".3" d="M13 25h6v8h-6z" />
         </g>
     </svg>
 );

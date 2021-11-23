@@ -16,10 +16,10 @@ export const PowerCardSBlackIcon: React.FC<SVGProps<SVGSVGElement>> = props => (
     >
         <path d="M8.25 1h1.5v8h-1.5V1z" fill="#0B1F35" />
         <path
+            d="M5.789 3.2a6.629 6.629 0 106.422 0l.665-1.2a8 8 0 11-7.753 0l.666 1.2z"
+            fill="#0B1F35"
             fillRule="evenodd"
             clipRule="evenodd"
-            d="M5.789 3.2a6.629 6.629 0 1 0 6.422 0l.665-1.2a8 8 0 1 1-7.753 0l.666 1.2z"
-            fill="#0B1F35"
         />
     </svg>
 );

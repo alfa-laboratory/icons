@@ -21,17 +21,9 @@ export const CategoryOtherMBlackIcon: React.FC<SVGProps<
                 fill="#0B1F35"
             />
             <path
-                d="M7.5 15h3a4 4 0 0 0-4-4h-3a4 4 0 0 0 4 4zM13.5 15h3a4 4 0 0 0 4-4h-3a4 4 0 0 0-4 4z"
+                d="M7.5 15h3a4 4 0 00-4-4h-3a4 4 0 004 4zm6 0h3a4 4 0 004-4h-3a4 4 0 00-4 4zM10 18h4v1h-4z"
                 fill="#0B1F35"
                 opacity=".3"
-            />
-            <rect
-                fill="#0B1F35"
-                opacity=".3"
-                x="10"
-                y="18"
-                width="4"
-                height="1"
             />
         </g>
     </svg>

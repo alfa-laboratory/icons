@@ -14,9 +14,7 @@ export const ListSBlackIcon: React.FC<SVGProps<SVGSVGElement>> = props => (
         {...props}
         fill="none"
     >
-        <rect x="6" y="8.5" width="10" height="1" fill="#0B1F35" />
-        <rect x="6" y="12.5" width="10" height="1" fill="#0B1F35" />
-        <rect x="6" y="4.5" width="10" height="1" fill="#0B1F35" />
+        <path fill="#0B1F35" d="M6 8.5h10v1H6zM6 12.5h10v1H6zM6 4.5h10v1H6z" />
         <circle cx="3" cy="5" r="1" fill="#0B1F35" />
         <circle cx="3" cy="9" r="1" fill="#0B1F35" />
         <circle cx="3" cy="13" r="1" fill="#0B1F35" />

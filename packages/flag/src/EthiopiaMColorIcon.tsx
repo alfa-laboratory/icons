@@ -24,7 +24,7 @@ export const EthiopiaMColorIcon: React.FC<SVGProps<SVGSVGElement>> = props => (
         />
         <path d="M24 9.38H0v5.24h24V9.38z" fill="#FFE15A" />
         <path
-            d="M16.966 12.005A4.969 4.969 0 0 1 12 16.97a4.969 4.969 0 0 1 0-9.937 4.967 4.967 0 0 1 4.966 4.97z"
+            d="M16.966 12.005A4.969 4.969 0 0112 16.97a4.969 4.969 0 010-9.937 4.967 4.967 0 014.966 4.97z"
             fill="#4173CD"
         />
         <path

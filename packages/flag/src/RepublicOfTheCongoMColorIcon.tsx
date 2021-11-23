@@ -17,7 +17,7 @@ export const RepublicOfTheCongoMColorIcon: React.FC<SVGProps<
         fill="none"
     >
         <path
-            d="M.547 19.355c.323.314.764.507 1.25.507h5.237l16.42-15.217a1.791 1.791 0 0 0-1.251-.507h-5.238L.547 19.355z"
+            d="M.547 19.355c.323.314.764.507 1.25.507h5.237l16.42-15.217a1.791 1.791 0 00-1.251-.507h-5.238L.547 19.355z"
             fill="#FFE15A"
         />
         <path

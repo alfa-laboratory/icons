@@ -15,9 +15,9 @@ export const MailMIcon: React.FC<SVGProps<SVGSVGElement>> = props => (
         {...props}
     >
         <path
+            d="M3 5a1 1 0 00-1 1v1l10 4.5L22 7V6a1 1 0 00-1-1H3zm9 8.5L22 9v9a1 1 0 01-1 1H3a1 1 0 01-1-1V9l10 4.5z"
             fillRule="evenodd"
             clipRule="evenodd"
-            d="M3 5a1 1 0 00-1 1v1l10 4.5L22 7V6a1 1 0 00-1-1H3zm9 8.5L22 9v9a1 1 0 01-1 1H3a1 1 0 01-1-1V9l10 4.5z"
         />
     </svg>
 );

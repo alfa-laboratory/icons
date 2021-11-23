@@ -20,10 +20,10 @@ export const HistorySBlackIcon: React.FC<SVGProps<SVGSVGElement>> = props => (
             fillOpacity=".3"
         />
         <path
+            d="M9 15.933A6.933 6.933 0 109 2.067a6.933 6.933 0 000 13.866zM9 17A8 8 0 109 1a8 8 0 000 16z"
+            fill="#0B1F35"
             fillRule="evenodd"
             clipRule="evenodd"
-            d="M9 15.933A6.933 6.933 0 1 0 9 2.067a6.933 6.933 0 0 0 0 13.866zM9 17A8 8 0 1 0 9 1a8 8 0 0 0 0 16z"
-            fill="#0B1F35"
         />
     </svg>
 );

@@ -20,7 +20,7 @@ export const LaosMColorIcon: React.FC<SVGProps<SVGSVGElement>> = props => (
         />
         <path d="M24 7.448H0v9.104h24V7.448z" fill="#41479B" />
         <path
-            d="M12 15.31a3.31 3.31 0 1 0 0-6.62 3.31 3.31 0 0 0 0 6.62z"
+            d="M12 15.31a3.31 3.31 0 100-6.62 3.31 3.31 0 000 6.62z"
             fill="#F5F5F5"
         />
     </svg>

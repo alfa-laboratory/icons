@@ -15,9 +15,9 @@ export const TransferMIcon: React.FC<SVGProps<SVGSVGElement>> = props => (
         {...props}
     >
         <path
+            d="M8.5 2.5L10 4 5 9l5 5-1.5 1.5L2 9l6.5-6.5zm7 6L14 10l5 5-5 5 1.5 1.5L22 15l-6.5-6.5z"
             fillRule="evenodd"
             clipRule="evenodd"
-            d="M8.5 2.5L10 4 5 9l5 5-1.5 1.5L2 9l6.5-6.5zm7 6L14 10l5 5-5 5 1.5 1.5L22 15l-6.5-6.5z"
         />
     </svg>
 );

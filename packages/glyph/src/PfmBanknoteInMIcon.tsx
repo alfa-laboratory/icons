@@ -16,9 +16,9 @@ export const PfmBanknoteInMIcon: React.FC<SVGProps<SVGSVGElement>> = props => (
     >
         <path d="M3 2h18v3H3V2z" />
         <path
+            d="M5 23V7h14v16H5zm3.002-6.006L11.996 13l3.994 3.994H8.002z"
             fillRule="evenodd"
             clipRule="evenodd"
-            d="M5 23V7h14v16H5zm3.002-6.006L11.996 13l3.994 3.994H8.002z"
         />
     </svg>
 );

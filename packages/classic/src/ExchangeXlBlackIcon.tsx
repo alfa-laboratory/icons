@@ -14,9 +14,8 @@ export const ExchangeXlBlackIcon: React.FC<SVGProps<SVGSVGElement>> = props => (
         {...props}
     >
         <g fill="none">
-            <g fill="#0B1F35" transform="translate(3 3)">
-                <polygon points="8 2.707 8 23 7 23 7 2.707 1.5 8.207 .793 7.5 7.5 .793 14.207 7.5 13.5 8.207" />
-                <polygon points="22 28.293 22 8 23 8 23 28.293 28.5 22.793 29.207 23.5 22.5 30.207 15.793 23.5 16.5 22.793" />
+            <g fill="#0B1F35">
+                <path d="M11 5.707V26h-1V5.707l-5.5 5.5-.707-.707L10.5 3.793l6.707 6.707-.707.707zM25 31.293V11h1v20.293l5.5-5.5.707.707-6.707 6.707-6.707-6.707.707-.707z" />
             </g>
         </g>
     </svg>

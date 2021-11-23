@@ -17,22 +17,22 @@ export const BankRosbankMColorIcon: React.FC<SVGProps<
         fill="none"
     >
         <path
-            fillRule="evenodd"
-            clipRule="evenodd"
             d="M1 12h22V1H1v11z"
             fill="#EC1A3A"
-        />
-        <path
             fillRule="evenodd"
             clipRule="evenodd"
+        />
+        <path
             d="M1 23h22V12H1v11z"
             fill="#231F20"
-        />
-        <path
             fillRule="evenodd"
             clipRule="evenodd"
+        />
+        <path
             d="M8 13h8v-2H8v2z"
             fill="#FEFEFE"
+            fillRule="evenodd"
+            clipRule="evenodd"
         />
     </svg>
 );

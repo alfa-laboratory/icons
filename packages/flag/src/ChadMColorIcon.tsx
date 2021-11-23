@@ -20,7 +20,7 @@ export const ChadMColorIcon: React.FC<SVGProps<SVGSVGElement>> = props => (
         />
         <path d="M16 4.138H8v15.724h8V4.138z" fill="#FFE15A" />
         <path
-            d="M24 5.933a1.797 1.797 0 0 0-1.797-1.795H16v15.724h6.203c.992 0 1.796-.804 1.797-1.796V5.933z"
+            d="M24 5.933a1.797 1.797 0 00-1.797-1.795H16v15.724h6.203c.992 0 1.796-.804 1.797-1.796V5.933z"
             fill="#FF4B55"
         />
     </svg>

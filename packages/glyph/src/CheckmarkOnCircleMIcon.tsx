@@ -17,9 +17,9 @@ export const CheckmarkOnCircleMIcon: React.FC<SVGProps<
         {...props}
     >
         <path
+            d="M22 12c0 5.523-4.477 10-10 10S2 17.523 2 12 6.477 2 12 2s10 4.477 10 10zm-11.5 4L17 9.5 15.5 8l-5 5-2-2L7 12.5l3.5 3.5z"
             fillRule="evenodd"
             clipRule="evenodd"
-            d="M22 12c0 5.523-4.477 10-10 10S2 17.523 2 12 6.477 2 12 2s10 4.477 10 10zm-11.5 4L17 9.5 15.5 8l-5 5-2-2L7 12.5l3.5 3.5z"
         />
     </svg>
 );

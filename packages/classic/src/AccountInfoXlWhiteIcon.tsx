@@ -21,11 +21,10 @@ export const AccountInfoXlWhiteIcon: React.FC<SVGProps<
                 fill="#FFF"
             />
             <path
-                d="M17.5 10c1.1 0 2 .9 2 2s-.9 2-2 2-2-.9-2-2 .9-2 2-2"
+                d="M17.5 10c1.1 0 2 .9 2 2s-.9 2-2 2-2-.9-2-2 .9-2 2-2M16 17h3v9h-3z"
                 fill="#FFF"
                 opacity=".3"
             />
-            <rect fill="#FFF" opacity=".3" x="16" y="17" width="3" height="9" />
         </g>
     </svg>
 );

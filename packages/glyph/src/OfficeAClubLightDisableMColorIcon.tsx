@@ -21,10 +21,10 @@ export const OfficeAClubLightDisableMColorIcon: React.FC<SVGProps<
             fill="#8A8A8E"
         />
         <path
-            fillRule="evenodd"
-            clipRule="evenodd"
             d="M10.883 11.164h2.108L11.986 8h-.04l-1.063 3.163zm2.462-3.747l2.237 6.673h-1.655l-.502-1.586H10.43l-.542 1.586H8.33l2.347-6.673c.228-.647.493-1.154 1.348-1.154.854 0 1.103.51 1.32 1.154z"
             fill="#BFBFBF"
+            fillRule="evenodd"
+            clipRule="evenodd"
         />
         <path d="M8.175 16.226v1.575h7.564v-1.575H8.175z" fill="#F79891" />
     </svg>

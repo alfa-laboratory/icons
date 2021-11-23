@@ -17,8 +17,8 @@ export const CheckBoldMBlackIcon: React.FC<SVGProps<SVGSVGElement>> = props => (
             <path d="M0 0h24v24H0z" />
             <path
                 fill="#0B1F35"
-                fillRule="nonzero"
                 d="M17.707 5.433l1.607 1.192-8.861 11.942-5.767-7.208 1.562-1.25 4.145 5.182z"
+                fillRule="nonzero"
             />
         </g>
     </svg>

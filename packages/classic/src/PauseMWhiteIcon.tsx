@@ -19,10 +19,10 @@ export const PauseMWhiteIcon: React.FC<SVGProps<SVGSVGElement>> = props => (
             fill="#fff"
         />
         <path
-            fillRule="evenodd"
-            clipRule="evenodd"
             d="M8.25 7h2v10h-2V7zm5.5 0h2v10h-2V7z"
             fill="#fff"
+            fillRule="evenodd"
+            clipRule="evenodd"
             fillOpacity=".3"
         />
     </svg>

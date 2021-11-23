@@ -19,7 +19,7 @@ export const AccountDefaultMWhiteIcon: React.FC<SVGProps<
             <path d="M0 0h24v24H0z" />
             <path
                 fill="#FFF"
-                d="M7 11h10v2H7v-2zm0-4h6v2H7V7zm2 12a2 2 0 1 1 0-4 2 2 0 0 1 0 4z"
+                d="M7 11h10v2H7v-2zm0-4h6v2H7V7zm2 12a2 2 0 110-4 2 2 0 010 4z"
                 opacity=".35"
             />
             <path

@@ -21,16 +21,16 @@ export const PaymentRoundedPlusBigXlBlackIcon: React.FC<SVGProps<
             fill="#0B1F35"
         />
         <path
-            fillRule="evenodd"
-            clipRule="evenodd"
             d="M17.533 11h.934v14h-.934V11z"
             fill="#0B1F35"
-        />
-        <path
             fillRule="evenodd"
             clipRule="evenodd"
+        />
+        <path
             d="M11 17.533h14v.933H11v-.933z"
             fill="#0B1F35"
+            fillRule="evenodd"
+            clipRule="evenodd"
         />
     </svg>
 );

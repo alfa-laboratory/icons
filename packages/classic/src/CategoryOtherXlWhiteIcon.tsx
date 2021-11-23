@@ -21,11 +21,10 @@ export const CategoryOtherXlWhiteIcon: React.FC<SVGProps<
                 fill="#FFF"
             />
             <path
-                d="M6.35 19.257A4.743 4.743 0 0 0 11.093 24h4.257v-.257A4.743 4.743 0 0 0 10.607 19H6.35v.257zM20.65 24h4a5 5 0 0 0 5-5h-4a5 5 0 0 0-5 5z"
+                d="M6.35 19.257A4.743 4.743 0 0011.093 24h4.257v-.257A4.743 4.743 0 0010.607 19H6.35v.257zM20.65 24h4a5 5 0 005-5h-4a5 5 0 00-5 5zM15 28h6v2h-6z"
                 fill="#FFF"
                 opacity=".3"
             />
-            <rect fill="#FFF" opacity=".3" x="15" y="28" width="6" height="2" />
         </g>
     </svg>
 );

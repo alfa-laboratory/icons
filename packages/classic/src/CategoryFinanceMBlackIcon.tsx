@@ -18,7 +18,7 @@ export const CategoryFinanceMBlackIcon: React.FC<SVGProps<
         <path fill="none" d="M0 0h24v24H0z" />
         <path
             fill="#0B1F35"
-            d="M22 24H2V9.51A2.51 2.51 0 0 1 4.5 7h15A2.51 2.51 0 0 1 22 9.51V24zM3 23h18V9.51A1.51 1.51 0 0 0 19.5 8h-15A1.51 1.51 0 0 0 3 9.51V23z"
+            d="M22 24H2V9.51A2.51 2.51 0 014.5 7h15A2.51 2.51 0 0122 9.51V24zM3 23h18V9.51A1.51 1.51 0 0019.5 8h-15A1.51 1.51 0 003 9.51V23z"
         />
         <path
             fill="#0B1F35"

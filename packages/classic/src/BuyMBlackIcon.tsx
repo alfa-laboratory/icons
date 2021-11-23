@@ -15,8 +15,8 @@ export const BuyMBlackIcon: React.FC<SVGProps<SVGSVGElement>> = props => (
     >
         <g fill="none" fillRule="evenodd">
             <path d="M0 0h24v24H0z" />
-            <path fill="#0B1F35" fillRule="nonzero" d="M11 0v23h1V0z" />
-            <path fill="#0B1F35" fillRule="nonzero" d="M0 12h23v-1H0z" />
+            <path fill="#0B1F35" d="M11 0v23h1V0z" fillRule="nonzero" />
+            <path fill="#0B1F35" d="M0 12h23v-1H0z" fillRule="nonzero" />
         </g>
     </svg>
 );

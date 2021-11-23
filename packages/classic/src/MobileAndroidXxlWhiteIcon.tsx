@@ -18,7 +18,7 @@ export const MobileAndroidXxlWhiteIcon: React.FC<SVGProps<
         <g fill="none" fillRule="evenodd">
             <path d="M0 0h48v48H0z" />
             <path
-                d="M20.5 39h7v3h-7zM12.5 9h23v27h-23z"
+                d="M20.5 39h7v3h-7zm-8-30h23v27h-23z"
                 fill="#fff"
                 fillOpacity=".3"
                 fillRule="nonzero"

@@ -16,26 +16,17 @@ export const CategoryTvXlBlackIcon: React.FC<SVGProps<
         {...props}
     >
         <g fill="none" fillRule="evenodd">
-            <g transform="translate(2 2.5)">
-                <path
-                    d="M3 3.5h26a3 3 0 0 1 3 3v20a3 3 0 0 1-3 3H3a3 3 0 0 1-3-3v-20a3 3 0 0 1 3-3zm0 1a2 2 0 0 0-2 2v20a2 2 0 0 0 2 2h26a2 2 0 0 0 2-2v-20a2 2 0 0 0-2-2H3z"
-                    fill="#0B1F35"
-                />
-                <polyline
-                    stroke="#0B1F35"
-                    stroke-linecap="square"
-                    points="10 0 14 4 18 4 22 0"
-                />
-                <rect
-                    fill="#0B1F35"
-                    opacity=".3"
-                    x="1"
-                    y="7.5"
-                    width="30"
-                    height="18"
-                />
-                <rect fill="#0B1F35" x="8" y="30.5" width="15" height="1" />
-            </g>
+            <path
+                d="M5 6h26a3 3 0 013 3v20a3 3 0 01-3 3H5a3 3 0 01-3-3V9a3 3 0 013-3zm0 1a2 2 0 00-2 2v20a2 2 0 002 2h26a2 2 0 002-2V9a2 2 0 00-2-2H5z"
+                fill="#0B1F35"
+            />
+            <path
+                stroke="#0B1F35"
+                d="M12 2.5l4 4h4l4-4"
+                strokeLinecap="square"
+            />
+            <path fill="#0B1F35" opacity=".3" d="M3 10h30v18H3z" />
+            <path fill="#0B1F35" d="M10 33h15v1H10z" />
         </g>
     </svg>
 );

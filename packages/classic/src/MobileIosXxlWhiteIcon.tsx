@@ -19,7 +19,7 @@ export const MobileIosXxlWhiteIcon: React.FC<SVGProps<
             <path d="M0 0h48v48H0z" />
             <g transform="translate(12 2.5)">
                 <path
-                    d="M5.55 2.5H4.5a2 2 0 0 0-2 2v34a2 2 0 0 0 2 2h15a2 2 0 0 0 2-2v-34a2 2 0 0 0-2-2h-2.05a2.5 2.5 0 0 1-2.45 2H8a2.5 2.5 0 0 1-2.45-2z"
+                    d="M5.55 2.5H4.5a2 2 0 00-2 2v34a2 2 0 002 2h15a2 2 0 002-2v-34a2 2 0 00-2-2h-2.05a2.5 2.5 0 01-2.45 2H8a2.5 2.5 0 01-2.45-2z"
                     fill="#fff"
                     fillOpacity=".3"
                 />

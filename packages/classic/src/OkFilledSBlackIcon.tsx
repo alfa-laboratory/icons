@@ -16,15 +16,15 @@ export const OkFilledSBlackIcon: React.FC<SVGProps<SVGSVGElement>> = props => (
         <g fill="none" fillRule="evenodd">
             <rect
                 fill="#0B1F35"
-                fillRule="nonzero"
                 width="18"
                 height="18"
                 rx="9"
-            />
-            <polygon
-                fill="#FFF"
                 fillRule="nonzero"
-                points="7.97727273 10.8145772 4.90665066 7.90284164 3.90909091 8.79545455 7.97727273 12.8636364 14.2954545 6.54545455 13.2228236 5.56495905"
+            />
+            <path
+                fill="#FFF"
+                d="M7.977 10.815l-3.07-2.912-.998.892 4.068 4.069 6.318-6.319-1.072-.98z"
+                fillRule="nonzero"
             />
         </g>
     </svg>

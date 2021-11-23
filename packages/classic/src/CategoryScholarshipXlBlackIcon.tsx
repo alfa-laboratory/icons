@@ -15,7 +15,7 @@ export const CategoryScholarshipXlBlackIcon: React.FC<SVGProps<
         viewBox="0 0 32 27"
         {...props}
     >
-        <g fill="none" fillRule="evenodd" transform="translate(-2 -5)">
+        <g fill="none" transform="translate(-2 -5)" fillRule="evenodd">
             <path fill="#0B1F35" d="M30 15.945l2-1.187V25h-2z" opacity=".3" />
             <ellipse
                 cx="18"

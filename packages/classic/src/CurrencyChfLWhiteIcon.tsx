@@ -17,8 +17,8 @@ export const CurrencyChfLWhiteIcon: React.FC<SVGProps<
     >
         <path
             fill="#FFF"
-            fillRule="evenodd"
             d="M3 22h1v-4.026h7V17H4v-6h9.988v-1H4V1h10.896V0H3v17H0v.974h3z"
+            fillRule="evenodd"
         />
     </svg>
 );

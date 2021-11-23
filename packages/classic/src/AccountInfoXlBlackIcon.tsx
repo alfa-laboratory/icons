@@ -21,17 +21,9 @@ export const AccountInfoXlBlackIcon: React.FC<SVGProps<
                 fill="#0B1F35"
             />
             <path
-                d="M145.5 313c1.1 0 2 .9 2 2s-.9 2-2 2-2-.9-2-2 .9-2 2-2"
+                d="M145.5 313c1.1 0 2 .9 2 2s-.9 2-2 2-2-.9-2-2 .9-2 2-2M144 320h3v9h-3z"
                 fill="#0B1F35"
                 opacity=".3"
-            />
-            <rect
-                fill="#0B1F35"
-                opacity=".3"
-                x="144"
-                y="320"
-                width="3"
-                height="9"
             />
         </g>
     </svg>

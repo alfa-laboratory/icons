@@ -18,7 +18,7 @@ export const NextXlWhiteIcon: React.FC<SVGProps<SVGSVGElement>> = props => (
             <path
                 d="M5.25 18h25m-7.5 8.75l8.576-8.721M22.75 9.25l8.521 8.708"
                 stroke="#FFF"
-                stroke-linecap="square"
+                strokeLinecap="square"
             />
         </g>
     </svg>

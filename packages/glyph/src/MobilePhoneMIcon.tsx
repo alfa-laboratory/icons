@@ -15,9 +15,9 @@ export const MobilePhoneMIcon: React.FC<SVGProps<SVGSVGElement>> = props => (
         {...props}
     >
         <path
+            d="M6 4a2 2 0 012-2h8a2 2 0 012 2v16a2 2 0 01-2 2H8a2 2 0 01-2-2V4zm4 14h4v2h-4v-2z"
             fillRule="evenodd"
             clipRule="evenodd"
-            d="M6 4a2 2 0 012-2h8a2 2 0 012 2v16a2 2 0 01-2 2H8a2 2 0 01-2-2V4zm4 14h4v2h-4v-2z"
         />
     </svg>
 );

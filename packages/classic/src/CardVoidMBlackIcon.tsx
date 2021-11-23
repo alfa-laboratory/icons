@@ -14,12 +14,12 @@ export const CardVoidMBlackIcon: React.FC<SVGProps<SVGSVGElement>> = props => (
         {...props}
         fill="none"
     >
-        <path d="M3 4a3 3 0 0 0-3 3h24a3 3 0 0 0-3-3H3z" fill="#DBDEE1" />
+        <path d="M3 4a3 3 0 00-3 3h24a3 3 0 00-3-3H3z" fill="#DBDEE1" />
         <path
+            d="M24 9H0v8a3 3 0 003 3h18a3 3 0 003-3V9zM3 14h5v3H3v-3z"
+            fill="#DBDEE1"
             fillRule="evenodd"
             clipRule="evenodd"
-            d="M24 9H0v8a3 3 0 0 0 3 3h18a3 3 0 0 0 3-3V9zM3 14h5v3H3v-3z"
-            fill="#DBDEE1"
         />
     </svg>
 );

@@ -17,20 +17,11 @@ export const PaymentToCompanyXlWhiteIcon: React.FC<SVGProps<
     >
         <g fill="none" fillRule="evenodd">
             <path
-                d="M2.5 34h31a.5.5 0 0 0 .5-.5v-16a.5.5 0 0 0-.5-.5H22V1.5a.5.5 0 0 0-.7-.459l-19 8.258c-.182.08-.3.26-.3.459V33.5a.5.5 0 0 0 .5.5zM22 18h11v15H22V18zM3 10.086l18-7.823V33H3V10.086z"
+                d="M2.5 34h31a.5.5 0 00.5-.5v-16a.5.5 0 00-.5-.5H22V1.5a.5.5 0 00-.7-.459l-19 8.258c-.182.08-.3.26-.3.459V33.5a.5.5 0 00.5.5zM22 18h11v15H22V18zM3 10.086l18-7.823V33H3V10.086z"
                 fill="#FFF"
             />
             <path
-                d="M26.5 18a.5.5 0 0 0 .5-.5v-5a.5.5 0 0 0-1 0v5a.5.5 0 0 0 .5.5z"
-                fill="#FFF"
-                opacity=".3"
-            />
-            <rect fill="#FFF" opacity=".3" x="26" y="21" width="3" height="4" />
-            <rect fill="#FFF" opacity=".3" x="7" y="13" width="3" height="4" />
-            <rect fill="#FFF" opacity=".3" x="7" y="20" width="3" height="4" />
-            <rect fill="#FFF" opacity=".3" x="13" y="10" width="3" height="4" />
-            <path
-                d="M29.5 18a.5.5 0 0 0 .5-.5v-2a.5.5 0 0 0-1 0v2a.5.5 0 0 0 .5.5z"
+                d="M26.5 18a.5.5 0 00.5-.5v-5a.5.5 0 00-1 0v5a.5.5 0 00.5.5zM26 21h3v4h-3zM7 13h3v4H7zM7 20h3v4H7zM13 10h3v4h-3zM29.5 18a.5.5 0 00.5-.5v-2a.5.5 0 00-1 0v2a.5.5 0 00.5.5z"
                 fill="#FFF"
                 opacity=".3"
             />

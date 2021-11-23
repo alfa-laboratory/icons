@@ -19,9 +19,9 @@ export const HistorySIcon: React.FC<SVGProps<SVGSVGElement>> = props => (
             fillOpacity=".3"
         />
         <path
+            d="M9 15.933A6.933 6.933 0 109 2.067a6.933 6.933 0 000 13.866zM9 17A8 8 0 109 1a8 8 0 000 16z"
             fillRule="evenodd"
             clipRule="evenodd"
-            d="M9 15.933A6.933 6.933 0 109 2.067a6.933 6.933 0 000 13.866zM9 17A8 8 0 109 1a8 8 0 000 16z"
         />
     </svg>
 );

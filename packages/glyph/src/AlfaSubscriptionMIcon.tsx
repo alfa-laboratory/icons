@@ -17,9 +17,9 @@ export const AlfaSubscriptionMIcon: React.FC<SVGProps<
         {...props}
     >
         <path
+            d="M9 4a8 8 0 000 16h6a8 8 0 000-16H9zm6 13a5 5 0 100-10 5 5 0 000 10z"
             fillRule="evenodd"
             clipRule="evenodd"
-            d="M9 4a8 8 0 000 16h6a8 8 0 000-16H9zm6 13a5 5 0 100-10 5 5 0 000 10z"
         />
     </svg>
 );

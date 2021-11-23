@@ -18,7 +18,7 @@ export const SouthAfricaMColorIcon: React.FC<SVGProps<
     >
         <path d="M0 7.034v9.931L6.62 12 0 7.034z" fill="#464655" />
         <path
-            d="M22.203 4.138H3.31L10.76 9.93H24V5.935c0-.992-.805-1.797-1.797-1.797z"
+            d="M22.203 4.138H3.31l7.45 5.792H24V5.935c0-.992-.805-1.797-1.797-1.797z"
             fill="#FF4B55"
         />
         <path

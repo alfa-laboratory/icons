@@ -15,7 +15,7 @@ export const InternetXxlWhiteIcon: React.FC<SVGProps<
         viewBox="0 0 44 39"
         {...props}
     >
-        <g fill="none" fillRule="evenodd" transform="translate(-2 -4)">
+        <g fill="none" transform="translate(-2 -4)" fillRule="evenodd">
             <path d="M0 0h48v48H0z" />
             <circle cx="24" cy="39" r="3.5" fill="#FFF" opacity=".3" />
             <path

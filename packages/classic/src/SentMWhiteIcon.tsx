@@ -23,13 +23,13 @@ export const SentMWhiteIcon: React.FC<SVGProps<SVGSVGElement>> = props => (
             <path
                 d="M2 22v-6h7.5v.5c0 1.4 1.1 2.5 2.5 2.5s2.5-1.1 2.5-2.5V16H22v6H2z"
                 fill="#FFF"
-                fillRule="nonzero"
                 opacity=".2"
+                fillRule="nonzero"
             />
             <path
                 fill="#FFF"
-                fillRule="nonzero"
                 d="M7.6 4.4l.8.7L11.5 2v10.2h1V2l3.1 3.1.8-.7L12 0"
+                fillRule="nonzero"
             />
         </g>
     </svg>

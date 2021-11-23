@@ -16,7 +16,7 @@ export const BankTrustSBlackIcon: React.FC<SVGProps<SVGSVGElement>> = props => (
     >
         <path
             fill="#0B1F35"
-            d="M9 17A8 8 0 1 0 9 1a8 8 0 0 0 0 16zM5 6h7v7H9V9H5V6z"
+            d="M9 17A8 8 0 109 1a8 8 0 000 16zM5 6h7v7H9V9H5V6z"
         />
     </svg>
 );

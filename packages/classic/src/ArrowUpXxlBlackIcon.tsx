@@ -16,8 +16,8 @@ export const ArrowUpXxlBlackIcon: React.FC<SVGProps<SVGSVGElement>> = props => (
         <g fill="none" fillRule="evenodd">
             <path
                 fill="#000"
-                fillRule="nonzero"
                 d="M32.501 29.135l.708-.708-9.782-9.781-9.78 9.781.707.708 9.073-9.075z"
+                fillRule="nonzero"
             />
             <path d="M0 48h48V0H0z" />
         </g>

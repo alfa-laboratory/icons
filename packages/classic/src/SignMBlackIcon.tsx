@@ -21,7 +21,7 @@ export const SignMBlackIcon: React.FC<SVGProps<SVGSVGElement>> = props => (
                 fillRule="nonzero"
             />
             <path
-                d="M13 14.732V23.5h-2v-8.768a2 2 0 1 1 2 0zM6 0h12v2H6"
+                d="M13 14.732V23.5h-2v-8.768a2 2 0 112 0zM6 0h12v2H6"
                 opacity=".3"
                 fill="#0B1F35"
                 fillRule="nonzero"

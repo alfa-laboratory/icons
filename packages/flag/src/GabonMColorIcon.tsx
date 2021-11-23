@@ -19,7 +19,7 @@ export const GabonMColorIcon: React.FC<SVGProps<SVGSVGElement>> = props => (
             fill="#4173CD"
         />
         <path
-            d="M22.213 4.138H1.787A1.797 1.797 0 0 0 0 5.935V9.38h24V5.935c0-.989-.799-1.791-1.787-1.797z"
+            d="M22.213 4.138H1.787A1.797 1.797 0 000 5.935V9.38h24V5.935c0-.989-.799-1.791-1.787-1.797z"
             fill="#73AF00"
         />
         <path d="M24 9.38H0v5.24h24V9.38z" fill="#FFE15A" />

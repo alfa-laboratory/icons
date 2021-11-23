@@ -15,9 +15,9 @@ export const FlashCircleSIcon: React.FC<SVGProps<SVGSVGElement>> = props => (
         {...props}
     >
         <path
+            d="M9 16A7 7 0 109 2a7 7 0 000 14zm1.78-12l-5 5 2.778 1.111L7.208 14l5-5-2.54-1.111L10.78 4z"
             fillRule="evenodd"
             clipRule="evenodd"
-            d="M9 16A7 7 0 109 2a7 7 0 000 14zm1.78-12l-5 5 2.778 1.111L7.208 14l5-5-2.54-1.111L10.78 4z"
         />
     </svg>
 );

@@ -20,10 +20,10 @@ export const PauseMBlackIcon: React.FC<SVGProps<SVGSVGElement>> = props => (
         />
         <path
             opacity=".3"
-            fillRule="evenodd"
-            clipRule="evenodd"
             d="M8.25 7h2v10h-2V7zm5.5 0h2v10h-2V7z"
             fill="#0B1F35"
+            fillRule="evenodd"
+            clipRule="evenodd"
         />
     </svg>
 );

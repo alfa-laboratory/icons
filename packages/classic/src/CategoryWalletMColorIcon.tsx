@@ -17,7 +17,7 @@ export const CategoryWalletMColorIcon: React.FC<SVGProps<
         fill="none"
     >
         <path
-            d="M4.308 6.593a1.6 1.6 0 0 1 1.33-1.83L16.64 3.02a1.6 1.6 0 0 1 1.83 1.33l.968 6.109a1.6 1.6 0 0 1-1.33 1.83L7.106 14.033a1.6 1.6 0 0 1-1.83-1.33l-.968-6.109z"
+            d="M4.308 6.593a1.6 1.6 0 011.33-1.83L16.64 3.02a1.6 1.6 0 011.83 1.33l.968 6.109a1.6 1.6 0 01-1.33 1.83L7.106 14.033a1.6 1.6 0 01-1.83-1.33l-.968-6.109z"
             fill="#5C85AD"
         />
         <path
@@ -29,10 +29,10 @@ export const CategoryWalletMColorIcon: React.FC<SVGProps<
             fill="#D2E0EB"
         />
         <path
+            d="M19.25 15.75a1.25 1.25 0 100-2.5 1.25 1.25 0 000 2.5z"
+            fill="#5C85AD"
             fillRule="evenodd"
             clipRule="evenodd"
-            d="M19.25 15.75a1.25 1.25 0 1 0 0-2.5 1.25 1.25 0 0 0 0 2.5z"
-            fill="#5C85AD"
         />
     </svg>
 );

@@ -15,8 +15,7 @@ export const PauseSColorIcon: React.FC<SVGProps<SVGSVGElement>> = props => (
         fill="none"
     >
         <circle cx="9" cy="9" r="9" fill="#B6BCC3" />
-        <rect x="6" y="5" width="2" height="8" fill="#fff" />
-        <rect x="10" y="5" width="2" height="8" fill="#fff" />
+        <path fill="#fff" d="M6 5h2v8H6zM10 5h2v8h-2z" />
     </svg>
 );
 

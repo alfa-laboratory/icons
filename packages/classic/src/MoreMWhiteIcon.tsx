@@ -14,14 +14,12 @@ export const MoreMWhiteIcon: React.FC<SVGProps<SVGSVGElement>> = props => (
         {...props}
     >
         <g fill="none" fillRule="evenodd">
-            <g transform="rotate(90 12 12)">
-                <polygon points="0 0 24 0 24 24 0 24" />
-                <path
-                    d="M4.5 14a1.5 1.5 0 1 1 .001-3.001A1.5 1.5 0 0 1 4.5 14zM12.5 14a1.5 1.5 0 1 1 .001-3.001A1.5 1.5 0 0 1 12.5 14zM20.5 14a1.5 1.5 0 1 1 .001-3.001A1.5 1.5 0 0 1 20.5 14z"
-                    fill="#FFF"
-                    fillRule="nonzero"
-                />
-            </g>
+            <path d="M24 0v24H0V0z" />
+            <path
+                d="M10 4.5a1.5 1.5 0 113.001.001A1.5 1.5 0 0110 4.5zm0 8a1.5 1.5 0 113.001.001A1.5 1.5 0 0110 12.5zm0 8a1.5 1.5 0 113.001.001A1.5 1.5 0 0110 20.5z"
+                fill="#FFF"
+                fillRule="nonzero"
+            />
         </g>
     </svg>
 );

@@ -17,8 +17,8 @@ export const ArrowDownLBlackIcon: React.FC<SVGProps<SVGSVGElement>> = props => (
             <path d="M0 30h30V0H0z" />
             <path
                 fill="#000"
-                fillRule="nonzero"
                 d="M14.892 17.186l5.54-5.54.707.708-6.247 6.246-6.246-6.246.708-.708z"
+                fillRule="nonzero"
             />
         </g>
     </svg>

@@ -18,7 +18,7 @@ export const CategoryFinanceXlWhiteIcon: React.FC<SVGProps<
         <path fill="none" d="M0 0h36v36H0z" />
         <path
             fill="#fff"
-            d="M33 36H3V14.52A3.54 3.54 0 0 1 6.55 11h22.9A3.54 3.54 0 0 1 33 14.52V36zM4 35h28V14.52A2.54 2.54 0 0 0 29.45 12H6.55A2.54 2.54 0 0 0 4 14.52V35z"
+            d="M33 36H3V14.52A3.54 3.54 0 016.55 11h22.9A3.54 3.54 0 0133 14.52V36zM4 35h28V14.52A2.54 2.54 0 0029.45 12H6.55A2.54 2.54 0 004 14.52V35z"
         />
         <path
             fill="#fff"

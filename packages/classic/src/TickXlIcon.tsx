@@ -16,8 +16,8 @@ export const TickXlIcon: React.FC<SVGProps<SVGSVGElement>> = props => (
     >
         <g fillRule="evenodd">
             <path
-                fillRule="nonzero"
                 d="M32.914 6.5l1.414 1.414L13.933 28.31 3 17.952l1.375-1.451 9.52 9.018z"
+                fillRule="nonzero"
             />
         </g>
     </svg>

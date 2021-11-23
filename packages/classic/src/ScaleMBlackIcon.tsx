@@ -16,7 +16,7 @@ export const ScaleMBlackIcon: React.FC<SVGProps<SVGSVGElement>> = props => (
     >
         <path
             opacity=".3"
-            d="M8 13c0 2.945-1.79 4-4 4s-4-1.055-4-4h8zM23 13c0 2.945-1.79 4-4 4s-4-1.055-4-4h8z"
+            d="M8 13c0 2.945-1.79 4-4 4s-4-1.055-4-4h8zm15 0c0 2.945-1.79 4-4 4s-4-1.055-4-4h8z"
             fill="#0F1F32"
         />
         <path

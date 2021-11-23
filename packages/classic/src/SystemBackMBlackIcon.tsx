@@ -16,9 +16,9 @@ export const SystemBackMBlackIcon: React.FC<SVGProps<
         {...props}
     >
         <g fill="none" fillRule="evenodd">
-            <polygon
+            <path
                 fill="#0B1F35"
-                points="10.2426407 2.10050506 0.343145751 12 10.2426407 21.8994949 11.6568542 20.4852814 3.17157288 12 11.6568542 3.51471863"
+                d="M10.243 2.1L.343 12l9.9 9.9 1.414-1.415L3.172 12l8.485-8.485z"
             />
         </g>
     </svg>

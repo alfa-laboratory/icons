@@ -24,7 +24,7 @@ export const NigerMColorIcon: React.FC<SVGProps<SVGSVGElement>> = props => (
         />
         <path d="M24 9.38H0v5.24h24V9.38z" fill="#F5F5F5" />
         <path
-            d="M12 14.069a2.07 2.07 0 1 0 0-4.138 2.07 2.07 0 0 0 0 4.138z"
+            d="M12 14.069a2.07 2.07 0 100-4.138 2.07 2.07 0 000 4.138z"
             fill="#FF9B55"
         />
     </svg>

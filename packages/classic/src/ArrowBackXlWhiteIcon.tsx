@@ -16,11 +16,10 @@ export const ArrowBackXlWhiteIcon: React.FC<SVGProps<
         {...props}
     >
         <g fill="none" fillRule="evenodd">
-            <polygon
+            <path
                 fill="#FFF"
+                d="M6.8 18.997l10 10.203-.8.8L5 18.5 16 7l.8.8L6.8 18H31v.997z"
                 fillRule="nonzero"
-                transform="rotate(90 18 18.5)"
-                points="18.4971313 29.7000122 28.6999512 19.7000122 29.5 20.5 18 31.5 6.5 20.5 7.30004883 19.7000122 17.5 29.7000122 17.5 5.5 18.4971313 5.5"
             />
         </g>
     </svg>

@@ -13,7 +13,7 @@ export const DepositXxlWhiteIcon: React.FC<SVGProps<SVGSVGElement>> = props => (
         viewBox="0 0 44 42"
         {...props}
     >
-        <g fill="none" fillRule="evenodd" transform="translate(-2 -4)">
+        <g fill="none" transform="translate(-2 -4)" fillRule="evenodd">
             <path d="M0 0h48v48H0z" />
             <path
                 fill="#FFF"
@@ -23,7 +23,7 @@ export const DepositXxlWhiteIcon: React.FC<SVGProps<SVGSVGElement>> = props => (
             <circle cx="28" cy="23" r="4" fill="#FFF" opacity=".3" />
             <path
                 fill="#FFF"
-                d="M41.5 43h-35A4.505 4.505 0 0 1 2 38.5v-30C2 6.019 4.019 4 6.5 4h35C43.981 4 46 6.019 46 8.5v30c0 2.481-2.019 4.5-4.5 4.5zM6.5 5C4.57 5 3 6.57 3 8.5v30C3 40.43 4.57 42 6.5 42h35c1.93 0 3.5-1.57 3.5-3.5v-30C45 6.57 43.43 5 41.5 5h-35z"
+                d="M41.5 43h-35A4.505 4.505 0 012 38.5v-30C2 6.019 4.019 4 6.5 4h35C43.981 4 46 6.019 46 8.5v30c0 2.481-2.019 4.5-4.5 4.5zM6.5 5C4.57 5 3 6.57 3 8.5v30C3 40.43 4.57 42 6.5 42h35c1.93 0 3.5-1.57 3.5-3.5v-30C45 6.57 43.43 5 41.5 5h-35z"
             />
             <path
                 fill="#FFF"

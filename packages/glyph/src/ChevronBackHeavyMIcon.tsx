@@ -17,9 +17,9 @@ export const ChevronBackHeavyMIcon: React.FC<SVGProps<
         {...props}
     >
         <path
+            d="M15 22L5 12 15 2l2.5 2.5L10 12l7.5 7.5L15 22z"
             fillRule="evenodd"
             clipRule="evenodd"
-            d="M15 22L5 12 15 2l2.5 2.5L10 12l7.5 7.5L15 22z"
         />
     </svg>
 );

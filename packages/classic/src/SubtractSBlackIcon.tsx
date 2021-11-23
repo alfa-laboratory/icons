@@ -19,10 +19,10 @@ export const SubtractSBlackIcon: React.FC<SVGProps<SVGSVGElement>> = props => (
             fill="#0B1F35"
         />
         <path
+            d="M3.75 6.75l1.053 9.08a.75.75 0 00.746.67h6.902a.75.75 0 00.746-.67l1.053-9.08H3.75zm3.375 2.625H8.25v4.5H7.125v-4.5zm2.625 0h1.125v4.5H9.75v-4.5z"
+            fill="#0B1F35"
             fillRule="evenodd"
             clipRule="evenodd"
-            d="M3.75 6.75l1.053 9.08a.75.75 0 0 0 .746.67h6.902a.75.75 0 0 0 .746-.67l1.053-9.08H3.75zm3.375 2.625H8.25v4.5H7.125v-4.5zm2.625 0h1.125v4.5H9.75v-4.5z"
-            fill="#0B1F35"
         />
     </svg>
 );

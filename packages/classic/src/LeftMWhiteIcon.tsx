@@ -17,8 +17,8 @@ export const LeftMWhiteIcon: React.FC<SVGProps<SVGSVGElement>> = props => (
             <path d="M0 0h24v24H0z" />
             <path
                 fill="#FFF"
-                fillRule="nonzero"
                 d="M17.78 22.146L7.633 12 17.782 1.854l-.707-.708L6.218 12.002l10.854 10.853z"
+                fillRule="nonzero"
             />
         </g>
     </svg>

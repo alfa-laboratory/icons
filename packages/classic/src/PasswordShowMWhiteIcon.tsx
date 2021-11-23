@@ -24,11 +24,11 @@ export const PasswordShowMWhiteIcon: React.FC<SVGProps<
             />
             <circle
                 fill="#FFF"
-                fillRule="nonzero"
                 opacity=".3"
                 cx="12"
                 cy="12"
                 r="3"
+                fillRule="nonzero"
             />
         </g>
     </svg>

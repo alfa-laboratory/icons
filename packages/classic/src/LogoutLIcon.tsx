@@ -19,8 +19,8 @@ export const LogoutLIcon: React.FC<SVGProps<SVGSVGElement>> = props => (
             fillOpacity=".9"
         />
         <path
-            fillOpacity=".9"
             d="M22.841 9.298L27.543 14H9.652v1h17.891l-4.702 4.702.707.707 5.909-5.909-5.909-5.909z"
+            fillOpacity=".9"
         />
     </svg>
 );

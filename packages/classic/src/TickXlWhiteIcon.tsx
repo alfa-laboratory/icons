@@ -14,10 +14,10 @@ export const TickXlWhiteIcon: React.FC<SVGProps<SVGSVGElement>> = props => (
         {...props}
     >
         <g fill="none" fillRule="evenodd">
-            <polygon
+            <path
                 fill="#FFF"
+                d="M32.914 6.5l1.414 1.414L13.933 28.31 3 17.952l1.375-1.451 9.52 9.018z"
                 fillRule="nonzero"
-                points="32.9136973 6.5 34.3279109 7.91421356 13.9325501 28.3095743 3 17.9524216 4.3754893 16.5005162 13.8948445 25.5188528"
             />
         </g>
     </svg>

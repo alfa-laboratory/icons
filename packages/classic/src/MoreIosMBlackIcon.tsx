@@ -15,7 +15,7 @@ export const MoreIosMBlackIcon: React.FC<SVGProps<SVGSVGElement>> = props => (
         fill="none"
     >
         <path
-            d="M21.5 12a9.5 9.5 0 1 1-19 0 9.5 9.5 0 0 1 19 0z"
+            d="M21.5 12a9.5 9.5 0 11-19 0 9.5 9.5 0 0119 0z"
             stroke="#0B1F35"
         />
         <circle cx="12" cy="12" r="1.5" fill="#0B1F35" />

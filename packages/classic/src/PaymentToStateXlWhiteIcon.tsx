@@ -16,7 +16,7 @@ export const PaymentToStateXlWhiteIcon: React.FC<SVGProps<
         {...props}
     >
         <g fill="#FFF" fillRule="evenodd">
-            <path fillOpacity=".01" d="M0 0h36v36H0z" />
+            <path d="M0 0h36v36H0z" fillOpacity=".01" />
             <path d="M0 34h36v1H0z" />
             <path d="M3 14h1v21H3z" />
             <path d="M3 14h30v1H3z" />

@@ -19,7 +19,7 @@ export const JapanMColorIcon: React.FC<SVGProps<SVGSVGElement>> = props => (
             fill="#F5F5F5"
         />
         <path
-            d="M12 16.552a4.552 4.552 0 1 0 0-9.104 4.552 4.552 0 0 0 0 9.104z"
+            d="M12 16.552a4.552 4.552 0 100-9.104 4.552 4.552 0 000 9.104z"
             fill="#FF4B55"
         />
     </svg>

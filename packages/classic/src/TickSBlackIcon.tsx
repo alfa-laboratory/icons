@@ -14,9 +14,9 @@ export const TickSBlackIcon: React.FC<SVGProps<SVGSVGElement>> = props => (
         {...props}
     >
         <g fill="none" fillRule="evenodd">
-            <polygon
+            <path
                 fill="#0B1F35"
-                points="7.14311123 11.8612431 3.60755976 8.61865175 2.61 9.51126465 7.14311123 13.9103022 16.0036327 4.9804955 14.9310017 4"
+                d="M7.143 11.861L3.608 8.62l-.998.892 4.533 4.4 8.86-8.93L14.932 4z"
             />
         </g>
     </svg>

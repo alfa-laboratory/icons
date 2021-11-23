@@ -17,22 +17,22 @@ export const CategoryStateXlWhiteIcon: React.FC<SVGProps<
         fill="none"
     >
         <path
-            fillRule="evenodd"
-            clipRule="evenodd"
             d="M3 14h1v21H3V14z"
             fill="#fff"
-        />
-        <path
             fillRule="evenodd"
             clipRule="evenodd"
+        />
+        <path
             d="M33 15v19h3v1H0v-1h32V15H3v-1h8V9h14v5h8v1zm-9-1v-4H12v4h12z"
             fill="#fff"
-        />
-        <path
             fillRule="evenodd"
             clipRule="evenodd"
+        />
+        <path
             d="M10 20h2v14h-2V20zm7 0h2v14h-2V20zm7 0h2v14h-2V20zM18 0h-1v9h1V4l7 1V1l-7-1z"
             fill="#fff"
+            fillRule="evenodd"
+            clipRule="evenodd"
             fillOpacity=".3"
         />
     </svg>

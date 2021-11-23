@@ -17,35 +17,30 @@ export const BankYandexmoneyMWhiteIcon: React.FC<SVGProps<
         xmlnsXlink="http://www.w3.org/1999/xlink"
     >
         <defs>
-            <polygon
-                id="prefix__a"
-                points="0.00452830189 0.0694695341 15.9638491 0.0694695341 15.9638491 22 0.00452830189 22"
-            />
+            <path id="a" d="M.005.07h15.959V22H.004z" />
         </defs>
         <g fill="none" fillRule="evenodd">
-            <g>
-                <g transform="translate(4 1)">
-                    <mask id="prefix__b" fill="#fff">
-                        <use xlinkHref="#prefix__a" />
-                    </mask>
-                    <path
-                        d="M0 10.948C0 9.717.1 8.935 2.54 7.031 4.56 5.455 11.038.07 11.038.07V9.06h4.926V22H1.539C.693 22 0 21.276 0 20.392v-9.444"
-                        fill="#FFF"
-                        mask="url(#prefix__b)"
-                    />
-                    <polyline
-                        fillOpacity=".3"
-                        fill="#0B1F35"
-                        mask="url(#prefix__b)"
-                        points="11.0380377 9.0601362 11.0380377 14.2695627 1.98649057 20.7122509 13.430566 16.8218781 13.430566 9.0601362 11.0380377 9.0601362"
-                    />
-                    <path
-                        d="M6.902 8.79c.529-.658 1.302-.891 1.727-.519.424.372.34 1.208-.19 1.867-.53.66-1.302.892-1.727.52-.424-.373-.34-1.208.19-1.867"
-                        fillOpacity=".5"
-                        fill="#0B1F35"
-                        mask="url(#prefix__b)"
-                    />
-                </g>
+            <g transform="translate(4 1)">
+                <mask id="b" fill="#fff">
+                    <use xlinkHref="#a" />
+                </mask>
+                <path
+                    d="M0 10.948c0-1.231.1-2.013 2.54-3.917C4.56 5.455 11.038.07 11.038.07v8.99h4.926V22H1.539C.693 22 0 21.276 0 20.392v-9.444"
+                    fill="#FFF"
+                    mask="url(#b)"
+                />
+                <path
+                    fill="#0B1F35"
+                    mask="url(#b)"
+                    d="M11.038 9.06v5.21l-9.052 6.442 11.445-3.89V9.06h-2.393"
+                    fillOpacity=".3"
+                />
+                <path
+                    d="M6.902 8.79c.529-.658 1.302-.891 1.727-.519.424.372.34 1.208-.19 1.867-.53.66-1.302.892-1.727.52-.424-.373-.34-1.208.19-1.867"
+                    fill="#0B1F35"
+                    mask="url(#b)"
+                    fillOpacity=".5"
+                />
             </g>
         </g>
     </svg>

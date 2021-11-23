@@ -21,17 +21,9 @@ export const AccountInfoXxlWhiteIcon: React.FC<SVGProps<
                 fill="#FFF"
             />
             <path
-                d="M22 14c1.6 0 3 1.4 3 3s-1.4 3-3 3-3-1.4-3-3 1.4-3 3-3"
+                d="M22 14c1.6 0 3 1.4 3 3s-1.4 3-3 3-3-1.4-3-3 1.4-3 3-3M20 23h4v12h-4z"
                 fill="#FFF"
                 opacity=".3"
-            />
-            <rect
-                fill="#FFF"
-                opacity=".3"
-                x="20"
-                y="23"
-                width="4"
-                height="12"
             />
         </g>
     </svg>

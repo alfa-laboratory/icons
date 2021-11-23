@@ -16,18 +16,16 @@ export const PredictionsMBlackIcon: React.FC<SVGProps<
         {...props}
     >
         <g fill="none" fillRule="evenodd">
-            <g transform="translate(3 3)">
-                <polygon
-                    fill="#0B1F35"
-                    fillRule="nonzero"
-                    opacity=".3"
-                    points="6.59823895 10 8 11.4017611 1.40176105 18 0 16.5982389"
-                />
-                <polygon
-                    stroke="#0B1F35"
-                    points="7.40290521 10.5970947 2 8.90421066 6.60656303 5.65282286 6.51877171 0 11.0586683 3.39343701 16.4073155 1.59268445 14.606563 6.94133164 18 11.4812283 12.3471772 11.393437 9.09578936 16"
-                />
-            </g>
+            <path
+                fill="#0B1F35"
+                opacity=".3"
+                d="M9.598 13L11 14.402 4.402 21 3 19.598z"
+                fillRule="nonzero"
+            />
+            <path
+                stroke="#0B1F35"
+                d="M10.403 13.597L5 11.904l4.607-3.251L9.519 3l4.54 3.393 5.348-1.8-1.8 5.348L21 14.481l-5.653-.088L12.096 19z"
+            />
         </g>
     </svg>
 );

@@ -15,9 +15,9 @@ export const PointerUpMIcon: React.FC<SVGProps<SVGSVGElement>> = props => (
         {...props}
     >
         <path
+            d="M11 6.377l-3.444 3.37-1.399-1.43L12 2.601l5.843 5.714-1.399 1.43L13 6.377v10.305h-2V6.377zM4 21v-2h16v2H4z"
             fillRule="evenodd"
             clipRule="evenodd"
-            d="M11 6.377l-3.444 3.37-1.399-1.43L12 2.601l5.843 5.714-1.399 1.43L13 6.377v10.305h-2V6.377zM4 21v-2h16v2H4z"
         />
     </svg>
 );

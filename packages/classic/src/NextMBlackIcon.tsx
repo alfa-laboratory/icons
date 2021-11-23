@@ -18,7 +18,7 @@ export const NextMBlackIcon: React.FC<SVGProps<SVGSVGElement>> = props => (
             <path
                 d="M3.5 12.5h16m-5-6l6 6m-6 6l6-6"
                 stroke="#0B1F35"
-                stroke-linecap="square"
+                strokeLinecap="square"
             />
         </g>
     </svg>

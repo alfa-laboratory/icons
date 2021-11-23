@@ -17,9 +17,9 @@ export const AlfaInvestLogoXxxlIcon: React.FC<SVGProps<
         {...props}
     >
         <path
+            d="M56.361 20.978L7 70.339 17.66 81l49.362-49.364V81H81V7H7v13.978h49.361z"
             fillRule="evenodd"
             clipRule="evenodd"
-            d="M56.361 20.978L7 70.339 17.66 81l49.362-49.364V81H81V7H7v13.978h49.361z"
         />
     </svg>
 );

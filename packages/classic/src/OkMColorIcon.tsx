@@ -15,9 +15,9 @@ export const OkMColorIcon: React.FC<SVGProps<SVGSVGElement>> = props => (
     >
         <g fill="none">
             <rect width="24" height="24" fill="#2FC26E" rx="12" />
-            <polygon
+            <path
                 fill="#FFF"
-                points="10.068 15.25 6.533 12.007 5.535 12.9 10.068 17.299 18.929 8.369 17.856 7.388"
+                d="M10.068 15.25l-3.535-3.243-.998.893 4.533 4.399 8.861-8.93-1.073-.981z"
             />
         </g>
     </svg>

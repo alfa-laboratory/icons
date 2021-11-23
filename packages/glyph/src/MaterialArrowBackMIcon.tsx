@@ -17,9 +17,9 @@ export const MaterialArrowBackMIcon: React.FC<SVGProps<
         {...props}
     >
         <path
+            d="M19.68 11H7.968l5.376-5.6L12 4l-7.68 8L12 20l1.344-1.4L7.968 13H19.68v-2z"
             fillRule="evenodd"
             clipRule="evenodd"
-            d="M19.68 11H7.968l5.376-5.6L12 4l-7.68 8L12 20l1.344-1.4L7.968 13H19.68v-2z"
         />
     </svg>
 );

@@ -17,8 +17,8 @@ export const DoneXxlWhiteIcon: React.FC<SVGProps<SVGSVGElement>> = props => (
             <path d="M0 0h48v48H0z" />
             <path
                 fill="#FFF"
-                fillRule="nonzero"
                 d="M19 34L6 21l-2 2 15 15 26-26-2-2z"
+                fillRule="nonzero"
             />
         </g>
     </svg>

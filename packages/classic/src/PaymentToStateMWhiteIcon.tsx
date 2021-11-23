@@ -16,7 +16,7 @@ export const PaymentToStateMWhiteIcon: React.FC<SVGProps<
         {...props}
     >
         <g fill="none" fillRule="evenodd">
-            <path fill="#FFF" fillOpacity=".01" d="M0 0h24v24H0z" />
+            <path fill="#FFF" d="M0 0h24v24H0z" fillOpacity=".01" />
             <path fill="#D8D8D8" d="M17 6h1v4h-1zM0 22h24v1H0z" />
             <path fill="#FFF" d="M2 10h1v13H2zm19 0h1v13h-1z" />
             <path fill="#FFF" d="M2 10h20v1H2z" />

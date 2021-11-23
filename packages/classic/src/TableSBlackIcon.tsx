@@ -14,10 +14,10 @@ export const TableSBlackIcon: React.FC<SVGProps<SVGSVGElement>> = props => (
         {...props}
         fill="none"
     >
-        <rect x="4" y="4" width="10" height="1" fill="#0B1F35" />
-        <rect x="4" y="7" width="10" height="1" fill="#0B1F35" />
-        <rect x="4" y="10" width="10" height="1" fill="#0B1F35" />
-        <rect x="4" y="13" width="10" height="1" fill="#0B1F35" />
+        <path
+            fill="#0B1F35"
+            d="M4 4h10v1H4zM4 7h10v1H4zM4 10h10v1H4zM4 13h10v1H4z"
+        />
     </svg>
 );
 

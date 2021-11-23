@@ -13,15 +13,14 @@ export const ListMBlackIcon: React.FC<SVGProps<SVGSVGElement>> = props => (
         viewBox="0 0 18 14"
         {...props}
     >
-        <g transform="translate(-3 -5)" fill="none" fillRule="evenodd">
-            <polygon points="0 0 24 0 24 24 0 24" />
-            <g transform="translate(3 5)" fill="#0B1F35">
-                <polygon points="0 8 2 8 2 6 0 6" />
-                <polygon points="0 14 2 14 2 12 0 12" />
-                <polygon points="0 2 2 2 2 0 0 0" />
-                <polygon fillOpacity=".3" points="4 8 18 8 18 6 4 6" />
-                <polygon fillOpacity=".3" points="4 14 18 14 18 12 4 12" />
-                <polygon fillOpacity=".3" points="4 0 4 2 18 2 18 0" />
+        <g fill="none" fillRule="evenodd">
+            <path d="M-3-5h24v24H-3z" />
+            <g fill="#0B1F35">
+                <path d="M0 8h2V6H0zM0 14h2v-2H0zM0 2h2V0H0z" />
+                <path
+                    d="M4 8h14V6H4zM4 14h14v-2H4zM4 0v2h14V0z"
+                    fillOpacity=".3"
+                />
             </g>
         </g>
     </svg>

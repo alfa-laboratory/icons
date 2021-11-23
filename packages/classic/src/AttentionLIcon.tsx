@@ -20,9 +20,9 @@ export const AttentionLIcon: React.FC<SVGProps<SVGSVGElement>> = props => (
         />
         <path
             opacity=".3"
+            d="M15 10.5a1.011 1.011 0 011.009 1.08l-.432 6.38a.579.579 0 01-1.154 0l-.432-6.38A1.01 1.01 0 0115 10.5z"
             fillRule="evenodd"
             clipRule="evenodd"
-            d="M15 10.5a1.011 1.011 0 011.009 1.08l-.432 6.38a.579.579 0 01-1.154 0l-.432-6.38A1.01 1.01 0 0115 10.5z"
         />
         <path
             opacity=".3"

@@ -15,14 +15,14 @@ export const SentDoneSWhiteIcon: React.FC<SVGProps<SVGSVGElement>> = props => (
         {...props}
     >
         <defs>
-            <polygon
-                id="prefix__a"
-                points="7.473 11.399 13.27 5 14 5.8 7.477 13 4 9.202 4.726 8.398"
+            <path
+                id="a"
+                d="M7.473 11.399L13.27 5l.73.8L7.477 13 4 9.202l.726-.804z"
             />
         </defs>
         <g fill="none" fillRule="evenodd">
-            <polygon points="0 18 18 18 18 0 0 0" />
-            <use fill="#FFF" xlinkHref="#prefix__a" />
+            <path d="M0 18h18V0H0z" />
+            <use fill="#FFF" xlinkHref="#a" />
         </g>
     </svg>
 );

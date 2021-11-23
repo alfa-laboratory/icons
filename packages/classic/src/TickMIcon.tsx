@@ -16,8 +16,8 @@ export const TickMIcon: React.FC<SVGProps<SVGSVGElement>> = props => (
     >
         <g fillRule="evenodd">
             <path
-                fillRule="nonzero"
                 d="M20.414 5l1.414 1.414L9.414 18.828 3 12.414 4.414 11l5 5z"
+                fillRule="nonzero"
             />
         </g>
     </svg>

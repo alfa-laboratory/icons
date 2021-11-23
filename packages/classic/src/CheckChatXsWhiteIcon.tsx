@@ -16,11 +16,11 @@ export const CheckChatXsWhiteIcon: React.FC<SVGProps<
         {...props}
     >
         <g fill="none" fillRule="evenodd">
-            <polygon points="0 0 12 0 12 12 0 12" />
-            <polyline
-                stroke-opacity=".9"
+            <path d="M0 0h12v12H0z" />
+            <path
                 stroke="#FFF"
-                points="1.5 5.84544701 4.60129582 9 10.5 3"
+                d="M1.5 5.845L4.601 9 10.5 3"
+                strokeOpacity=".9"
             />
         </g>
     </svg>

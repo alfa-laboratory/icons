@@ -17,9 +17,9 @@ export const AddMBlackIcon: React.FC<SVGProps<SVGSVGElement>> = props => (
             <path d="M0 0h24v24H0z" />
             <path
                 fill="#0B1F35"
-                fillRule="nonzero"
                 d="M12 11H3v1h9v9h1v-9h9v-1h-9V2h-1v9z"
                 opacity=".9"
+                fillRule="nonzero"
             />
         </g>
     </svg>

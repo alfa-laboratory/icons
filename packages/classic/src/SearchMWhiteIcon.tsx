@@ -14,8 +14,8 @@ export const SearchMWhiteIcon: React.FC<SVGProps<SVGSVGElement>> = props => (
         {...props}
     >
         <g fill="#FFF">
-            <path d="M15.611 17.025l5.685 5.685a1 1 0 0 0 1.414-1.414l-5.685-5.685-1.414 1.414z" />
-            <path d="M10 19a9 9 0 1 0 0-18 9 9 0 0 0 0 18zm0-1a8 8 0 1 1 0-16 8 8 0 0 1 0 16z" />
+            <path d="M15.611 17.025l5.685 5.685a1 1 0 001.414-1.414l-5.685-5.685-1.414 1.414z" />
+            <path d="M10 19a9 9 0 100-18 9 9 0 000 18zm0-1a8 8 0 110-16 8 8 0 010 16z" />
         </g>
     </svg>
 );

@@ -18,8 +18,8 @@ export const ArrowRightLBlackIcon: React.FC<SVGProps<
         <g fill="none" fillRule="evenodd">
             <path
                 fill="#000"
-                fillRule="nonzero"
                 d="M16.94 14.892l-5.54 5.54.708.707 6.246-6.247-6.246-6.246-.708.708z"
+                fillRule="nonzero"
             />
             <path d="M0 0v30h30V0z" />
         </g>

@@ -17,8 +17,8 @@ export const SfLinesMIcon: React.FC<SVGProps<SVGSVGElement>> = props => (
         <path
             d="M2 12h20M2 7h20M2 17h20"
             stroke="#0B1F35"
-            stroke-width="2"
-            stroke-linejoin="round"
+            strokeWidth="2"
+            strokeLinejoin="round"
         />
     </svg>
 );

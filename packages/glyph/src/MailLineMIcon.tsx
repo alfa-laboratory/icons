@@ -16,9 +16,9 @@ export const MailLineMIcon: React.FC<SVGProps<SVGSVGElement>> = props => (
     >
         <path d="M22 9V7l-10 4.5L2 7v2l10 4.5L22 9z" />
         <path
+            d="M4 7v10h16V7H4zM3 5a1 1 0 00-1 1v12a1 1 0 001 1h18a1 1 0 001-1V6a1 1 0 00-1-1H3z"
             fillRule="evenodd"
             clipRule="evenodd"
-            d="M4 7v10h16V7H4zM3 5a1 1 0 00-1 1v12a1 1 0 001 1h18a1 1 0 001-1V6a1 1 0 00-1-1H3z"
         />
     </svg>
 );

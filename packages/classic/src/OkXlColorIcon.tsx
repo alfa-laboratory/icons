@@ -14,11 +14,11 @@ export const OkXlColorIcon: React.FC<SVGProps<SVGSVGElement>> = props => (
         {...props}
     >
         <g fill="none">
-            <polygon points="0 0 36 .735 36 36 0 36" />
+            <path d="M0 0l36 .735V36H0z" />
             <rect width="36" height="36" fill="#2FC26E" rx="18" />
-            <polygon
+            <path
                 fill="#FFF"
-                points="14.955 22.004 9.156 16.481 7.818 17.591 14.955 24.727 27.591 12.091 26.107 10.83"
+                d="M14.955 22.004l-5.799-5.523-1.338 1.11 7.137 7.136 12.636-12.636-1.484-1.261z"
             />
         </g>
     </svg>

@@ -14,9 +14,9 @@ export const BankMkbXlWhiteIcon: React.FC<SVGProps<SVGSVGElement>> = props => (
         {...props}
     >
         <g fill="none" fillRule="evenodd">
-            <g transform="translate(0 9)" fill="#FFF" fillRule="nonzero">
-                <polygon points="12.754 18 0 5.246 5.266 0 14.194 0 8.928 5.246 12.754 9.072 21.826 0 36.193 0 29.553 7 24 7" />
-                <polygon points="25 9 17 17 24 17 28 13 31.5 13 35.992 9" />
+            <g fill="#FFF" fillRule="nonzero">
+                <path d="M12.754 27L0 14.246 5.266 9h8.928l-5.266 5.246 3.826 3.826L21.826 9h14.367l-6.64 7H24z" />
+                <path d="M25 18l-8 8h7l4-4h3.5l4.492-4z" />
             </g>
         </g>
     </svg>

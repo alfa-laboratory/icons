@@ -24,7 +24,7 @@ export const GambiaMColorIcon: React.FC<SVGProps<SVGSVGElement>> = props => (
         />
         <path d="M24 10.345H0v3.31h24v-3.31z" fill="#41479B" />
         <path
-            d="M24 9.517H0v.828h24v-.828zM24 13.655H0v.828h24v-.828z"
+            d="M24 9.517H0v.828h24v-.828zm0 4.138H0v.828h24v-.828z"
             fill="#F5F5F5"
         />
     </svg>

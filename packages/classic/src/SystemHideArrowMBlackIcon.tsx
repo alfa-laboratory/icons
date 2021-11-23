@@ -15,16 +15,14 @@ export const SystemHideArrowMBlackIcon: React.FC<SVGProps<
         viewBox="0 0 22 7"
         {...props}
     >
-        <polyline
-            points="0 0 8.84745763 3 18 0"
-            transform="translate(2 2)"
+        <path
             stroke="#000"
-            stroke-width="3"
             fill="none"
-            fillRule="evenodd"
             opacity=".15"
-            stroke-linecap="round"
-            stroke-linejoin="round"
+            d="M2 2l8.847 3L20 2"
+            strokeWidth="3"
+            strokeLinecap="round"
+            strokeLinejoin="round"
         />
     </svg>
 );

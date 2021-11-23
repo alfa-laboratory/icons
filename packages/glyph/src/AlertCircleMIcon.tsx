@@ -15,9 +15,9 @@ export const AlertCircleMIcon: React.FC<SVGProps<SVGSVGElement>> = props => (
         {...props}
     >
         <path
+            d="M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2 2 6.477 2 12s4.477 10 10 10zm-1-9V7h2v6h-2zm0 4v-2h2v2h-2z"
             fillRule="evenodd"
             clipRule="evenodd"
-            d="M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2 2 6.477 2 12s4.477 10 10 10zm-1-9V7h2v6h-2zm0 4v-2h2v2h-2z"
         />
     </svg>
 );

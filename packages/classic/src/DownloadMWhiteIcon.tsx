@@ -13,9 +13,10 @@ export const DownloadMWhiteIcon: React.FC<SVGProps<SVGSVGElement>> = props => (
         viewBox="0 0 24 24"
         {...props}
     >
-        <g fill="#fff">
-            <path d="M12 16.086V2h-1v14.086l-5.793-5.793L4.5 11l7 7 7-7-.707-.707zM20 22v-1H3v1z" />
-        </g>
+        <path
+            d="M12 16.086V2h-1v14.086l-5.793-5.793L4.5 11l7 7 7-7-.707-.707zM20 22v-1H3v1z"
+            fill="#fff"
+        />
     </svg>
 );
 

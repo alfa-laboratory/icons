@@ -15,8 +15,8 @@ export const UpMWhiteIcon: React.FC<SVGProps<SVGSVGElement>> = props => (
     >
         <path
             fill="#FFF"
-            fillRule="evenodd"
             d="M10.997 1.965l10.147 10.146.707-.707L10.997.551.144 11.404l.707.707z"
+            fillRule="evenodd"
         />
     </svg>
 );

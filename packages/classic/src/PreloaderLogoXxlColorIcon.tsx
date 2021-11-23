@@ -16,14 +16,13 @@ export const PreloaderLogoXxlColorIcon: React.FC<SVGProps<
         {...props}
     >
         <g fill="none">
-            <polygon points="0 0 48 0 48 48 0 48" />
+            <path d="M0 0h48v48H0z" />
             <path
                 fill="#EF3124"
                 d="M24 4c11.046 0 20 8.954 20 20s-8.954 20-20 20S4 35.046 4 24 12.954 4 24 4"
             />
-            <g fill="#FFF" transform="translate(18 15)">
-                <polygon points="0 16 12 16 12 14 0 14" />
-                <path d="M4.53 7L6 2.67 7.42 7H4.53zM7.9 1.87C7.61.99 7.26.29 6.09.29s-1.53.7-1.84 1.58L1 11h2.13l.75-2.16H8L8.7 11H11L7.9 1.87z" />
+            <g fill="#FFF">
+                <path d="M18 31h12v-2H18zM22.53 22L24 17.67 25.42 22h-2.89zm3.37-5.13c-.29-.88-.64-1.58-1.81-1.58s-1.53.7-1.84 1.58L19 26h2.13l.75-2.16H26l.7 2.16H29l-3.1-9.13z" />
             </g>
         </g>
     </svg>

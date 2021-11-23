@@ -19,7 +19,7 @@ export const InsuranceMBlackIcon: React.FC<SVGProps<SVGSVGElement>> = props => (
                 fillRule="nonzero"
             />
             <path
-                d="M12.112 1.024H5.83c-.503 0-.89.333-.89 1.225l-1.03-.209C3.91.83 4.74 0 5.83 0h6.283c1.028 0 2.428.695 2.386 1.945l.042.095v17.111c0 .398.175.716.451.91.192.134.472.325.736.325l-.04.907c-1.231 0-2.237-.886-2.237-2.142V2.25c0-.881-.848-1.225-1.338-1.225z"
+                d="M12.112 1.024H5.83c-.503 0-.89.333-.89 1.225L3.91 2.04C3.91.83 4.74 0 5.83 0h6.283c1.028 0 2.428.695 2.386 1.945l.042.095v17.111c0 .398.175.716.451.91.192.134.472.325.736.325l-.04.907c-1.231 0-2.237-.886-2.237-2.142V2.25c0-.881-.848-1.225-1.338-1.225z"
                 fillRule="nonzero"
             />
             <path
@@ -27,11 +27,11 @@ export const InsuranceMBlackIcon: React.FC<SVGProps<SVGSVGElement>> = props => (
                 fillRule="nonzero"
             />
             <ellipse
-                fillOpacity=".3"
                 cx="7.15"
                 cy="6.096"
                 rx="1.15"
                 ry="1.149"
+                fillOpacity=".3"
             />
         </g>
     </svg>

@@ -14,7 +14,7 @@ export const TickXxlWhiteIcon: React.FC<SVGProps<SVGSVGElement>> = props => (
         {...props}
     >
         <g fill="none">
-            <polygon fill="#FFF" points="44 8 47 11 18 40 2 24 5 21 18 34" />
+            <path fill="#FFF" d="M44 8l3 3-29 29L2 24l3-3 13 13z" />
         </g>
     </svg>
 );

@@ -16,7 +16,7 @@ export const PlanExpensesMBlackIcon: React.FC<SVGProps<
         {...props}
     >
         <g fill="none" fillRule="evenodd">
-            <polygon points="0 0 24 0 24 24 0 24" />
+            <path d="M0 0h24v24H0z" />
             <g fill="#0B1F35" fillRule="nonzero">
                 <path
                     d="M6 .5c-.6 0-1 .4-1 1v3c0 .6.4 1 1 1s1-.4 1-1v-3c0-.6-.4-1-1-1zm7 0c-.6 0-1 .4-1 1v3c0 .6.4 1 1 1s1-.4 1-1v-3c0-.6-.4-1-1-1z"

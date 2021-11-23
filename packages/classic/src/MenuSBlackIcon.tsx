@@ -14,9 +14,7 @@ export const MenuSBlackIcon: React.FC<SVGProps<SVGSVGElement>> = props => (
         {...props}
         fill="none"
     >
-        <rect x="3" y="4" width="12" height="2" fill="#0B1F35" />
-        <rect x="3" y="8" width="12" height="2" fill="#0B1F35" />
-        <rect x="3" y="12" width="12" height="2" fill="#0B1F35" />
+        <path fill="#0B1F35" d="M3 4h12v2H3zM3 8h12v2H3zM3 12h12v2H3z" />
     </svg>
 );
 

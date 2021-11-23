@@ -20,9 +20,9 @@ export const AttentionXlIcon: React.FC<SVGProps<SVGSVGElement>> = props => (
         />
         <path
             opacity=".3"
+            d="M18 13a1.41 1.41 0 011.406 1.517l-.587 7.724a.82.82 0 01-1.637 0l-.588-7.724A1.41 1.41 0 0118 13z"
             fillRule="evenodd"
             clipRule="evenodd"
-            d="M18 13a1.41 1.41 0 011.406 1.517l-.587 7.724a.82.82 0 01-1.637 0l-.588-7.724A1.41 1.41 0 0118 13z"
         />
         <path opacity=".3" d="M19.5 26.5a1.5 1.5 0 10-3 0 1.5 1.5 0 003 0z" />
     </svg>

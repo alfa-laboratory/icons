@@ -15,7 +15,7 @@ export const DotsMBlackIcon: React.FC<SVGProps<SVGSVGElement>> = props => (
     >
         <g transform="rotate(-90 12 12)" fill="none" fillRule="evenodd">
             <path
-                d="M3 15a3 3 0 1 1 0-6 3 3 0 0 1 0 6zm0-1a2 2 0 1 0 0-4 2 2 0 0 0 0 4zM12 15a3 3 0 1 1 0-6 3 3 0 0 1 0 6zm0-1a2 2 0 1 0 0-4 2 2 0 0 0 0 4zM21 15a3 3 0 1 1 0-6 3 3 0 0 1 0 6zm0-1a2 2 0 1 0 0-4 2 2 0 0 0 0 4z"
+                d="M3 15a3 3 0 110-6 3 3 0 010 6zm0-1a2 2 0 100-4 2 2 0 000 4zm9 1a3 3 0 110-6 3 3 0 010 6zm0-1a2 2 0 100-4 2 2 0 000 4zm9 1a3 3 0 110-6 3 3 0 010 6zm0-1a2 2 0 100-4 2 2 0 000 4z"
                 fill="#0B1F35"
             />
         </g>

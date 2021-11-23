@@ -17,8 +17,8 @@ export const CloseMBlackIcon: React.FC<SVGProps<SVGSVGElement>> = props => (
             <path d="M1 0h24v24H1z" />
             <path
                 fill="#0B1F35"
-                fillRule="nonzero"
                 d="M13.003 12.717l7.21 7.21.714-.714-7.21-7.21L21 4.72 20.28 4l-7.283 7.283-7.21-7.21-.714.714 7.21 7.21L5 19.28l.72.72 7.283-7.283z"
+                fillRule="nonzero"
             />
         </g>
     </svg>

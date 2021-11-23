@@ -14,9 +14,9 @@ export const LockXxlBlackIcon: React.FC<SVGProps<SVGSVGElement>> = props => (
         {...props}
     >
         <g fill="none" fillRule="evenodd">
-            <polygon points="0 0 48 0 48 48 0 48" />
+            <path d="M0 0h48v48H0z" />
             <path
-                d="M10 19a3 3 0 0 0-3 3v18a7 7 0 0 0 7 7h20a7 7 0 0 0 7-7V22a3 3 0 0 0-3-3H10zm3-1v-8c0-5.523 4.477-10 10-10h2c5.523 0 10 4.477 10 10v8h3a4 4 0 0 1 4 4v18a8 8 0 0 1-8 8H14a8 8 0 0 1-8-8V22a4 4 0 0 1 4-4h3zm1 0h20v-8a9 9 0 0 0-9-9h-2a9 9 0 0 0-9 9v8z"
+                d="M10 19a3 3 0 00-3 3v18a7 7 0 007 7h20a7 7 0 007-7V22a3 3 0 00-3-3H10zm3-1v-8c0-5.523 4.477-10 10-10h2c5.523 0 10 4.477 10 10v8h3a4 4 0 014 4v18a8 8 0 01-8 8H14a8 8 0 01-8-8V22a4 4 0 014-4h3zm1 0h20v-8a9 9 0 00-9-9h-2a9 9 0 00-9 9v8z"
                 fill="#0B1F35"
                 fillRule="nonzero"
             />

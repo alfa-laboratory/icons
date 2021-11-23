@@ -19,10 +19,10 @@ export const ClockLColorIcon: React.FC<SVGProps<SVGSVGElement>> = props => (
             fill="#6D7986"
         />
         <path
+            d="M13.5 14.938V7.5h3v7.438c0 .49.239.948.64 1.229l3.72 2.604-1.72 2.458-3.72-2.604a4.5 4.5 0 01-1.92-3.687z"
+            fill="#fff"
             fillRule="evenodd"
             clipRule="evenodd"
-            d="M13.5 14.938V7.5h3v7.438c0 .49.239.948.64 1.229l3.72 2.604-1.72 2.458-3.72-2.604a4.5 4.5 0 0 1-1.92-3.687z"
-            fill="#fff"
         />
     </svg>
 );

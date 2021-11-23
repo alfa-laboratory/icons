@@ -16,9 +16,9 @@ export const CreditCardMIcon: React.FC<SVGProps<SVGSVGElement>> = props => (
     >
         <path d="M3 9h18V8a2 2 0 00-2-2H5a2 2 0 00-2 2v1z" />
         <path
+            d="M3 16a2 2 0 002 2h14a2 2 0 002-2v-5H3v5zm5-3H5v1.5h3V13z"
             fillRule="evenodd"
             clipRule="evenodd"
-            d="M3 16a2 2 0 002 2h14a2 2 0 002-2v-5H3v5zm5-3H5v1.5h3V13z"
         />
     </svg>
 );

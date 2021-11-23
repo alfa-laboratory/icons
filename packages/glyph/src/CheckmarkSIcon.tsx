@@ -15,9 +15,9 @@ export const CheckmarkSIcon: React.FC<SVGProps<SVGSVGElement>> = props => (
         {...props}
     >
         <path
+            d="M14 6.5L7.5 13 4 9.5 5.5 8l2 2 5-5L14 6.5z"
             fillRule="evenodd"
             clipRule="evenodd"
-            d="M14 6.5L7.5 13 4 9.5 5.5 8l2 2 5-5L14 6.5z"
         />
     </svg>
 );

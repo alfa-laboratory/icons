@@ -19,7 +19,7 @@ export const CheckmarkOffCircleMIcon: React.FC<SVGProps<
         <path
             d="M12 2.7a9.3 9.3 0 110 18.6 9.3 9.3 0 010-18.6z"
             stroke="#0B1F35"
-            stroke-width="1.4"
+            strokeWidth="1.4"
         />
     </svg>
 );

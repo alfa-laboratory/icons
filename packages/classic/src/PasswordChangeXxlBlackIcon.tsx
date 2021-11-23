@@ -19,7 +19,7 @@ export const PasswordChangeXxlBlackIcon: React.FC<SVGProps<
             <path d="M-3-3h48v48H-3z" />
             <path
                 fill="#0B1F35"
-                d="M31.5 17h-9.183A6.994 6.994 0 0 0 16 13a7 7 0 1 0 0 14 6.992 6.992 0 0 0 6.317-4H31.5l3-3-3-3zM16 23a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"
+                d="M31.5 17h-9.183A6.994 6.994 0 0016 13a7 7 0 100 14 6.992 6.992 0 006.317-4H31.5l3-3-3-3zM16 23a3 3 0 110-6 3 3 0 010 6z"
                 opacity=".3"
             />
             <path

@@ -17,9 +17,9 @@ export const EnvelopOpenTextMIcon: React.FC<SVGProps<
         {...props}
     >
         <path
+            d="M19 9V3H5v6l2 1V5h10v5l2-1zm3 11a1 1 0 01-1 1H3a1 1 0 01-1-1v-9l10 4.5L22 11v9zM9 7h6v2H9V7zm6 3H9v2h6v-2z"
             fillRule="evenodd"
             clipRule="evenodd"
-            d="M19 9V3H5v6l2 1V5h10v5l2-1zm3 11a1 1 0 01-1 1H3a1 1 0 01-1-1v-9l10 4.5L22 11v9zM9 7h6v2H9V7zm6 3H9v2h6v-2z"
         />
     </svg>
 );

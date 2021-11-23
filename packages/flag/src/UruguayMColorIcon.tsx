@@ -15,7 +15,7 @@ export const UruguayMColorIcon: React.FC<SVGProps<SVGSVGElement>> = props => (
         fill="none"
     >
         <path
-            d="M8.69 9.38H0v1.746h8.69V9.38zM8.69 5.885h15.309a1.797 1.797 0 0 0-1.796-1.747H1.797C.805 4.138 0 4.943 0 5.935v1.697h8.69V5.885zM1.797 19.862h20.405c.976 0 1.77-.778 1.797-1.747H0c.027.97.82 1.747 1.796 1.747z"
+            d="M8.69 9.38H0v1.746h8.69V9.38zm0-3.495h15.309a1.797 1.797 0 00-1.796-1.747H1.797C.805 4.138 0 4.943 0 5.935v1.697h8.69V5.885zM1.797 19.862h20.405c.976 0 1.77-.778 1.797-1.747H0c.027.97.82 1.747 1.796 1.747z"
             fill="#F5F5F5"
         />
         <path d="M8.69 5.885v1.747H24V5.935l-.001-.05H8.689z" fill="#4173CD" />
@@ -31,10 +31,7 @@ export const UruguayMColorIcon: React.FC<SVGProps<SVGSVGElement>> = props => (
         <path d="M2.999 5.233l.692 3.203 1.083-.448L3 5.233z" fill="#FFE15A" />
         <path d="M2.999 5.233l1.234 2.979-.542.224L3 5.233z" fill="#FFCD5A" />
         <path d="M5.69 11.732L5 8.53l-1.084.449 1.776 2.754z" fill="#FFE15A" />
-        <path
-            d="M5.69 11.732L4.458 8.754l.542-.225.692 3.203z"
-            fill="#FFCD5A"
-        />
+        <path d="M5.69 11.732L4.458 8.754 5 8.529l.692 3.203z" fill="#FFCD5A" />
         <path
             d="M7.594 7.137l-3.203.692.449 1.083 2.754-1.775z"
             fill="#FFE15A"
@@ -59,7 +56,7 @@ export const UruguayMColorIcon: React.FC<SVGProps<SVGSVGElement>> = props => (
         />
         <path d="M2.999 11.732l1.234-2.978.541.224L3 11.732z" fill="#FFCD5A" />
         <path
-            d="M7.594 9.829L4.84 8.053 4.39 9.137l3.203.692z"
+            d="M7.594 9.829L4.84 8.053l-.45 1.084 3.203.692z"
             fill="#FFE15A"
         />
         <path
@@ -109,7 +106,7 @@ export const UruguayMColorIcon: React.FC<SVGProps<SVGSVGElement>> = props => (
         />
         <path d="M1.858 5.996l2.28 2.28-.415.414-1.865-2.694z" fill="#FFCD5A" />
         <path
-            d="M4.345 9.655a1.172 1.172 0 1 0 0-2.344 1.172 1.172 0 0 0 0 2.344z"
+            d="M4.345 9.655a1.172 1.172 0 100-2.344 1.172 1.172 0 000 2.344z"
             fill="#FFE15A"
         />
     </svg>

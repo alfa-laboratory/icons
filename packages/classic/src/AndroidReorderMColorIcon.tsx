@@ -16,8 +16,7 @@ export const AndroidReorderMColorIcon: React.FC<SVGProps<
         {...props}
         fill="none"
     >
-        <rect x="3" y="8" width="18" height="2" fill="#CED2D7" />
-        <rect x="3" y="14" width="18" height="2" fill="#CED2D7" />
+        <path fill="#CED2D7" d="M3 8h18v2H3zM3 14h18v2H3z" />
     </svg>
 );
 

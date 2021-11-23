@@ -15,16 +15,10 @@ export const TransferOuterMWhiteIcon: React.FC<SVGProps<
         viewBox="0 0 24 24"
         {...props}
     >
-        <g fill="#FFF" fillRule="nonzero">
-            <polygon
-                transform="matrix(1 0 0 -1 0 15)"
-                points="7.49980785 5.4 8.31798967 6.1 11.4884442 3 11.4884442 14 12.5111715 14 12.5111715 3 15.681626 6.1 16.4998078 5.4 11.9998078 1"
-            />
-            <polygon
-                opacity=".3"
-                points="1 18.9895279 23.0037537 18.9895279 23.0037537 17.9895279 1 17.9895279"
-            />
-            <polygon points="1 21.9895279 23.0020546 21.9895279 23.0020546 20.9895279 1 20.9895279" />
+        <g fill="#FFF">
+            <path d="M7.5 9.6l.818-.7 3.17 3.1V1h1.023v11l3.17-3.1.819.7L12 14z" />
+            <path opacity=".3" d="M1 18.99h22.004v-1H1z" />
+            <path d="M1 21.99h22.002v-1H1z" />
         </g>
     </svg>
 );

@@ -16,7 +16,7 @@ export const AccountSWhiteIcon: React.FC<SVGProps<SVGSVGElement>> = props => (
     >
         <path
             opacity=".35"
-            d="M12.75 8.25h-7.5v1.5h7.5v-1.5zM9.75 5.25h-4.5v1.5h4.5v-1.5z"
+            d="M12.75 8.25h-7.5v1.5h7.5v-1.5zm-3-3h-4.5v1.5h4.5v-1.5z"
             fill="#fff"
         />
         <path
@@ -25,7 +25,7 @@ export const AccountSWhiteIcon: React.FC<SVGProps<SVGSVGElement>> = props => (
         />
         <path
             opacity=".3"
-            d="M6.75 14.25a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z"
+            d="M6.75 14.25a1.5 1.5 0 100-3 1.5 1.5 0 000 3z"
             fill="#fff"
         />
     </svg>

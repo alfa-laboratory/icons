@@ -20,7 +20,7 @@ export const GuineaMColorIcon: React.FC<SVGProps<SVGSVGElement>> = props => (
         />
         <path d="M16 4.138H8v15.724h8V4.138z" fill="#FFE15A" />
         <path
-            d="M1.787 4.138A1.797 1.797 0 0 0 0 5.935v12.13c0 .992.805 1.797 1.797 1.797H8V4.138H1.787z"
+            d="M1.787 4.138A1.797 1.797 0 000 5.935v12.13c0 .992.805 1.797 1.797 1.797H8V4.138H1.787z"
             fill="#FF4B55"
         />
     </svg>
