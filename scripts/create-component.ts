@@ -16,12 +16,36 @@ export const ICON_POSTFIX = 'Icon';
 
 const removeEmptyRect = item => {
     const isRect = item.elem === 'rect';
-    const noFill = item.attrs && item.attrs.fill ? item.attrs.fill.value === 'none' : true;
+    const noFill =
+        item.attrs && item.attrs.fill ? item.attrs.fill.value === 'none' : true;
     const noChilds = item.content ? item.content.length === 0 : true;
 
     if (isRect && noChilds && noFill) {
         item.attrs = {};
     }
+
+    return item;
+};
+
+const renameAttributesToCamelCase = item => {
+    Object.keys(item.attrs || {}).forEach(rawAttributeName => {
+        if (
+            rawAttributeName.includes('-') &&
+            !rawAttributeName.includes('data-')
+        ) {
+            const attribute = item.attrs[rawAttributeName];
+
+            delete item.attrs[rawAttributeName];
+
+            const attributeName = camelcase(rawAttributeName);
+
+            item.attrs[attributeName] = {
+                ...attribute,
+                name: attributeName,
+                local: camelcase(attribute.local),
+            };
+        }
+    });
 
     return item;
 };
@@ -50,11 +74,22 @@ const monoColorOptimizer = new Svgo({
     plugins: [{ removeAttrs: { attrs: 'fill' } }, { removeViewBox: false }],
 });
 
+const renameAttributesOptimizer = new Svgo({
+    plugins: [
+        { removeViewBox: false },
+        {
+            // @ts-ignore
+            renameAttributesToCamelCase: {
+                type: 'perItem',
+                description: 'rename attributes to camel-case',
+                fn: renameAttributesToCamelCase,
+            },
+        },
+    ],
+});
+
 const transformSvg = (svg: string): string =>
     svg
-        .replace(/fill-rule/g, 'fillRule')
-        .replace(/clip-rule/g, 'clipRule')
-        .replace(/fill-opacity/g, 'fillOpacity')
         .replace(/xmlns:xlink/g, 'xmlnsXlink')
         .replace(/xlink:href/g, 'xlinkHref')
         .replace(/<rect\/>/g, '');
@@ -83,6 +118,11 @@ export async function createComponent(filePath: string, packageDir: string) {
         svg = data;
     }
 
+    {
+        let { data } = await renameAttributesOptimizer.optimize(svg);
+        svg = data;
+    }
+
     svg = transformSvg(svg);
 
     const componentContent = iconTemplate
@@ -91,7 +131,9 @@ export async function createComponent(filePath: string, packageDir: string) {
         .replace(/viewBox=\"[^"]*"/g, '$& {...props}')
         .replace(
             '<svg',
-            `<svg role="img" focusable="false" ${color ? '' : 'fill="currentColor"'}`,
+            `<svg role="img" focusable="false" ${
+                color ? '' : 'fill="currentColor"'
+            }`
         );
 
     const fullFileName = path.join(packageDir, `${componentName}.tsx`);

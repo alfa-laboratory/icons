@@ -2,7 +2,7 @@ import fs from 'fs';
 import path from 'path';
 import { promisify } from 'util';
 import { createComponent } from './create-component';
-import { checkOrCreateFiles, createIndexImportFile } from './create-files';
+import { checkOrCreateFiles } from './create-files';
 import { getPackageName, ENCODING } from './constants';
 
 const rootIconsDir = path.resolve(
@@ -127,8 +127,6 @@ async function createPackage(packageName: string) {
     );
 
     componentNames.sort();
-
-    await createIndexImportFile(componentNames, srcPackageDir);
 }
 
 async function generateComponents() {
