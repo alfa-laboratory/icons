@@ -4,7 +4,7 @@ import { terser } from 'rollup-plugin-terser';
 import typescript from '@rollup/plugin-typescript';
 import multiInput from 'rollup-plugin-multi-input';
 
-const cjs = {
+export default {
     input: 'src/**/*.tsx',
     output: [
         {
@@ -32,31 +32,3 @@ const cjs = {
         ...Object.keys(pkg.peerDependencies || {}),
     ],
 };
-
-const esm = {
-    input: 'src/index.tsx',
-    output: [
-        {
-            dir: 'dist/esm',
-            format: 'esm',
-            plugins: [terser()],
-        },
-    ],
-    plugins: [
-        resolve(),
-        typescript({
-            allowSyntheticDefaultImports: true,
-            jsx: 'react',
-            outDir: './dist/esm',
-            rootDir: './src',
-            removeComments: true,
-            strict: true,
-        })
-    ],
-    external: [
-        ...Object.keys(pkg.dependencies || {}),
-        ...Object.keys(pkg.peerDependencies || {}),
-    ],
-};
-
-export default [cjs, esm];
