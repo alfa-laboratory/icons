@@ -1,6 +1,6 @@
 {
     "name": "@alfalab/icons-glyph",
-    "version": "2.1.0",
+    "version": "2.2.0",
     "license": "MIT",
     "peerDependencies": {
         "react": "^16.13.0 || ^17.0.1",
