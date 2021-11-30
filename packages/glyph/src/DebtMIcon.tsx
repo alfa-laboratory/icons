@@ -15,11 +15,11 @@ export const DebtMIcon: React.FC<SVGProps<SVGSVGElement>> = props => (
         {...props}
     >
         <path
-            d="M7 5a2 2 0 012-2h7v5h5v11a2 2 0 01-2 2H9a2 2 0 01-2-2V5zm3 3h4v2h-4V8zm8 3.5v2h-8v-2h8zm0 5.5v-2h-8v2h8z"
+            d="M7 3a1 1 0 011-1h7.185a3 3 0 012.985 3.299l-.146 1.458a.2.2 0 00.22.219L19.7 6.83A3 3 0 0123 9.815V21a1 1 0 01-1 1H8a1 1 0 01-1-1V3zm8 8h-5v2h5v-2zm4 4h-9v2h9v-2z"
             fillRule="evenodd"
             clipRule="evenodd"
         />
-        <path d="M5.5 6.5v12c0 .5.1 1.6.5 2-2.5-.5-4-1-3.5-3 .4-1.6 2.167-8 3-11z" />
+        <path d="M5.5 19.5v-12c-.833 3-2.6 9.4-3 11-.5 2 1 2.5 3.5 3-.4-.4-.5-1.5-.5-2z" />
     </svg>
 );
 
