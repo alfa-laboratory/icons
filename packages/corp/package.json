@@ -1,0 +1,15 @@
+{
+    "name": "@alfalab/icons-corp",
+    "version": "1.0.0",
+    "license": "MIT",
+    "dependencies": {},
+    "peerDependencies": {
+        "react": "^16.13.0 || ^17.0.1",
+        "react-dom": "^16.13.0 || ^17.0.1"
+    },
+    "main": "./index.js",
+    "module": "./esm/index.js",
+    "publishConfig": {
+        "access": "public"
+    }
+}
