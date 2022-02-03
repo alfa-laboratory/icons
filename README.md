@@ -23,6 +23,7 @@
 | @alfalab/icons-glyph | [@alfalab/icons-glyph](https://www.npmjs.com/package/@alfalab/icons-glyph) | Иконки в новом стиле
 | @alfalab/icons-flag | [@alfalab/icons-flag](https://www.npmjs.com/package/@alfalab/icons-flag) | Иконки флагов стран
 | @alfalab/icons-logotype | [@alfalab/icons-logotype](https://www.npmjs.com/package/@alfalab/icons-logotype) | Логотипы
+| @alfalab/icons-corp | [@alfalab/icons-corp](https://www.npmjs.com/package/@alfalab/icons-corp) | Иконки corp
 
 ## Как импортить иконки в проект
 
