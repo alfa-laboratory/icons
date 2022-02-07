@@ -1427,10 +1427,10 @@ ajv@^6.10.0, ajv@^6.10.2, ajv@^6.5.5:
     json-schema-traverse "^0.4.1"
     uri-js "^4.2.2"
 
-alfa-ui-primitives@^3.14.0:
-  version "3.14.0"
-  resolved "https://registry.yarnpkg.com/alfa-ui-primitives/-/alfa-ui-primitives-3.14.0.tgz#a52bba7388d12db65bbec29076a6a36cccb021e1"
-  integrity sha512-MVBhHfJ8KATJ1u5suSAnc+3ARv+wo20HbRNb2kKzPTXSmGamMEKGauDxj5pxWxyKPLtX3IkZo+83ODrdWYciWg==
+alfa-ui-primitives@^3.15.0:
+  version "3.15.0"
+  resolved "https://registry.yarnpkg.com/alfa-ui-primitives/-/alfa-ui-primitives-3.15.0.tgz#46ffb7a53e8c3e71436f5a70874900856e672795"
+  integrity sha512-Jt1fElrXVAvjDiqczy4ktGvffAuNJgDjfbS4BaXfKQIOVRGYGBv/irfpehfPd8mhRDiqOQkWMFCi4GGk6ZaYAg==
 
 ansi-escapes@^3.2.0:
   version "3.2.0"
